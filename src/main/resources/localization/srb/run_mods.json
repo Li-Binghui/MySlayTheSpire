@@ -1,0 +1,174 @@
+{
+  "Allstar": {
+    "DESCRIPTION": "Počinješ sa pet bezbojnih karata.",
+    "NAME": "As"
+  },
+  "Binary": {
+    "DESCRIPTION": "Pri biranju nagrade u izboru imaš samo dve karte.",
+    "NAME": "Binarnost"
+  },
+  "Blight Chests": {
+    "DESCRIPTION": "Igrajući U nedogled, voždovski kovčezi sadrže buđi nakon prelaska trećeg čina.",
+    "NAME": "Buđavi kovčezi"
+  },
+  "Blue Cards": {
+    "DESCRIPTION": "Plave karte se sada pojavljuju među nagradama i na tržnici.",
+    "NAME": "Plave karte"
+  },
+  "Brewmaster": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Careless": {
+    "DESCRIPTION": "Na početku svakog poteza, odbaci gornju kartu sa gomile za vučenje.",
+    "NAME": "Bahatost"
+  },
+  "Chimera": {
+    "DESCRIPTION": "Tvoj početni špil je fuzija svih likova.",
+    "NAME": "Himera"
+  },
+  "Colorless Cards": {
+    "DESCRIPTION": "Bezbojne karte se sada pojavljuju među nagradama i na tržnici.",
+    "NAME": "Bezbojne karte"
+  },
+  "ControlledChaos": {
+    "DESCRIPTION": "Počinješ sa Zaleđenim okom. Na početku svog poteza, dodaj 10 nasumičnih karata na dno gomile za vučenje.",
+    "NAME": "Kontrolisani haos"
+  },
+  "Cursed Run": {
+    "DESCRIPTION": "Svaki put kada poraziš vožda, postaješ uklet. Tvoja početna relikvija je zamenjena Ukletim ključem, Tamnokamen amajlijom, i Du-vu lutkicom.",
+    "NAME": "Ukleti pohod"
+  },
+  "Daily Mods": {
+    "DESCRIPTION": "Kreni na pohod sa tačno tri nasumične Dnevne izmene.",
+    "NAME": "Smrtonosne izmene"
+  },
+  "DeadlyEvents": {
+    "DESCRIPTION": "? sobe sada mogu da sadrže čelnike ali takođe češće sadrže blaga.",
+    "NAME": "Život na ivici"
+  },
+  "Diverse": {
+    "DESCRIPTION": "Nisi ograničen samo na karte svog lika.",
+    "NAME": "Raznovrsnost"
+  },
+  "Draft": {
+    "DESCRIPTION": "Sastavi početni špil od ponuđenih karata.",
+    "NAME": "Nacrt"
+  },
+  "Elite Swarm": {
+    "DESCRIPTION": "Čelnici su preplavili Toranj, i sada ispuštaju bolje nagrade.",
+    "NAME": "Krupna divljač"
+  },
+  "Endless": {
+    "DESCRIPTION": "Pobeda te vraća u Preludijum sa istim špilom. Imaj na umu, Buđ eventualno guta sve...",
+    "NAME": "U nedogled"
+  },
+  "Flight": {
+    "DESCRIPTION": "Možeš da ignorišeš puteve pri putovanju do sledeće sobe.",
+    "NAME": "Let"
+  },
+  "Green Cards": {
+    "DESCRIPTION": "Zelene karte se sada pojavljuju među nagradama i na tržnici.",
+    "NAME": "Zelene karte"
+  },
+  "Heirloom": {
+    "DESCRIPTION": "Počinješ sa jednom retkom relikvijom.",
+    "NAME": "Nasledstvo"
+  },
+  "Hoarder": {
+    "DESCRIPTION": "Svaki put kada dodaš kartu u špil, ubaci još dve kopije. Trgovac više ne pruža uslugu uklanjanja karata.",
+    "NAME": "Gomilanje"
+  },
+  "Inception": {
+    "DESCRIPTION": "Menja početnu relikviju sa Neprestanom čigrom.",
+    "NAME": "Vazda"
+  },
+  "Insanity": {
+    "DESCRIPTION": "Počinješ sa špilom od 50 nasumičnih karata.",
+    "NAME": "Ludilo"
+  },
+  "IntelligentEnemies": {
+    "DESCRIPTION": "Svi neprijatelji koriste naprednije poteze i imaju bolje sposobnosti.",
+    "NAME": "Inteligentni neprijatelji"
+  },
+  "Lethality": {
+    "DESCRIPTION": "Svaku borbu započinješ sa snagom povećanom za tri. Isto važi i za neprijatelje.",
+    "NAME": "Ubojitost"
+  },
+  "Midas": {
+    "DESCRIPTION": "Neprijatelji ispuštaju 200% više zlata, ali više ne možeš da #ykuješ na odmaralištima.",
+    "NAME": "Mida"
+  },
+  "MonsterHunter": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "My True Form": {
+    "DESCRIPTION": "Počinješ sa kopijom Đavoimanosti, Utvare, Eho forme i Anđeoske forme.",
+    "NAME": "Moj istinski oblik"
+  },
+  "NeowTime": {
+    "DESCRIPTION": "Primi tri blagoslova i jednu pošast od Njove.",
+    "NAME": "Vreme Njove"
+  },
+  "Night Terrors": {
+    "DESCRIPTION": "Odmaranje u potpunosti leči, ali košta pet maks. ž. p.",
+    "NAME": "Noćni strahovi"
+  },
+  "One Hit Wonder": {
+    "DESCRIPTION": "Počinješ igru sa jednim maks. ž. p.",
+    "NAME": "Poslednji atom snage"
+  },
+  "Praise Snecko": {
+    "DESCRIPTION": "Menja početnu relikviju sa Zmijkovim okom.",
+    "NAME": "Slava Zmijku"
+  },
+  "Purple Cards": {
+    "DESCRIPTION": "Ljubičaste karte se sada pojavljuju među nagradama i na tržnici.",
+    "NAME": "Ljubičaste karte"
+  },
+  "Red Cards": {
+    "DESCRIPTION": "Crvene karte se sada pojavljuju među nagradama i na tržnici.",
+    "NAME": "Crvene karte"
+  },
+  "SealedDeck": {
+    "DESCRIPTION": "Sastavi špil od 30 nasumičnih karata.",
+    "NAME": "Turnirski špil"
+  },
+  "Shiny": {
+    "DESCRIPTION": "Početni špil je zamenjen sa po jednom od svake retke karte.",
+    "NAME": "Šljašt"
+  },
+  "Specialized": {
+    "DESCRIPTION": "Počinješ sa pet kopija jedne karte.",
+    "NAME": "Specijalizovan"
+  },
+  "Starter Deck": {
+    "DESCRIPTION": "Počinješ sa Polomljenom krunom i Binarnošću, tako da neprijatelji više ne ispuštaju karte.",
+    "NAME": "To ti je što ti je"
+  },
+  "Stunted Growth": {
+    "DESCRIPTION": "Igrajući U nedogled, neprijatelji više ne ispuštaju nagradne karte nakon trećeg čina.",
+    "NAME": "Usporen rast"
+  },
+  "Terminal": {
+    "DESCRIPTION": "Svaki put kada uđeš u novu sobu, gubiš jedan maks. ž. p. Svaku borbu počinješ sa pet optočenog oklopa.",
+    "NAME": "Jednom nogom u grobu"
+  },
+  "The Ending": {
+    "DESCRIPTION": "Omogućava finalni čin.",
+    "NAME": "Kraj"
+  },
+  "Time Dilation": {
+    "DESCRIPTION": "Svi neprijatelji počinju borbu usporeni.",
+    "NAME": "Vremenska dilatacija"
+  },
+  "Uncertain Future": {
+    "DESCRIPTION": "Mapa sadrži samo jednu putanju.",
+    "NAME": "Sigurna budućnost"
+  },
+  "Vintage": {
+    "DESCRIPTION": "Normalni neprijatelji ispuštaju relikvije umesto karata.",
+    "NAME": "Starina"
+  }
+}

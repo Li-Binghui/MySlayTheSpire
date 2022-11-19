@@ -1,0 +1,385 @@
+{
+  "Game Dictionary": {
+    "ARTIFACT": {
+      "DESCRIPTION": "Negira sledeći negativan status.",
+      "NAMES": [
+        "zaštita",
+        "zaštitu",
+        "zaštite"
+      ]
+    },
+    "BLOCK": {
+      "DESCRIPTION": "Sprečava štetu do sledećeg poteza.",
+      "NAMES": [
+        "odbrana",
+        "odbranu",
+        "odbrani",
+        "odbrane",
+        "brani",
+        "braniš"
+      ]
+    },
+    "BURN": {
+      "DESCRIPTION": "Opekotine su neodigriva stanja koja ti zadaju štetu.",
+      "NAMES": [
+        "opekotina",
+        "opekotinu"
+      ]
+    },
+    "CALM": {
+      "DESCRIPTION": "Po izlasku iz ovog #ystava, zadobi [W] [W] .",
+      "NAMES": [
+        "mir",
+        "mira",
+        "smiren",
+        "smiri"
+      ]
+    },
+    "CHANNEL": {
+      "DESCRIPTION": "Stvori sferu u prvom praznom polju s desna. Ako nemaš praznih polja, automatski #yaktiviraš svoju najdešnju sferu kako bi napravio mesta.",
+      "NAMES": [
+        "prizivanje",
+        "prizovi",
+        "prizvane",
+        "prizvanu",
+        "prizvanih",
+        "prizoveš"
+      ]
+    },
+    "CONFUSED": {
+      "DESCRIPTION": "Potrošnja energije svake karte koju vučeš je nasumična.",
+      "NAMES": [
+        "zbunjen"
+      ]
+    },
+    "CURSE": {
+      "DESCRIPTION": "Kletve su negativne karte koje ostaju u špilu.",
+      "NAMES": [
+        "kletva",
+        "kletve",
+        "kletvu"
+      ]
+    },
+    "DARK": {
+      "DESCRIPTION": "Sfera koja je sa svakim krugom sve ubojitija. Pri #yaktivaciji zadaje štetu neprijatelju koji ima najmanje ž. p.",
+      "NAMES": [
+        "tama",
+        "tama+",
+        "tamu",
+        "tamu+",
+        "tame",
+        "tame+"
+      ]
+    },
+    "DAZED": {
+      "DESCRIPTION": "Ošamućenosti su neodigriva stanja.",
+      "NAMES": [
+        "ošamućenost"
+      ]
+    },
+    "DEXTERITY": {
+      "DESCRIPTION": "Okretnost poboljšava odbranu zadobijenu od karata.",
+      "NAMES": [
+        "okretnost",
+        "okretnosti"
+      ]
+    },
+    "DIVINITY": {
+      "DESCRIPTION": "Po ulasku u ovaj stav, zadobi [W] [W] [W] . Napadi zadaju tri puta više štete. Izađi iz ovog #ystava na početku svoj sledećeg poteza.",
+      "NAMES": [
+        "oboženje",
+        "oboži"
+      ]
+    },
+    "ETHEREAL": {
+      "DESCRIPTION": "Ako ova karta ostane u ruci na kraju poteza, iscrpi je. Iscrpljene karte su uklonjene do kraja borbe.",
+      "NAMES": [
+        "prolazna"
+      ]
+    },
+    "EVOKE": {
+      "DESCRIPTION": "Ukloni svoju prvu sferu s desna kako bi iskoristio njen aktivacioni efekat.",
+      "NAMES": [
+        "aktivacija",
+        "aktiviraj",
+        "aktivirao",
+        "aktiviranu",
+        "aktivirane",
+        "aktiviraš"
+      ]
+    },
+    "EXHAUST": {
+      "DESCRIPTION": "Ukloni kartu do kraja borbe.",
+      "NAMES": [
+        "iscrpi",
+        "iscrpiš",
+        "iscrpljena",
+        "iscrpljenu",
+        "iscrpljuješ"
+      ]
+    },
+    "FATAL": {
+      "DESCRIPTION": "Ishod karte je vezan za ubijanje ne-podanika.",
+      "NAMES": [
+        "smrtonosna"
+      ]
+    },
+    "FOCUS": {
+      "DESCRIPTION": "Potentnost povećava jačinu #yprizvanih sfera.",
+      "NAMES": [
+        "potentnost",
+        "potentnosti"
+      ]
+    },
+    "FRAIL": {
+      "DESCRIPTION": "Kao krhak, zadobijaš #b25% manje #yodbrane od karata.",
+      "NAMES": [
+        "krhak",
+        "krhkost",
+        "krhkosti"
+      ]
+    },
+    "FROST": {
+      "DESCRIPTION": "Sfera koja daje #yodbranu.",
+      "NAMES": [
+        "mraz",
+        "mraz+",
+        "mraza",
+        "mraza+",
+        "mrazova",
+        "mrazova+"
+      ]
+    },
+    "INNATE": {
+      "DESCRIPTION": "Prva ruka garantovano sadrži ovu kartu.",
+      "NAMES": [
+        "urođena"
+      ]
+    },
+    "INTANGIBLE": {
+      "DESCRIPTION": "Smanjuje SVAKU primljenu štetu i gubitak ž. p. na #bjedan.",
+      "NAMES": [
+        "nedodirljiv",
+        "nedodirljivost",
+        "nedodirljivosti"
+      ]
+    },
+    "LIGHTNING": {
+      "DESCRIPTION": "Sfera koja zadaje štetu nasumičnom neprijatelju.",
+      "NAMES": [
+        "munja",
+        "munja+",
+        "munju",
+        "munju+",
+        "munje",
+        "munje+"
+      ]
+    },
+    "LOCKED": {
+      "DESCRIPTION": "Ova karta tek treba da se otključa.",
+      "NAMES": [
+        "nedostupna"
+      ]
+    },
+    "LOCK_ON": {
+      "DESCRIPTION": "Izloženim neprijateljima se zadaje #b50% više štete od sfera.",
+      "NAMES": [
+        "izložen",
+        "izloženosti"
+      ]
+    },
+    "OPENER": {
+      "DESCRIPTION": "",
+      "NAMES": [
+        "opener"
+      ]
+    },
+    "PLASMA": {
+      "DESCRIPTION": "Sfera koja daje energiju.",
+      "NAMES": [
+        "plazma",
+        "plazma+",
+        "plazmu",
+        "plazmu+",
+        "plazme",
+        "plazme+",
+        "plazmom"
+      ]
+    },
+    "POISON": {
+      "DESCRIPTION": "Otrovana stvorenja na početku svog poteza gube ž. p. Otrov se smanjuje za #bjedan svaki krug.",
+      "NAMES": [
+        "otrov",
+        "otrova",
+        "zatrovan"
+      ]
+    },
+    "PRAYER": {
+      "DESCRIPTION": "Kada dostigneš #bdeset #ymolitvi, #yoboži se.",
+      "NAMES": [
+        "molitva",
+        "molitvi",
+        "molitve"
+      ]
+    },
+    "REGEN": {
+      "DESCRIPTION": "Lečenje zalečuje ž. p. na kraju tvoj poteza. Svaki potez, lečenje se smanjuje za #b1.",
+      "NAMES": [
+        "lečenje",
+        "lečenja"
+      ]
+    },
+    "RETAIN": {
+      "DESCRIPTION": "Zadržane karte se ne odbacuju na kraju poteza.",
+      "NAMES": [
+        "zadrži",
+        "zadržiš",
+        "zadržavaš"
+      ]
+    },
+    "RITUAL": {
+      "DESCRIPTION": "Zadobi #ysnagu na kraju svog poteza.",
+      "NAMES": [
+        "obred"
+      ]
+    },
+    "SCRY": {
+      "DESCRIPTION": "Pogledaj X karata sa vrha gomile za vučenje. Možeš da odbaciš bilo koji broj njih.",
+      "NAMES": [
+        "proricanje",
+        "proričeš",
+        "proreci"
+      ]
+    },
+    "SHIV": {
+      "DESCRIPTION": "Noževi su #bbesplatni napadi koji se iscrpljuju.",
+      "NAMES": [
+        "nož",
+        "noža"
+      ]
+    },
+    "STANCE": {
+      "DESCRIPTION": "Mir, bes, oboženje. Možeš da budeš samo u jednom stavu u bilo kom trenutku.",
+      "NAMES": [
+        "stav",
+        "stava"
+      ]
+    },
+    "STATUS": {
+      "DESCRIPTION": "Stanja su uklonjena na kraju borbe.",
+      "NAMES": [
+        "stanje"
+      ]
+    },
+    "STRENGTH": {
+      "DESCRIPTION": "Većom snagom zadaješ više štete napadima.",
+      "NAMES": [
+        "snaga",
+        "snage",
+        "snagu"
+      ]
+    },
+    "STRIKE": {
+      "DESCRIPTION": "Svaka karta koja sadrži \"udarac\" u imenu.",
+      "NAMES": [
+        "udarac"
+      ]
+    },
+    "TEXT": [
+      "Energija se koristi za odigravanje karata iz ruke."
+    ],
+    "THORNS": {
+      "DESCRIPTION": "Po primanju štete od #ynapada, uzvrati sa nešto štete.",
+      "NAMES": [
+        "bodljikavost"
+      ]
+    },
+    "TODO": {
+      "DESCRIPTION": "This card is NOT IMPLEMENTED. Someone should really fix that...",
+      "NAMES": [
+        "todo",
+        "JUST FOR DEVS, DONT TRANSLATE",
+        "JUST FOR DEVS, DONT TRANSLATE",
+        "JUST FOR DEVS, DONT TRANSLATE",
+        "JUST FOR DEVS, DONT TRANSLATE"
+      ]
+    },
+    "TRANSFORM": {
+      "DESCRIPTION": "Preobražene karte postaju nasumične karte bilo koje vrednosti.",
+      "NAMES": [
+        "preobrazi",
+        "preobraziš"
+      ]
+    },
+    "UNKNOWN": {
+      "DESCRIPTION": "Na ovu kartu tek treba naići.",
+      "NAMES": [
+        "nepoznata"
+      ]
+    },
+    "UNPLAYABLE": {
+      "DESCRIPTION": "Neodigrive karte se ne mogu odigrati iz ruke.",
+      "NAMES": [
+        "neodigriva"
+      ]
+    },
+    "UPGRADE": {
+      "DESCRIPTION": "Poboljšavanje karata ih čini moćnijim. Karte se mogu poboljšati samo jedanput.",
+      "NAMES": [
+        "poboljšanje",
+        "poboljšan",
+        "poboljšaj",
+        "poboljšati",
+        "poboljšanih"
+      ]
+    },
+    "VIGOR": {
+      "DESCRIPTION": "Your next Attack deals additional damage.",
+      "NAMES": [
+        "vigor"
+      ]
+    },
+    "VOID": {
+      "DESCRIPTION": "Vakuumi su neodigriva stanja koja oduzimaju energiju pri vučenju.",
+      "NAMES": [
+        "vakuum",
+        "voids"
+      ]
+    },
+    "VULNERABLE": {
+      "DESCRIPTION": "Ranjiva stvorenja primaju #b50% više štete od napada.",
+      "NAMES": [
+        "ranjivost",
+        "ranjivosti",
+        "ranjiv",
+        "ranjivošću"
+      ]
+    },
+    "WEAK": {
+      "DESCRIPTION": "Napadi oslabljenih stvorenja zadaju #b25% manje štete.",
+      "NAMES": [
+        "slabost",
+        "slabosti",
+        "oslabljen",
+        "oslabljenošću"
+      ]
+    },
+    "WOUND": {
+      "DESCRIPTION": "Rane su neodigriva stanja.",
+      "NAMES": [
+        "rana",
+        "rane",
+        "ranu"
+      ]
+    },
+    "WRATH": {
+      "DESCRIPTION": "U ovom #ystavu, zadaješ i primaš dvostruko više štete od napada.",
+      "NAMES": [
+        "bes",
+        "besan",
+        "razbesni",
+        "razbesniš"
+      ]
+    }
+  }
+}

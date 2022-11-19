@@ -1,0 +1,26 @@
+{
+  "Calm": {
+    "DESCRIPTION": [
+      "Po izlasku iz ovog #ystava, zadobi [W] [W] ."
+    ],
+    "NAME": "Mir"
+  },
+  "Divinity": {
+    "DESCRIPTION": [
+      "Po ulasku o ovaj #ystav, zadobi [W] [W] [W] . Napadi zadaju trostruko štete. Izađi iz ovog #ystava na kraju svog poteza."
+    ],
+    "NAME": "Oboženje"
+  },
+  "Neutral": {
+    "DESCRIPTION": [
+      ""
+    ],
+    "NAME": ""
+  },
+  "Wrath": {
+    "DESCRIPTION": [
+      "Tvoji napadi zadaju dvostruku štetu, ali ti takođe primaš dvostruku štetu od napada."
+    ],
+    "NAME": "Bes"
+  }
+}

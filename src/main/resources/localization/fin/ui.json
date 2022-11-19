@@ -1,0 +1,1397 @@
+{
+  "AbandonRunButton": {
+    "TEXT": [
+      "Luovuta peli"
+    ]
+  },
+  "AbstractCard": {
+    "TEXT": [
+      "Lukittu",
+      "Tuntematon"
+    ]
+  },
+  "AbstractChest": {
+    "TEXT": [
+      "Jatka"
+    ]
+  },
+  "AbstractCreature": {
+    "TEXT": [
+      "Kuollut",
+      "Torjuttu",
+      "MaksimiOP+",
+      "Tainnutettu!",
+      "Keskeytetty!",
+      "Reliikit"
+    ]
+  },
+  "AbstractDungeon": {
+    "TEXT": [
+      "Jatka",
+      "Vitsaukset:"
+    ]
+  },
+  "AbstractMonster": {
+    "TEXT": [
+      "Aggressiivinen",
+      "Tämä vihollinen aikoo NL #yHyökätä #b",
+      " vaurion verran #b",
+      " kertaa.",
+      "Tämä vihollinen aikoo NL #yHyökätä #b",
+      " vaurion verran.",
+      "Aggressiivinen",
+      "Tämä vihollinen aikoo asettaa #yHyödyn ja #yHyökätä #b",
+      " kertaa.",
+      "Tämä vihollinen aikoo asettaa #yHyödyn ja #yHyökätä #b",
+      "Strateginen",
+      "Tämä vihollinen aikoo asettaa #yHaitan sinuun ja #yHyökätä #b",
+      "Tämä vihollinen aikoo #yTorjua ja #yHyökätä #b",
+      "Puolustava",
+      "Pelkurimainen",
+      "Maaginen",
+      "Nukkumassa",
+      "Pökertynyt",
+      "Tuntematon",
+      "Tämä vihollinen aikoo asettaa #yHyödyn.",
+      "Tämä vihollinen aikoo asettaa #yHaitan sinuun.",
+      "Tämä vihollinen aikoo asettaa vahvan #yHaitan sinuun.",
+      "Tämä vihollinen aikoo #yTorjua vuorollaan.",
+      "Tämä vihollinen aikoo #yTorjua ja asettaa #yHaitan sinuun.",
+      "Tämä vihollinen aikoo #yTorjua ja asettaa #yHyödyn.",
+      "Tämä vihollinen aikoo #yPaeta.",
+      "Tämä vihollinen aikoo käyttää mystistä #yTaikaa vuorollaan.",
+      "Tämä vihollinen nukkuu.",
+      "Tämä vihollinen on #yTainnutettu vuorollaan.",
+      "Tämän vihollinen aikeet ovat #yTuntemattomia (ei hyökkäämässä).",
+      "Torjuttu"
+    ]
+  },
+  "AbstractPlayer": {
+    "TEXT": [
+      "Torjuttu",
+      "Rautasoturi",
+      "Hiljainen",
+      "Häiriö",
+      "Tarkkailija"
+    ]
+  },
+  "AbstractPotion": {
+    "TEXT": [
+      "En voi kantaa NL enempää juomia."
+    ]
+  },
+  "AbstractRoom": {
+    "TEXT": [
+      "Ryöstetty...",
+      "Karkasit..."
+    ]
+  },
+  "AnyCardFromDeckToHandAction": {
+    "TEXT": [
+      "Valitse kortti lisättäväksi käteesi.",
+      "Valitse kortteja lisättäväksi käteesi."
+    ]
+  },
+  "ApplyPowerAction": {
+    "TEXT": [
+      "Kielletty",
+      "Immuuni",
+      "Mitätöity",
+      "\n alhaalla"
+    ]
+  },
+  "ArmamentsAction": {
+    "TEXT": [
+      "paranneltavaksi"
+    ]
+  },
+  "AscensionModeDescriptions": {
+    "TEXT": [
+      "1. Eliittejä esiintyy useammin.",
+      "2. Normaalit viholliset ovat vaarallisempia.",
+      "3. Eliitit ovat vaarallisempia.",
+      "4. Pomot ovat vaarallisempia.",
+      "5. Parane pomotaistelujen jälkeen vähemmän.",
+      "6. Aloita jokainen pelikerta vahingoittuneena.",
+      "7. Normaalit viholliset ovat vaikeampia.",
+      "8. Eliitit ovat vaikeampia.",
+      "9. Pomot ovat vaikeampia.",
+      "10. Aloita jokainen pelikerta kirottuna.",
+      "11. Vähemmän pullotaskuja.",
+      "12. Paranneltuja kortteja ilmenee harvemmin.",
+      "13. Köyhempiä pomoja.",
+      "14. Pienempi MaksimiOP.",
+      "15. Kielteisiä tapahtumia.",
+      "16. Kaupat ovat kalliimpia.",
+      "17. Normaaleilla vihollisilla haastavampia liikesarjoja ja kykyjä.",
+      "18. Eliiteillä on haastavampia liikesarjoja ja kykyjä.",
+      "19. Pomoilla on haastavampia liikesarjoja ja kykyjä.",
+      "20. (Ääritaso) Tuplapomo."
+    ]
+  },
+  "AscensionTextEffect": {
+    "TEXT": [
+      "Nousemustaso ",
+      " avattu!"
+    ]
+  },
+  "AscensionUnlockEffect": {
+    "TEXT": [
+      "Nousemus avattu!"
+    ]
+  },
+  "AttackFromDeckToHandAction": {
+    "TEXT": [
+      "Valitse Hyökkäys käteesi lisättäväksi."
+    ]
+  },
+  "BattleStartEffect": {
+    "TEXT": [
+      "Taistelu alkaa",
+      "Pelaajan vuoro",
+      "Vihollisen vuoro",
+      ". kierros"
+    ]
+  },
+  "BetterToHandAction": {
+    "TEXT": [
+      "Valitse kortti käteesi nostettavaksi.",
+      "Valitse ",
+      " korttia käteesi nostettavaksi."
+    ]
+  },
+  "BossChest": {
+    "TEXT": [
+      "Jatka"
+    ]
+  },
+  "BossRelicSelectScreen": {
+    "TEXT": [
+      "Vahvista",
+      "Vahvista valintasi",
+      "Valitse reliikki",
+      "Ohita",
+      "ÄÄNESTÄ NYT: ",
+      "s jäljellä.",
+      "Valitse vitsaus"
+    ]
+  },
+  "CacheAction": {
+    "TEXT": [
+      "Valitse kortti nostopinosi päälle laitettavaksi.",
+      "Valitse kortteja nostopinosi päälle laitettavaksi."
+    ]
+  },
+  "CampfireSleepEffect": {
+    "TEXT": [
+      "Unta?"
+    ]
+  },
+  "CampfireSmithEffect": {
+    "TEXT": [
+      "Valitse kortti paranneltavaksi"
+    ]
+  },
+  "CampfireTokeEffect": {
+    "TEXT": [
+      "Valitse kortti poistettavaksi."
+    ]
+  },
+  "CampfireUI": {
+    "TEXT": [
+      "Mitä tekisin?",
+      "Hmm...",
+      "Mitä seuraavaksi?",
+      "Tauon paikka",
+      "Niin paljon vaihtoehtoja...",
+      "Minun pitäisi levätä",
+      "Niin väsynyt..."
+    ]
+  },
+  "Cancel Button": {
+    "TEXT": [
+      "Poista tallennus"
+    ]
+  },
+  "CardLibSortHeader": {
+    "TEXT": [
+      "Harvinaisuus",
+      "Tyyppi",
+      "Aakkoset",
+      "Hinta",
+      "Hyppää:",
+      "Hankittu"
+    ]
+  },
+  "CardLibraryScreen": {
+    "TEXT": [
+      "Palaa",
+      "Punainen",
+      "Vihreä",
+      "Sininen",
+      "Väritön",
+      "Kiroukset",
+      "Statukset",
+      "Näytä parannus",
+      "Purppura"
+    ]
+  },
+  "CardRewardScreen": {
+    "TEXT": [
+      "Ohita",
+      "Valitse kortti",
+      "+2 MaksimiOP",
+      "ÄÄNESTÄ NYT: ",
+      "s jäljellä.",
+      "Näytä parannus",
+      "Valitse yksi"
+    ]
+  },
+  "CharacterOption": {
+    "TEXT": [
+      "Lukittu",
+      "Tämä hahmo avautuu suorittamalla yhden pelikerran.",
+      "Tätä hahmoa ei ole vielä tarjolla varhaisjulkaisussa.",
+      "Tämä hahmo avautuu suorittamalla yhden pelikerran Hiljaisuudella.",
+      "OP: ",
+      "Kultaa: ",
+      " avausta jäljellä",
+      "Tuntematon",
+      "???",
+      " seuraavaan avaukseen",
+      "Tämä hahmo avautuu läpäisemällä yhden pelikerran peruspelillä ja että myös 3. hahmo on jo avattu."
+    ]
+  },
+  "CharacterSelectScreen": {
+    "TEXT": [
+      "Valitse hahmosi",
+      "Aloita matka",
+      "Rautasoturi",
+      "Hiljainen",
+      "Häiriö",
+      "Palaa",
+      "Nousemus",
+      "Taso ",
+      "Nousemustila",
+      "Pelikerrat vaikeutuvat voittojen myötä... (Ei vaikuta voittoputkiin)",
+      "Siemen ",
+      "Satunnainen siemen",
+      "Siemenarvo määrää pelikerran satunnaiset kohtaamiset.",
+      "Aseta siemen",
+      "Tarkkailija"
+    ]
+  },
+  "ChooseOneScreen": {
+    "TEXT": [
+      "Valitse yksi"
+    ]
+  },
+  "CombatRewardScreen": {
+    "TEXT": [
+      "Jatka",
+      "Ohita kortti",
+      "Ohita kulta",
+      "Ohita pullo",
+      "Ohita reliikki",
+      "Ohita palkkiot",
+      "Sulje",
+      "Aarre!",
+      "Mitäs  on  sisällä?",
+      "Palkintoja!",
+      "Ryöstösaalista!",
+      "Saalista!",
+      "Vinkki: "
+    ]
+  },
+  "Confirm Button": {
+    "TEXT": [
+      "Vahvista"
+    ]
+  },
+  "ConfirmPopup": {
+    "TEXT": [
+      "Palaa",
+      "Poista tallennus",
+      "Kyllä",
+      "Ei"
+    ]
+  },
+  "SignatureMoveMessage": {
+    "TEXT": [
+      "Tämän on oltava minun ainoa #rHyökkäykseni!"
+    ]
+  },
+  "CopyAction": {
+    "TEXT": [
+      "kopioitavaksi"
+    ]
+  },
+  "CreditsScreen": {
+    "TEXT": [
+      "Poistu klikkaamalla uudestaan",
+      "poistuakseen",
+      "Poistu naputtamalla uudestaan"
+    ]
+  },
+  "DailyScreen": {
+    "TEXT": [
+      "Päivän haaste",
+      "Yhdistetään aikapalvelimeen...",
+      "#yHUOM: Olet suorittanut jo tämänpäiväisen haasteen. NL Uusien yritysten pisteitä ei lähetetä.",
+      "Palaa",
+      "Lähde matkaan",
+      "Tämän päivän hahmo: ",
+      "dd.MM.yyyy HH.mm.ss",
+      "Aikaa jäljellä: ",
+      "#ySaavutettu #ykerros: NL  ",
+      " NL NL  #yPakka: NL ",
+      " NL NL  #yReliikit: NL  ",
+      " NL Päivän haaste: NL #yHahmoluokka: NL ",
+      " NL #yMuunnelmat: ",
+      "Määreet: ",
+      "Pistetaulukko",
+      "*Saavutukset ovat poissa käytöstä päivän haasteissa.",
+      "  [YHTEYDETÖN TILA]",
+      "d. MMMM yyyy",
+      "*Pokaalit ovat poissa käytöstä päivän haasteissa."
+    ]
+  },
+  "DeathScreen": {
+    "TEXT": [
+      "Jatka",
+      "Voitto?",
+      "Kiivettyjä kerroksia",
+      "Voitettuja pomoja",
+      "Peliaika",
+      "Peliaika",
+      "Pisteet",
+      "Kukistettu",
+      "Kuolema...",
+      "Häviö",
+      "Kukistettu!",
+      "Häväisty",
+      "Hävitys",
+      "Listitty",
+      "Sinut on surmattu!",
+      "Tuttu tunne.",
+      "Torkut kuulostavat hyvältä.",
+      "Sitä niittää mitä kylvää.",
+      "Väärä suunta.",
+      "En ihan varautunut tähän.",
+      "Huomenna uusiksi.",
+      "Tulen tarvitsemaan uuden kartan.",
+      "Puutteellisesti varustauduttu.",
+      "Voe rähmä!",
+      "Mikä on kun ei taidot riitä?",
+      "Tyypillistä tuuriani...",
+      "Ei näin...",
+      "Ei ihan nappisuoritus.",
+      "Torni tuhosi jälleen yhden...",
+      "Tietoisuutesi hiipuu...",
+      "Tappio",
+      "Hyväksyntä",
+      "Jatka",
+      "Yritä uudelleen",
+      "Päävalikko",
+      "Jatka",
+      "Avaa",
+      "Päävalikko",
+      "Yritä uudelleen",
+      "Jatka",
+      "Avaa",
+      "Avattavia jäljellä: ",
+      "Avattava jäljellä: ",
+      "Vihollisia surmattu",
+      "Tapetut eliitit",
+      "Käyttämätön kulta",
+      "OP Bonus"
+    ],
+    "EXTRA_TEXT": [
+      "Tapetut Eksordium-eliitit",
+      "Tapetut kaupunkieliitit",
+      "Tapetut tuonpuoleisen eliitit",
+      "Pikakiitäjä",
+      "Valon nopeus",
+      "Ylänkömaalainen",
+      "Kokoelma",
+      "Täyssetti",
+      "Vaivainen",
+      "Kirjastonhoitaja",
+      "Ensyklopedikko",
+      "Maha täynnä",
+      "Ahdettu",
+      "Kirottua!",
+      "Omilla ehdoillani",
+      "Mestari",
+      "Täydellinen",
+      "Parempi kuin täydellinen",
+      "Täystuho",
+      "K-k-k-kombo",
+      ""
+    ]
+  },
+  "DeathScreenUi": {
+    "TEXT": [
+      "Nousemustilan taso ",
+      " avattu!"
+    ]
+  },
+  "DeletePopup": {
+    "TEXT": [
+      "Poista tämä tallennus?",
+      "Kyllä",
+      "Ei",
+      "VAROITUS: Tätä toimintoa ei voi peruuttaa."
+    ]
+  },
+  "Dig Option": {
+    "TEXT": [
+      "Kaiva",
+      "Kaiva satunnainen reliikki."
+    ]
+  },
+  "DiscardAction": {
+    "TEXT": [
+      "poistettavaksi"
+    ]
+  },
+  "DiscardPilePanel": {
+    "TEXT": [
+      "Poistopinoni on #rtyhjä."
+    ]
+  },
+  "DiscardPileToHandAction": {
+    "TEXT": [
+      "Valitse kortti palautettavaksi käteesi."
+    ]
+  },
+  "DiscardPileToTopOfDeckAction": {
+    "TEXT": [
+      "Valitse kortti nostopinosi päälle laitettavaksi."
+    ]
+  },
+  "DiscardPileViewScreen": {
+    "TEXT": [
+      "Tässä olevat kortit sekoitetaan uudeksi nostopinoksi kun vanha ehtyy.",
+      "Palaa",
+      "Poistopino"
+    ]
+  },
+  "DrawPilePanel": {
+    "TEXT": [
+      "Nostopinoni on #rtyhjä."
+    ]
+  },
+  "DrawPileViewScreen": {
+    "TEXT": [
+      "Kortteja nostetaan täältä jokaisen vuoron alussa.",
+      "(Näytetyt kortit ovat järjestetty harvinaisuuden mukaan)",
+      "Palaa",
+      "Nostopino"
+    ]
+  },
+  "DualWieldAction": {
+    "TEXT": [
+      "monistettavaksi"
+    ]
+  },
+  "DungeonMapScreen": {
+    "TEXT": [
+      "Valitse aloitushuone",
+      "Palaa"
+    ]
+  },
+  "DungeonTransitionScreen": {
+    "TEXT": [
+      "Tutoriaalit",
+      "Haluatko nähdä vinkkejä siitä, miten pelata peliä?",
+      "Ensimmäinen näytös",
+      "Eksordium",
+      "Toinen näytös",
+      "Kaupunki",
+      "Kolmas näytös",
+      "Tuonpuoleinen",
+      "Viimeinen näytös",
+      "Lopetus",
+      "Klikkaa jatkaaksesi"
+    ]
+  },
+  "EarlyAccessPopup": {
+    "TEXT": [
+      "Mikä on Varhaisjulkaisu?",
+      "Mikä on avoin beeta?",
+      "Slay the Spire on vielä aktiivisessa kehityksessä! NL Monet ominaisuudet, kortit ja viholliset voivat muuttua. NL NL Jos törmäät ongelmiin tai haluat antaa palautetta, viestithän meille #bSteamin #bKeskustelusivuilla. NL NL Ei sen enempää, aika kiivetä tornia!",
+      "Slay the Spire on vielä aktiivisessa kehityksessä! NL Sen lisäksi pelaat pelin Beeta-versiota. NL NL Viestithän meille mahdollisista pelatessa ilmenevistä ongelmista, mutta älä ylläty tulevan sisällön köykäisestä taiteesta. NL NL Ei sen enempää, aika kiivetä tornia!",
+      "Klikkaa mihin vain aloittaaksesi",
+      "Jatka"
+    ]
+  },
+  "End Turn Button": {
+    "TEXT": [
+      "Lopeta vuoro",
+      "Vihollisvuoro"
+    ]
+  },
+  "ExhaustAction": {
+    "TEXT": [
+      "kulutettavaksi"
+    ]
+  },
+  "ExhaustViewScreen": {
+    "TEXT": [
+      "Nämä kortit kuluivat tässä taistelussa.",
+      "Palaa"
+    ]
+  },
+  "ExhumeAction": {
+    "TEXT": [
+      "Valitse kortti palautettavaksi käteesi"
+    ]
+  },
+  "ExitGameButton": {
+    "TEXT": [
+      "Poistu pelistä"
+    ]
+  },
+  "Exordium": {
+    "TEXT": [
+      "Eksordium"
+    ]
+  },
+  "GamblingChipAction": {
+    "TEXT": [
+      "vaihdettavaksi (Pelipoletti)",
+      "vaihdettavaksi"
+    ]
+  },
+  "GameSavedEffect": {
+    "TEXT": [
+      "#y~Peli~ #y~tallennettu~"
+    ]
+  },
+  "GainGoldTextEffect": {
+    "TEXT": [
+      " kultaa"
+    ]
+  },
+  "GridCardSelectScreen": {
+    "TEXT": [
+      "Vahvista",
+      "Peruuta",
+      "Vahvista valintasi",
+      "Poistu"
+    ]
+  },
+  "HandCardSelectScreen": {
+    "TEXT": [
+      "Vahvista kortti ",
+      "Vahvista kortit ",
+      "Valitse ",
+      " korttia ",
+      "Valitse vapaasti kortteja ",
+      "Valitse kortti ",
+      "Kopioi"
+    ]
+  },
+  "HiddenChamberAction": {
+    "TEXT": [
+      ""
+    ]
+  },
+  "ImmolateAction": {
+    "TEXT": [
+      "kulutettavaksi"
+    ]
+  },
+  "InputKeyNames": {
+    "TEXT_DICT": {
+      "Escape": "ESC",
+      "Forward Delete": "Delete",
+      "Delete": "Backspace"
+    }
+  },
+  "InputSettingsScreen": {
+    "TEXT": [
+      "Ohjainasetukset",
+      "Peliasetukset",
+      "Palaa",
+      "Komennot",
+      "Näppäimistö",
+      "Peliohjain",
+      "Nollaa asetukset",
+      "Vahvista kortti",
+      "Peruuta / Poistu",
+      "Kartta",
+      "Näytä pakka",
+      "Nostopino",
+      "Poistopino",
+      "Kulutuspino",
+      "Lopeta vuoro",
+      "Vasen",
+      "Oikea",
+      "Valitse kortti #1",
+      "Valitse kortti #2",
+      "Valitse kortti #3",
+      "Valitse kortti #4",
+      "Valitse kortti #5",
+      "Valitse kortti #6",
+      "Valitse kortti #7",
+      "Valitse kortti #8",
+      "Valitse kortti #9",
+      "Valitse kortti #10",
+      "Vapauta kortti",
+      "Valitse*",
+      "Peruuta*",
+      "Yläpaneeli*",
+      "Jatka / Lopeta vuoro*",
+      "Vasen välilehti / Näytä pakka*",
+      "Oikea välilehti / Kulutuspino*",
+      "Kartta*",
+      "Asetukset*",
+      "Nostopino*",
+      "Poistopino*",
+      "Ylös*",
+      "Alas*",
+      "Vasen*",
+      "Oikea*",
+      "Ylös (Alt)*",
+      "Alas (Alt)*",
+      "Vasen (Alt)*",
+      "Oikea (Alt)*",
+      "Ylös",
+      "Alas",
+      "Ohjain käytössä",
+      "Kosketusnäyttötila",
+      "Kurkista"
+    ]
+  },
+  "LanguageDropdown": {
+    "TEXT": [
+      "Brasilianportugali",
+      "Kiina (yksinkertainen)",
+      "Kiina (perinteinen)",
+      "Englanti",
+      "Ranska",
+      "Saksa",
+      "Italia",
+      "Japani",
+      "Korea",
+      "Puola",
+      "Venäjä",
+      "Espanja",
+      "Hebrea",
+      "Turkki",
+      "Ruotsi",
+      "Norja",
+      "Thai",
+      "Serbia (kyrillinen)",
+      "Ukraina",
+      "Vietnam",
+      "Unkari",
+      "Serbia (latinalainen)",
+      "Katalaani",
+      "Kreikka",
+      "Indonesia",
+      "Esperanto",
+      "Hollanti",
+      "Suomi"
+    ]
+  },
+  "LeaderboardFilters": {
+    "TEXT": [
+      "Rautasoturi",
+      "Hiljainen",
+      "Häiriö",
+      "Saavutettujen kerrosten keskiarvo (viimeiset 20 peliä)",
+      "Pistemäärien keskiarvo (viimeiset 20 peliä)",
+      "Pisin voittoputki",
+      "Nopein voitto",
+      "Korkein pistemäärä",
+      "Option 6. DO NOT TRANSLATE",
+      "Ystävät",
+      "Maailmanlaajuinen",
+      "Tarkkailija"
+    ]
+  },
+  "LeaderboardsScreen": {
+    "TEXT": [
+      "Palaa",
+      "Suodattimet",
+      "Hahmo",
+      "Alue",
+      "Tyyppi",
+      "Näytä pistemääräni",
+      "Sijoitus",
+      "Nimi",
+      "Pisteet",
+      "Haetaan dataa...",
+      "Tuloslista",
+      "Ei yhteydessä Steam-palveluun",
+      "Tuloksia ei saatavilla \n Mene kukistamaan Tornia!"
+    ]
+  },
+  "Legend": {
+    "TEXT": [
+      "Tuntematon",
+      "???",
+      "Tuntematon huone. NL NL Saatat kohdata vihollisia, aarteita, kauppoja tai jotain ihan muuta.",
+      "Kauppias",
+      "Kaupat",
+      "Salaperäinen Kauppias myy tuotteitaan näissä huoneissa. NL NL Käytä ansaitsemasi #ykulta täällä!",
+      "Aarre",
+      "Aarrehuoneet",
+      "Näistä halutuista huoneista löytyy #yreliikkejä ja #ykultaa.",
+      "Lepo",
+      "Lepopaikat",
+      "Pysähdy näissä huoneissa #gparantaaksesi OP:täsi tai #yparannellaksesi korttia.",
+      "Vihollinen",
+      "Vihollisia",
+      "Näissä huoneissa lymyilee vihamielisiä olentoja.",
+      "Eliitti",
+      "Eliitit",
+      "Näissä huoneissa odottavat voimakkaita vihollisia. NL NL Niiden päihittäminen antavat sinulle reliikin palkinnoksi.",
+      "Merkit"
+    ]
+  },
+  "Lift Option": {
+    "TEXT": [
+      "Nosta",
+      "Aloita taistelut +1 Vahvuudella. (Korkeintaan 3)",
+      ""
+    ]
+  },
+  "MainMenuScreen": {
+    "TEXT": [
+      "#yRakenne: ",
+      "Lähde matkaan",
+      "Palaa",
+      "klikkaa muokataksesi",
+      "-nappia muokataksesi",
+      "napauta muokataksesi"
+    ]
+  },
+  "MasterDeckViewScreen": {
+    "TEXT": [
+      "Aloitat jokaisen taistelun näillä korteilla.",
+      "Palaa"
+    ]
+  },
+  "MenuButton": {
+    "TEXT": [
+      "",
+      "Pelaa",
+      "",
+      "",
+      "Jatka",
+      "",
+      "Tilastot",
+      "",
+      "Lopeta",
+      "Päivitystiedotteet",
+      "Luovu pelikerrasta",
+      "",
+      "Asetukset",
+      "",
+      "Käsikirja"
+    ]
+  },
+  "MenuPanels": {
+    "TEXT": [
+      "Peruspeli",
+      "",
+      "Aloita seikkailusi tornin tuhoamiseksi.",
+      "Päivän nousu",
+      "",
+      "Uusi haaste tarjolla kerran päivässä.\n\nKilpaile toisten pelaajien kanssa korkeimmasta pistemäärästä!",
+      "Nousemus",
+      "",
+      "Torni kasvaa vahvemmaksi jokaisen voiton myötä.\n\nPistä parhaimmat strategiasi koetukselle.",
+      "Korttikirjasto",
+      "",
+      "Katso kaikki tornin uumenissa kohtaamasi kortit.",
+      "Reliikkikokoelma",
+      "",
+      "Tutki pelikertojen aikana poimimia erilaisia rihkamia ja artefakteja.",
+      "Bestiaari",
+      "",
+      "Tämä ominaisuus ei vielä tarjolla.",
+      "Hahmotilastot",
+      "",
+      "Jokaisen hahmon kehityskulku ja tilastoinnit löytyvät täältä.",
+      "Tuloslista",
+      "",
+      "Katso ja vertaa pistemääriä ystävien ja muiden pelaajien kanssa.",
+      "Pelikerrat",
+      "",
+      "Kertaa aikaisempia yrityksiäsi tuhota torni.",
+      "Peliasetukset",
+      "",
+      "Vaihda resoluutiota ja muuta erinäisiä asetuksia päälle/pois.",
+      "Ohjainasetukset",
+      "",
+      "Muuta ohjainasetuksia ja pikanäppäimiä.",
+      "Lopputekstit",
+      "",
+      "Näe kaikki ihmiset, jotka ovat osallistuneet Slay the Spire -pelin kehitystyöhön!",
+      "Tuntematon",
+      "Pelaa Päivän nousu avataksesi tämän tilan.",
+      "Tämä ominaisuus ei ole vielä tarjolla.",
+      "Kustomoitu",
+      "Räätälöi oma pelikertasi erikoismääreillä.",
+      "Vaihda ohjaimesi.",
+      "Muuta grafiikka-, äänenvoimakkuus- ja peliasetuksia.",
+      "Laboratorio",
+      "Tarkastele lukuisia tornin ympäristöstä löytyviä taikaliemiä."
+    ]
+  },
+  "MerchantImageTextNotInGame": {
+    "TEXT": [
+      "Kortinpoistopalvelu",
+      "ALE",
+      "Ei myynnissä",
+      "Loppuunmyyty",
+      "Voi ei!"
+    ]
+  },
+  "MiscConsoleStrings": {
+    "TEXT": [
+      "Paina ",
+      " aloittaaksesi",
+      "Vaihda profiilia",
+      "Näyttöalue",
+      "On tapahtunut muutos kirjautumisessa. Ole hyvä ja kirjaudu uudestaan sisään tai poistu nimiruudulle.",
+      "Kirjaudu",
+      "Poistu"
+    ]
+  },
+  "OpeningAction": {
+    "TEXT": [
+      "Tuo vihollinen ei aio hyökätä!"
+    ]
+  },
+  "OptionsPanel": {
+    "TEXT": [
+      "",
+      "Peliasetukset",
+      "Grafiikka",
+      "Resoluutio: NL Nopein kuvanopeus:",
+      "Kokoruutu NL Reunaton kokoruutu (suositus) NL Ruudun tärinä",
+      "Äänenvoimakkuus",
+      "Kaikki NL Musiikki NL Efektit",
+      "Taustaääniefektit NL Hiljennä, kun peli on taustalla",
+      "Valinnat",
+      "Näytä summattu vaurio kultaisella NL Näytä torjuttu vaurio sinisellä NL Älä kysy vahvistusta, kun valittavissa vain 1 kortti",
+      "Pikatila",
+      "",
+      "Sekalaiset",
+      "Kieli:",
+      "Lähetä pelissä kertynyt data #b(?)",
+      "Poistu pelistä",
+      "Tallenna ja lopeta",
+      "NL NL VSync",
+      "Pelitestaajakuvitukset",
+      "Näytä korttien pikavalintanäppäimet",
+      "Ohjainasetukset",
+      "Poista partikkeliefektit",
+      "Resoluutio:",
+      "Resoluutio: NL Kokoruutumonitori:",
+      "Vaihtaa mitä monitoria käytetään, kun ollaan Kokonäytössä.",
+      "Pitkän painamisen varmistus",
+      "Isompi teksti"
+    ]
+  },
+  "PatchNotesScreen": {
+    "TEXT": [
+      "Palaa",
+      "#yPäivitystiedotteet",
+      " NL (VÄLIAKAINEN: Käytä nuolinäppäimiä lukeaksesi vanhempia tekstejä)"
+    ]
+  },
+  "PotionPopUp": {
+    "TEXT": [
+      "Heitä",
+      "Juo",
+      "Hylkää",
+      "En voi käyttää taikaliemiä!",
+      "En voi tehdä sitä taistelussa!"
+    ]
+  },
+  "PowerExpireTextEffect": {
+    "TEXT": [
+      "päättyi"
+    ]
+  },
+  "Proceed Button": {
+    "TEXT": [
+      "Jatka"
+    ]
+  },
+  "PutOnDeckAction": {
+    "TEXT": [
+      "nostopinon päälle laitettavaksi"
+    ]
+  },
+  "Recall Option": {
+    "TEXT": [
+      "Palauta",
+      "Ota Rubiiniavain."
+    ]
+  },
+  "RecycleAction": {
+    "TEXT": [
+      "kulutettavaksi"
+    ]
+  },
+  "PotionViewScreen": {
+    "TEXT": [
+      "Palaa",
+      "Yleiset:",
+      "Yleisesti Tornissa löydettävät pullot.",
+      "Harvinaiset:",
+      "Vahvempia taikaliemiä, joita kohdataan harvemmin kuin yleisesti löydettäviä.",
+      "Harvinaiset+:",
+      "Ainutlaatuisia ja voimakkaita liemiä, joihin harvoin törmää."
+    ]
+  },
+  "RelicViewScreen": {
+    "TEXT": [
+      "Palaa",
+      "Aloitus:",
+      "Hahmot voivat aloittaa näillä reliikeillä.",
+      "Yleiset:",
+      "Heikkoja, usein löytyviä reliikkejä.",
+      "Harvinaiset:",
+      "Vahvempia reliikkejä, joita löytää hieman harvemmin.",
+      "Harvinaiset+:",
+      "Uniikkeja ja voimakkaita, harvoin nähtyjä reliikkejä.",
+      "Pomo:",
+      "Reliikkejä, jotka voi löytää vain pomojen arkuista.",
+      "Tapahtuma:",
+      "Reliikkejä, jotka voi saada vain tapahtumista.",
+      "Kauppa:",
+      "Reliikkejä, jotka löytyvät vain kauppiaan valikoimista."
+    ]
+  },
+  "RenamePanel": {
+    "TEXT": [
+      "<ei nimeä>",
+      "Kirjoita nimesi",
+      "Vahvista",
+      "Peruuta"
+    ]
+  },
+  "ReprieveAction": {
+    "TEXT": [
+      "Tuo vihollinen aikoo hyökätä!"
+    ]
+  },
+  "ReprogramAction": {
+    "TEXT": [
+      "Valitse vapaasti kortteja poistettavaksi."
+    ]
+  },
+  "Rest Option": {
+    "TEXT": [
+      "Lepää",
+      "Paranna 100% maksimiOP:stäsi (",
+      " OP / ",
+      "Paranna 30% maksimiOP:stäsi (",
+      ""
+    ]
+  },
+  "RestartForChangesEffect": {
+    "TEXT": [
+      "Näyttöasetusten muutosten voimaantulo vaatii pelin uudelleenkäynnistämistä."
+    ]
+  },
+  "RetainCardsAction": {
+    "TEXT": [
+      "säilytettäväksi"
+    ]
+  },
+  "RewardItem": {
+    "TEXT": [
+      " kultaa (palautettu)",
+      " kultaa",
+      "Lisää kortti pakkaasi",
+      "",
+      "Valitse kortti",
+      "Smaragdiavain",
+      "Safiiriavain",
+      "Ketjutettu",
+      "Jos poimit tämän, ",
+      " poistetaan."
+    ]
+  },
+  "RunHistoryPathNodes": {
+    "TEXT": [
+      "Tuntematon",
+      "Vihollinen",
+      "Eliitti",
+      "Tapahtuma",
+      "Pomo",
+      "Aarre",
+      "Pomoaarre",
+      "Lepopaikka",
+      "Kauppias",
+      "Tuntematon (vihollinen)",
+      "Tuntematon (kauppias)",
+      "Tuntematon (aarre)",
+      "Kerros %1$s - %2$s",
+      "Kerros %s",
+      "#r%s vauriota",
+      "#r%s vuoroa",
+      "#r%s #r/ #r%s #rOP",
+      "#y%s #ykultaa",
+      "#yOtti: ",
+      "#yOhitti:",
+      "Puuttuva tieto",
+      "+2 MaksimiOP",
+      "[C] ",
+      "[T] ",
+      "[P] ",
+      "[S] ",
+      "#bLepäsi",
+      "#bParanteli %s",
+      "#bPoisti %s",
+      "#bKaivoi",
+      "#bNosti %s/%s",
+      "#yOsti:",
+      "#rKulutti ",
+      "#rOtti ",
+      "#rMenetti ",
+      "%s MaksimiOP",
+      "#bParansi ",
+      "#bLisäsi ",
+      "#bSivuutti ",
+      "%s OP",
+      "#bLöysi %s",
+      "#rKirottiin #r%s",
+      "%s vahinkoa",
+      "#bParanteli %s",
+      "#bMuutti %s",
+      "#rMenetti %s",
+      "#bPalautti"
+    ]
+  },
+  "RunHistoryMonsterNames": {
+    "TEXT": [
+      "Riiviökopla",
+      "Iso lima",
+      "Eksordium-roistoja",
+      "Eksordium-villieläimiä",
+      "Limaparvi",
+      "Pienet limat",
+      "Kaupunkilaisryöstäjät",
+      "Kolme tirppaa",
+      "Neljä tirppaa",
+      "Kultistikolmikko",
+      "Valittu parvi",
+      "Vartio ja sfäärivartija",
+      "Sadanpäämies ja mystikko",
+      "Loinen ja sienipeto",
+      "Naamioituneet maantierosvot",
+      "Colosseumin kihot",
+      "Colosseumin orjuuttajat",
+      "Kolme muotoa",
+      "Kitamatoparvi",
+      "Neljä muotoa",
+      "Sfäärivartija ja muodot",
+      "Tuplakuulakulkija",
+      "Donu ja Deca",
+      "Vartiot",
+      "Valittu ja kultisti",
+      "(Vanhentunut) Liekkimurskaaja",
+      "(Vanhentunut) Orjakauppias ja loinen",
+      "(Vanhentunut) Khärme ja mystikot",
+      "Kilpi ja keihäs"
+    ]
+  },
+  "RunHistoryScreen": {
+    "TEXT": [
+      "Rautasoturi",
+      "Hiljainen",
+      "Häiriö",
+      "Palaa",
+      "Pelikertoja ei saatavilla. NL Mene Kukistamaan Tornia!",
+      "Nousemustaso: ",
+      "Kukistettiin %1$d. kerroksessa, tappajana: %2$s",
+      "Jätti pelin kesken %d. kerroksessa",
+      "Voitto!",
+      "Kortit",
+      "Reliikit",
+      "aloitus",
+      "yleinen",
+      "harvinainen",
+      "harvinainen+",
+      "erikois",
+      "kirous",
+      "pomo",
+      "kauppa",
+      "Tuntematon",
+      "%1$d %2$s",
+      "%1$s (%2$d):",
+      "Pistemäärä: %d",
+      "Kaikki hahmot",
+      "Voitot ja tappiot",
+      "Voitot",
+      "Tappiot",
+      "Päivän nousu",
+      "Kaikki pelityypit",
+      "Vain tavallinen",
+      "Vain Nousemukset",
+      "Vain Päivän haasteet",
+      "Siemen: %s",
+      "Käyttäjäsiemen: %s",
+      "d.M.yyyy, H.mm",
+      "Tarkkailija"
+    ]
+  },
+  "SeedPanel": {
+    "TEXT": [
+      "0000000000",
+      "Kirjoita uusi siemenarvo",
+      "Vahvista",
+      "Peruuta",
+      "*Saavutukset ja pistetaulukot ovat poissa käytössä, jos käytetään käyttäjäsiemenarvoa.",
+      "*Pokaalit ja pistetaulukot ovat poissa käytössä, jos käytetään käyttäjäsiemenarvoa."
+    ]
+  },
+  "SettingsScreen": {
+    "TEXT": [
+      "Oletko varma?",
+      "Tallennamme pelisi automaattisesti.",
+      "Pelin hylkääminen lasketaan tappioksi.",
+      "VAROITUS:\nPeliä EI tallennettu.\n\nSaavuta seuraava kerros tallentaaksesi nykyinen pelikerta.",
+      "Palaa",
+      "Peliä EI tallenneta päivittäisissä haasteissa."
+    ]
+  },
+  "SetupAction": {
+    "TEXT": [
+      "nostopinon päälle laitettavaksi."
+    ]
+  },
+  "ForethoughtAction": {
+    "TEXT": [
+      "nostopinon alle laitettavaksi."
+    ]
+  },
+  "ShopRoom": {
+    "TEXT": [
+      "Ohita kauppias"
+    ]
+  },
+  "SingleCardViewPopup": {
+    "TEXT": [
+      "Hyökkäys",
+      "Taito",
+      "Voima",
+      "Kirous",
+      "Lukittu",
+      "Tuntematon",
+      "Näytä parannus",
+      "Status",
+      "",
+      "Voin pelata kortteja vain vuorollani.",
+      "Olen #rsotkeutunut! NL En voi pelata hyökkäyksiä",
+      "Ei tarpeeksi #renergiaa.",
+      "Ei tarpeeksi #rvarausta.",
+      "En voi pelata NL tätä korttia.",
+      "Beetataide"
+    ]
+  },
+  "SingleViewRelicPopup": {
+    "TEXT": [
+      "Pomo",
+      "Yleinen ",
+      "Vanhentunut ",
+      "Erittäin harvinainen ",
+      "Kauppa",
+      "Tapahtuma",
+      "Aloitus",
+      "Harvinainen ",
+      "Lukittu",
+      "Tuntematon",
+      "reliikki",
+      "Tätä reliikkiä ei ole vielä avattu.",
+      "Tätä reliikkiä ei ole vielä nähty."
+    ]
+  },
+  "SkillFromDeckToHandAction": {
+    "TEXT": [
+      "Valitse Taito käteesi lisättäväksi"
+    ]
+  },
+  "Smith Option": {
+    "TEXT": [
+      "Tao",
+      "Parantele yhtä pakkasi korttia.",
+      "Ei paranneltavissa olevaa korttia."
+    ]
+  },
+  "StorePotion": {
+    "TEXT": [
+      "Sinulla ei ole tälle tilaa"
+    ]
+  },
+  "TheBeyond": {
+    "TEXT": [
+      "Tuonpuoleinen"
+    ]
+  },
+  "TheCity": {
+    "TEXT": [
+      "Kaupunki"
+    ]
+  },
+  "TheEnding": {
+    "TEXT": [
+      "Lopetus"
+    ]
+  },
+  "TipHelper": {
+    "TEXT": [
+      "Energia"
+    ]
+  },
+  "Toke Option": {
+    "TEXT": [
+      "Imaise",
+      "Poista kortti pakastasi."
+    ]
+  },
+  "TopPanel": {
+    "TEXT": [
+      " kerros",
+      " - Nousemus ",
+      " (Ääritaso)"
+    ]
+  },
+  "TreasureRoom": {
+    "TEXT": [
+      "Ohita arkku"
+    ]
+  },
+  "TreasureRoomBoss": {
+    "TEXT": [
+      "Ohita arkku"
+    ]
+  },
+  "TwitchVoter": {
+    "TEXT": [
+      "ÄÄNESTÄ NYT: "
+    ]
+  },
+  "Unlock Confirm Button": {
+    "TEXT": [
+      "Jatka"
+    ]
+  },
+  "UnlockCharacterScreen": {
+    "TEXT": [
+      "Kortteja avattu!",
+      "",
+      "Reliikkejä avattu!",
+      "Uusi hahmo",
+      "Huom: Avatut kortit ilmaantuvat tulevilla pelikerroilla.",
+      "Huom: Avatut reliikit ilmaantuvat tulevilla pelikerroilla."
+    ]
+  },
+  "UnlockScreen": {
+    "TEXT": [
+      "Kortteja avattu!",
+      "Reliikkejä avattu!",
+      "Uusi hahmo",
+      "Huom: Avatut kortit ilmaantuvat tulevilla pelikerroilla.",
+      "Huom: Avatut reliikit ilmaantuvat tulevilla pelikerroilla."
+    ]
+  },
+  "UnlockTextEffect": {
+    "TEXT": [
+      "Lukko avattu!"
+    ]
+  },
+  "CustomModeScreen": {
+    "TEXT": [
+      "Kustomointitila",
+      "Saavutukset ja pistetaulukot ei käytössä.",
+      "Hahmo",
+      "Nousemus",
+      "Taso ",
+      "Nousemustila",
+      "Määritteet",
+      "Siemen",
+      "Aseta siemen",
+      "Pokaalit ja pistetaulukot ei käytössä."
+    ]
+  },
+  "SaveSlot": {
+    "TEXT": [
+      "Peliaika ",
+      "Tyhjä paikka"
+    ]
+  },
+  "SaveSlotScreen": {
+    "TEXT": [
+      "Valitse tallennuspaikka",
+      "Nimeä uudelleen",
+      "Poista tämä tallenne"
+    ]
+  },
+  "VictoryScreen": {
+    "TEXT": [
+      "Jatka",
+      "Kerroksia kiivetty",
+      "Kukistettuja pomoja",
+      "Peliaika",
+      "Pistemäärä",
+      "Avaa",
+      "Avattavaa jäljellä: ",
+      "Avattava jäljellä: ",
+      "Surmattuja vihollisia",
+      "Surmattuja eliittejä",
+      "Säästetty kulta",
+      "OP bonus",
+      "Voitto!"
+    ]
+  },
+  "Period": {
+    "TEXT": [
+      "."
+    ]
+  },
+  "BetaArtUnlockEffect": {
+    "TEXT": [
+      "Rautasoturin beeta-korttitaide avattu!",
+      "Hiljaisuuden beeta-korttitaide avattu!",
+      "Häiriön beeta-korttitaide avattu!",
+      "Kaikki beeta-korttitaiteet avattu!",
+      "Tarkkailijan beeta-korttitaide avattu!"
+    ]
+  },
+  "RichPresence": {
+    "TEXT": [
+      "Päivän - Kerros %s",
+      "Kustomoitu - Kerros %s",
+      " K%s",
+      "Päävalikko",
+      "N%s "
+    ]
+  },
+  "ClarityAction": {
+    "TEXT": [
+      "Valitse 1 kortti pidettäväksi. Muut kulutetaan."
+    ]
+  },
+  "WishAction": {
+    "TEXT": [
+      "Valitse kortti pelattavaksi."
+    ]
+  },
+  "SyncMessage": {
+    "TEXT": [
+      "Synkataan dataa..."
+    ]
+  }
+}

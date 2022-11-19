@@ -1,0 +1,26 @@
+{
+  "Neutral": {
+    "NAME": "",
+    "DESCRIPTION": [
+      ""
+    ]
+  },
+  "Wrath": {
+    "NAME": "Raivo",
+    "DESCRIPTION": [
+      "Hyökkäyksesi jakavat tuplasti enemmän vauriota ja otat tuplasti enemmän vauriota hyökkäyksistä."
+    ]
+  },
+  "Calm": {
+    "NAME": "Tyyneys",
+    "DESCRIPTION": [
+      "Saa [W] [W] poistuessasi tästä #yasennosta."
+    ]
+  },
+  "Divinity": {
+    "NAME": "Jumaluus",
+    "DESCRIPTION": [
+      "Saa [W] [W] [W] kun menet tähän asentoon. Hyökkäykset tekevät kolminkertaista vauriota. Poistu tästä #yasennosta seuraavan vuorosi alussa."
+    ]
+  }
+}
