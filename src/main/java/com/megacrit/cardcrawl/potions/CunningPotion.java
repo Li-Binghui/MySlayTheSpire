@@ -1,16 +1,18 @@
 /*    */ package com.megacrit.cardcrawl.potions;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
-/*    */ import com.megacrit.cardcrawl.cards.tempCards.Shiv;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*    */ import com.megacrit.cardcrawl.localization.PotionStrings;
-/*    */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.cards.tempCards.Shiv;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.PowerTip;
+import com.megacrit.cardcrawl.localization.PotionStrings;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 /*    */ 
 /*    */ public class CunningPotion extends AbstractPotion {
 /*    */   public static final String POTION_ID = "CunningPotion";

@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.actions.watcher;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.InstantKillAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.InstantKillAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.Settings;
 /*    */ 
 /*    */ public class JudgementAction
 /*    */   extends AbstractGameAction {

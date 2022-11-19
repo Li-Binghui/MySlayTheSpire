@@ -1,13 +1,16 @@
 /*     */ package com.megacrit.cardcrawl.characters;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.Prefs;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import com.megacrit.cardcrawl.screens.stats.CharStat;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.Prefs;
+import com.megacrit.cardcrawl.random.Random;
+import com.megacrit.cardcrawl.screens.stats.CharStat;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

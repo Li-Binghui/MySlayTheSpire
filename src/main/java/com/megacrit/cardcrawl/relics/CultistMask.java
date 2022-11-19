@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.animations.TalkAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
-/*    */ import com.megacrit.cardcrawl.actions.utility.SFXAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.TalkAction;
+import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 /*    */ 
 /*    */ public class CultistMask extends AbstractRelic {
 /*    */   public CultistMask() {

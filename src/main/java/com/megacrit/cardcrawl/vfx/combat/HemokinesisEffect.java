@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 /*    */ 
 /*    */ public class HemokinesisEffect extends AbstractGameEffect {
 /*    */   private float x;

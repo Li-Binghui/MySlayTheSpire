@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.audio;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.math.Interpolation;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.Interpolation;
 /*    */ 
 /*    */ public class SoundInfo {
 /*    */   public String name;

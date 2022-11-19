@@ -1,15 +1,18 @@
 /*    */ package com.megacrit.cardcrawl.cards.deprecated;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.optionCards.ChooseCalm;
-/*    */ import com.megacrit.cardcrawl.cards.optionCards.ChooseWrath;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.CardStrings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.optionCards.ChooseCalm;
+import com.megacrit.cardcrawl.cards.optionCards.ChooseWrath;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ public class DEPRECATEDPolymath extends AbstractCard {
 /*    */   public static final String ID = "Polymath";

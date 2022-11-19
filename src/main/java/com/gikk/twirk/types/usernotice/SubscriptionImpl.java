@@ -1,9 +1,12 @@
 /*    */ package com.gikk.twirk.types.usernotice;
 /*    */ 
-/*    */ import com.gikk.twirk.types.usernotice.subtype.Subscription;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.SubscriptionGift;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.SubscriptionPlan;
-/*    */ import java.util.Optional;
+/*    */
+
+import com.gikk.twirk.types.usernotice.subtype.Subscription;
+import com.gikk.twirk.types.usernotice.subtype.SubscriptionGift;
+import com.gikk.twirk.types.usernotice.subtype.SubscriptionPlan;
+
+import java.util.Optional;
 /*    */ 
 /*    */ 
 /*    */ 

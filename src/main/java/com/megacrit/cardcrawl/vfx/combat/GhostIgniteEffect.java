@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.FireBurstParticleEffect;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.FireBurstParticleEffect;
 /*    */ 
 /*    */ public class GhostIgniteEffect
 /*    */   extends AbstractGameEffect {

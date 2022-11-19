@@ -1,17 +1,20 @@
 /*    */ package com.megacrit.cardcrawl.actions.watcher;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.utility.WaitAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*    */ import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
+import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ public class LessonLearnedAction
 /*    */   extends AbstractGameAction

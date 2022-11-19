@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.powers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*    */ 
 /*    */ public class ThornsPower
 /*    */   extends AbstractPower

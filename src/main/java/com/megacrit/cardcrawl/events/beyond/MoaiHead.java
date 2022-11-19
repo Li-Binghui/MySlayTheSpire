@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.events.beyond;
 /*    */ 
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*    */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*    */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*    */ import com.megacrit.cardcrawl.relics.GoldenIdol;
-/*    */ import com.megacrit.cardcrawl.vfx.RainingGoldEffect;
+/*    */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.GoldenIdol;
+import com.megacrit.cardcrawl.vfx.RainingGoldEffect;
 /*    */ 
 /*    */ public class MoaiHead
 /*    */   extends AbstractImageEvent {

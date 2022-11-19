@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.integrations;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.integrations.discord.DiscordIntegration;
-/*    */ import com.megacrit.cardcrawl.integrations.ea.EaIntegration;
-/*    */ import com.megacrit.cardcrawl.integrations.gog.GogIntegration;
-/*    */ import com.megacrit.cardcrawl.integrations.microsoft.MicrosoftIntegration;
-/*    */ import com.megacrit.cardcrawl.integrations.steam.SteamIntegration;
-/*    */ import com.megacrit.cardcrawl.integrations.wegame.WeGameIntegration;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.integrations.discord.DiscordIntegration;
+import com.megacrit.cardcrawl.integrations.ea.EaIntegration;
+import com.megacrit.cardcrawl.integrations.gog.GogIntegration;
+import com.megacrit.cardcrawl.integrations.microsoft.MicrosoftIntegration;
+import com.megacrit.cardcrawl.integrations.steam.SteamIntegration;
+import com.megacrit.cardcrawl.integrations.wegame.WeGameIntegration;
 /*    */ 
 /*    */ 
 /*    */ 

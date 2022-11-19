@@ -1,23 +1,26 @@
 /*     */ package com.megacrit.cardcrawl.events.exordium;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*     */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Collections;
-/*     */ import java.util.List;
-/*     */ import java.util.Random;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
+import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 /*     */ 
 /*     */ public class ShiningLight extends AbstractImageEvent {
 /*     */   public static final String ID = "Shining Light";

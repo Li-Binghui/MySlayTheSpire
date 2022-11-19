@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureRegion;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 /*    */ 
 /*    */ public class OmegaFlashEffect
 /*    */   extends AbstractGameEffect {

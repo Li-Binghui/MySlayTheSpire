@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.relics;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*    */ import com.megacrit.cardcrawl.powers.ThornsPower;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.ThornsPower;
 /*    */ 
 /*    */ public class BronzeScales extends AbstractRelic {
 /*    */   public static final String ID = "Bronze Scales";

@@ -1,19 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.helpers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.trials.AbstractTrial;
-/*    */ import com.megacrit.cardcrawl.trials.AnyColorDraftTrial;
-/*    */ import com.megacrit.cardcrawl.trials.CursedTrial;
-/*    */ import com.megacrit.cardcrawl.trials.DraftTrial;
-/*    */ import com.megacrit.cardcrawl.trials.HoarderTrial;
-/*    */ import com.megacrit.cardcrawl.trials.InceptionTrial;
-/*    */ import com.megacrit.cardcrawl.trials.LoseMaxHpTrial;
-/*    */ import com.megacrit.cardcrawl.trials.MyTrueFormTrial;
-/*    */ import com.megacrit.cardcrawl.trials.OneHpTrial;
-/*    */ import com.megacrit.cardcrawl.trials.RandomModsTrial;
-/*    */ import com.megacrit.cardcrawl.trials.SlowpokeTrial;
-/*    */ import com.megacrit.cardcrawl.trials.SneckoTrial;
-/*    */ import com.megacrit.cardcrawl.trials.StarterDeckTrial;
-/*    */ import java.util.HashMap;
+/*    */
+
+import com.megacrit.cardcrawl.trials.*;
+
+import java.util.HashMap;
 /*    */ 
 /*    */ 
 /*    */ public class TrialHelper

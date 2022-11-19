@@ -1,27 +1,26 @@
 /*     */ package com.megacrit.cardcrawl.screens;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.badlogic.gdx.math.Vector2;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.map.DungeonMap;
-/*     */ import com.megacrit.cardcrawl.map.MapRoomNode;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.LevelTransitionTextOverlayEffect;
-/*     */ import java.util.ArrayList;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.Vector2;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.map.DungeonMap;
+import com.megacrit.cardcrawl.map.MapRoomNode;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.scene.LevelTransitionTextOverlayEffect;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

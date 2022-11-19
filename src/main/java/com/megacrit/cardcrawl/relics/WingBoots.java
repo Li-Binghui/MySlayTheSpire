@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*    */
+
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 /*    */ 
 /*    */ public class WingBoots extends AbstractRelic {
 /*    */   public static final String ID = "WingedGreaves";

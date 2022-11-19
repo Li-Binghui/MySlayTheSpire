@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*    */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 /*    */ 
 /*    */ public class PrismaticShard extends AbstractRelic {
 /*    */   public static final String ID = "PrismaticShard";

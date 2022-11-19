@@ -1,7 +1,10 @@
 /*    */ package com.gikk.twirk.types.emote;
 /*    */ 
-/*    */ import com.gikk.twirk.enums.EMOTE_SIZE;
-/*    */ import java.util.LinkedList;
+/*    */
+
+import com.gikk.twirk.enums.EMOTE_SIZE;
+
+import java.util.LinkedList;
 /*    */ 
 /*    */ 
 /*    */ 

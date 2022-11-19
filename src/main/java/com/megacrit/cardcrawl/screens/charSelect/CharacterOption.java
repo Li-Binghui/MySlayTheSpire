@@ -1,24 +1,20 @@
 /*     */ package com.megacrit.cardcrawl.screens.charSelect;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Prefs;
-/*     */ import com.megacrit.cardcrawl.helpers.RelicLibrary;
-/*     */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.screens.CharSelectInfo;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.screens.CharSelectInfo;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
 /*     */ 
 /*     */ 
 /*     */ 

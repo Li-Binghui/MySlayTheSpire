@@ -1,15 +1,17 @@
 /*     */ package com.megacrit.cardcrawl.screens;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.screens.compendium.CardLibSortHeader;
-/*     */ import com.megacrit.cardcrawl.screens.mainMenu.SortHeaderButton;
-/*     */ import com.megacrit.cardcrawl.screens.mainMenu.SortHeaderButtonListener;
-/*     */ import java.util.Comparator;
+import com.megacrit.cardcrawl.screens.compendium.CardLibSortHeader;
+import com.megacrit.cardcrawl.screens.mainMenu.SortHeaderButton;
+import com.megacrit.cardcrawl.screens.mainMenu.SortHeaderButtonListener;
+
+import java.util.Comparator;
 /*     */ 
 /*     */ public class MasterDeckSortHeader extends CardLibSortHeader {
 /*     */   private static final int BAR_W = 1334;

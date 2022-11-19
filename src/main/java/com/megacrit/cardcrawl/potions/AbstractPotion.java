@@ -1,30 +1,28 @@
 /*     */ package com.megacrit.cardcrawl.potions;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.GameDataStringBuilder;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*     */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.ui.panels.TopPanel;
-/*     */ import com.megacrit.cardcrawl.vfx.FlashPotionEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.RarePotionParticleEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.UncommonPotionParticleEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Iterator;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.ui.panels.TopPanel;
+import com.megacrit.cardcrawl.vfx.FlashPotionEffect;
+import com.megacrit.cardcrawl.vfx.RarePotionParticleEffect;
+import com.megacrit.cardcrawl.vfx.UncommonPotionParticleEffect;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /*     */ 
 /*     */ 
 /*     */ 

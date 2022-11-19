@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.rewards.RewardItem;
+/*    */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.rewards.RewardItem;
 /*    */ 
 /*    */ public class MoltenEgg2 extends AbstractRelic {
 /*    */   public static final String ID = "Molten Egg 2";

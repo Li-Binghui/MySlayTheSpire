@@ -1,21 +1,23 @@
 /*    */ package com.megacrit.cardcrawl.helpers.steamInput;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
+/*    */
 
-/*    */ import com.badlogic.gdx.utils.Array;
-/*    */ import com.codedisaster.steamworks.SteamAPI;
-/*    */ import com.codedisaster.steamworks.SteamController;
-/*    */ import com.codedisaster.steamworks.SteamControllerActionSetHandle;
-/*    */ import com.codedisaster.steamworks.SteamControllerHandle;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
-/*    */ import java.util.ArrayList;
-/*    */ import net.java.games.input.Controller;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.utils.Array;
+import com.codedisaster.steamworks.SteamAPI;
+import com.codedisaster.steamworks.SteamController;
+import com.codedisaster.steamworks.SteamControllerActionSetHandle;
+import com.codedisaster.steamworks.SteamControllerHandle;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
+import net.java.games.input.Controller;
 import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ 
 /*    */ 

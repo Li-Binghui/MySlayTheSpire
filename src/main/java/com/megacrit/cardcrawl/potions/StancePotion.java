@@ -1,19 +1,22 @@
 /*    */ package com.megacrit.cardcrawl.potions;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.optionCards.ChooseCalm;
-/*    */ import com.megacrit.cardcrawl.cards.optionCards.ChooseWrath;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.GameDictionary;
-/*    */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*    */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*    */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*    */ import com.megacrit.cardcrawl.localization.PotionStrings;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.optionCards.ChooseCalm;
+import com.megacrit.cardcrawl.cards.optionCards.ChooseWrath;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.GameDictionary;
+import com.megacrit.cardcrawl.helpers.PowerTip;
+import com.megacrit.cardcrawl.helpers.TipHelper;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.PotionStrings;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ public class StancePotion extends AbstractPotion {
 /*    */   public static final String POTION_ID = "StancePotion";

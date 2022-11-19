@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.FontHelper;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.FontHelper;
 /*    */ 
 /*    */ public class SumDamageEffect extends AbstractGameEffect {
 /*    */   private static final float EFFECT_DUR = 2.5F;

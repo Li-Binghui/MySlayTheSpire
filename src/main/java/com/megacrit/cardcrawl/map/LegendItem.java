@@ -1,12 +1,14 @@
 /*     */ package com.megacrit.cardcrawl.map;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.TipHelper;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.TipHelper;
 /*     */ 
 /*     */ public class LegendItem {
 /*  12 */   private static final float ICON_X = 1575.0F * Settings.xScale;

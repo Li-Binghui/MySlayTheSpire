@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.cards.blue;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.CardStrings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 /*    */ 
 /*    */ public class WhiteNoise extends AbstractCard {
 /* 13 */   private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("White Noise"); public static final String ID = "White Noise";

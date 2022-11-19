@@ -1,15 +1,18 @@
 /*    */ package com.megacrit.cardcrawl.actions.deprecated;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.stances.AbstractStance;
-/*    */ import com.megacrit.cardcrawl.stances.CalmStance;
-/*    */ import com.megacrit.cardcrawl.stances.WrathStance;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.Collections;
-/*    */ import java.util.Random;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.stances.AbstractStance;
+import com.megacrit.cardcrawl.stances.CalmStance;
+import com.megacrit.cardcrawl.stances.WrathStance;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 /*    */ 
 /*    */ 
 /*    */ 

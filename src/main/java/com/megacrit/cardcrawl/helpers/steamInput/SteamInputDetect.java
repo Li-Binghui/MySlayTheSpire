@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.helpers.steamInput;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*    */ 
 /*    */ public class SteamInputDetect
 /*    */   implements Runnable {

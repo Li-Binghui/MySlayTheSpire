@@ -1,10 +1,6 @@
 package com.codedisaster.steamworks;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.UUID;
 
 /* loaded from: desktop-1.0.jar:com/codedisaster/steamworks/SteamSharedLibraryLoader.class */

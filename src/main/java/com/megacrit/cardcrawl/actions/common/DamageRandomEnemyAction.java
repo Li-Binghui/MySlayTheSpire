@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.actions.common;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 /*    */ 
 /*    */ public class DamageRandomEnemyAction extends AbstractGameAction {
 /*    */   private DamageInfo info;

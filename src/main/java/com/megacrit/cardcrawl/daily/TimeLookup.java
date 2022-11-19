@@ -1,11 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.daily;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.Net;
-/*    */ import com.badlogic.gdx.net.HttpRequestBuilder;
-/*    */ import java.util.concurrent.atomic.AtomicInteger;
-/*    */ import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Net;
+import com.badlogic.gdx.net.HttpRequestBuilder;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.concurrent.atomic.AtomicInteger;
 /*    */ 
 /*    */ 
 /*    */ public class TimeLookup

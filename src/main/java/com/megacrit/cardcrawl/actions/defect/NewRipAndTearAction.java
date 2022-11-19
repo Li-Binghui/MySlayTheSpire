@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.actions.defect;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.animations.VFXAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.AttackDamageRandomEnemyAction;
-/*    */ import com.megacrit.cardcrawl.actions.utility.WaitAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.combat.RipAndTearEffect;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.AttackDamageRandomEnemyAction;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.combat.RipAndTearEffect;
 /*    */ 
 /*    */ public class NewRipAndTearAction extends AttackDamageRandomEnemyAction {
 /*    */   public NewRipAndTearAction(AbstractCard card) {

@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.vfx.scene;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.math.Interpolation;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Interpolation;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 /*    */ 
 /*    */ public class LevelTransitionTextOverlayEffect
 /*    */   extends AbstractGameEffect {

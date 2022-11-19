@@ -1,20 +1,23 @@
 /*     */ package com.megacrit.cardcrawl.events.beyond;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.cards.colorless.Madness;
-/*     */ import com.megacrit.cardcrawl.cards.curses.Writhe;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*     */ import com.megacrit.cardcrawl.helpers.CardLibrary;
-/*     */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.List;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.colorless.Madness;
+import com.megacrit.cardcrawl.cards.curses.Writhe;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.helpers.CardLibrary;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+
+import java.util.ArrayList;
+import java.util.List;
 /*     */ 
 /*     */ public class WindingHalls
 /*     */   extends AbstractImageEvent

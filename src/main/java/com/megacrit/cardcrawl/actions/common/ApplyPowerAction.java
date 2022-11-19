@@ -1,20 +1,23 @@
 /*     */ package com.megacrit.cardcrawl.actions.common;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.PowerBuffEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.PowerDebuffEffect;
-/*     */ import java.util.Collections;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
+import com.megacrit.cardcrawl.vfx.combat.PowerBuffEffect;
+import com.megacrit.cardcrawl.vfx.combat.PowerDebuffEffect;
+
+import java.util.Collections;
 /*     */ 
 /*     */ 
 /*     */ 

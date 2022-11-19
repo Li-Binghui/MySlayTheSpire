@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.daily.mods;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.RunModStrings;
+/*    */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.RunModStrings;
 /*    */ 
 /*    */ public class GreenCards extends AbstractDailyMod {
 /*    */   public static final String ID = "Green Cards";

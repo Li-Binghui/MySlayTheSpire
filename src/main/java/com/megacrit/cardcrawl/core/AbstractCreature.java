@@ -1,42 +1,29 @@
 /*      */ package com.megacrit.cardcrawl.core;
 /*      */ 
-/*      */ import com.badlogic.gdx.Gdx;
-/*      */ import com.badlogic.gdx.graphics.Color;
-/*      */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*      */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*      */ import com.badlogic.gdx.math.Interpolation;
-/*      */ import com.badlogic.gdx.math.MathUtils;
-/*      */ import com.esotericsoftware.spine.AnimationState;
-/*      */ import com.esotericsoftware.spine.AnimationStateData;
-/*      */ import com.esotericsoftware.spine.Skeleton;
-/*      */ import com.esotericsoftware.spine.SkeletonData;
-/*      */ import com.esotericsoftware.spine.SkeletonJson;
-/*      */ import com.esotericsoftware.spine.SkeletonRenderer;
-/*      */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*      */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*      */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*      */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*      */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*      */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*      */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*      */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*      */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*      */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*      */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*      */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*      */ import com.megacrit.cardcrawl.vfx.TextAboveCreatureEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.TintEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.combat.BlockImpactLineEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.combat.BlockedNumberEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.combat.BlockedWordEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.combat.HbBlockBrokenEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.combat.HealEffect;
-/*      */ import java.util.ArrayList;
-/*      */ import org.apache.logging.log4j.LogManager;
-/*      */ import org.apache.logging.log4j.Logger;
+/*      */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.*;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.TextAboveCreatureEffect;
+import com.megacrit.cardcrawl.vfx.TintEffect;
+import com.megacrit.cardcrawl.vfx.combat.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*      */ 
 /*      */ 
 /*      */ 

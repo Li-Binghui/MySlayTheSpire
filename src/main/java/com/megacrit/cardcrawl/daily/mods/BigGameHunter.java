@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.daily.mods;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.RunModStrings;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.RunModStrings;
 /*    */ 
 /*    */ public class BigGameHunter extends AbstractDailyMod {
 /*    */   public static final String ID = "Elite Swarm";

@@ -1,11 +1,14 @@
 /*     */ package com.gikk.twirk.types.twitchMessage;
 /*     */ 
-/*     */ import com.gikk.twirk.types.TagMap;
-/*     */ import com.gikk.twirk.types.cheer.Cheer;
-/*     */ import com.gikk.twirk.types.cheer.CheerParser;
-/*     */ import com.gikk.twirk.types.emote.Emote;
-/*     */ import com.gikk.twirk.types.emote.EmoteParser;
-/*     */ import java.util.List;
+/*     */
+
+import com.gikk.twirk.types.TagMap;
+import com.gikk.twirk.types.cheer.Cheer;
+import com.gikk.twirk.types.cheer.CheerParser;
+import com.gikk.twirk.types.emote.Emote;
+import com.gikk.twirk.types.emote.EmoteParser;
+
+import java.util.List;
 /*     */ 
 /*     */ class DefaultTwitchMessageBuilder
 /*     */   implements TwitchMessageBuilder

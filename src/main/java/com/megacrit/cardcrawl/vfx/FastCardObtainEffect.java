@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.CardHelper;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*    */ import com.megacrit.cardcrawl.relics.Omamori;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.CardHelper;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.Omamori;
 /*    */ 
 /*    */ 
 /*    */ 

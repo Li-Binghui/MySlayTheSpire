@@ -1,23 +1,12 @@
 /*     */ package com.esotericsoftware.spine;
 /*     */ 
-/*     */ import com.badlogic.gdx.files.FileHandle;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*     */ import com.badlogic.gdx.utils.Array;
-/*     */ import com.badlogic.gdx.utils.FloatArray;
-/*     */ import com.badlogic.gdx.utils.IntArray;
-/*     */ import com.badlogic.gdx.utils.JsonReader;
-/*     */ import com.badlogic.gdx.utils.JsonValue;
-/*     */ import com.badlogic.gdx.utils.SerializationException;
-/*     */ import com.esotericsoftware.spine.attachments.AtlasAttachmentLoader;
-/*     */ import com.esotericsoftware.spine.attachments.Attachment;
-/*     */ import com.esotericsoftware.spine.attachments.AttachmentLoader;
-/*     */ import com.esotericsoftware.spine.attachments.AttachmentType;
-/*     */ import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
-/*     */ import com.esotericsoftware.spine.attachments.MeshAttachment;
-/*     */ import com.esotericsoftware.spine.attachments.PathAttachment;
-/*     */ import com.esotericsoftware.spine.attachments.RegionAttachment;
-/*     */ import com.esotericsoftware.spine.attachments.VertexAttachment;
+/*     */
+
+import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.utils.*;
+import com.esotericsoftware.spine.attachments.*;
 /*     */ 
 /*     */ 
 /*     */ 

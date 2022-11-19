@@ -1,17 +1,19 @@
 /*     */ package com.megacrit.cardcrawl.screens.mainMenu;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.screens.SingleCardViewPopup;
-/*     */ import com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.screens.SingleCardViewPopup;
+import com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen;
 /*     */ 
 /*     */ public class ColorTabBar {
 /*  17 */   private static final float TAB_SPACING = 198.0F * Settings.xScale; private static final int BAR_W = 1334; private static final int BAR_H = 102;

@@ -1,16 +1,19 @@
 /*     */ package com.megacrit.cardcrawl.core;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.helpers.Prefs;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
-/*     */ import com.megacrit.cardcrawl.screens.DisplayOption;
-/*     */ import com.megacrit.cardcrawl.screens.custom.CustomModeScreen;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.helpers.Prefs;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
+import com.megacrit.cardcrawl.screens.DisplayOption;
+import com.megacrit.cardcrawl.screens.custom.CustomModeScreen;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ public class Settings

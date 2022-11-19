@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.actions.defect;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 /*    */ 
 /*    */ public class FTLAction extends AbstractGameAction {
 /*    */   private DamageInfo info;

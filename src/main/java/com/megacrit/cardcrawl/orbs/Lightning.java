@@ -1,28 +1,30 @@
 /*     */ package com.megacrit.cardcrawl.orbs;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.VFXAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
-/*     */ import com.megacrit.cardcrawl.actions.defect.LightningOrbEvokeAction;
-/*     */ import com.megacrit.cardcrawl.actions.defect.LightningOrbPassiveAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.SFXAction;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.localization.OrbStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.LightningEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.LightningOrbActivateEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.LightningOrbPassiveEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.OrbFlareEffect;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
+import com.megacrit.cardcrawl.actions.defect.LightningOrbEvokeAction;
+import com.megacrit.cardcrawl.actions.defect.LightningOrbPassiveAction;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.localization.OrbStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.combat.LightningEffect;
+import com.megacrit.cardcrawl.vfx.combat.LightningOrbActivateEffect;
+import com.megacrit.cardcrawl.vfx.combat.LightningOrbPassiveEffect;
+import com.megacrit.cardcrawl.vfx.combat.OrbFlareEffect;
 /*     */ 
 /*     */ 
 /*     */ public class Lightning

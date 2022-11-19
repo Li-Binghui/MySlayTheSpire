@@ -1,18 +1,21 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.GlyphLayout;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureRegion;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ public class TipHelper
 /*     */ {

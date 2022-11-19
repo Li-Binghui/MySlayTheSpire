@@ -1,9 +1,12 @@
 /*     */ package com.megacrit.cardcrawl.screens;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.HashMap;
-/*     */ import java.util.Map;
+/*     */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 /*     */ 
 /*     */ 
 /*     */ 

@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.blights;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*    */ import com.megacrit.cardcrawl.localization.BlightStrings;
+/*    */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.PowerTip;
+import com.megacrit.cardcrawl.localization.BlightStrings;
 /*    */ 
 /*    */ public class VoidEssence extends AbstractBlight {
 /*    */   public static final String ID = "VoidEssence";

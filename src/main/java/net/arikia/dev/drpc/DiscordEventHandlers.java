@@ -1,14 +1,12 @@
 /*    */ package net.arikia.dev.drpc;
 /*    */ 
-/*    */ import com.sun.jna.Structure;
-/*    */ import java.util.Arrays;
-/*    */ import java.util.List;
-/*    */ import net.arikia.dev.drpc.callbacks.DisconnectedCallback;
-/*    */ import net.arikia.dev.drpc.callbacks.ErroredCallback;
-/*    */ import net.arikia.dev.drpc.callbacks.JoinGameCallback;
-/*    */ import net.arikia.dev.drpc.callbacks.JoinRequestCallback;
-/*    */ import net.arikia.dev.drpc.callbacks.ReadyCallback;
-/*    */ import net.arikia.dev.drpc.callbacks.SpectateGameCallback;
+/*    */
+
+import com.sun.jna.Structure;
+import net.arikia.dev.drpc.callbacks.*;
+
+import java.util.Arrays;
+import java.util.List;
 /*    */ 
 /*    */ public class DiscordEventHandlers
 /*    */   extends Structure {

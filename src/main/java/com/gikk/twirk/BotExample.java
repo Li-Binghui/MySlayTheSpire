@@ -1,11 +1,14 @@
 /*    */ package com.gikk.twirk;
 /*    */ 
-/*    */ import com.gikk.twirk.commands.PatternCommandExample;
-/*    */ import com.gikk.twirk.commands.PrefixCommandExample;
-/*    */ import com.gikk.twirk.events.TwirkListener;
-/*    */ import java.io.IOException;
-/*    */ import java.io.InputStreamReader;
-/*    */ import java.util.Scanner;
+/*    */
+
+import com.gikk.twirk.commands.PatternCommandExample;
+import com.gikk.twirk.commands.PrefixCommandExample;
+import com.gikk.twirk.events.TwirkListener;
+
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
 /*    */ 
 /*    */ 
 /*    */ 

@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.rewards.chests;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
+/*    */
+
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 /*    */ 
 /*    */ public class SmallChest
 /*    */   extends AbstractChest {

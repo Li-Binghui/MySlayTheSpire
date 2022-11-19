@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*    */ import com.megacrit.cardcrawl.localization.LocalizedStrings;
+/*    */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.localization.LocalizedStrings;
 /*    */ 
 /*    */ public class DarkstonePeriapt
 /*    */   extends AbstractRelic

@@ -1,12 +1,14 @@
 /*     */ package com.megacrit.cardcrawl.audio;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.audio.Music;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Music;
+import com.badlogic.gdx.math.Interpolation;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*     */ 
 /*     */ public class TempMusic
 /*     */ {

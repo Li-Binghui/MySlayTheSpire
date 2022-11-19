@@ -1,34 +1,37 @@
 /*     */ package com.megacrit.cardcrawl.events.shrines;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.CardGroup;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.cards.curses.Decay;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*     */ import com.megacrit.cardcrawl.events.GenericEventDialog;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.vfx.RainingGoldEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
-/*     */ import java.util.Objects;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.curses.Decay;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.events.GenericEventDialog;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.vfx.RainingGoldEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.Objects;
 /*     */ 
 /*     */ 
 /*     */ 

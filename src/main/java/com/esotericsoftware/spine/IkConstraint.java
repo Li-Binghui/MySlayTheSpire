@@ -1,7 +1,9 @@
 /*     */ package com.esotericsoftware.spine;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.badlogic.gdx.utils.Array;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.utils.Array;
 /*     */ 
 /*     */ 
 /*     */ 

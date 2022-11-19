@@ -1,23 +1,25 @@
 /*     */ package com.megacrit.cardcrawl.monsters.beyond;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.esotericsoftware.spine.AnimationState;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ChangeStateAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.WaitAction;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.powers.FadingPower;
-/*     */ import com.megacrit.cardcrawl.powers.ShiftingPower;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.ChangeStateAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.FadingPower;
+import com.megacrit.cardcrawl.powers.ShiftingPower;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
 /*     */ 
 /*     */ public class Transient extends AbstractMonster {
 /*  23 */   private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings("Transient"); public static final String ID = "Transient";

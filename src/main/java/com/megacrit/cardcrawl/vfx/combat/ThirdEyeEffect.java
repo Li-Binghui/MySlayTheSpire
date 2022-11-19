@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 /*    */ 
 /*    */ public class ThirdEyeEffect extends AbstractGameEffect {
 /*    */   private float x;

@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
 /*    */ 
 /*    */ public class IntenseZoomEffect
 /*    */   extends AbstractGameEffect {

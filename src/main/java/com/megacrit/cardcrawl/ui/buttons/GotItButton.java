@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.ui.buttons;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
 /*    */ 
 /*    */ public class GotItButton
 /*    */ {

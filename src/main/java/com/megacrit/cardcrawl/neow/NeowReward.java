@@ -1,24 +1,27 @@
 /*     */ package com.megacrit.cardcrawl.neow;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.PotionHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
-/*     */ import com.megacrit.cardcrawl.localization.CharacterStrings;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.relics.NeowsLament;
-/*     */ import com.megacrit.cardcrawl.rewards.RewardItem;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
-/*     */ import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.PotionHelper;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
+import com.megacrit.cardcrawl.localization.CharacterStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.NeowsLament;
+import com.megacrit.cardcrawl.rewards.RewardItem;
+import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
+import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

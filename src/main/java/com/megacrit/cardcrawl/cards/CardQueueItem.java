@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.cards;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*    */ import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
+/*    */
+
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 /*    */ 
 /*    */ public class CardQueueItem {
 /*    */   public AbstractCard card;

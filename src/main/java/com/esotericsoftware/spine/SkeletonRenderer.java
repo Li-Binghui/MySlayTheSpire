@@ -1,10 +1,12 @@
 /*    */ package com.esotericsoftware.spine;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.Batch;
-/*    */ import com.badlogic.gdx.utils.Array;
-/*    */ import com.esotericsoftware.spine.attachments.Attachment;
-/*    */ import com.esotericsoftware.spine.attachments.RegionAttachment;
-/*    */ import com.esotericsoftware.spine.attachments.SkeletonAttachment;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.utils.Array;
+import com.esotericsoftware.spine.attachments.Attachment;
+import com.esotericsoftware.spine.attachments.RegionAttachment;
+import com.esotericsoftware.spine.attachments.SkeletonAttachment;
 /*    */ 
 /*    */ 
 /*    */ 

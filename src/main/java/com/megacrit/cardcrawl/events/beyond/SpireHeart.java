@@ -1,30 +1,33 @@
 /*     */ package com.megacrit.cardcrawl.events.beyond;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.characters.AnimatedNpc;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*     */ import com.megacrit.cardcrawl.events.RoomEventDialog;
-/*     */ import com.megacrit.cardcrawl.helpers.HeartAnimListener;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.screens.DeathScreen;
-/*     */ import com.megacrit.cardcrawl.screens.GameOverScreen;
-/*     */ import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.DamageHeartEffect;
-/*     */ import java.text.NumberFormat;
-/*     */ import java.util.Locale;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.characters.AnimatedNpc;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.RoomEventDialog;
+import com.megacrit.cardcrawl.helpers.HeartAnimListener;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.screens.DeathScreen;
+import com.megacrit.cardcrawl.screens.GameOverScreen;
+import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
+import com.megacrit.cardcrawl.vfx.DamageHeartEffect;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.text.NumberFormat;
+import java.util.Locale;
 /*     */ 
 /*     */ 
 /*     */ 

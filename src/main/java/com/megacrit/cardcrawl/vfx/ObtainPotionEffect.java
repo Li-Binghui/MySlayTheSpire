@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.potions.AbstractPotion;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.potions.AbstractPotion;
 /*    */ 
 /*    */ public class ObtainPotionEffect
 /*    */   extends AbstractGameEffect

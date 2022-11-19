@@ -1,12 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.ui.panels;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.screens.options.ConfirmPopup;
-/*    */ import com.megacrit.cardcrawl.vfx.WarningSignEffect;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.Iterator;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.screens.options.ConfirmPopup;
+import com.megacrit.cardcrawl.vfx.WarningSignEffect;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /*    */ 
 /*    */ public class DeleteSaveConfirmPopup
 /*    */   extends ConfirmPopup {

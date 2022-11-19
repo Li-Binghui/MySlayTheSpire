@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.blights;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.CardGroup;
-/*    */ import com.megacrit.cardcrawl.cards.curses.Pride;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.BlightStrings;
-/*    */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
+/*    */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.cards.curses.Pride;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.BlightStrings;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
 /*    */ 
 /*    */ public class GrotesqueTrophy extends AbstractBlight {
 /*    */   public static final String ID = "GrotesqueTrophy";

@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.core;
-/*    */ import com.badlogic.gdx.ApplicationListener;
-/*    */ import com.badlogic.gdx.graphics.Camera;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.OrthographicCamera;
-/*    */ import com.badlogic.gdx.graphics.Texture;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.utils.viewport.FitViewport;
+/*    */
+
+import com.badlogic.gdx.ApplicationListener;
+import com.badlogic.gdx.graphics.Camera;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.utils.viewport.FitViewport;
 /*    */ 
 /*    */ public class TestGame implements ApplicationListener {
 /* 11 */   private OrthographicCamera camera = new OrthographicCamera();

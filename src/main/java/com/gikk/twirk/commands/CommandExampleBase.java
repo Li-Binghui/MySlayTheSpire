@@ -1,9 +1,12 @@
 /*     */ package com.gikk.twirk.commands;
-/*     */ import com.gikk.twirk.enums.USER_TYPE;
+/*     */
+
+import com.gikk.twirk.enums.USER_TYPE;
 import com.gikk.twirk.events.TwirkListener;
 import com.gikk.twirk.types.twitchMessage.TwitchMessage;
-/*     */ import com.gikk.twirk.types.users.TwitchUser;
-/*     */ import java.util.HashSet;
+import com.gikk.twirk.types.users.TwitchUser;
+
+import java.util.HashSet;
 import java.util.Locale;
 import java.util.Set;
 

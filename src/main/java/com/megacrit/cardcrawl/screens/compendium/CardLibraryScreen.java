@@ -18,17 +18,13 @@ import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.screens.SingleCardViewPopup;
-import com.megacrit.cardcrawl.screens.mainMenu.ColorTabBar;
-import com.megacrit.cardcrawl.screens.mainMenu.MainMenuScreen;
-import com.megacrit.cardcrawl.screens.mainMenu.MenuCancelButton;
-import com.megacrit.cardcrawl.screens.mainMenu.ScrollBar;
-import com.megacrit.cardcrawl.screens.mainMenu.ScrollBarListener;
-import com.megacrit.cardcrawl.screens.mainMenu.TabBarListener;
+import com.megacrit.cardcrawl.screens.mainMenu.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
-import java.util.ArrayList;
-import java.util.Iterator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/screens/compendium/CardLibraryScreen.class */
 public class CardLibraryScreen implements TabBarListener, ScrollBarListener {

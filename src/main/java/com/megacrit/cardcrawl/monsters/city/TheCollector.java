@@ -1,41 +1,35 @@
 /*     */ package com.megacrit.cardcrawl.monsters.city;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.esotericsoftware.spine.AnimationState;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.TalkAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.VFXAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.RollMoveAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.SpawnMonsterAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.SuicideAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.HideHealthBarAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.SFXAction;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.powers.FrailPower;
-/*     */ import com.megacrit.cardcrawl.powers.StrengthPower;
-/*     */ import com.megacrit.cardcrawl.powers.VulnerablePower;
-/*     */ import com.megacrit.cardcrawl.powers.WeakPower;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.CollectorCurseEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.GlowyFireEyesEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.StaffFireEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.InflameEffect;
-/*     */ import java.util.HashMap;
-/*     */ import java.util.Map;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.TalkAction;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.*;
+import com.megacrit.cardcrawl.actions.utility.HideHealthBarAction;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.*;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.CollectorCurseEffect;
+import com.megacrit.cardcrawl.vfx.GlowyFireEyesEffect;
+import com.megacrit.cardcrawl.vfx.StaffFireEffect;
+import com.megacrit.cardcrawl.vfx.combat.InflameEffect;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.HashMap;
+import java.util.Map;
 /*     */ 
 /*     */ public class TheCollector extends AbstractMonster {
 /*  41 */   private static final Logger logger = LogManager.getLogger(TheCollector.class.getName());

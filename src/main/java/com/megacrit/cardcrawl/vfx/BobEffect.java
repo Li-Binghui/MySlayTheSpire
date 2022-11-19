@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.Settings;
 /*    */ 
 /*    */ public class BobEffect {
 /*  8 */   public float y = 0.0F; public float speed;

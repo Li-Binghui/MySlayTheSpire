@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*    */ import com.megacrit.cardcrawl.ui.campfire.AbstractCampfireOption;
-/*    */ import com.megacrit.cardcrawl.ui.campfire.RestOption;
+/*    */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.PowerTip;
+import com.megacrit.cardcrawl.ui.campfire.AbstractCampfireOption;
+import com.megacrit.cardcrawl.ui.campfire.RestOption;
 /*    */ 
 /*    */ public class CoffeeDripper extends AbstractRelic {
 /*    */   public static final String ID = "Coffee Dripper";

@@ -1,0 +1,174 @@
+{
+  "Allstar": {
+    "NAME": "Tähtikortisto",
+    "DESCRIPTION": "Aloita 5 värittömällä kortilla."
+  },
+  "Binary": {
+    "NAME": "Binäärinen",
+    "DESCRIPTION": "Korttipalkinnot sisältävät vain 2 korttia."
+  },
+  "Brewmaster": {
+    "NAME": "[VANHENTUNUT] Haudutusmestari",
+    "DESCRIPTION": "Aloita viidellä Alkemia-kortilla ja Valkoisen pedon patsaalla."
+  },
+  "Cursed Run": {
+    "NAME": "Kirottu pelikerta",
+    "DESCRIPTION": "Aina kun voitat pomon, saat kirouksen. Alkureliikkisi korvataan Kirotulla avaimella, Pimeäkiviriipuksella sekä Du-vu-nukella."
+  },
+  "Diverse": {
+    "NAME": "Monipuolinen",
+    "DESCRIPTION": "Hahmosi ei enää rajaa korttivalikoimaa."
+  },
+  "Red Cards": {
+    "NAME": "Punaiset kortit",
+    "DESCRIPTION": "Punaisia kortteja ilmestyy palkinnoissa ja kaupoissa."
+  },
+  "Green Cards": {
+    "NAME": "Vihreät kortit",
+    "DESCRIPTION": "Vihreitä kortteja ilmestyy palkinnoissa ja kaupoissa."
+  },
+  "Blue Cards": {
+    "NAME": "Siniset kortit",
+    "DESCRIPTION": "Sinisiä kortteja ilmestyy palkinnoissa ja kaupoissa."
+  },
+  "Purple Cards": {
+    "NAME": "Purppurat kortit",
+    "DESCRIPTION": "Purppuroita kortteja ilmestyy palkinnoissa ja kaupoissa."
+  },
+  "Colorless Cards": {
+    "NAME": "Värittömät kortit",
+    "DESCRIPTION": "Värittömiä kortteja ilmestyy palkinnoissa."
+  },
+  "Draft": {
+    "NAME": "Suunnittelu",
+    "DESCRIPTION": "Suunnittele aloituspakka."
+  },
+  "Elite Swarm": {
+    "NAME": "Suurriistanmetsästäjä",
+    "DESCRIPTION": "Eliitit parveilevat joukolla Tornissa ja antavat parempia palkintoja."
+  },
+  "Endless": {
+    "NAME": "Päättymätön",
+    "DESCRIPTION": "Voittaminen vie sinut takaisin ensimmäiseen näytökseen samalla pakalla. Mutta varo, vitsaus saa lopulta omansa..."
+  },
+  "Blight Chests": {
+    "NAME": "Vitsausarkkuja",
+    "DESCRIPTION": "Pomojen arkut sisältävät vitsauksia kolmannen näytöksen jälkeen Päättymättömässä."
+  },
+  "Stunted Growth": {
+    "NAME": "Kitukasvuisuus",
+    "DESCRIPTION": "Viholliset eivät enää anna kortteja kolmannen näytöksen jälkeen Päättymättömässä."
+  },
+  "Heirloom": {
+    "NAME": "Perintökalleus",
+    "DESCRIPTION": "Aloita erittäin harvinaisella reliikillä."
+  },
+  "Hoarder": {
+    "NAME": "Hamstraaja",
+    "DESCRIPTION": "Kun lisäät kortin pakkaasi, lisää siitä kaksi kopiota. Et voi enää poistaa kortteja kauppiaan luona."
+  },
+  "Inception": {
+    "NAME": "Unessa?",
+    "DESCRIPTION": "Korvaa aloitusreliikkisi Lakkaamattomalla hyrrällä."
+  },
+  "Insanity": {
+    "NAME": "Mielettömyys",
+    "DESCRIPTION": "Aloita 50 satunnaisen kortin pakalla."
+  },
+  "Lethality": {
+    "NAME": "Kuolettavuus",
+    "DESCRIPTION": "Aloitat jokaisen taistelun +3 Vahvuudella. Kaikki viholliset aloittavat taistelun +3 Vahvuudella."
+  },
+  "Midas": {
+    "NAME": "Midas",
+    "DESCRIPTION": "Viholliset antavat 200% enemmän kultaa, mutta et voi enää takoa lepopaikoilla."
+  },
+  "My True Form": {
+    "NAME": "Todellinen olomuotoni",
+    "DESCRIPTION": "Aloita Demoni-, Henki-, Kaiku- ja Deva-muoto -korteilla."
+  },
+  "Night Terrors": {
+    "NAME": "Yön kauhut",
+    "DESCRIPTION": "Lepopaikoissa lepääminen parantaa 100% OP:täsi, mutta maksaa 5 MaksimiOP:tä."
+  },
+  "One Hit Wonder": {
+    "NAME": "Yhden hitin ihme",
+    "DESCRIPTION": "Aloita peli 1 MaksimiOP:llä."
+  },
+  "Praise Snecko": {
+    "NAME": "Khärmelle kiitos",
+    "DESCRIPTION": "Korvaa aloitusreliikkisi Khärmen silmällä."
+  },
+  "Shiny": {
+    "NAME": "Kiiltävät",
+    "DESCRIPTION": "Aloituspakka korvataan jokaisella erittäin harvinaisella kortilla."
+  },
+  "Specialized": {
+    "NAME": "Erikoistunut",
+    "DESCRIPTION": "Aloita pakalla, jossa on 5 kopiota yksittäisestä kortista."
+  },
+  "Starter Deck": {
+    "NAME": "Aloituspakka",
+    "DESCRIPTION": "Aloita Rikkinäisellä kruunulla ja Binäärisellä, jolloin viholliset eivät enää anna kortteja."
+  },
+  "Terminal": {
+    "NAME": "Parantumaton",
+    "DESCRIPTION": "Kun saavut uuteen huoneeseen, menetä 1 MaksimiOP. Aloita jokainen taistelu 5 panssarilla."
+  },
+  "Time Dilation": {
+    "NAME": "Aikalaajentuma",
+    "DESCRIPTION": "Kaikki viholliset aloittavat Hidastus-haitalla."
+  },
+  "Uncertain Future": {
+    "NAME": "Varma tulevaisuus",
+    "DESCRIPTION": "Kartassa on vain yksi polku."
+  },
+  "Vintage": {
+    "NAME": "Vintagea",
+    "DESCRIPTION": "Normaalit viholliset antavat reliikkejä korttien sijaan."
+  },
+  "SealedDeck": {
+    "NAME": "Sinetöity pakka",
+    "DESCRIPTION": "Rakenna pakka 30 satunnaisesta kortista."
+  },
+  "Flight": {
+    "NAME": "Lentävä",
+    "DESCRIPTION": "Voit olla välittämättä reiteistä kun valitset seuraavan huoneen."
+  },
+  "Chimera": {
+    "NAME": "Khimaira",
+    "DESCRIPTION": "Aloituspakkasi on kaikkien hahmojen fuusio."
+  },
+  "NeowTime": {
+    "NAME": "Neow-aika",
+    "DESCRIPTION": "Saa 3 siunausta ja 1 vitsaus Neow'lta."
+  },
+  "IntelligentEnemies": {
+    "NAME": "Älykkäät viholliset",
+    "DESCRIPTION": "Kaikilla vihollisilla on haastavampia liikesarjoja ja taitoja."
+  },
+  "Careless": {
+    "NAME": "Huolimaton",
+    "DESCRIPTION": "Poista vuorosi alussa nostopinosi päällimmäinen kortti."
+  },
+  "ControlledChaos": {
+    "NAME": "Kontrolloitua kaaosta",
+    "DESCRIPTION": "Aloita Jäätyneellä silmällä. Lisää vuorosi alussa 10 satunnaista korttia nostopinosi pohjalle."
+  },
+  "MonsterHunter": {
+    "NAME": "[VANHENTUNUT] Kolossi",
+    "DESCRIPTION": "Vihollisilla on enemmän OP:tä, mutta antavat parempia palkintoja."
+  },
+  "DeadlyEvents": {
+    "NAME": "Vaarallisia tapahtumia",
+    "DESCRIPTION": "?-huoneet voivat sisältää eliittejä, mutta myös todennäköisemmin aarrehuoneita."
+  },
+  "Daily Mods": {
+    "NAME": "Päivän muunnelmat",
+    "DESCRIPTION": "Aloita matka tasan kolmella satunnaisella Päivän muunnelmalla."
+  },
+  "The Ending": {
+    "NAME": "Lopetus",
+    "DESCRIPTION": "Mahdollistaa viimeisen näytöksen."
+  }
+}

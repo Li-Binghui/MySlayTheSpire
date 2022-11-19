@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.helpers.steamInput;
 /*    */ 
-/*    */ import com.codedisaster.steamworks.SteamController;
-/*    */ import com.codedisaster.steamworks.SteamControllerDigitalActionData;
-/*    */ import com.codedisaster.steamworks.SteamControllerDigitalActionHandle;
-/*    */ import com.codedisaster.steamworks.SteamControllerHandle;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.controller.CInputAction;
+/*    */
+
+import com.codedisaster.steamworks.SteamController;
+import com.codedisaster.steamworks.SteamControllerDigitalActionData;
+import com.codedisaster.steamworks.SteamControllerDigitalActionHandle;
+import com.codedisaster.steamworks.SteamControllerHandle;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.controller.CInputAction;
 /*    */ 
 /*    */ public class SteamInputAction
 /*    */ {

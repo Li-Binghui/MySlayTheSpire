@@ -1,11 +1,9 @@
 /*      */ package javazoom.jl.decoder;
 /*      */ 
-/*      */ import java.io.IOException;
-/*      */ import java.io.InputStream;
-/*      */ import java.io.InvalidClassException;
-/*      */ import java.io.InvalidObjectException;
-/*      */ import java.io.ObjectInputStream;
-/*      */ import java.lang.reflect.Array;
+/*      */
+
+import java.io.*;
+import java.lang.reflect.Array;
 /*      */ 
 /*      */ 
 /*      */ 

@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.cards.green;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-/*    */ import com.megacrit.cardcrawl.actions.unique.EscapePlanAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.CardStrings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.unique.EscapePlanAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 /*    */ 
 /*    */ public class EscapePlan extends AbstractCard {
 /* 13 */   private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Escape Plan"); public static final String ID = "Escape Plan";

@@ -1,8 +1,10 @@
 /*    */ package com.gikk.twirk.types.notice;
 /*    */ 
-/*    */ import com.gikk.twirk.enums.NOTICE_EVENT;
-/*    */ import com.gikk.twirk.types.TagMap;
-/*    */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+/*    */
+
+import com.gikk.twirk.enums.NOTICE_EVENT;
+import com.gikk.twirk.types.TagMap;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
 /*    */ 
 /*    */ 
 /*    */ 

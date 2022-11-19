@@ -1,12 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.badlogic.gdx.math.Vector2;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.Vector2;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ public class LineTestEffect extends AbstractGameEffect {
 /*    */   private float x;

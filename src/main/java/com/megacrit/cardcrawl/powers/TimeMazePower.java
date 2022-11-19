@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.powers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.utility.UseCardAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.ExhaustCardEffect;
+/*    */
+
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.vfx.cardManip.ExhaustCardEffect;
 /*    */ 
 /*    */ public class TimeMazePower extends AbstractPower {
 /*    */   public static final String POWER_ID = "TimeMazePower";

@@ -1,15 +1,12 @@
 /*     */ package com.megacrit.cardcrawl.integrations.steam;
 /*     */ 
-/*     */ import com.codedisaster.steamworks.SteamID;
-/*     */ import com.codedisaster.steamworks.SteamLeaderboardEntriesHandle;
-/*     */ import com.codedisaster.steamworks.SteamLeaderboardEntry;
-/*     */ import com.codedisaster.steamworks.SteamLeaderboardHandle;
-/*     */ import com.codedisaster.steamworks.SteamResult;
-/*     */ import com.codedisaster.steamworks.SteamUserStatsCallback;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.screens.leaderboards.LeaderboardEntry;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.codedisaster.steamworks.*;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.screens.leaderboards.LeaderboardEntry;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*     */ 
 /*     */ public class SSCallback
 /*     */   implements SteamUserStatsCallback

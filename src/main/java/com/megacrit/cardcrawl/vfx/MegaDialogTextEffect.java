@@ -1,15 +1,18 @@
 /*     */ package com.megacrit.cardcrawl.vfx;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.g2d.BitmapFont;
-/*     */ import com.badlogic.gdx.graphics.g2d.GlyphLayout;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.ui.DialogWord;
-/*     */ import com.megacrit.cardcrawl.ui.SpeechWord;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Scanner;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.ui.DialogWord;
+import com.megacrit.cardcrawl.ui.SpeechWord;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 /*     */ 
 /*     */ 
 /*     */ public class MegaDialogTextEffect

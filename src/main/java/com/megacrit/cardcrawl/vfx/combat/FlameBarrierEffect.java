@@ -1,19 +1,21 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.math.Interpolation;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.badlogic.gdx.math.Vector2;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.BorderLongFlashEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.ExhaustEmberEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.scene.TorchParticleXLEffect;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.Vector2;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
+import com.megacrit.cardcrawl.vfx.BorderLongFlashEffect;
+import com.megacrit.cardcrawl.vfx.ExhaustEmberEffect;
+import com.megacrit.cardcrawl.vfx.scene.TorchParticleXLEffect;
 /*    */ 
 /*    */ public class FlameBarrierEffect extends AbstractGameEffect {
 /*    */   private float x;

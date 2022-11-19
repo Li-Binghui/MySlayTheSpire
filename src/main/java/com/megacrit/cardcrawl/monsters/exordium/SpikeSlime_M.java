@@ -1,25 +1,27 @@
 /*     */ package com.megacrit.cardcrawl.monsters.exordium;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.esotericsoftware.spine.AnimationState;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInDiscardAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.RollMoveAction;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.cards.status.Slimed;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.powers.FrailPower;
-/*     */ import com.megacrit.cardcrawl.powers.PoisonPower;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInDiscardAction;
+import com.megacrit.cardcrawl.actions.common.RollMoveAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.status.Slimed;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.FrailPower;
+import com.megacrit.cardcrawl.powers.PoisonPower;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
 /*     */ 
 /*     */ public class SpikeSlime_M extends AbstractMonster {
 /*  25 */   private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings("SpikeSlime_M"); public static final String ID = "SpikeSlime_M";

@@ -1,0 +1,98 @@
+{
+  "Accursed": {
+    "DESCRIPTION": [
+      "Svaki put kada poraziš vožda, dobijaš sledeći broj nasumičnih #ykletvi: #b",
+      ".",
+      ""
+    ],
+    "NAME": "Proklet"
+  },
+  "BlightedDurian": {
+    "DESCRIPTION": [
+      "Izgubi #b",
+      "% svojih maks. ž. p."
+    ],
+    "NAME": "Izopačeni durijan"
+  },
+  "DeadlyEnemies": {
+    "DESCRIPTION": [
+      "Neprijatelji zadaju #b",
+      "% više štete."
+    ],
+    "NAME": "Koplje Buđi"
+  },
+  "FullBelly": {
+    "DESCRIPTION": [
+      "Više ne možeš da povećaš svoje maks. ž. p. Svo lečenje je upola delotvorno."
+    ],
+    "NAME": "Brnjica"
+  },
+  "GraspOfShadows": {
+    "DESCRIPTION": [
+      "Neprijatelji počinju sa sledećim brojem #ynedodirljivosti: #b",
+      "."
+    ],
+    "NAME": "Aveti"
+  },
+  "GrotesqueTrophy": {
+    "DESCRIPTION": [
+      "Po uzimanju, dobijaš #b",
+      " #rPonosa.",
+      "Tvoj ponos se izopačuje..."
+    ],
+    "NAME": "Groteskni trofej"
+  },
+  "MetallicRebirth": {
+    "DESCRIPTION": [
+      "Neprijatelji počinju sa: #yzaštitom - #b",
+      ", #yoptočenim #yoklopom - #b",
+      ", i #ylečenjem - #b",
+      "."
+    ],
+    "NAME": "Drevna poboljšanja"
+  },
+  "MimicInfestation": {
+    "DESCRIPTION": [
+      "U budućim činovima, riznice su zamenjene čelnicima. Čelnici više ne ispuštaju relikvije."
+    ],
+    "NAME": "Infestacija podražavača"
+  },
+  "Scatterbrain": {
+    "DESCRIPTION": [
+      "Vuci manje karata po potezu: #b",
+      " .",
+      ""
+    ],
+    "NAME": "Pošandrcao"
+  },
+  "TimeMaze": {
+    "DESCRIPTION": [
+      "Možeš da odigraš samo određen broj karata po potezu: #b",
+      ".",
+      "Mogu da odigram samo još sledeći broj karata: NL #r"
+    ],
+    "NAME": "Vremenski lavirint"
+  },
+  "ToughEnemies": {
+    "DESCRIPTION": [
+      "Neprijatelji imaju #b",
+      "% više ž. p."
+    ],
+    "NAME": "Štit Buđi"
+  },
+  "TwistingMind": {
+    "DESCRIPTION": [
+      "Na kraju svog poteza, dodaj broj nasumičnih stanja na vrh gomile za vučenje: #b",
+      ".",
+      ""
+    ],
+    "NAME": "Oboleo um"
+  },
+  "VoidEssence": {
+    "DESCRIPTION": [
+      "Zadobi #b",
+      " manje [E] na početku svakog poteza."
+    ],
+    "NAME": "Suština ništavila"
+  }
+}

@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.neow;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 /*    */ 
 /*    */ public class NeowRoom
 /*    */   extends AbstractRoom {

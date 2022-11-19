@@ -1,13 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureRegion;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ public class LightningOrbActivateEffect
 /*    */   extends AbstractGameEffect {

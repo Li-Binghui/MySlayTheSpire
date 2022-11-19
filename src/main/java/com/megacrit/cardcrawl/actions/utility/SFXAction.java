@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.actions.utility;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 /*    */ 
 /*    */ public class SFXAction extends AbstractGameAction {
 /*    */   private String key;

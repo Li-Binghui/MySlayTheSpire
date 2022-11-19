@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.PetalEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.SpotlightEffect;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.PetalEffect;
+import com.megacrit.cardcrawl.vfx.SpotlightEffect;
 /*    */ 
 /*    */ public class GrandFinalEffect extends AbstractGameEffect {
 /* 11 */   private float timer = 0.1F;

@@ -1,35 +1,34 @@
 /*     */ package com.megacrit.cardcrawl.ui.panels;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.Bezier;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.badlogic.gdx.math.Vector;
-/*     */ import com.badlogic.gdx.math.Vector2;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.HandCheckAction;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.GameCursor;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.localization.TutorialStrings;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.potions.AbstractPotion;
-/*     */ import com.megacrit.cardcrawl.potions.SmokeBomb;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.vfx.ThoughtBubble;
-/*     */ import java.util.ArrayList;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Bezier;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.Vector;
+import com.badlogic.gdx.math.Vector2;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.utility.HandCheckAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.GameCursor;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.TutorialStrings;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.potions.AbstractPotion;
+import com.megacrit.cardcrawl.potions.SmokeBomb;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.vfx.ThoughtBubble;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ public class PotionPopUp

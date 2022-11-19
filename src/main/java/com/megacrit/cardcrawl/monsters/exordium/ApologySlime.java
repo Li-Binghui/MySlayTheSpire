@@ -1,20 +1,22 @@
 /*    */ package com.megacrit.cardcrawl.monsters.exordium;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.esotericsoftware.spine.AnimationState;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
-/*    */ import com.megacrit.cardcrawl.actions.animations.TalkAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.SlimeAnimListener;
-/*    */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*    */ import com.megacrit.cardcrawl.powers.WeakPower;
+/*    */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
+import com.megacrit.cardcrawl.actions.animations.TalkAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.SlimeAnimListener;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.WeakPower;
 /*    */ 
 /*    */ public class ApologySlime extends AbstractMonster {
 /* 20 */   private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings("Apology Slime"); public static final String ID = "Apology Slime";

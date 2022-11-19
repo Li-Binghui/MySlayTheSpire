@@ -1,7 +1,7 @@
 /*    */ package com.megacrit.cardcrawl.integrations.steam;
-/*    */ import com.codedisaster.steamworks.*;
 /*    */
-/*    */
+
+import com.codedisaster.steamworks.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

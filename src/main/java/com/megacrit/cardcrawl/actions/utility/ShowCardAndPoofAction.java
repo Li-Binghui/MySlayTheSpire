@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.actions.utility;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.ExhaustCardEffect;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.cardManip.ExhaustCardEffect;
 /*    */ 
 /*    */ public class ShowCardAndPoofAction extends AbstractGameAction {
 /*  9 */   private AbstractCard card = null;

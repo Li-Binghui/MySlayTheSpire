@@ -1,17 +1,19 @@
 /*    */ package com.megacrit.cardcrawl.monsters.exordium;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*    */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*    */ import com.megacrit.cardcrawl.vfx.BobEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.GhostlyFireEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.GhostlyWeakFireEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.combat.GhostIgniteEffect;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.vfx.BobEffect;
+import com.megacrit.cardcrawl.vfx.GhostlyFireEffect;
+import com.megacrit.cardcrawl.vfx.GhostlyWeakFireEffect;
+import com.megacrit.cardcrawl.vfx.combat.GhostIgniteEffect;
 /*    */ 
 /*    */ public class HexaghostOrb {
 /*    */   public static final String ID = "HexaghostOrb";

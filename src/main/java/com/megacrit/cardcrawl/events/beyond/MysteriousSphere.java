@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.events.beyond;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*    */ import com.megacrit.cardcrawl.events.RoomEventDialog;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.helpers.MonsterHelper;
-/*    */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.RoomEventDialog;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.MonsterHelper;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 /*    */ 
 /*    */ public class MysteriousSphere extends AbstractEvent {
 /*    */   public static final String ID = "Mysterious Sphere";

@@ -1,8 +1,11 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import java.math.BigInteger;
+/*     */
+
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.random.Random;
+
+import java.math.BigInteger;
 /*     */ 
 /*     */ 
 /*     */ 

@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.actions.utility;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 /*    */ 
 /*    */ public class HideHealthBarAction extends AbstractGameAction {
 /*    */   public HideHealthBarAction(AbstractCreature owner) {

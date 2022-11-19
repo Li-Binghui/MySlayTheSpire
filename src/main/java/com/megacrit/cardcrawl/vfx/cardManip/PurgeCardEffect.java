@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.MathHelper;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.combat.DamageImpactCurvyEffect;
+
 import java.util.Iterator;
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/vfx/cardManip/PurgeCardEffect.class */

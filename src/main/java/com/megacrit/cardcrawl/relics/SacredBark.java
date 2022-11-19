@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.potions.AbstractPotion;
+/*    */
+
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.potions.AbstractPotion;
 /*    */ 
 /*    */ public class SacredBark extends AbstractRelic {
 /*    */   public static final String ID = "SacredBark";

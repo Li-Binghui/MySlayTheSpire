@@ -1,19 +1,21 @@
 /*    */ package com.megacrit.cardcrawl.actions.unique;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.ReviveMonsterAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.SpawnMonsterAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*    */ import com.megacrit.cardcrawl.monsters.beyond.SnakeDagger;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*    */ import com.megacrit.cardcrawl.powers.MinionPower;
-/*    */ import com.megacrit.cardcrawl.powers.SlowPower;
-/*    */ import com.megacrit.cardcrawl.powers.StrengthPower;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.ReviveMonsterAction;
+import com.megacrit.cardcrawl.actions.common.SpawnMonsterAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.monsters.beyond.SnakeDagger;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.MinionPower;
+import com.megacrit.cardcrawl.powers.SlowPower;
+import com.megacrit.cardcrawl.powers.StrengthPower;
 /*    */ 
 /*    */ 
 /*    */ @Deprecated

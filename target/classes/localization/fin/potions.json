@@ -1,0 +1,320 @@
+{
+  "Ancient Potion": {
+    "NAME": "Muinainen juoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yArtefaktia."
+    ]
+  },
+  "AttackPotion": {
+    "NAME": "Hyökkäysjuoma",
+    "DESCRIPTIONS": [
+      "Valitse #b3 satunnaisen #yHyökkäyksen joukosta #b1 käteesi, sen hinta on #b0 tällä vuorolla.",
+      "Valitse #b3 satunnaisen #yHyökkäyksen joukosta #b1 ja lisää #b2 kopiota käteesi, niiden hinta on #b0 tällä vuorolla."
+    ]
+  },
+  "Block Potion": {
+    "NAME": "Suojajuoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #ySuojaa."
+    ]
+  },
+  "BloodPotion": {
+    "NAME": "Verijuoma",
+    "DESCRIPTIONS": [
+      "Parane #b",
+      "% MaksimiOP:stä."
+    ]
+  },
+  "Dexterity Potion": {
+    "NAME": "Näppäryysjuoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yNäppäryyttä."
+    ]
+  },
+  "Elixir": {
+    "NAME": "Eliksiiri",
+    "DESCRIPTIONS": [
+      "DEPRECATED",
+      "DEPRECATED",
+      "DEPRECATED",
+      "DEPRECATED",
+      "DEPRECATED"
+    ]
+  },
+  "Energy Potion": {
+    "NAME": "Energiajuoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " Energiaa."
+    ]
+  },
+  "EntropicBrew": {
+    "NAME": "Entropiakeitto",
+    "DESCRIPTIONS": [
+      "Täytä tyhjät pullotaskut satunnaisilla liemillä."
+    ]
+  },
+  "EssenceOfSteel": {
+    "NAME": "Teräksen esanssi",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yPanssaria."
+    ]
+  },
+  "Explosive Potion": {
+    "NAME": "Räjähtävä pullo",
+    "DESCRIPTIONS": [
+      "Jaa #b",
+      " vauriota KAIKILLE vihollisille."
+    ]
+  },
+  "FairyPotion": {
+    "NAME": "Keijukainen pullossa",
+    "DESCRIPTIONS": [
+      "Kuolemisen sijaan parane #b",
+      "% MaksimiOP:stäsi ja poista tämä pullo."
+    ]
+  },
+  "FearPotion": {
+    "NAME": "Pelkoliemi",
+    "DESCRIPTIONS": [
+      "Anna #b",
+      " #yAlttiutta."
+    ]
+  },
+  "Fire Potion": {
+    "NAME": "Tuliliemi",
+    "DESCRIPTIONS": [
+      "Tee #b",
+      " vauriota."
+    ]
+  },
+  "FocusPotion": {
+    "NAME": "Fokusjuoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yFokusta."
+    ]
+  },
+  "Fruit Juice": {
+    "NAME": "Hedelmämehu",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " MaksimiOP:tä."
+    ]
+  },
+  "GamblersBrew": {
+    "NAME": "Uhkapelaajan keitos",
+    "DESCRIPTIONS": [
+      "Poista haluamasi määrä kortteja ja nosta saman verran."
+    ]
+  },
+  "GhostInAJar": {
+    "NAME": "Kummitus purkissa",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yAineetonta."
+    ]
+  },
+  "Health Potion": {
+    "NAME": "Terveysliemi",
+    "DESCRIPTIONS": [
+      "VANHENTUNUT",
+      "VANHENTUNUT"
+    ]
+  },
+  "LiquidBronze": {
+    "NAME": "Nestemäistä pronssia",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yPiikkiä."
+    ]
+  },
+  "Poison Potion": {
+    "NAME": "Myrkkyliemi",
+    "DESCRIPTIONS": [
+      "Lisää #b",
+      " #yMyrkkyä."
+    ]
+  },
+  "Potion Slot": {
+    "NAME": "Pullotasku",
+    "DESCRIPTIONS": [
+      "Käytä taikaliemiä taistelun aikana saadaksesi #gbonusta tai #rhaitataksesi vihollisia.",
+      "Pullotasku"
+    ]
+  },
+  "PowerPotion": {
+    "NAME": "Voimaliemi",
+    "DESCRIPTIONS": [
+      "Valitse #b3 satunnaisen #yVoiman joukosta #b1 käteesi, sen hinta on #b0 tällä vuorolla.",
+      "Valitse #b3 satunnaisen #yVoiman joukosta #b1 ja lisää #b2 kopiota käteesi, niiden hinta on #b0 tällä vuorolla."
+    ]
+  },
+  "Regen Potion": {
+    "NAME": "Regen-juoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yRegenerointia.",
+      ""
+    ]
+  },
+  "SkillPotion": {
+    "NAME": "Taitojuoma",
+    "DESCRIPTIONS": [
+      "Valitse #b3 satunnaisen #yTaidon joukosta #b1 käteesi, sen hinta on #b0 tällä vuorolla.",
+      "Valitse #b3 satunnaisen #yTaidon joukosta #b1 ja lisää #b2 kopiota käteesi, niiden hinta on #b0 tällä vuorolla."
+    ]
+  },
+  "SmokeBomb": {
+    "NAME": "Savupommi",
+    "DESCRIPTIONS": [
+      "Pakene taistelusta, jossa ei ole pomoa. Et saa palkintoja.",
+      "Olen saarrettu!"
+    ]
+  },
+  "SneckoOil": {
+    "NAME": "Khärmeöljy",
+    "DESCRIPTIONS": [
+      "Nosta #b",
+      " korttia. Satunnaista kätesi korttien hinnat.",
+      ""
+    ]
+  },
+  "SpeedPotion": {
+    "NAME": "Nopeusliemi",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yNäppäryyttä. Vuorosi lopussa menetä #b",
+      " #yNäppäryyttä."
+    ]
+  },
+  "SteroidPotion": {
+    "NAME": "Habajuoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yVahvuutta. Vuorosi lopussa menetä #b",
+      " #yVahvuutta."
+    ]
+  },
+  "Strength Potion": {
+    "NAME": "Vahvuusjuoma",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yVahvuutta."
+    ]
+  },
+  "Swift Potion": {
+    "NAME": "Ripeysjuoma",
+    "DESCRIPTIONS": [
+      "",
+      "Nosta #b",
+      " korttia."
+    ]
+  },
+  "Weak Potion": {
+    "NAME": "Heikko liemi",
+    "DESCRIPTIONS": [
+      "Lisää #b",
+      " #yHeikkoutta."
+    ]
+  },
+  "StancePotion": {
+    "NAME": "Asennejuoma",
+    "DESCRIPTIONS": [
+      "Ota Asennoksi #yTyyneys tai #yRaivo."
+    ]
+  },
+  "DuplicationPotion": {
+    "NAME": "Toistoliemi",
+    "DESCRIPTIONS": [
+      "Seuraava korttisi pelataan kahteen kertaan tällä vuorolla.",
+      "Seuraavat #b2 korttiasi pelataan kahteen kertaan tällä vuorolla."
+    ]
+  },
+  "ElixirPotion": {
+    "NAME": "Eliksiiri",
+    "DESCRIPTIONS": [
+      "#yKuluta vapaasti kortteja kädestäsi."
+    ]
+  },
+  "HeartOfIron": {
+    "NAME": "Rautasydän",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yMetallisointia."
+    ]
+  },
+  "CunningPotion": {
+    "NAME": "Viekas liemi",
+    "DESCRIPTIONS": [
+      "Lisää #b",
+      " #yPuukkoa+ käteesi."
+    ]
+  },
+  "PotionOfCapacity": {
+    "NAME": "Kapasiteettineste",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " Kuulapaikkaa."
+    ]
+  },
+  "EssenceOfDarkness": {
+    "NAME": "Pimeyden esanssia",
+    "DESCRIPTIONS": [
+      "#yKanavoi #b",
+      " #yPimeyttä jokaiselle Kuulapaikalle."
+    ]
+  },
+  "BottledMiracle": {
+    "NAME": "Pullotettua ihmettä",
+    "DESCRIPTIONS": [
+      "Lisää #b",
+      " #yIhmettä käteesi."
+    ]
+  },
+  "Ambrosia": {
+    "NAME": "Ambrosia",
+    "DESCRIPTIONS": [
+      "Ota Asennoksi #yJumaluus."
+    ]
+  },
+  "DistilledChaos": {
+    "NAME": "Tislattua kaaosta",
+    "DESCRIPTIONS": [
+      "Pelaa nostopinosta #b",
+      " päällimmäistä korttia."
+    ]
+  },
+  "LiquidMemories": {
+    "NAME": "Nestemäiset muistot",
+    "DESCRIPTIONS": [
+      "Valitse kortti poistopinosta ja lisää se käteesi. Se maksaa #b0 tällä kierroksella.",
+      "Valitse #b",
+      " korttia poistopinosta ja lisää ne käteesi. Niiden hinta on #b0 tällä kierroksella."
+    ]
+  },
+  "CultistPotion": {
+    "NAME": "Kultistiliemi",
+    "DESCRIPTIONS": [
+      "Saa #b",
+      " #yRituaalia."
+    ]
+  },
+  "ColorlessPotion": {
+    "NAME": "Väritön pullo",
+    "DESCRIPTIONS": [
+      "Valitse #b3 satunnaisen #yVärittömän kortin joukosta #b1 käteesi, sen hinta on #b0 tällä vuorolla.",
+      "Valitse #b3 satunnaisen #yVärittömän kortin joukosta #b1 ja lisää #b2 kopiota käteesi, niiden hinta on #b0 tällä vuorolla."
+    ]
+  },
+  "BlessingOfTheForge": {
+    "NAME": "Pajan siunaus",
+    "DESCRIPTIONS": [
+      "Parantele kaikki kädessäsi olevat kortit taistelun ajaksi."
+    ]
+  }
+}

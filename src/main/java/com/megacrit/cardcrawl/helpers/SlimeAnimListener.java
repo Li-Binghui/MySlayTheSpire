@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.helpers;
 /*    */ 
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.esotericsoftware.spine.AnimationState;
-/*    */ import com.esotericsoftware.spine.Event;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*    */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
+import com.esotericsoftware.spine.Event;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 /*    */ 
 /*    */ public class SlimeAnimListener
 /*    */   implements AnimationState.AnimationStateListener

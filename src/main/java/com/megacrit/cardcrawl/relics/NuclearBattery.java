@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.orbs.AbstractOrb;
-/*    */ import com.megacrit.cardcrawl.orbs.Plasma;
+/*    */
+
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.orbs.AbstractOrb;
+import com.megacrit.cardcrawl.orbs.Plasma;
 /*    */ 
 /*    */ public class NuclearBattery
 /*    */   extends AbstractRelic {

@@ -1,9 +1,11 @@
 /*     */ package com.megacrit.cardcrawl.random;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.badlogic.gdx.math.RandomXS128;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.RandomXS128;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*     */ 
 /*     */ 
 /*     */ 

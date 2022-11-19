@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.cards.purple;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.watcher.ConjureBladeAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.tempCards.Expunger;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.CardStrings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.watcher.ConjureBladeAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.tempCards.Expunger;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 /*    */ 
 /*    */ public class ConjureBlade extends AbstractCard {
 /* 13 */   private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("ConjureBlade"); public static final String ID = "ConjureBlade";

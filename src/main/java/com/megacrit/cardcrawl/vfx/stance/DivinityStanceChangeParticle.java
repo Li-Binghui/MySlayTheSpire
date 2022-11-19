@@ -1,15 +1,17 @@
 /*    */ package com.megacrit.cardcrawl.vfx.stance;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureRegion;
-/*    */ import com.badlogic.gdx.math.Interpolation;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 /*    */ 
 /*    */ public class DivinityStanceChangeParticle extends AbstractGameEffect {
 /* 15 */   private TextureAtlas.AtlasRegion img = ImageMaster.STRIKE_LINE; private float oX; private float oY;

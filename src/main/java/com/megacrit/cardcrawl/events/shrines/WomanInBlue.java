@@ -1,16 +1,18 @@
 /*     */ package com.megacrit.cardcrawl.events.shrines;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*     */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*     */ import com.megacrit.cardcrawl.helpers.PotionHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.rewards.RewardItem;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.helpers.PotionHelper;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.rewards.RewardItem;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 /*     */ 
 /*     */ public class WomanInBlue
 /*     */   extends AbstractImageEvent {

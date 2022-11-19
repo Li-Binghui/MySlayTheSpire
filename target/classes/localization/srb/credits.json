@@ -1,0 +1,418 @@
+{
+  "ANIMATION": {
+    "HEADER": "Animacija likova",
+    "NAMES": [
+      "Julio Duque Montero",
+      "Jon Sandler"
+    ]
+  },
+  "DEV": {
+    "HEADER": "Razvoj & dizajn",
+    "NAMES": [
+      "Anthony Giovannetti",
+      "Casey Yano"
+    ]
+  },
+  "ILLUSTRATION": {
+    "HEADER": "Promo & pozadinska ilustracija",
+    "NAMES": [
+      "Bruce Brenneise"
+    ]
+  },
+  "KAKEHASHI": {
+    "HEADER": "Kakehashi Games",
+    "NAMES": [
+      "Kakehashi Games (zvaničan prevod):",
+      "Podrška za japansko izdavaštvo:  Kakehashi Games",
+      "Japanski prevod:  Rie Ihara"
+    ]
+  },
+  "LOC_ADDITIONAL": {
+    "HEADER": "Ostali prevodi",
+    "NAMES": [
+      "MoGi Group"
+    ]
+  },
+  "LOC_CAT": {
+    "HEADER": "Katalonski prevod",
+    "NAMES": []
+  },
+  "LOC_DEU": {
+    "HEADER": "Nemački prevod",
+    "NAMES": [
+      "Joshua \"Joshipon\" Wiegand",
+      "Dustin \"Skrelpoid\" Kristen",
+      "Christoph \"Deknud\" Hartmann",
+      "Jonas Trodler",
+      "Hongkong Koma",
+      "Moly",
+      "koykoy13",
+      "Magnus Upmann"
+    ]
+  },
+  "LOC_DUT": {
+    "HEADER": "Holandski prevod",
+    "NAMES": [
+      "Gremlin Leader:",
+      "Jelle Steinmann \"NotADitto\"",
+      "Gremlin Nob:",
+      "Charlie \"Alcus\" Ye",
+      "Gremlins:",
+      "Oscar Cousin",
+      "\"Meriscan\"",
+      "Lise Leitner",
+      "Joris \"Mort\" Bogers"
+    ]
+  },
+  "LOC_EPO": {
+    "HEADER": "Esperanto prevod",
+    "NAMES": [
+      "Vincent \"Babelismoj\" Oostelbos",
+      "Spencer van der Meulen"
+    ]
+  },
+  "LOC_FIN": {
+    "HEADER": "Finski prevod",
+    "NAMES": [
+      "jahasjahas",
+      "Juhana Uuttu",
+      "Murasaki#6571",
+      "Zalminen"
+    ]
+  },
+  "LOC_FRA": {
+    "HEADER": "Francuski prevod",
+    "NAMES": [
+      "Xavier \"Blagatt\" Dupont",
+      "Malik \"Devexia\" Leonarski",
+      "Thomas \"Elgerine\" Ferry",
+      "Vincent \"Hénip\" Barthoux",
+      "Alexandre \"Judgy\" Gaubert",
+      "Vincent \"MissingNoShiny\" Larcin",
+      "Julien \"RoPeTTe\" Ropero",
+      "Boby \"Tagada\" Vurpillot",
+      "Corentin \"Tchus\" Monfort",
+      "Zachary \"WyvernZed\" Janisse",
+      "Zachary \"WyvernZed\" Janisse"
+    ]
+  },
+  "LOC_GRE": {
+    "HEADER": "Grčki prevod",
+    "NAMES": [
+      "Kotsos \"Iglor\" Diamond"
+    ]
+  },
+  "LOC_IND": {
+    "HEADER": "Indonežanski prevod",
+    "NAMES": [
+      "Aditya \"RiSQ.\" Arifin",
+      "Daryan \"Samus\" Ramadhany",
+      "Haveiszal \"Szaal\" Faroqie",
+      "Jason Julian"
+    ]
+  },
+  "LOC_ITA": {
+    "HEADER": "Italijanski prevod",
+    "NAMES": [
+      "Jade \"HobNob\" Stevanovic",
+      "Mero Marco",
+      "Luigi Squarzina",
+      "Ispitivač:",
+      "Mattylink Heropon"
+    ]
+  },
+  "LOC_JPN": {
+    "HEADER": "Japanski prevod",
+    "NAMES": [
+      "Grezzz (Community Translation)",
+      "Kakehashi Games (Official Translation)"
+    ]
+  },
+  "LOC_KOR": {
+    "HEADER": "Korejski prevod",
+    "NAMES": [
+      "Prevod i koordinacija:",
+      "Eteriny",
+      "Fissh",
+      "GyeRyak",
+      "Prevod:",
+      "Simcoding",
+      "DesFrog",
+      "insight",
+      "K4lium",
+      "hina",
+      "Vekan",
+      "Font:",
+      "U igri: GyeonggiCheonnyeon(Batang) by Gyeonggi-Do",
+      "Na tržnici: NanumBrush, NanumPen by NAVER Corporation"
+    ]
+  },
+  "LOC_NOR": {
+    "HEADER": "Norveški prevod",
+    "NAMES": [
+      "Eystein Jarp"
+    ]
+  },
+  "LOC_POL": {
+    "HEADER": "Poljski prevod",
+    "NAMES": [
+      "Prevod i rukovodstvo:",
+      "Stanisław \"ST4H\" Borkowski",
+      "Oskar \"volf3n\" Nowak",
+      "Dodatno prevođenje:",
+      "Adrian \"xeros\" Rolka",
+      "Marek \"Skorpionex\" Mazur",
+      "Foreigner",
+      "Lekturisanje:",
+      "Oskar \"volf3n\" Nowak",
+      "Predlozi i povratne informacije:",
+      "Kasper \"Awokado\" Berc",
+      "Paweł \"BASTIL\" Kaleta",
+      "Grzegorz \"GregPL\" Bogusławski",
+      "Erwin \"mateusz3010\" Matys",
+      "Mettie",
+      "Rafał \"SponTon83\" Szyszko"
+    ]
+  },
+  "LOC_PTB": {
+    "HEADER": "Brazilski portugalski prevod",
+    "NAMES": [
+      "Guilherme \"GPerego\" Perego",
+      "Gustavo \"KomKlave\" Duarte",
+      "José \"Maneimax\" Vasconcelos",
+      "Leonardo \"Iikat\" Takii",
+      "Nathan \"NoxShadow\" Cervieri",
+      "Paulo \"SilverTape\" Hauck"
+    ]
+  },
+  "LOC_RUS": {
+    "HEADER": "Ruski prevod",
+    "NAMES": [
+      "Prevod:",
+      "Ivan \"Ingrett\" Khoroshunenko",
+      "Vladislav \"Vlad-00003\" Bolshakov",
+      "Dmitry \"Regallion\" Zhiryakov",
+      "Dodatan prevod:",
+      "Dmitry \"Gentle Giant\" Gitsman",
+      "Neprim",
+      "Mikhail \"Outmind\" Dyuzhev",
+      "Bohdan \"DarkRosse\" Kalytiuk",
+      "Sergey \"lol10801lol\" K.",
+      "Ascimator",
+      "Kateryna \"Meds\" Belimenko-Bolger",
+      "Alexey \"Surrealistic Ganerson\" Popov",
+      "Alexandr \"LiaNdrY\" Mazistov",
+      "Prevod tržničkih slika:",
+      "Urist McFerrum"
+    ]
+  },
+  "LOC_SPA": {
+    "HEADER": "Španski prevod",
+    "NAMES": [
+      "Prevod i rukovodstvo:",
+      "Juanjo \"ajuanjojjj\" Martinez",
+      "Prevod:",
+      "Erick Marroquin",
+      "Accord",
+      "Xavier \"xabad98\" Abad Salinas",
+      "Sergio \"Skiddome\" Malagón",
+      "Pedro J. \"PJJLegend\" Jiménez Moyano",
+      "Rodrigo \"skylex\" Zabattaro",
+      "Alberto \"RadeonThe1st\" Botana",
+      "Spooktacular",
+      "Gramatika i pomoć:",
+      "Joaquín \"Pip1n\" López",
+      "Xavier Castañer",
+      "Summer",
+      "Eipic",
+      "Eipic"
+    ]
+  },
+  "LOC_SRB": {
+    "HEADER": "Srpski prevod",
+    "NAMES": [
+      "Nikola \"hauzer\" Vukosavljević"
+    ]
+  },
+  "LOC_THA": {
+    "HEADER": "Tajlandski prevod",
+    "NAMES": [
+      "Prevod i rukovodstvo:",
+      "Noppon Varapaiboon (PlearnGaming)",
+      "Dodatan prevod:",
+      "Rapeepat Suwan (Yuu)",
+      "Sarawut Suwan (Tomoeic)",
+      "Fontovi:",
+      "CSChatThaiUI by raveetavan@gmail.com",
+      "Layiji MaHaNiYom by layiji@gmail.com"
+    ]
+  },
+  "LOC_TUR": {
+    "HEADER": "Turski prevod",
+    "NAMES": [
+      "Prevod i koordinacija:",
+      "Ertürk Yılmaz",
+      "Prevod:",
+      "Erdem Gürbüz",
+      "Ege \"sLanKy\" Güçkıran",
+      "\"onparalelkenarag\"",
+      "Berkan Çalıkoğlu"
+    ]
+  },
+  "LOC_UKR": {
+    "HEADER": "Ukrajinski prevod",
+    "NAMES": [
+      "Prevod i rukovodstvo:",
+      "Vladyslav \"DarkXylese\" Kashtelyanov",
+      "Ispravke i prevod:",
+      "Vasyl \"RDSk\" Mykhaliuk",
+      "Artem \"Crazytosik\" Zemlianyi",
+      "Dariia \"Dariianity\" Porechna"
+    ]
+  },
+  "LOC_VIE": {
+    "HEADER": "Vijetnamski prevod",
+    "NAMES": [
+      "MercTrans prevodilački tim",
+      "Prevod:",
+      "Dinh Long Hoang (donkrieg1011)",
+      "Dinh Hoang Nguyen (clesta)",
+      "Koordinacija i lingvistički tim:",
+      "Hoang Son Do",
+      "Posebna zahvalnost:",
+      "Azy Tazer"
+    ]
+  },
+  "LOC_ZHS": {
+    "HEADER": "Kineski (pojednostavljen) prevod",
+    "NAMES": [
+      "Sound of Mystery",
+      "IrisRaphael"
+    ]
+  },
+  "LOC_ZHT": {
+    "HEADER": "Kineski (tradicionalan) prevod",
+    "NAMES": [
+      "professor",
+      "bowans",
+      "Angryfox"
+    ]
+  },
+  "OPS": {
+    "HEADER": "Operacije & metrika",
+    "NAMES": [
+      "Danielle Jenkins",
+      "Jake Rabinowitz"
+    ]
+  },
+  "PORTING": {
+    "HEADER": "Prebacivanje na konzole i mobilne",
+    "NAMES": [
+      "Sickhead Games, LLC"
+    ]
+  },
+  "PORTRAITS": {
+    "HEADER": "Vizuelni dizajn karata & događaja",
+    "NAMES": [
+      "Anailis Dorta"
+    ]
+  },
+  "PUBLISHING": {
+    "HEADER": "Humble Bundle",
+    "NAMES": [
+      "GM:  Alan Patmore",
+      "CBO:  Steven Kovensky",
+      "VP, Business Development:  Eduardo Aparicio",
+      "Publishing Manager:  John Polson",
+      "Publishing Release Manager: Evan Koepf",
+      "Publishing Brand Manager:  Connor Bridgeman",
+      "Business Development Director, Publishing:  Mai Kawaguchi",
+      "Senior Business Developer:  Thomas Glenn",
+      "Senior Business Developer:  Bob Mills",
+      "Business Developer:  Trisha Tabor",
+      "Business Developer:  Angel Lyons-Labate",
+      "Store Director:  Paul Herron",
+      "Director of Finance:  Eric Samuel",
+      "VP of Product:  Nate Muller",
+      "Director of Marketing:  Jeremie Vella",
+      "Marketing Manager:  Whitney Stutes",
+      "Marketing Growth Manager:  Francois du Toit",
+      "Ninja Support:  Jimmy Chi",
+      "Ninja Support:  Kasey Brounkowski",
+      "Ninja Support:  Kayla Fyfe",
+      "Ninja Support:  Patrick Monahan"
+    ]
+  },
+  "SOUND": {
+    "HEADER": "Muzika & zvuk",
+    "NAMES": [
+      "Clark Aboud"
+    ]
+  },
+  "SPECIAL": {
+    "HEADER": "Posebna zahvalnost",
+    "NAMES": [
+      "Harry Rabinowitz",
+      "Kevin \"Billy\" Matheson",
+      "Anthony Roybal",
+      "Lee Beckman",
+      "Sam Welch",
+      "feedbackbot",
+      "Evan Howell",
+      "Justin Myhres",
+      "robojumper",
+      "Tony \"kiooeht\" Moore",
+      "John Vega",
+      "Steve Groll",
+      "Sara Popescu",
+      "Ryan Hamann"
+    ]
+  },
+  "TEST": {
+    "HEADER": "Ispitivači",
+    "NAMES": [
+      "Agari",
+      "Daria Anderson",
+      "Zac Bauermeister",
+      "Nick Becker",
+      "Esther Beckman",
+      "Leo Chen",
+      "Brian Chau",
+      "Dan D'Argenio",
+      "David Delorenzo",
+      "Tim Erskine",
+      "Benjamin Finkel",
+      "Rajiv Giridharagopal",
+      "Wyatt Grodzins",
+      "Ren Howell",
+      "Kyle James",
+      "Ryan Mathisen",
+      "Anthony McMillian",
+      "Brad Meine",
+      "Jade Wesley",
+      "Alex Rockwell",
+      "Greg Scheopner",
+      "John \"Slide20xl\" Smith",
+      "Aaron Taggart",
+      "Alexander Toy",
+      "Merijn van der Vliet",
+      "David Von Derau",
+      "Conor Watson",
+      "David \"divadus\" Withington",
+      "Jason \"Wyrm\" Deng",
+      "Jonas \"bigunit3000\" Wilson",
+      "TBytemaster"
+    ]
+  },
+  "THANKS_MSG": {
+    "HEADER": "...i hvala TEBI što igraš!",
+    "NAMES": []
+  },
+  "VOICE": {
+    "HEADER": "Glasovna gluma",
+    "NAMES": [
+      "Tamara Ryan",
+      "Michael Schwalbe"
+    ]
+  }
+}

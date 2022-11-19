@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
 /*    */ 
 /*    */ public class TintEffect {
 /*  7 */   public Color color = new Color(1.0F, 1.0F, 1.0F, 1.0F);

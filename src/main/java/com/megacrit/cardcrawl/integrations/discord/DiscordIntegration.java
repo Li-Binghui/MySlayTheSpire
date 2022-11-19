@@ -1,17 +1,20 @@
 /*     */ package com.megacrit.cardcrawl.integrations.discord;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.integrations.DistributorFactory;
-/*     */ import com.megacrit.cardcrawl.integrations.PublisherIntegration;
-/*     */ import com.megacrit.cardcrawl.screens.leaderboards.FilterButton;
-/*     */ import java.io.File;
-/*     */ import net.arikia.dev.drpc.DiscordEventHandlers;
+/*     */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.integrations.DistributorFactory;
+import com.megacrit.cardcrawl.integrations.PublisherIntegration;
+import com.megacrit.cardcrawl.screens.leaderboards.FilterButton;
+import net.arikia.dev.drpc.DiscordEventHandlers;
 import net.arikia.dev.drpc.DiscordRPC;
-/*     */ import net.arikia.dev.drpc.DiscordRichPresence;
+import net.arikia.dev.drpc.DiscordRichPresence;
 import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+
+import java.io.File;
 /*     */ 
 /*     */ 
 /*     */ 

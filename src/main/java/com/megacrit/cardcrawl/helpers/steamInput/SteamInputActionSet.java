@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.helpers.steamInput;
 /*    */ 
-/*    */ import com.codedisaster.steamworks.SteamController;
-/*    */ import com.megacrit.cardcrawl.helpers.controller.CInputAction;
-/*    */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+/*    */
+
+import com.codedisaster.steamworks.SteamController;
+import com.megacrit.cardcrawl.helpers.controller.CInputAction;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 /*    */ 
 /*    */ 
 /*    */ 

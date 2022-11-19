@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.powers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.tempCards.Miracle;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.tempCards.Miracle;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.PowerStrings;
 /*    */ 
 /*    */ public class CollectPower extends AbstractPower {
 /* 14 */   private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("Collect"); public static final String POWER_ID = "Collect";

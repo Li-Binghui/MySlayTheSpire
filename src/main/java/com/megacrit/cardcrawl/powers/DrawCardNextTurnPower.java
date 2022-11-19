@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.powers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.PowerStrings;
 /*    */ 
 /*    */ public class DrawCardNextTurnPower extends AbstractPower {
 /* 11 */   private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("Draw Card"); public static final String POWER_ID = "Draw Card";

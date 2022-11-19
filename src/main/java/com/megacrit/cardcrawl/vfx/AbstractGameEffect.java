@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.utils.Disposable;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.utils.Disposable;
+import com.megacrit.cardcrawl.core.Settings;
 /*    */ 
 /*    */ public abstract class AbstractGameEffect
 /*    */   implements Disposable {

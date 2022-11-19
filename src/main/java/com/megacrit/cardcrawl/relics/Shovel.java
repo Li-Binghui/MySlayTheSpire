@@ -1,10 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.ui.campfire.AbstractCampfireOption;
-/*    */ import com.megacrit.cardcrawl.ui.campfire.DigOption;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.ui.campfire.AbstractCampfireOption;
+import com.megacrit.cardcrawl.ui.campfire.DigOption;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ public class Shovel
 /*    */   extends AbstractRelic {

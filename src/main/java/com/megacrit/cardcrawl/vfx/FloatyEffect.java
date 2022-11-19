@@ -1,6 +1,8 @@
 /*    */ package com.megacrit.cardcrawl.vfx;
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.math.MathUtils;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.MathUtils;
 /*    */ 
 /*    */ public class FloatyEffect {
 /*    */   public float x;

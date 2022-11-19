@@ -1,15 +1,17 @@
 /*    */ package com.megacrit.cardcrawl.events.exordium;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*    */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*    */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*    */ import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+/*    */
+
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*    */ 
 /*    */ public class ScrapOoze
 /*    */   extends AbstractImageEvent {

@@ -1,15 +1,17 @@
 /*    */ package com.megacrit.cardcrawl.rooms;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*    */ import com.megacrit.cardcrawl.shop.Merchant;
-/*    */ import com.megacrit.cardcrawl.shop.ShopScreen;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.shop.Merchant;
+import com.megacrit.cardcrawl.shop.ShopScreen;
+import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
 /*    */ 
 /*    */ public class ShopRoom
 /*    */   extends AbstractRoom {

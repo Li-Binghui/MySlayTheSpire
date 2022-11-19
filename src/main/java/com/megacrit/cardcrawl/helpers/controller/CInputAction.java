@@ -1,11 +1,14 @@
 /*     */ package com.megacrit.cardcrawl.helpers.controller;
 /*     */ 
-/*     */ import com.badlogic.gdx.Input;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import java.util.Map;
+/*     */
+
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.Texture;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.localization.UIStrings;
+
+import java.util.Map;
 /*     */ 
 /*     */ public class CInputAction
 /*     */ {

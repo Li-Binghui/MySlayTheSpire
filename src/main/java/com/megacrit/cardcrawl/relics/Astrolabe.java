@@ -1,13 +1,16 @@
 /*     */ package com.megacrit.cardcrawl.relics;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.CardGroup;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.LocalizedStrings;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Iterator;
+/*     */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.LocalizedStrings;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /*     */ 
 /*     */ public class Astrolabe
 /*     */   extends AbstractRelic

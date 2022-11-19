@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.potions.PotionSlot;
+/*    */
+
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.potions.PotionSlot;
 /*    */ 
 /*    */ public class PotionBelt extends AbstractRelic {
 /*    */   public static final String ID = "Potion Belt";

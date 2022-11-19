@@ -1,21 +1,24 @@
 /*     */ package com.megacrit.cardcrawl.scenes;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.LogoFlameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.TitleDustEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Iterator;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.vfx.scene.LogoFlameEffect;
+import com.megacrit.cardcrawl.vfx.scene.TitleDustEffect;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /*     */ 
 /*     */ public class TitleBackground {
 /*     */   protected static TextureAtlas atlas;

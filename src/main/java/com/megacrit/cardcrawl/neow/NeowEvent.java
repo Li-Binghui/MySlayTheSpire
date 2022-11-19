@@ -1,38 +1,35 @@
 /*     */ package com.megacrit.cardcrawl.neow;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.blights.AbstractBlight;
-/*     */ import com.megacrit.cardcrawl.blights.GrotesqueTrophy;
-/*     */ import com.megacrit.cardcrawl.blights.MimicInfestation;
-/*     */ import com.megacrit.cardcrawl.blights.Muzzle;
-/*     */ import com.megacrit.cardcrawl.blights.Shield;
-/*     */ import com.megacrit.cardcrawl.blights.Spear;
-/*     */ import com.megacrit.cardcrawl.blights.TimeMaze;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.CardGroup;
-/*     */ import com.megacrit.cardcrawl.characters.AnimatedNpc;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*     */ import com.megacrit.cardcrawl.events.RoomEventDialog;
-/*     */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.TipTracker;
-/*     */ import com.megacrit.cardcrawl.localization.CharacterStrings;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.FastCardObtainEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.InfiniteSpeechBubble;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.LevelTransitionTextOverlayEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.blights.*;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.characters.AnimatedNpc;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.RoomEventDialog;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
+import com.megacrit.cardcrawl.helpers.TipTracker;
+import com.megacrit.cardcrawl.localization.CharacterStrings;
+import com.megacrit.cardcrawl.random.Random;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.FastCardObtainEffect;
+import com.megacrit.cardcrawl.vfx.InfiniteSpeechBubble;
+import com.megacrit.cardcrawl.vfx.scene.LevelTransitionTextOverlayEffect;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

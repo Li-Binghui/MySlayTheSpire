@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.powers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.defect.ChannelAction;
-/*    */ import com.megacrit.cardcrawl.actions.utility.UseCardAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import com.megacrit.cardcrawl.orbs.AbstractOrb;
-/*    */ import com.megacrit.cardcrawl.orbs.Lightning;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.orbs.AbstractOrb;
+import com.megacrit.cardcrawl.orbs.Lightning;
 /*    */ 
 /*    */ public class StormPower extends AbstractPower {
 /* 14 */   private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("Storm"); public static final String POWER_ID = "Storm";

@@ -1,46 +1,45 @@
 /*     */ package com.megacrit.cardcrawl.screens.mainMenu;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.GameCursor;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.credits.CreditsScreen;
-/*     */ import com.megacrit.cardcrawl.cutscenes.NeowNarrationScreen;
-/*     */ import com.megacrit.cardcrawl.daily.DailyScreen;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.TipTracker;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.input.DevInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.scenes.TitleBackground;
-/*     */ import com.megacrit.cardcrawl.screens.CharSelectInfo;
-/*     */ import com.megacrit.cardcrawl.screens.DoorUnlockScreen;
-/*     */ import com.megacrit.cardcrawl.screens.charSelect.CharacterOption;
-/*     */ import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
-/*     */ import com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen;
-/*     */ import com.megacrit.cardcrawl.screens.compendium.PotionViewScreen;
-/*     */ import com.megacrit.cardcrawl.screens.compendium.RelicViewScreen;
-/*     */ import com.megacrit.cardcrawl.screens.custom.CustomModeScreen;
-/*     */ import com.megacrit.cardcrawl.screens.leaderboards.LeaderboardScreen;
-/*     */ import com.megacrit.cardcrawl.screens.options.ConfirmPopup;
-/*     */ import com.megacrit.cardcrawl.screens.options.InputSettingsScreen;
-/*     */ import com.megacrit.cardcrawl.screens.options.OptionsPanel;
-/*     */ import com.megacrit.cardcrawl.screens.runHistory.RunHistoryScreen;
-/*     */ import com.megacrit.cardcrawl.screens.stats.StatsScreen;
-/*     */ import com.megacrit.cardcrawl.ui.buttons.ConfirmButton;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.GameCursor;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.credits.CreditsScreen;
+import com.megacrit.cardcrawl.cutscenes.NeowNarrationScreen;
+import com.megacrit.cardcrawl.daily.DailyScreen;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
+import com.megacrit.cardcrawl.helpers.input.DevInputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.scenes.TitleBackground;
+import com.megacrit.cardcrawl.screens.CharSelectInfo;
+import com.megacrit.cardcrawl.screens.DoorUnlockScreen;
+import com.megacrit.cardcrawl.screens.charSelect.CharacterOption;
+import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
+import com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen;
+import com.megacrit.cardcrawl.screens.compendium.PotionViewScreen;
+import com.megacrit.cardcrawl.screens.compendium.RelicViewScreen;
+import com.megacrit.cardcrawl.screens.custom.CustomModeScreen;
+import com.megacrit.cardcrawl.screens.leaderboards.LeaderboardScreen;
+import com.megacrit.cardcrawl.screens.options.ConfirmPopup;
+import com.megacrit.cardcrawl.screens.options.InputSettingsScreen;
+import com.megacrit.cardcrawl.screens.options.OptionsPanel;
+import com.megacrit.cardcrawl.screens.runHistory.RunHistoryScreen;
+import com.megacrit.cardcrawl.screens.stats.StatsScreen;
+import com.megacrit.cardcrawl.ui.buttons.ConfirmButton;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

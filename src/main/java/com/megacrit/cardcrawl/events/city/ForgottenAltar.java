@@ -1,22 +1,24 @@
 /*     */ package com.megacrit.cardcrawl.events.city;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.cards.curses.Decay;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*     */ import com.megacrit.cardcrawl.helpers.CardLibrary;
-/*     */ import com.megacrit.cardcrawl.helpers.RelicLibrary;
-/*     */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.relics.BloodyIdol;
-/*     */ import com.megacrit.cardcrawl.relics.Circlet;
-/*     */ import com.megacrit.cardcrawl.relics.GoldenIdol;
-/*     */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.curses.Decay;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.helpers.CardLibrary;
+import com.megacrit.cardcrawl.helpers.RelicLibrary;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.BloodyIdol;
+import com.megacrit.cardcrawl.relics.Circlet;
+import com.megacrit.cardcrawl.relics.GoldenIdol;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 /*     */ 
 /*     */ public class ForgottenAltar
 /*     */   extends AbstractImageEvent

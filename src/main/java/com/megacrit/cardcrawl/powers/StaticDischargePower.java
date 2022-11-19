@@ -1,13 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.powers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.defect.ChannelAction;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import com.megacrit.cardcrawl.orbs.AbstractOrb;
-/*    */ import com.megacrit.cardcrawl.orbs.Lightning;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.orbs.AbstractOrb;
+import com.megacrit.cardcrawl.orbs.Lightning;
 /*    */ 
 /*    */ public class StaticDischargePower extends AbstractPower {
 /* 13 */   private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("StaticDischarge"); public static final String POWER_ID = "StaticDischarge";

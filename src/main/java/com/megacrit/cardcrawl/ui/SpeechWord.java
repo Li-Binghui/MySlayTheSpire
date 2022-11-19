@@ -8,7 +8,6 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.MathHelper;
-import com.megacrit.cardcrawl.ui.DialogWord;
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/ui/SpeechWord.class */
 public class SpeechWord {

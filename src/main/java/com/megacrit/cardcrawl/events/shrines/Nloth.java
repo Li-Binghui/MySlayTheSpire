@@ -1,17 +1,20 @@
 /*     */ package com.megacrit.cardcrawl.events.shrines;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*     */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.relics.Circlet;
-/*     */ import com.megacrit.cardcrawl.relics.NlothsGift;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Collections;
-/*     */ import java.util.Random;
+/*     */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.Circlet;
+import com.megacrit.cardcrawl.relics.NlothsGift;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 /*     */ 
 /*     */ public class Nloth
 /*     */   extends AbstractImageEvent {

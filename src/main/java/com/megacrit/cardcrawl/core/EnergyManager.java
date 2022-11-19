@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.core;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
+import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 /*    */ 
 /*    */ public class EnergyManager
 /*    */ {

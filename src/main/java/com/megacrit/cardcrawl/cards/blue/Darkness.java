@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.cards.blue;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.defect.ChannelAction;
-/*    */ import com.megacrit.cardcrawl.actions.defect.DarkImpulseAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.CardStrings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*    */ import com.megacrit.cardcrawl.orbs.AbstractOrb;
-/*    */ import com.megacrit.cardcrawl.orbs.Dark;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
+import com.megacrit.cardcrawl.actions.defect.DarkImpulseAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.orbs.AbstractOrb;
+import com.megacrit.cardcrawl.orbs.Dark;
 /*    */ 
 /*    */ public class Darkness extends AbstractCard {
 /* 14 */   private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Darkness"); public static final String ID = "Darkness";

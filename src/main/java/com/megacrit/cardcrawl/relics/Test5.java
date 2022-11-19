@@ -1,12 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.Collections;
+/*    */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
+
+import java.util.ArrayList;
+import java.util.Collections;
 /*    */ 
 /*    */ 
 /*    */ public class Test5

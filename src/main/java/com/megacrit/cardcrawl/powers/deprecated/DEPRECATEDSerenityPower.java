@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.powers.deprecated;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.LocalizedStrings;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
+/*    */
+
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.LocalizedStrings;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 /*    */ 
 /*    */ public class DEPRECATEDSerenityPower
 /*    */   extends AbstractPower {

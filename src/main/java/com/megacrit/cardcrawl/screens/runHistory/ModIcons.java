@@ -1,15 +1,18 @@
 /*    */ package com.megacrit.cardcrawl.screens.runHistory;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.GameCursor;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
-/*    */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*    */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*    */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*    */ import com.megacrit.cardcrawl.screens.stats.RunData;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.GameCursor;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.helpers.TipHelper;
+import com.megacrit.cardcrawl.screens.stats.RunData;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ 
 /*    */ public class ModIcons

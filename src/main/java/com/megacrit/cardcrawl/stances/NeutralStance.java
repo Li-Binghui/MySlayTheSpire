@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.stances;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.StanceStrings;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.StanceStrings;
 /*    */ 
 /*    */ public class NeutralStance extends AbstractStance {
 /*    */   public static final String STANCE_ID = "Neutral";

@@ -1,19 +1,22 @@
 /*     */ package com.megacrit.cardcrawl.scenes;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.rooms.CampfireUI;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.CeilingDustEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.FireFlyEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Iterator;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.rooms.CampfireUI;
+import com.megacrit.cardcrawl.vfx.scene.CeilingDustEffect;
+import com.megacrit.cardcrawl.vfx.scene.FireFlyEffect;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /*     */ 
 /*     */ 
 /*     */ 

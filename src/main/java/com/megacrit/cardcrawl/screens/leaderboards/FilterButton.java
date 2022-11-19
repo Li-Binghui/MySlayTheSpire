@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.localization.UIStrings;
+
 import java.util.Iterator;
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/screens/leaderboards/FilterButton.class */

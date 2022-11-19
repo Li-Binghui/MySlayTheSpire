@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.screens.leaderboards;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*    */ import com.megacrit.cardcrawl.screens.stats.CharStat;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.screens.stats.CharStat;
 /*    */ 
 /*    */ public class LeaderboardEntry {
 /*    */   public int rank;

@@ -1,14 +1,16 @@
 /*     */ package com.megacrit.cardcrawl.vfx.combat;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureRegion;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.Interpolation;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 /*     */ 
 /*     */ public class FlashPowerEffect
 /*     */   extends AbstractGameEffect

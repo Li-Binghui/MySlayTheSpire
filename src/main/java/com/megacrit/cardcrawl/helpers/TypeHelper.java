@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.helpers;
 /*    */ 
-/*    */ import com.badlogic.gdx.InputProcessor;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*    */ import com.megacrit.cardcrawl.ui.panels.RenamePopup;
-/*    */ import com.megacrit.cardcrawl.ui.panels.SeedPanel;
-/*    */ import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+/*    */
+
+import com.badlogic.gdx.InputProcessor;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.ui.panels.RenamePopup;
+import com.megacrit.cardcrawl.ui.panels.SeedPanel;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*    */ 
 /*    */ public class TypeHelper
 /*    */   implements InputProcessor {

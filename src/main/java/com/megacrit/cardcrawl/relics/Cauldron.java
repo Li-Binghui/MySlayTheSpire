@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.PotionHelper;
-/*    */ import com.megacrit.cardcrawl.rewards.RewardItem;
+/*    */
+
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.PotionHelper;
+import com.megacrit.cardcrawl.rewards.RewardItem;
 /*    */ 
 /*    */ public class Cauldron extends AbstractRelic {
 /*    */   public static final String ID = "Cauldron";

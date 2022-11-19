@@ -1,7 +1,9 @@
 /*    */ package com.esotericsoftware.spine.attachments;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.esotericsoftware.spine.Slot;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.esotericsoftware.spine.Slot;
 /*    */ 
 /*    */ 
 /*    */ 

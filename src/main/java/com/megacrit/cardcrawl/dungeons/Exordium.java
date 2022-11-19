@@ -1,26 +1,28 @@
 /*     */ package com.megacrit.cardcrawl.dungeons;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.megacrit.cardcrawl.blights.AbstractBlight;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.TipTracker;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.map.MapRoomNode;
-/*     */ import com.megacrit.cardcrawl.monsters.MonsterInfo;
-/*     */ import com.megacrit.cardcrawl.neow.NeowRoom;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.rooms.EmptyRoom;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
-/*     */ import com.megacrit.cardcrawl.scenes.AbstractScene;
-/*     */ import com.megacrit.cardcrawl.scenes.TheBottomScene;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Collections;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
+import com.megacrit.cardcrawl.helpers.TipTracker;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.map.MapRoomNode;
+import com.megacrit.cardcrawl.monsters.MonsterInfo;
+import com.megacrit.cardcrawl.neow.NeowRoom;
+import com.megacrit.cardcrawl.random.Random;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.rooms.EmptyRoom;
+import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
+import com.megacrit.cardcrawl.scenes.AbstractScene;
+import com.megacrit.cardcrawl.scenes.TheBottomScene;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+
+import java.util.ArrayList;
+import java.util.Collections;
 /*     */ 
 /*     */ 
 /*     */ 

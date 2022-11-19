@@ -3,6 +3,7 @@ package com.gikk.twirk.types.twitchMessage;
 import com.gikk.twirk.types.AbstractEmoteMessage;
 import com.gikk.twirk.types.TagMap;
 import com.gikk.twirk.types.cheer.Cheer;
+
 import java.util.List;
 
 public interface TwitchMessage extends AbstractEmoteMessage {

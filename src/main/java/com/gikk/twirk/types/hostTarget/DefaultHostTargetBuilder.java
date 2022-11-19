@@ -1,7 +1,9 @@
 /*    */ package com.gikk.twirk.types.hostTarget;
 /*    */ 
-/*    */ import com.gikk.twirk.enums.HOSTTARGET_MODE;
-/*    */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+/*    */
+
+import com.gikk.twirk.enums.HOSTTARGET_MODE;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
 /*    */ 
 /*    */ class DefaultHostTargetBuilder
 /*    */   implements HostTargetBuilder

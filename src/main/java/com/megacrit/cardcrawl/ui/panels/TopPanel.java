@@ -1,46 +1,43 @@
 /*      */ package com.megacrit.cardcrawl.ui.panels;
 /*      */ 
-/*      */ import com.badlogic.gdx.Gdx;
-/*      */ import com.badlogic.gdx.graphics.Color;
-/*      */ import com.badlogic.gdx.graphics.Texture;
-/*      */ import com.badlogic.gdx.graphics.g2d.GlyphLayout;
-/*      */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*      */ import com.badlogic.gdx.math.MathUtils;
-/*      */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*      */ import com.megacrit.cardcrawl.core.Settings;
-/*      */ import com.megacrit.cardcrawl.daily.DailyScreen;
-/*      */ import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
-/*      */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*      */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*      */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*      */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.SeedHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*      */ import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
-/*      */ import com.megacrit.cardcrawl.helpers.input.InputActionSet;
-/*      */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*      */ import com.megacrit.cardcrawl.localization.TutorialStrings;
-/*      */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*      */ import com.megacrit.cardcrawl.potions.AbstractPotion;
-/*      */ import com.megacrit.cardcrawl.potions.PotionSlot;
-/*      */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*      */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*      */ import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
-/*      */ import com.megacrit.cardcrawl.screens.stats.CharStat;
-/*      */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.combat.HealPanelEffect;
-/*      */ import com.megacrit.cardcrawl.vfx.combat.PingHpEffect;
-/*      */ import de.robojumper.ststwitch.TwitchConfig;
-/*      */ import de.robojumper.ststwitch.TwitchConnection;
-/*      */ import de.robojumper.ststwitch.TwitchPanel;
-/*      */ import java.io.IOException;
-/*      */ import java.util.ArrayList;
-/*      */ import java.util.Optional;
-/*      */ import org.apache.logging.log4j.LogManager;
-/*      */ import org.apache.logging.log4j.Logger;
+/*      */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.daily.DailyScreen;
+import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
+import com.megacrit.cardcrawl.helpers.input.InputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.TutorialStrings;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.potions.AbstractPotion;
+import com.megacrit.cardcrawl.potions.PotionSlot;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
+import com.megacrit.cardcrawl.screens.stats.CharStat;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.combat.HealPanelEffect;
+import com.megacrit.cardcrawl.vfx.combat.PingHpEffect;
+import de.robojumper.ststwitch.TwitchConfig;
+import de.robojumper.ststwitch.TwitchConnection;
+import de.robojumper.ststwitch.TwitchPanel;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Optional;
 /*      */ 
 /*      */ 
 /*      */ 

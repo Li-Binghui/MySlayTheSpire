@@ -1,11 +1,14 @@
 /*     */ package com.megacrit.cardcrawl.map;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Collections;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.random.Random;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Collections;
 /*     */ 
 /*     */ 
 /*     */ 

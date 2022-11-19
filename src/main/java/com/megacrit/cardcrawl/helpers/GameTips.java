@@ -1,11 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.helpers;
 /*    */ 
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.localization.TutorialStrings;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.Collections;
+/*    */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.localization.TutorialStrings;
+
+import java.util.ArrayList;
+import java.util.Collections;
 /*    */ 
 /*    */ public class GameTips
 /*    */ {

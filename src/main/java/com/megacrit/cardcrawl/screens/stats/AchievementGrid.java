@@ -1,11 +1,14 @@
 /*     */ package com.megacrit.cardcrawl.screens.stats;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.localization.AchievementStrings;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import java.util.ArrayList;
+/*     */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.localization.AchievementStrings;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ public class AchievementGrid
 /*     */ {

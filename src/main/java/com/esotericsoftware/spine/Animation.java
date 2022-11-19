@@ -1,11 +1,13 @@
 /*      */ package com.esotericsoftware.spine;
 /*      */ 
-/*      */ import com.badlogic.gdx.graphics.Color;
-/*      */ import com.badlogic.gdx.math.MathUtils;
-/*      */ import com.badlogic.gdx.utils.Array;
-/*      */ import com.badlogic.gdx.utils.FloatArray;
-/*      */ import com.esotericsoftware.spine.attachments.Attachment;
-/*      */ import com.esotericsoftware.spine.attachments.VertexAttachment;
+/*      */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.utils.Array;
+import com.badlogic.gdx.utils.FloatArray;
+import com.esotericsoftware.spine.attachments.Attachment;
+import com.esotericsoftware.spine.attachments.VertexAttachment;
 /*      */ 
 /*      */ 
 /*      */ 

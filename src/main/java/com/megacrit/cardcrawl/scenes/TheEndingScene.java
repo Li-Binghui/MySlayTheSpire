@@ -1,17 +1,20 @@
 /*    */ package com.megacrit.cardcrawl.scenes;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.scene.ShinySparkleEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.scene.WobblyCircleEffect;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.Iterator;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.scene.ShinySparkleEffect;
+import com.megacrit.cardcrawl.vfx.scene.WobblyCircleEffect;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /*    */ 
 /*    */ 
 /*    */ 

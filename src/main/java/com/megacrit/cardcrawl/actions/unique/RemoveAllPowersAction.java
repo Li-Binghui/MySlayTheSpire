@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.actions.unique;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 /*    */ 
 /*    */ public class RemoveAllPowersAction
 /*    */   extends AbstractGameAction {

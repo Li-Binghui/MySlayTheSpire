@@ -1,10 +1,13 @@
 /*    */ package com.gikk.twirk.types.cheer;
 /*    */ 
-/*    */ import com.gikk.twirk.types.TagMap;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.List;
-/*    */ import java.util.regex.Matcher;
-/*    */ import java.util.regex.Pattern;
+/*    */
+
+import com.gikk.twirk.types.TagMap;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 /*    */ 
 /*    */ 
 /*    */ 

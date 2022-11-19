@@ -1,19 +1,22 @@
 /*     */ package de.robojumper.ststwitch;
 /*     */ 
-/*     */ import com.gikk.twirk.Twirk;
-/*     */ import com.gikk.twirk.TwirkBuilder;
-/*     */ import com.gikk.twirk.events.TwirkListener;
-/*     */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
-/*     */ import com.gikk.twirk.types.users.TwitchUser;
-/*     */ import java.io.IOException;
-/*     */ import java.util.ArrayDeque;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.List;
-/*     */ import java.util.Queue;
-/*     */ import java.util.regex.Matcher;
-/*     */ import java.util.regex.Pattern;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.gikk.twirk.Twirk;
+import com.gikk.twirk.TwirkBuilder;
+import com.gikk.twirk.events.TwirkListener;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+import com.gikk.twirk.types.users.TwitchUser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.IOException;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 /*     */ 
 /*     */ 
 /*     */ public class TwitchConnection

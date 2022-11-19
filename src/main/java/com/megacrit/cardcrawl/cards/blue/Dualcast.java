@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.cards.blue;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.defect.AnimateOrbAction;
-/*    */ import com.megacrit.cardcrawl.actions.defect.EvokeOrbAction;
-/*    */ import com.megacrit.cardcrawl.actions.defect.EvokeWithoutRemovingOrbAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.CardStrings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.defect.AnimateOrbAction;
+import com.megacrit.cardcrawl.actions.defect.EvokeOrbAction;
+import com.megacrit.cardcrawl.actions.defect.EvokeWithoutRemovingOrbAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 /*    */ 
 /*    */ public class Dualcast extends AbstractCard {
 /* 14 */   private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Dualcast"); public static final String ID = "Dualcast";

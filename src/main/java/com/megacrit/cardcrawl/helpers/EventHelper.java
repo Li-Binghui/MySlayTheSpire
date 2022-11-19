@@ -1,65 +1,21 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*     */ import com.megacrit.cardcrawl.events.beyond.Falling;
-/*     */ import com.megacrit.cardcrawl.events.beyond.MindBloom;
-/*     */ import com.megacrit.cardcrawl.events.beyond.MoaiHead;
-/*     */ import com.megacrit.cardcrawl.events.beyond.MysteriousSphere;
-/*     */ import com.megacrit.cardcrawl.events.beyond.SecretPortal;
-/*     */ import com.megacrit.cardcrawl.events.beyond.SensoryStone;
-/*     */ import com.megacrit.cardcrawl.events.beyond.TombRedMask;
-/*     */ import com.megacrit.cardcrawl.events.beyond.WindingHalls;
-/*     */ import com.megacrit.cardcrawl.events.city.Addict;
-/*     */ import com.megacrit.cardcrawl.events.city.BackToBasics;
-/*     */ import com.megacrit.cardcrawl.events.city.Beggar;
-/*     */ import com.megacrit.cardcrawl.events.city.Colosseum;
-/*     */ import com.megacrit.cardcrawl.events.city.CursedTome;
-/*     */ import com.megacrit.cardcrawl.events.city.DrugDealer;
-/*     */ import com.megacrit.cardcrawl.events.city.ForgottenAltar;
-/*     */ import com.megacrit.cardcrawl.events.city.Ghosts;
-/*     */ import com.megacrit.cardcrawl.events.city.KnowingSkull;
-/*     */ import com.megacrit.cardcrawl.events.city.MaskedBandits;
-/*     */ import com.megacrit.cardcrawl.events.city.Nest;
-/*     */ import com.megacrit.cardcrawl.events.city.TheJoust;
-/*     */ import com.megacrit.cardcrawl.events.city.TheLibrary;
-/*     */ import com.megacrit.cardcrawl.events.city.TheMausoleum;
-/*     */ import com.megacrit.cardcrawl.events.city.Vampires;
-/*     */ import com.megacrit.cardcrawl.events.exordium.BigFish;
-/*     */ import com.megacrit.cardcrawl.events.exordium.Cleric;
-/*     */ import com.megacrit.cardcrawl.events.exordium.DeadAdventurer;
-/*     */ import com.megacrit.cardcrawl.events.exordium.GoldenIdolEvent;
-/*     */ import com.megacrit.cardcrawl.events.exordium.GoldenWing;
-/*     */ import com.megacrit.cardcrawl.events.exordium.GoopPuddle;
-/*     */ import com.megacrit.cardcrawl.events.exordium.LivingWall;
-/*     */ import com.megacrit.cardcrawl.events.exordium.Mushrooms;
-/*     */ import com.megacrit.cardcrawl.events.exordium.ScrapOoze;
-/*     */ import com.megacrit.cardcrawl.events.exordium.ShiningLight;
-/*     */ import com.megacrit.cardcrawl.events.exordium.Sssserpent;
-/*     */ import com.megacrit.cardcrawl.events.shrines.AccursedBlacksmith;
-/*     */ import com.megacrit.cardcrawl.events.shrines.Bonfire;
-/*     */ import com.megacrit.cardcrawl.events.shrines.Designer;
-/*     */ import com.megacrit.cardcrawl.events.shrines.Duplicator;
-/*     */ import com.megacrit.cardcrawl.events.shrines.FaceTrader;
-/*     */ import com.megacrit.cardcrawl.events.shrines.FountainOfCurseRemoval;
-/*     */ import com.megacrit.cardcrawl.events.shrines.GoldShrine;
-/*     */ import com.megacrit.cardcrawl.events.shrines.GremlinMatchGame;
-/*     */ import com.megacrit.cardcrawl.events.shrines.GremlinWheelGame;
-/*     */ import com.megacrit.cardcrawl.events.shrines.Lab;
-/*     */ import com.megacrit.cardcrawl.events.shrines.Nloth;
-/*     */ import com.megacrit.cardcrawl.events.shrines.NoteForYourself;
-/*     */ import com.megacrit.cardcrawl.events.shrines.PurificationShrine;
-/*     */ import com.megacrit.cardcrawl.events.shrines.Transmogrifier;
-/*     */ import com.megacrit.cardcrawl.events.shrines.UpgradeShrine;
-/*     */ import com.megacrit.cardcrawl.events.shrines.WeMeetAgain;
-/*     */ import com.megacrit.cardcrawl.events.shrines.WomanInBlue;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Arrays;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.beyond.*;
+import com.megacrit.cardcrawl.events.city.*;
+import com.megacrit.cardcrawl.events.exordium.*;
+import com.megacrit.cardcrawl.events.shrines.*;
+import com.megacrit.cardcrawl.random.Random;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 /*     */ 
 /*     */ 
 /*     */ 

@@ -1,9 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.helpers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import java.util.HashSet;
-/*    */ import java.util.UUID;
+/*    */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+
+import java.util.HashSet;
+import java.util.UUID;
 /*    */ 
 /*    */ public class GetAllInBattleInstances
 /*    */ {

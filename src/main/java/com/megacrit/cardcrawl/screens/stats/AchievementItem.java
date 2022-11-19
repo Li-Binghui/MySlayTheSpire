@@ -1,15 +1,17 @@
 /*    */ package com.megacrit.cardcrawl.screens.stats;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureRegion;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*    */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*    */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*    */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.TipHelper;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
 /*    */ 
 /*    */ public class AchievementItem {
 /* 15 */   public Hitbox hb = new Hitbox(160.0F * Settings.scale, 160.0F * Settings.scale); private TextureAtlas.AtlasRegion img; private String title;

@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.daily.mods;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Texture;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.helpers.GameDataStringBuilder;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
+/*    */
+
+import com.badlogic.gdx.graphics.Texture;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.helpers.GameDataStringBuilder;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 /*    */ 
 /*    */ 
 /*    */ public class AbstractDailyMod

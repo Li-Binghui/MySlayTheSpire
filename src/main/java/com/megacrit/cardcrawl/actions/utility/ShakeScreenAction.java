@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.actions.utility;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.helpers.ScreenShake;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
 /*    */ 
 /*    */ public class ShakeScreenAction
 /*    */   extends AbstractGameAction {

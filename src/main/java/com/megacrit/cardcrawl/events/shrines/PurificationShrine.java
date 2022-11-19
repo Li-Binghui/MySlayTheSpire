@@ -1,12 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.events.shrines;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.CardGroup;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*    */ import com.megacrit.cardcrawl.localization.EventStrings;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
+/*    */
+
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.localization.EventStrings;
+import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
 /*    */ 
 /*    */ public class PurificationShrine
 /*    */   extends AbstractImageEvent {

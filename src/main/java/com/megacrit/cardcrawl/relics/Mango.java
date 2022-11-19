@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.LocalizedStrings;
+/*    */
+
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.LocalizedStrings;
 /*    */ 
 /*    */ public class Mango
 /*    */   extends AbstractRelic {

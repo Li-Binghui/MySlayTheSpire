@@ -1,10 +1,12 @@
 /*     */ package com.esotericsoftware.spine;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.badlogic.gdx.utils.Array;
-/*     */ import com.badlogic.gdx.utils.FloatArray;
-/*     */ import com.esotericsoftware.spine.attachments.Attachment;
-/*     */ import com.esotericsoftware.spine.attachments.PathAttachment;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.utils.Array;
+import com.badlogic.gdx.utils.FloatArray;
+import com.esotericsoftware.spine.attachments.Attachment;
+import com.esotericsoftware.spine.attachments.PathAttachment;
 /*     */ 
 /*     */ public class PathConstraint
 /*     */   implements Updatable

@@ -1,27 +1,25 @@
 /*     */ package com.megacrit.cardcrawl.dungeons;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.map.MapEdge;
-/*     */ import com.megacrit.cardcrawl.map.MapGenerator;
-/*     */ import com.megacrit.cardcrawl.map.MapRoomNode;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.rooms.MonsterRoomBoss;
-/*     */ import com.megacrit.cardcrawl.rooms.MonsterRoomElite;
-/*     */ import com.megacrit.cardcrawl.rooms.RestRoom;
-/*     */ import com.megacrit.cardcrawl.rooms.ShopRoom;
-/*     */ import com.megacrit.cardcrawl.rooms.TrueVictoryRoom;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
-/*     */ import com.megacrit.cardcrawl.scenes.AbstractScene;
-/*     */ import com.megacrit.cardcrawl.scenes.TheEndingScene;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.map.MapEdge;
+import com.megacrit.cardcrawl.map.MapGenerator;
+import com.megacrit.cardcrawl.map.MapRoomNode;
+import com.megacrit.cardcrawl.random.Random;
+import com.megacrit.cardcrawl.rooms.*;
+import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
+import com.megacrit.cardcrawl.scenes.AbstractScene;
+import com.megacrit.cardcrawl.scenes.TheEndingScene;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ public class TheEnding
 /*     */   extends AbstractDungeon {

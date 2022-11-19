@@ -1,10 +1,6 @@
 package com.megacrit.cardcrawl.integrations.steam;
 
-import com.codedisaster.steamworks.SteamPublishedFileID;
-import com.codedisaster.steamworks.SteamResult;
-import com.codedisaster.steamworks.SteamUGCCallback;
-import com.codedisaster.steamworks.SteamUGCDetails;
-import com.codedisaster.steamworks.SteamUGCQuery;
+import com.codedisaster.steamworks.*;
 
 public class SteamUGC implements SteamUGCCallback {
   public void onUGCQueryCompleted(SteamUGCQuery query, int numResultsReturned, int totalMatchingResults, boolean isCachedData, SteamResult result) {}

@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.actions;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
+/*    */
+
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 /*    */ 
 /*    */ public class IntentFlashAction extends AbstractGameAction {
 /*    */   private AbstractMonster m;

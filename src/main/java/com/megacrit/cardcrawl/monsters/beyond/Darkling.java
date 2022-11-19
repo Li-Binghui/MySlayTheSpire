@@ -1,32 +1,28 @@
 /*     */ package com.megacrit.cardcrawl.monsters.beyond;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.esotericsoftware.spine.AnimationState;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.AnimateFastAttackAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ChangeStateAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.HealAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.RollMoveAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.SetMoveAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.SFXAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.WaitAction;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.powers.RegrowPower;
-/*     */ import com.megacrit.cardcrawl.powers.StrengthPower;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.AnimateFastAttackAction;
+import com.megacrit.cardcrawl.actions.common.*;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
+import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.RegrowPower;
+import com.megacrit.cardcrawl.powers.StrengthPower;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*     */ 
 /*     */ public class Darkling extends AbstractMonster {
 /*  32 */   private static final Logger logger = LogManager.getLogger(Darkling.class.getName());

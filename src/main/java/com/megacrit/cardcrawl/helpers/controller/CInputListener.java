@@ -1,13 +1,15 @@
 /*     */ package com.megacrit.cardcrawl.helpers.controller;
 /*     */
-/*     */ import com.badlogic.gdx.math.Vector3;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.screens.options.RemapInputElement;
-/*     */ import net.java.games.input.ControllerEvent;
+/*     */
+
+import com.badlogic.gdx.math.Vector3;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.screens.options.RemapInputElement;
+import net.java.games.input.ControllerEvent;
 import net.java.games.input.ControllerListener;
 import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.lwjgl.input.Controller;
 
 /*     */

@@ -1,16 +1,18 @@
 /*    */ package com.megacrit.cardcrawl.actions.watcher;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.animations.VFXAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-/*    */ import com.megacrit.cardcrawl.actions.utility.WaitAction;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.WallopEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.WallopEffect;
+import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
 /*    */ 
 /*    */ public class WallopAction
 /*    */   extends AbstractGameAction {

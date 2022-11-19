@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.integrations.wegame;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.integrations.DistributorFactory;
-/*    */ import com.megacrit.cardcrawl.integrations.PublisherIntegration;
-/*    */ import com.megacrit.cardcrawl.screens.leaderboards.FilterButton;
+/*    */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.integrations.DistributorFactory;
+import com.megacrit.cardcrawl.integrations.PublisherIntegration;
+import com.megacrit.cardcrawl.screens.leaderboards.FilterButton;
 /*    */ 
 /*    */ 
 /*    */ public class WeGameIntegration

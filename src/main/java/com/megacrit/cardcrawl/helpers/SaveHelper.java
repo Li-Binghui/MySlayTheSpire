@@ -1,25 +1,28 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.files.FileHandle;
-/*     */ import com.google.gson.Gson;
-/*     */ import com.google.gson.JsonSyntaxException;
-/*     */ import com.google.gson.reflect.TypeToken;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.integrations.DistributorFactory;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveAndContinue;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
-/*     */ import com.megacrit.cardcrawl.screens.mainMenu.SaveSlotScreen;
-/*     */ import com.megacrit.cardcrawl.vfx.GameSavedEffect;
-/*     */ import java.io.File;
-/*     */ import java.lang.reflect.Type;
-/*     */ import java.nio.charset.StandardCharsets;
-/*     */ import java.util.HashMap;
-/*     */ import java.util.Map;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
+import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+import com.google.gson.reflect.TypeToken;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.integrations.DistributorFactory;
+import com.megacrit.cardcrawl.saveAndContinue.SaveAndContinue;
+import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
+import com.megacrit.cardcrawl.screens.mainMenu.SaveSlotScreen;
+import com.megacrit.cardcrawl.vfx.GameSavedEffect;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.File;
+import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.Map;
 /*     */ 
 /*     */ 
 /*     */ 

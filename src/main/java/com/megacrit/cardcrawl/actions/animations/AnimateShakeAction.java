@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.actions.animations;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 /*    */ 
 /*    */ public class AnimateShakeAction extends AbstractGameAction {
 /*    */   private boolean called = false;

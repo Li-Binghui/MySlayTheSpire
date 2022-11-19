@@ -1,20 +1,22 @@
 /*    */ package com.megacrit.cardcrawl.stances;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
-/*    */ import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
-/*    */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.StanceStrings;
-/*    */ import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.stance.DivinityParticleEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.stance.StanceAuraEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.stance.StanceChangeParticleGenerator;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
+import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.StanceStrings;
+import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
+import com.megacrit.cardcrawl.vfx.stance.DivinityParticleEffect;
+import com.megacrit.cardcrawl.vfx.stance.StanceAuraEffect;
+import com.megacrit.cardcrawl.vfx.stance.StanceChangeParticleGenerator;
 /*    */ 
 /*    */ public class DivinityStance extends AbstractStance {
 /* 20 */   private static final StanceStrings stanceString = CardCrawlGame.languagePack.getStanceString("Divinity"); public static final String STANCE_ID = "Divinity";

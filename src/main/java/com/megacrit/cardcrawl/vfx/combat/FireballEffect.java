@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.vfx.combat;
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.math.Interpolation;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Interpolation;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.FireBurstParticleEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.GhostlyWeakFireEffect;
+import com.megacrit.cardcrawl.vfx.GhostlyWeakFireEffect;
 /*    */ 
 /*    */ public class FireballEffect extends AbstractGameEffect {
 /*    */   private static final float FIREBALL_INTERVAL = 0.016F;

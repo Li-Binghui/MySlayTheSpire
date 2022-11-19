@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.actions.unique;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 /*    */ 
 /*    */ public class AddCardToDeckAction extends AbstractGameAction {
 /*    */   AbstractCard cardToObtain;

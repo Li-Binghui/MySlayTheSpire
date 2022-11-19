@@ -1,9 +1,11 @@
 /*    */ package com.gikk.twirk.commands;
 /*    */ 
-/*    */ import com.gikk.twirk.Twirk;
-/*    */ import com.gikk.twirk.enums.USER_TYPE;
-/*    */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
-/*    */ import com.gikk.twirk.types.users.TwitchUser;
+/*    */
+
+import com.gikk.twirk.Twirk;
+import com.gikk.twirk.enums.USER_TYPE;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+import com.gikk.twirk.types.users.TwitchUser;
 /*    */ 
 /*    */ public class PatternCommandExample extends CommandExampleBase {
 /*  9 */   private static String PATTERN = "tick";

@@ -1,12 +1,10 @@
 /*    */ package com.gikk.twirk.types.usernotice;
 /*    */ 
-/*    */ import com.gikk.twirk.types.TagMap;
-/*    */ import com.gikk.twirk.types.TwitchTags;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.Raid;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.Ritual;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.Subscription;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.SubscriptionGift;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.SubscriptionPlan;
+/*    */
+
+import com.gikk.twirk.types.TagMap;
+import com.gikk.twirk.types.TwitchTags;
+import com.gikk.twirk.types.usernotice.subtype.*;
 /*    */ 
 /*    */ 
 /*    */ 

@@ -1,11 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.powers.deprecated;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.deprecated.DEPRECATEDRandomStanceAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import com.megacrit.cardcrawl.powers.AbstractPower;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.deprecated.DEPRECATEDRandomStanceAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 /*    */ 
 /*    */ public class DEPRECATEDEmotionalTurmoilPower extends AbstractPower {
 /* 11 */   private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("EmotionalTurmoilPower"); public static final String POWER_ID = "EmotionalTurmoilPower";

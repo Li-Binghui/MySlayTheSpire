@@ -1,23 +1,22 @@
 /*     */ package com.megacrit.cardcrawl.core;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.blights.AbstractBlight;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.ui.buttons.CancelButton;
-/*     */ import com.megacrit.cardcrawl.ui.buttons.EndTurnButton;
-/*     */ import com.megacrit.cardcrawl.ui.buttons.ProceedButton;
-/*     */ import com.megacrit.cardcrawl.ui.panels.BottomBgPanel;
-/*     */ import com.megacrit.cardcrawl.ui.panels.DiscardPilePanel;
-/*     */ import com.megacrit.cardcrawl.ui.panels.DrawPilePanel;
-/*     */ import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
-/*     */ import com.megacrit.cardcrawl.ui.panels.ExhaustPanel;
-/*     */ import java.util.ArrayList;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.blights.AbstractBlight;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.ui.buttons.CancelButton;
+import com.megacrit.cardcrawl.ui.buttons.EndTurnButton;
+import com.megacrit.cardcrawl.ui.buttons.ProceedButton;
+import com.megacrit.cardcrawl.ui.panels.*;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

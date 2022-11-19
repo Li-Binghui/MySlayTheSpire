@@ -1,0 +1,232 @@
+{
+  "Discard Tip": {
+    "LABEL": [
+      "Gomila za odbacivanje"
+    ],
+    "TEXT": [
+      "Ako je tvoja gomila za vučenje prazna, gomila za odbacivanje se meša u novu gomilu za vučenje. NL NL Pritisni da pregledaš karte u svojoj gomili za odbacivanje.",
+      "Ako je tvoja gomila za vučenje prazna, gomila za odbacivanje se meša u novu gomilu za vučenje. NL NL Pregledaj karte u svojoj gomili za odbacivanje."
+    ]
+  },
+  "Draw Tip": {
+    "LABEL": [
+      "Gomila za vučenje"
+    ],
+    "TEXT": [
+      "Na početku svakog poteza, NL #b",
+      " karata se vuče odavde. NL NL Pritisni da pregledaš karte u svojoj gomili za vučenje (izmešane).",
+      " karata se vuče odavde. NL NL Pritisni da pregledaš karte u svojoj gomili za vučenje.",
+      " karata se vuče odavde. NL NL Pregledaj karte u svojoj gomili za vučenje (izmešane).",
+      " karata se vuče odavde. NL NL Pregledaj karte u svojoj gomili za vučenje."
+    ]
+  },
+  "End Turn Tip": {
+    "LABEL": [
+      "Završi potez"
+    ],
+    "TEXT": [
+      "Pritiskom na ovaj taster završavaš svoj potez. NL NL Odbacuješ svoju ruku, neprijatelji igraju svoj potez, vučeš ",
+      " karata, i onda ponovo dolaziš na red."
+    ]
+  },
+  "Energy Panel Tip": {
+    "LABEL": [
+      "Energija"
+    ],
+    "TEXT": [
+      "Tvoja trenutna količina energije. Karte zahtevaju energiju za odigravanje."
+    ]
+  },
+  "Energy Tip": {
+    "LABEL": [
+      "trošak energije"
+    ],
+    "TEXT": [
+      "Karte zahtevaju energiju za odigravanje! NL Ova sfera dole levo pokazuje koliko ti je u ovom potezu preostalo energije."
+    ]
+  },
+  "Exhaust Tip": {
+    "LABEL": [
+      "Gomila za iscrpljene"
+    ],
+    "TEXT": [
+      "Pritisni da vidiš karte iscrpljene tokom ove borbe.",
+      "Pregledaj karte iscrpljene tokom ove borbe."
+    ]
+  },
+  "FTUE Tips": {
+    "LABEL": [
+      "Savet: ",
+      "Shvatam"
+    ],
+    "TEXT": []
+  },
+  "Main Tutorial": {
+    "LABEL": [
+      "Dalje",
+      "Sreman sam!",
+      "Vodič",
+      "(strana ",
+      " od 3)"
+    ],
+    "TEXT": [
+      "Porazi neprijatelje odigravanjem karata iz ruke! NL NL Karte zahtevaju #yenergiju kako bi se odigrale. NL Kada ostaneš bez, završi potez. NL NL Na početku svog poteza, vučeš nove karte i #yenergija se obnavlja.",
+      "Kada neprijatelji nameravaju da te napadnu, igraj defanzive karte kako bi zadobio #yodbranu. NL NL #yOdbrana umanjuje nadolazeću štetu ali NL #rističe na početku tvog sledećeg poteza.",
+      "Tokom tvog poteza, možeš da opaziš #ynameru neprijatelja iznad njega. NL NL Ako neprijatelj namerava da napadne, osiguraj se sa barem nešto #yodbrane!"
+    ]
+  },
+  "Options Tip": {
+    "LABEL": [
+      "Metrika",
+      "Pun ekran",
+      "Bezokvirni pun prozor",
+      "Maks. slika u sekundi",
+      "Monitor za pun ekran"
+    ],
+    "TEXT": [
+      "Podaci igranja i zapisi grešaka se šalju Mega Kritu zarad balansiranja igre. NL NL Lične informacije se NE skupljaju.",
+      "Pohod na Toranj najbrže radi u punom ekranu. Preporučljivo za mekOS s obzirom da su dok i menibar skriveni. NL NAPOMENA: Na PC-u, alt-tabovanje nazad u Pohod na Toranj u punom ekranu neće uvek raditi.",
+      "S obzirom da Pohod na Toranj nije zahtevna igra, predlažemo bezokvirni pun prozor za brže funkionisanje alt-taba. Najbolje radi na PC-u.",
+      "Napomena: Ako je vertikalna sinhronizacija upaljena, broj maks. slika u sekundi ne može da prevaziđe frekvenciju osvežavanja monitora.",
+      "Podrška za džojstik je nepotpuna za ovaj meni.",
+      "Menja koji monitor se koristi za pun ekran."
+    ]
+  },
+  "PC Tips": {
+    "LABEL": [],
+    "TEXT": [
+      "desnim klikom na nagradnu kartu pri odabiru možeš da vidiš dodatne informacije.",
+      "mogu se otkriti korisne informacije prelaženjem preko većine predmeta.",
+      "desni klik pušta sve karte koje trenutno vučeš.",
+      "pređi preko neprijatelja da vidiš njegovo ime i sposobnosti.",
+      "koristi točkić ili klikni i vuci po ekranu da listaš.",
+      "u slučaju da možeš da ispitaš predmet, miš na ekranu će postati lupa.",
+      "koristi točkić ili pritisni i vuci kako bi pregledao mape, prikaze karata, i drugo."
+    ]
+  },
+  "Player Tips": {
+    "LABEL": [
+      "moći",
+      "trošak energije"
+    ],
+    "TEXT": [
+      "Ova karta ti daje moć kada se odigra. NL Moći su sposobnosti koje su aktivne tokom cele borbe.",
+      "Karte zahtevaju energiju za odigravanje! NL Ova sfera dole levo pokazuje koliko ti je preostalo energije u ovom potezu.",
+      "Ruka mi je #rpuna!",
+      "#rKapacitet sfernih polja je popunjen.",
+      "Nemam sfernih polja."
+    ]
+  },
+  "Potion Panel Tip": {
+    "LABEL": [
+      "Baci",
+      "Ispi",
+      "Odbaci"
+    ],
+    "TEXT": [
+      "Baci ovaj napitak na neprijatelja.",
+      "Ispi ovaj napitak.",
+      "Odbaci ovaj napitak NL #r(ne #rmožeš #rda #rga #rpovratiš)."
+    ]
+  },
+  "Potion Tip": {
+    "LABEL": [
+      "napici"
+    ],
+    "TEXT": [
+      "Ispi ili bacaj napitke tokom borbe! NL Napici ostaju sa tobom između soba."
+    ]
+  },
+  "Random Tips": {
+    "LABEL": [
+      "Možeš da odbaciš napitak kako bi napravio mesta za drugi."
+    ],
+    "TEXT": [
+      "poveži se sa drugim igračima kako bi otkrio nove i efiksane strategije.",
+      "pre borbe sa voždom je uvek odmaralište.",
+      "potroši zlato na tržnici! (Ovaj savet vam je doneo: Trgovac)",
+      "slobodno se odmori sa vremena na vreme.",
+      "procenutalna računanja se na kraju uvek zaokružuju na dole.",
+      "tokom borbe, možeš da pregledaš karte iz svojih gomila za vučenje i odbacivanje.",
+      "ne postoji ograničenje u količini relikvija koje možeš da nosiš.",
+      "kočvezi uvek sadrže relikviju.",
+      "svaka putanja na koju se deneš će uvek imati barem jedno blago.",
+      "čelnici uvek ispuštaju relikviju.",
+      "nikad nećeš videti istu relikviju dvaput u jednom pohodu.",
+      "neuobičajene karte imaju plavi okvir i zaglavlje.",
+      "retke karte imaju zlatni okvir i zaglavlje.",
+      "raritet karte je vidljiv na samoj karti.",
+      "nije uvek mudro dodavati karte u špil.",
+      "karte iscrpljene tokom borbe nisu uklonjene iz špila.",
+      "možeš imati samo do 10 karata u ruci odjendom.",
+      "stanja nestaju na kraju borbe.",
+      "kletve ne možeš da poboljšaš. Zašto bi to uopšte hteo?",
+      "poboljšane karte se pojavljuju posle prvog čina.",
+      "nepoznate sobe mogu sadržati blaga, čudovišta, tržnice, ili događaje.",
+      "trgovac ne nudi povraćaj. Kreten.",
+      "cena servisa za uklanjanje karata se povećava sa svakim korišćenjem.",
+      "servis za uklanjanje karata se može iskoristiti samo jednom po tržnici.",
+      "šteta od napitaka, relikvija, i moći se ne smatra štetom od napada.",
+      "efekti koji generišu nasumične karte tokom borbe te nikad neće zalečiti."
+    ]
+  },
+  "Relic Tip": {
+    "LABEL": [
+      "Relikvije",
+      "Nepoznato",
+      "Ovu relikviju tek treba otključati.",
+      "Zaključano"
+    ],
+    "TEXT": [
+      "Relikvije se nalaze po celom Tornju i daju jedinstvene bonuse, ostajući sa tobom kroz ceo pohod. NL Mogu se naći pobeđivanjem moćnih neprijatelja ili u kovčezima.",
+      "Na ovu relikviju tek treba da naiđeš.",
+      "Ova relikvija je potrošena."
+    ]
+  },
+  "Rewards Tip": {
+    "LABEL": [
+      "nagrade"
+    ],
+    "TEXT": [
+      "Ne zaboravi svoje nagrade! NL Samo pritisni na njih da bi ih pokupio.",
+      "Ne zaboravi svoje nagrade!"
+    ]
+  },
+  "Shop Tip": {
+    "LABEL": [
+      "Servis uklanjanja karata"
+    ],
+    "TEXT": [
+      "Ukloni kartu iz špila. Cena ove usluge se povećava za #b",
+      " do kraja ovog pohoda."
+    ]
+  },
+  "Shuffle Tip": {
+    "LABEL": [
+      "nema više karata?"
+    ],
+    "TEXT": [
+      "NL Ako nema više karata za vučenje, karte iz gomile za odbacivanje se mešaju kako bi formirale novu gomilu za vučenje."
+    ]
+  },
+  "Top Panel Tips": {
+    "LABEL": [
+      "Postavke",
+      "Špil",
+      "Mapa",
+      "Životni poeni (ž. p.)",
+      "Torbica za novac",
+      "Pohođenje"
+    ],
+    "TEXT": [
+      "Otvara meni igre. NL NL Ovde promeni grafiku, audio, i druge opcije.",
+      "Pregledaj sve karte u svom špilu.",
+      "Pregledaj mapu trenutnog čina.",
+      "Ako ostaneš bez ž. p., umireš.",
+      "Prikazuje koliko zlata nosiš. Zlato je valuta u Tornju.",
+      "",
+      "",
+      "Vreme od početka trenutnog pohoda."
+    ]
+  }
+}

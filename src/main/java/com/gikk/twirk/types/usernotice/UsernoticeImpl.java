@@ -1,11 +1,14 @@
 /*     */ package com.gikk.twirk.types.usernotice;
 /*     */ 
-/*     */ import com.gikk.twirk.types.emote.Emote;
-/*     */ import com.gikk.twirk.types.usernotice.subtype.Raid;
-/*     */ import com.gikk.twirk.types.usernotice.subtype.Ritual;
-/*     */ import com.gikk.twirk.types.usernotice.subtype.Subscription;
-/*     */ import java.util.List;
-/*     */ import java.util.Optional;
+/*     */
+
+import com.gikk.twirk.types.emote.Emote;
+import com.gikk.twirk.types.usernotice.subtype.Raid;
+import com.gikk.twirk.types.usernotice.subtype.Ritual;
+import com.gikk.twirk.types.usernotice.subtype.Subscription;
+
+import java.util.List;
+import java.util.Optional;
 /*     */ 
 /*     */ 
 /*     */ 

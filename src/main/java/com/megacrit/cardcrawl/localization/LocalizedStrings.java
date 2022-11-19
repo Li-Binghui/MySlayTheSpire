@@ -1,15 +1,18 @@
 /*     */ package com.megacrit.cardcrawl.localization;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.google.gson.Gson;
-/*     */ import com.google.gson.reflect.TypeToken;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import java.io.File;
-/*     */ import java.lang.reflect.Type;
-/*     */ import java.nio.charset.StandardCharsets;
-/*     */ import java.util.Map;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.megacrit.cardcrawl.core.Settings;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.File;
+import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
+import java.util.Map;
 /*     */ 
 /*     */ 
 /*     */ 

@@ -1,0 +1,98 @@
+{
+  "DeadlyEnemies": {
+    "NAME": "Vitsauksien keihäs",
+    "DESCRIPTION": [
+      "Viholliset antavat #b",
+      "% enemmän vauriota."
+    ]
+  },
+  "ToughEnemies": {
+    "NAME": "Vitsauksien kilpi",
+    "DESCRIPTION": [
+      "Vihollisilla on #b",
+      "% enemmän OP:tä."
+    ]
+  },
+  "TimeMaze": {
+    "NAME": "Aikasokkelo",
+    "DESCRIPTION": [
+      "Et voi pelata enemmän kuin #b",
+      " korttia vuoron aikana.",
+      "Voin pelata korkeintaan NL #r"
+    ]
+  },
+  "TwistingMind": {
+    "NAME": "Kieroutuva mieli",
+    "DESCRIPTION": [
+      "Lisää vuorosi lopussa #b",
+      " satunnaista statusta nostopinosi päälle.",
+      ""
+    ]
+  },
+  "Accursed": {
+    "NAME": "Kirottu",
+    "DESCRIPTION": [
+      "Aina kun päihität Pomon, saa #b",
+      " satunnaista #ykirousta.",
+      ""
+    ]
+  },
+  "Scatterbrain": {
+    "NAME": "Hajamielinen",
+    "DESCRIPTION": [
+      "Nosta #b",
+      " korttia vähemmän vuorollasi.",
+      ""
+    ]
+  },
+  "MimicInfestation": {
+    "NAME": "Matkijoiden hävitys",
+    "DESCRIPTION": [
+      "Tulevien näytösten aarrehuoneet korvataan eliiteillä. Eliitit eivät enää anna reliikkejä."
+    ]
+  },
+  "FullBelly": {
+    "NAME": "Kuonokoppa",
+    "DESCRIPTION": [
+      "Et voi enää lisätä MaksimiOP:tä. Kaikki paranemiset ovat puolta heikompia."
+    ]
+  },
+  "GrotesqueTrophy": {
+    "NAME": "Groteski pokaali",
+    "DESCRIPTION": [
+      "Poimiessasi tämän, ota #b",
+      " #rYlpeyttä.",
+      "Ylpeytesi on kieroutunutta..."
+    ]
+  },
+  "BlightedDurian": {
+    "NAME": "Jälkidurio",
+    "DESCRIPTION": [
+      "Menetä #b",
+      "% MaksimiOP:stä."
+    ]
+  },
+  "VoidEssence": {
+    "NAME": "Ydintyhjyys",
+    "DESCRIPTION": [
+      "Saa #b",
+      " vähemmän [E] vuorosi alussa."
+    ]
+  },
+  "GraspOfShadows": {
+    "NAME": "Kummittelut",
+    "DESCRIPTION": [
+      "Viholliset aloittavat taistelun #b",
+      " #yaineettomalla."
+    ]
+  },
+  "MetallicRebirth": {
+    "NAME": "Muinaista tehostamista",
+    "DESCRIPTION": [
+      "Viholliset aloittavat taistelun #b",
+      " #yartefaktilla, #b",
+      " #ypanssarilla ja #b",
+      " #yregenillä."
+    ]
+  }
+}

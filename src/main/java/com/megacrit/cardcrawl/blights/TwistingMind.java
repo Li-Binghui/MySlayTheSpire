@@ -1,17 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.blights;
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.CardGroup;
-/*    */ import com.megacrit.cardcrawl.cards.status.Burn;
-/*    */ import com.megacrit.cardcrawl.cards.status.Dazed;
-/*    */ import com.megacrit.cardcrawl.cards.status.Slimed;
-/*    */ import com.megacrit.cardcrawl.cards.status.VoidCard;
-/*    */ import com.megacrit.cardcrawl.cards.status.Wound;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*    */ import com.megacrit.cardcrawl.localization.BlightStrings;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.cards.status.*;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.PowerTip;
+import com.megacrit.cardcrawl.localization.BlightStrings;
 /*    */ 
 /*    */ public class TwistingMind extends AbstractBlight {
 /* 17 */   private static final BlightStrings blightStrings = CardCrawlGame.languagePack.getBlightString("TwistingMind"); public static final String ID = "TwistingMind";

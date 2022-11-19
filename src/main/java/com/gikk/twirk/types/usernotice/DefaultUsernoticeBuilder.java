@@ -1,12 +1,15 @@
 /*    */ package com.gikk.twirk.types.usernotice;
 /*    */ 
-/*    */ import com.gikk.twirk.types.TagMap;
-/*    */ import com.gikk.twirk.types.emote.Emote;
-/*    */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.Raid;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.Ritual;
-/*    */ import com.gikk.twirk.types.usernotice.subtype.Subscription;
-/*    */ import java.util.List;
+/*    */
+
+import com.gikk.twirk.types.TagMap;
+import com.gikk.twirk.types.emote.Emote;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+import com.gikk.twirk.types.usernotice.subtype.Raid;
+import com.gikk.twirk.types.usernotice.subtype.Ritual;
+import com.gikk.twirk.types.usernotice.subtype.Subscription;
+
+import java.util.List;
 /*    */ 
 /*    */ 
 /*    */ 

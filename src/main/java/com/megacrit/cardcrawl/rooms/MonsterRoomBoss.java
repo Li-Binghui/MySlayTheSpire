@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.rooms;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+/*    */
+
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*    */ 
 /*    */ public class MonsterRoomBoss
 /*    */   extends MonsterRoom {

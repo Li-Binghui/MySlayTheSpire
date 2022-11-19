@@ -1,25 +1,21 @@
 /*     */ package com.megacrit.cardcrawl.screens.runHistory;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.CardLibrary;
-/*     */ import com.megacrit.cardcrawl.helpers.EventHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MonsterHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.PotionHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.RelicLibrary;
-/*     */ import com.megacrit.cardcrawl.helpers.TipHelper;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.screens.stats.BattleStats;
-/*     */ import com.megacrit.cardcrawl.screens.stats.CampfireChoice;
-/*     */ import com.megacrit.cardcrawl.screens.stats.CardChoiceStats;
-/*     */ import com.megacrit.cardcrawl.screens.stats.EventStats;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Arrays;
-/*     */ import java.util.List;
+/*     */
+
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.screens.stats.BattleStats;
+import com.megacrit.cardcrawl.screens.stats.CampfireChoice;
+import com.megacrit.cardcrawl.screens.stats.CardChoiceStats;
+import com.megacrit.cardcrawl.screens.stats.EventStats;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 /*     */ 
 /*     */ 
 /*     */ 

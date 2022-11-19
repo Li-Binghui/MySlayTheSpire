@@ -1,36 +1,30 @@
 /*     */ package com.megacrit.cardcrawl.monsters.exordium;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.TalkAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.VFXAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ChangeStateAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.LoseBlockAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.SFXAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.powers.ModeShiftPower;
-/*     */ import com.megacrit.cardcrawl.powers.SharpHidePower;
-/*     */ import com.megacrit.cardcrawl.powers.VulnerablePower;
-/*     */ import com.megacrit.cardcrawl.powers.WeakPower;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.CleaveEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.IntenseZoomEffect;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
+import com.megacrit.cardcrawl.actions.animations.TalkAction;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.*;
+import com.megacrit.cardcrawl.actions.utility.LoseBlockAction;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
+import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.*;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.combat.CleaveEffect;
+import com.megacrit.cardcrawl.vfx.combat.IntenseZoomEffect;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*     */ 
 /*     */ public class TheGuardian extends AbstractMonster {
 /*  36 */   private static final Logger logger = LogManager.getLogger(TheGuardian.class.getName());

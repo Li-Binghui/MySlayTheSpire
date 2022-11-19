@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.actions.common;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
 /*    */ 
 /*    */ public class ReduceCostForTurnAction extends AbstractGameAction {
 /*    */   private AbstractCard targetCard;

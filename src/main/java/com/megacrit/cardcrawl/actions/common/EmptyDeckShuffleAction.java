@@ -1,15 +1,18 @@
 /*    */ package com.megacrit.cardcrawl.actions.common;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.TipTracker;
-/*    */ import com.megacrit.cardcrawl.localization.TutorialStrings;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*    */ import com.megacrit.cardcrawl.ui.FtueTip;
-/*    */ import java.util.Iterator;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.TipTracker;
+import com.megacrit.cardcrawl.localization.TutorialStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.ui.FtueTip;
+
+import java.util.Iterator;
 /*    */ 
 /*    */ public class EmptyDeckShuffleAction
 /*    */   extends AbstractGameAction

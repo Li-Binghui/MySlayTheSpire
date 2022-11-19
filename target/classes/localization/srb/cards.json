@@ -1,0 +1,1886 @@
+{
+  "A Thousand Cuts": {
+    "DESCRIPTION": "Svaki put kad odigraš kartu, zadaj SVIM neprijateljima štete: !M!.",
+    "NAME": "Hiljadu rezova"
+  },
+  "Accuracy": {
+    "DESCRIPTION": "*Noževi zadaju NL !M! više štete.",
+    "NAME": "Preciznost"
+  },
+  "Acrobatics": {
+    "DESCRIPTION": "Vuci !M! karte. NL Odbaci jednu kartu.",
+    "NAME": "Akrobacija"
+  },
+  "Adaptation": {
+    "DESCRIPTION": "Svaki put kad se razbesniš, vuci !M! karte.",
+    "NAME": "Neumoljivost",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Adrenaline": {
+    "DESCRIPTION": "Zadobi [G]. NL Vuci dve karte. NL Iscrpi.",
+    "NAME": "Adrenalin",
+    "UPGRADE_DESCRIPTION": "Zadobi [G] [G]. NL Vuci dve karte. NL Iscrpi."
+  },
+  "After Image": {
+    "DESCRIPTION": "Svaki put kada odigraš kartu, zadobi jednu odbranu.",
+    "NAME": "Obrisi",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Svaki put kada odigraš kartu, zadobi jednu odbranu."
+  },
+  "Aggregate": {
+    "DESCRIPTION": "Zadobi [B] za svake !M! karte u gomili NL za vučenje.",
+    "NAME": "Agregat"
+  },
+  "All For One": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Prebaci sve besplatne karte iz gomile za odbacivanje u ruku.",
+    "NAME": "Svi za jednog"
+  },
+  "All Out Attack": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima. NL Odbaci jednu NL nasumičnu kartu.",
+    "NAME": "Neobuzdan napad"
+  },
+  "Allocate": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Alpha": {
+    "DESCRIPTION": "Ubaci *Betu u gomilu za vučenje. NL Iscrpi.",
+    "NAME": "Alfa",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Ubaci *Betu u gomilu za vučenje. NL Iscrpi."
+  },
+  "Amplify": {
+    "DESCRIPTION": "Tokom ovog poteza, tvoja sledeća moć će se odigrati još jednom.",
+    "NAME": "Pojačaj",
+    "UPGRADE_DESCRIPTION": "Tokom ovog poteza, tvoje sledeće !M! moći će se odigrati još jednom"
+  },
+  "Anger": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Stavi kopiju ove NL karte u gomilu NL za odbacivanje.",
+    "NAME": "Gnev"
+  },
+  "Apotheosis": {
+    "DESCRIPTION": "Poboljšaj SVE svoje karte do kraja borbe. NL Iscrpi.",
+    "NAME": "Apoteoza"
+  },
+  "Armaments": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Poboljšaj jednu kartu iz ruke do kraja borbe.",
+    "NAME": "Oprema",
+    "UPGRADE_DESCRIPTION": "Zadobi !B! odbrane. NL Poboljšaj sve karte iz ruke do kraja borbe."
+  },
+  "AscendersBane": {
+    "DESCRIPTION": "Neodigriva. NL Prolazna. NL Ne može biti uklonjena iz špila.",
+    "NAME": "Uspinjačeva propast"
+  },
+  "Auto Shields": {
+    "DESCRIPTION": "Ako nemaš odbrane, zadobi !B!.",
+    "NAME": "Zaklon"
+  },
+  "AwakenedStrike": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Axe Kick": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Aktiviraj svoju najdešnju sferu.",
+    "NAME": "Nasilna aktivacija"
+  },
+  "Backflip": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Vuci dve karte.",
+    "NAME": "Skok unazad"
+  },
+  "Backstab": {
+    "DESCRIPTION": "Urođena. NL Zadaj !D! štete. NL Iscrpi.",
+    "NAME": "Zari"
+  },
+  "Ball Lightning": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Prizovi !M! munju.",
+    "NAME": "Loptasta munja"
+  },
+  "Bandage Up": {
+    "DESCRIPTION": "Zaleči !M! ž. p. NL Iscrpi.",
+    "NAME": "Zavoj"
+  },
+  "Bane": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je neprijatelj zatrovan, zadaj mu NL još !D! štete.",
+    "NAME": "Pomor"
+  },
+  "Barrage": {
+    "DESCRIPTION": "Zadaj !D! štete za svaku prizvanu sferu.",
+    "NAME": "Paljba"
+  },
+  "Barricade": {
+    "DESCRIPTION": "Odbrana se ne uklanja na početku poteza.",
+    "NAME": "Barikada"
+  },
+  "Bash": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi !M! ranjivosti.",
+    "NAME": "Zvekni"
+  },
+  "Battle Trance": {
+    "DESCRIPTION": "Vuci !M! karte. NL Ovaj potez više ne možeš da vučeš karte.",
+    "NAME": "Borbeni zanos"
+  },
+  "BattleHymn": {
+    "DESCRIPTION": "Na početku svakog poteza, dodaj *Uništenje u ruku.",
+    "NAME": "Borbena himna",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Na početku svakog poteza, dodaj *Uništenje u ruku."
+  },
+  "Beam Cell": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi ranjivosti: !M!.",
+    "NAME": "Zrak"
+  },
+  "BecomeAlmighty": {
+    "DESCRIPTION": "Povećaj svoju NL snagu za !M!.",
+    "NAME": "Svemoć"
+  },
+  "Berserk": {
+    "DESCRIPTION": "Zadobi ranjivosti: !M!. NL Na početku poteza, zadobi [R].",
+    "NAME": "Razjarenost"
+  },
+  "Beta": {
+    "DESCRIPTION": "Ubaci *Omegu u gomilu za vučenje. NL Iscrpi.",
+    "NAME": "Beta",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Biased Cognition": {
+    "DESCRIPTION": "Zadobi !M! potentnosti. NL Na početku svog NL poteza, izgubi NL jednu potentnost.",
+    "NAME": "Krajnji protokoli"
+  },
+  "BigBrain": {
+    "DESCRIPTION": "",
+    "NAME": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Bite": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Zaleči !M! ž. p.",
+    "NAME": "Ujed"
+  },
+  "Blade Dance": {
+    "DESCRIPTION": "Dodaj !M! *Noža u ruku.",
+    "NAME": "Igra sečiva"
+  },
+  "Blasphemy": {
+    "DESCRIPTION": "Oboži se. NL Umri sledeći potez. NL Iscrpi.",
+    "NAME": "Bogohuljenje",
+    "UPGRADE_DESCRIPTION": "Zadrži. NL Oboži se. NL Umri sledeći potez. NL Iscrpi."
+  },
+  "Blaster": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Blessed": {
+    "DESCRIPTION": "",
+    "NAME": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Blind": {
+    "DESCRIPTION": "Nanesi !M! slabosti.",
+    "NAME": "Oslepi",
+    "UPGRADE_DESCRIPTION": "Nanesi !M! slabosti SVIM neprijateljima."
+  },
+  "Blizzard": {
+    "DESCRIPTION": "Zadaj SVIM neprijateljima štetu jednaku broju prizvanih mrazova u borbi NL puta !M!.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Ukupno: !D!.",
+      ""
+    ],
+    "NAME": "Mećava",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Blood for Blood": {
+    "DESCRIPTION": "Košta [R] manje svaki put kada tokom trenutne borbe izgubiš ž. p. putem napada. Zadaj !D! štete.",
+    "NAME": "Krvna osveta"
+  },
+  "Bloodletting": {
+    "DESCRIPTION": "Izgubi tri ž. p. NL Zadobi [R].",
+    "NAME": "Žrtva",
+    "UPGRADE_DESCRIPTION": "Izgubi tri ž. p. NL Zadobi [R] [R]."
+  },
+  "Bludgeon": {
+    "DESCRIPTION": "Zadaj !D! štete.",
+    "NAME": "Rasmrskaj"
+  },
+  "Blur": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Odbrana se ne uklanja na početku sledećeg poteza.",
+    "NAME": "Trk"
+  },
+  "Body Slam": {
+    "DESCRIPTION": "Zadaj štetu jednaku tvojoj odbrani,",
+    "NAME": "Nalet",
+    "UPGRADE_DESCRIPTION": " NL ukupno: !D!."
+  },
+  "BootSequence": {
+    "DESCRIPTION": "Urođena. NL Zadobi !B! odbrane. NL Iscrpi.",
+    "NAME": "Podizanje"
+  },
+  "Bouncing Flask": {
+    "DESCRIPTION": "Nanesi tri otrova nasumičnom neprijatelju !M! puta.",
+    "NAME": "Pljoska"
+  },
+  "BowlingBash": {
+    "DESCRIPTION": "Zadaj !D! štete za svakog neprijatelja u borbi.",
+    "NAME": "Razlupaj"
+  },
+  "Brilliance": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Zadaj dodatnu štetu jednaku broju zadobijenih molitvi tokom ove borbe.",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      ""
+    ],
+    "NAME": "Nadahnuće"
+  },
+  "BrillianceAura": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Brutality": {
+    "DESCRIPTION": "Na početku poteza, izgubi jedan ž. p. i vuci jednu kartu.",
+    "NAME": "Brutalnost",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Na početku poteza, izgubi jedan ž. p. i vuci jednu kartu."
+  },
+  "Buffer": {
+    "DESCRIPTION": "Spreči sledeće gubljenje ž. p.",
+    "NAME": "Štit",
+    "UPGRADE_DESCRIPTION": "Spreči sledeća !M! gubljenja ž. p."
+  },
+  "Bullet Time": {
+    "DESCRIPTION": "Sve karte u ruci su besplatne tokom ovog poteza, ali ne možeš da vučeš karte.",
+    "NAME": "Zamrzni vreme"
+  },
+  "Burn": {
+    "DESCRIPTION": "Neodigriva. NL Na kraju poteza, primi dve štete.",
+    "NAME": "Opekotina",
+    "UPGRADE_DESCRIPTION": "Neodigriva. NL Na kraju poteza, primi četiri štete."
+  },
+  "Burning Pact": {
+    "DESCRIPTION": "Iscrpi jednu kartu. NL Vuci !M! karte.",
+    "NAME": "Pakleni sporazum"
+  },
+  "Burst": {
+    "DESCRIPTION": "Ovaj potez, sledeće umeće odigraj dvaput.",
+    "NAME": "Navala",
+    "UPGRADE_DESCRIPTION": "Ovaj potez, sledeća !M! umeća odigraj dvaput."
+  },
+  "Calculated Gamble": {
+    "DESCRIPTION": "Odbaci ruku, potom vuci isti broj karata. NL Iscrpi.",
+    "NAME": "Proračunati rizik",
+    "UPGRADE_DESCRIPTION": "Odbaci ruku, potom vuci isti broj karata."
+  },
+  "Calm": {
+    "DESCRIPTION": "Po izlasku iz ovog stava, zadobi [W] [W].",
+    "NAME": "Mir"
+  },
+  "Caltrops": {
+    "DESCRIPTION": "Svaki put kad te neko napadne, zadaj mu !M! štete.",
+    "NAME": "Čičci"
+  },
+  "Capacitor": {
+    "DESCRIPTION": "Stvori !M! sferna polja.",
+    "NAME": "Kondenzator",
+    "UPGRADE_DESCRIPTION": "Stvori !M! sferna polja."
+  },
+  "Carnage": {
+    "DESCRIPTION": "Prolazna. NL Zadaj !D! štete.",
+    "NAME": "Pokolj"
+  },
+  "CarveReality": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Dodaj *Uništenje u ruku.",
+    "NAME": "Kulis",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Catalyst": {
+    "DESCRIPTION": "Udvostruči otrov na neprijatelju. NL Iscrpi.",
+    "NAME": "Katalizator",
+    "UPGRADE_DESCRIPTION": "Utrostruči otrov na neprijatelju. NL Iscrpi."
+  },
+  "Causality": {
+    "DESCRIPTION": "Vuci karte dok ne napuniš ruku. NL Iscrpi.",
+    "NAME": "Kauzalnost",
+    "UPGRADE_DESCRIPTION": "Zadrži. NL Vuci karte dok ne napuniš ruku. NL Iscrpi."
+  },
+  "Chaos": {
+    "DESCRIPTION": "Prizovi !M! NL nasumičnu sferu.",
+    "NAME": "Haos",
+    "UPGRADE_DESCRIPTION": "Prizovi !M! NL nasumične sfere."
+  },
+  "Chill": {
+    "DESCRIPTION": "Prizovi !M! mraz za svakog neprijatelja. NL Iscrpi.",
+    "NAME": "Smrzni",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Prizovi !M! mraz za svakog neprijatelja NL u borbi. NL Iscrpi."
+  },
+  "Choke": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Svaki put kada odigraš kartu, neprijatelj NL gubi !M! ž. p.",
+    "NAME": "Davljenje"
+  },
+  "Chrysalis": {
+    "DESCRIPTION": "Ubaci nasumične veštine u gomilu za vučenje, njih !M!. Ovu borbu su besplatne. NL Iscrpi.",
+    "NAME": "Lutka"
+  },
+  "Clarity": {
+    "DESCRIPTION": "Pogledaj !M! karte sa vrha gomile za vučenje. Dodaj jednu u ruku. NL Iscrpi drugu.",
+    "NAME": "Bistrina",
+    "UPGRADE_DESCRIPTION": "Pogledaj !M! karte sa vrha gomile za vučenje. Dodaj jednu u ruku. NL Iscrpi ostale."
+  },
+  "Clash": {
+    "DESCRIPTION": "Možeš odigrati samo ako su sve karte NL u ruci napadi. NL Zadaj !D! štete.",
+    "EXTENDED_DESCRIPTION": [
+      "U ruci imam karte koje nisu napadi."
+    ],
+    "NAME": "Okršaj"
+  },
+  "CleanseEvil": {
+    "DESCRIPTION": "Dodaj X *Uništenja u ruku.",
+    "NAME": "Uništi zlo",
+    "UPGRADE_DESCRIPTION": "Dodaj X *Uništenja+ u ruku."
+  },
+  "ClearTheMind": {
+    "DESCRIPTION": "Zadrži. NL Smiri se. NL Iscrpi.",
+    "NAME": "Spokoj"
+  },
+  "Cleave": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima.",
+    "NAME": "Rascopaj"
+  },
+  "Cloak And Dagger": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Dodaj !M! *Nož u ruku.",
+    "NAME": "Plašt i bodež",
+    "UPGRADE_DESCRIPTION": "Zadobi !B! odbrane. NL Dodaj !M! *Noža u ruku."
+  },
+  "Clothesline": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi !M! slabosti.",
+    "NAME": "Žicni"
+  },
+  "Clumsy": {
+    "DESCRIPTION": "Neodigriva. NL Prolazna.",
+    "NAME": "Trapavost"
+  },
+  "Cold Snap": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Prizovi !M! mraz.",
+    "NAME": "Ledenica"
+  },
+  "Collect": {
+    "DESCRIPTION": "Dodaj *Čudo+ u svoju ruku na početku sledećih X poteza. NL Iscrpi.",
+    "NAME": "Blagoslov",
+    "UPGRADE_DESCRIPTION": "Dodaj *Čudo+ u svoju ruku na početku sledećih X poteza. NL Iscrpi."
+  },
+  "Combust": {
+    "DESCRIPTION": "Na kraju poteza, izgubi jedan ž. p. i zadaj !M! štete SVIM neprijateljima.",
+    "NAME": "Sagorevanje"
+  },
+  "Compile Driver": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Vuci !M! kartu za svaku jedinstvenu sferu koju imaš.",
+    "NAME": "Razbi kontroler"
+  },
+  "Concentrate": {
+    "DESCRIPTION": "Odbaci !M! karte. NL Zadobi [G] [G].",
+    "NAME": "Usredsredi se"
+  },
+  "Conclude": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima. NL Završi potez.",
+    "NAME": "Razreši"
+  },
+  "ConjureBlade": {
+    "DESCRIPTION": "Ubaci *Anatemu u gomilu za vučenje. NL Iscrpi.",
+    "NAME": "Prizovi sečivo",
+    "UPGRADE_DESCRIPTION": "Ubaci *Anatemu sa X+1 u gomilu za vučenje. NL Iscrpi."
+  },
+  "Consecrate": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima.",
+    "NAME": "Osveštaj"
+  },
+  "Conserve Battery": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Zadobi [B] NL sledeći krug.",
+    "NAME": "Napuni bateriju"
+  },
+  "Consume": {
+    "DESCRIPTION": "Zadobi NL !M! potentnosti. NL Izgubi jedno NL sferno polje.",
+    "NAME": "Prerada"
+  },
+  "Coolheaded": {
+    "DESCRIPTION": "Prizovi jedan mraz. NL Vuci !M! kartu.",
+    "NAME": "Hladne glave",
+    "UPGRADE_DESCRIPTION": "Prizovi jedan mraz. NL Vuci !M! karte."
+  },
+  "Core Surge": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Zadobi !M! zaštitu. NL Iscrpi.",
+    "NAME": "Napon"
+  },
+  "Corpse Explosion": {
+    "DESCRIPTION": "Nanesi !M! otrova. NL Kada meta umre, zadaj svim neprijateljima štetu jednaku njenim maks. ž. p.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ],
+    "NAME": "Nadimanje",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Corruption": {
+    "DESCRIPTION": "Umeća su besplatna. NL Svaki put kada odigraš umeće, iscrpi ga.",
+    "NAME": "Podlost"
+  },
+  "Creative AI": {
+    "DESCRIPTION": "Na početku svog poteza, dodaj nasumičnu NL moć u ruku.",
+    "NAME": "Metaprogram"
+  },
+  "Crescendo": {
+    "DESCRIPTION": "Zadrži. NL Razbesni se. NL Iscrpi.",
+    "NAME": "Klapna"
+  },
+  "CrescentKick": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Crippling Poison": {
+    "DESCRIPTION": "Nanesi !M! otrova i dve slabosti SVIM neprijateljima. NL Iscrpi.",
+    "NAME": "Sakateća para"
+  },
+  "CrushJoints": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je prethodna odigrana karta u ovoj borbi bila veština, nanesi ranjivosti: !M!.",
+    "NAME": "Smrskaj zglobove"
+  },
+  "CurseOfTheBell": {
+    "DESCRIPTION": "Neodigriva. NL Ne može biti uklonjena iz špila.",
+    "NAME": "Odzvonjavanje"
+  },
+  "CutThroughFate": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Proreci !M! karte. NL Vuci jednu kartu.",
+    "NAME": "Preseci nit"
+  },
+  "Dagger Spray": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima dvaput.",
+    "NAME": "Kiša bodeža"
+  },
+  "Dagger Throw": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Vuci jednu kartu. NL Odbaci jednu kartu.",
+    "NAME": "Baci bodež"
+  },
+  "Dark Embrace": {
+    "DESCRIPTION": "Svaki put kada iscrpiš kartu, vuci jednu kartu.",
+    "NAME": "Zagrljaj tame"
+  },
+  "Dark Shackles": {
+    "DESCRIPTION": "Smanji snagu neprijatelja za !M! tokom ovog kruga. NL Iscrpi.",
+    "NAME": "Mračni okovi"
+  },
+  "Darkness": {
+    "DESCRIPTION": "Prizovi !M! tamu.",
+    "NAME": "Tama",
+    "UPGRADE_DESCRIPTION": "Prizovi !M! tamu. NL Iskoristi pasivnu sposobnost svih tama."
+  },
+  "Dash": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Zadaj !D! štete.",
+    "NAME": "Potrk"
+  },
+  "Dazed": {
+    "DESCRIPTION": "Neodigriva. NL Prolazna.",
+    "NAME": "Ošamućenost"
+  },
+  "Deadly Poison": {
+    "DESCRIPTION": "Nanesi !M! otrova.",
+    "NAME": "Ubojiti otrov"
+  },
+  "Decay": {
+    "DESCRIPTION": "Neodigriva. NL Na kraju poteza, primi dve štete.",
+    "NAME": "Raspadanje"
+  },
+  "DeceiveReality": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Dodaj *Obmanu u NL ruku.",
+    "NAME": "Obmani stvarnost",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Deep Breath": {
+    "DESCRIPTION": "Izmešaj gomilu za odbacivanje u gomilu NL za vučenje. NL Vuci !M! kartu.",
+    "NAME": "Duboki udah",
+    "UPGRADE_DESCRIPTION": "Izmešaj gomilu za odbacivanje u gomilu NL za vučenje. NL Vuci !M! karte."
+  },
+  "Defend_B": {
+    "DESCRIPTION": "Zadobi !B! odbrane.",
+    "NAME": "Odbrana"
+  },
+  "Defend_G": {
+    "DESCRIPTION": "Zadobi !B! odbrane.",
+    "NAME": "Odbrana"
+  },
+  "Defend_P": {
+    "DESCRIPTION": "Zadobi !B! odbrane.",
+    "NAME": "Odbrana"
+  },
+  "Defend_R": {
+    "DESCRIPTION": "Zadobi !B! odbrane.",
+    "NAME": "Odbrana"
+  },
+  "Deflect": {
+    "DESCRIPTION": "Zadobi !B! odbrane.",
+    "NAME": "Preusmeri"
+  },
+  "Defragment": {
+    "DESCRIPTION": "Zadobi NL potentnosti: !M!.",
+    "NAME": "Optimizacija"
+  },
+  "Demon Form": {
+    "DESCRIPTION": "Na početku svog poteza, povećaj svoju NL snagu za !M!.",
+    "NAME": "Đavoimanost"
+  },
+  "DeusExMachina": {
+    "DESCRIPTION": "Neodigriva. NL Po vučenju ove karte, dodaj !M! *Čuda u ruku i iscrpi.",
+    "NAME": "Milost"
+  },
+  "DevaForm": {
+    "DESCRIPTION": "Prolazna. NL Na početku svog poteza, zadobi [W] i povećaj ovu količinu za !M!.",
+    "NAME": "Anđeoski oblik",
+    "UPGRADE_DESCRIPTION": "Na početku svog poteza, zadobi [W] i povećaj ovu količinu za !M!."
+  },
+  "Devotion": {
+    "DESCRIPTION": "Na početku svog poteza, zadobi !M! molitve.",
+    "NAME": "Posvećenost"
+  },
+  "Die Die Die": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima. NL Iscrpi.",
+    "NAME": "Kolji kolji kolji"
+  },
+  "Disarm": {
+    "DESCRIPTION": "Smanji snagu neprijatelja za !M!. NL Iscrpi.",
+    "NAME": "Razoružaj"
+  },
+  "Discipline": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Discovery": {
+    "DESCRIPTION": "Stavi u ruku jednu od tri nasumične karte. Besplatna je ovaj potez. NL Iscrpi.",
+    "NAME": "Otkriće",
+    "UPGRADE_DESCRIPTION": "Stavi u ruku jednu od tri nasumične karte. Besplatna je ovaj potez."
+  },
+  "Distraction": {
+    "DESCRIPTION": "Dodaj nasumično NL umeće u ruku. NL Besplatno je NL ovaj potez. NL Iscrpi.",
+    "NAME": "Diverzija"
+  },
+  "Dodge and Roll": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Sledeći potez NL zadobi !B! odbrane.",
+    "NAME": "Kolut"
+  },
+  "Doom and Gloom": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima. NL Prizovi !M! tamu.",
+    "NAME": "Čemer i propast"
+  },
+  "Doppelganger": {
+    "DESCRIPTION": "Sledeći potez, NL vuci X karata i NL zadobi X [G]. NL Iscrpi.",
+    "NAME": "Dvojnik",
+    "UPGRADE_DESCRIPTION": "Sledeći potez, vuci X+1 karata i zadobi X+1 [G]. NL Iscrpi."
+  },
+  "Double Energy": {
+    "DESCRIPTION": "Dupliraj svoju energiju. NL Iscrpi.",
+    "NAME": "Perpetuum mobile",
+    "UPGRADE_DESCRIPTION": "Dupliraj svoju energiju."
+  },
+  "Double Tap": {
+    "DESCRIPTION": "Ovaj potez, odigraj svoj sledeći napad dvaput.",
+    "NAME": "Je'n-dva",
+    "UPGRADE_DESCRIPTION": "Ovaj potez, odigraj svoja sledeća !M! napada dvaput."
+  },
+  "Doubt": {
+    "DESCRIPTION": "Neodigriva. NL Na kraju poteza, nanesi sebi jednu slabost.",
+    "NAME": "Sumnja"
+  },
+  "Dramatic Entrance": {
+    "DESCRIPTION": "Urođena. NL Zadaj !D! štete SVIM neprijateljima. NL Iscrpi.",
+    "NAME": "Dramatični ulaz"
+  },
+  "Dropkick": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je neprijatelj ranjiv, zadobi [R] i vuci jednu kartu.",
+    "NAME": "Doček"
+  },
+  "Dual Wield": {
+    "DESCRIPTION": "Izaberi napad ili moć. Dodaj kopiju te karte NL u ruku.",
+    "NAME": "Dvojako rukovanje",
+    "UPGRADE_DESCRIPTION": "Izaberi napad ili moć. Dodaj dve kopije te karte NL u ruku."
+  },
+  "Dualcast": {
+    "DESCRIPTION": "Aktiviraj svoju najdešnju sferu NL dva puta.",
+    "NAME": "Dvoaktivacija"
+  },
+  "Echo Form": {
+    "DESCRIPTION": " Prolazna. NL Prva karta odigrana svaki potez se odigrava još jednom.",
+    "NAME": "Eho forma",
+    "UPGRADE_DESCRIPTION": "Prva karta odigrana svaki potez se odigrava još jednom."
+  },
+  "Electrodynamics": {
+    "DESCRIPTION": "Munje sada udaraju NL SVE neprijatelje. NL Prizovi !M! munje.",
+    "NAME": "Elektrodinamika",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "EmptyBody": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Izađi iz stava.",
+    "NAME": "Opusti telo"
+  },
+  "EmptyFist": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Izađi iz stava.",
+    "NAME": "Isprazni pesnicu"
+  },
+  "EmptyMind": {
+    "DESCRIPTION": "Vuci !M! karte. NL Izađi iz stava.",
+    "NAME": "Rastereti um",
+    "UPGRADE_DESCRIPTION": "Vuci !M! karte. NL Izađi iz stava."
+  },
+  "Endless Agony": {
+    "DESCRIPTION": "Zadaj !D! štete. Svaki put kad vučeš ovu kartu, dodaj jednu kopiju nje u ruku. NL Iscrpi.",
+    "NAME": "Beskrajna agonija"
+  },
+  "Energy Pulse": {
+    "DESCRIPTION": "Zadobi odbranu jednaku tvojoj energiji.",
+    "NAME": "Energijski puls",
+    "UPGRADE_DESCRIPTION": "Zadobi odbranu jednaku dvostruko tvojoj energiji."
+  },
+  "Enlightenment": {
+    "DESCRIPTION": "Smanji cenu svih karata u ruci na jedan do kraja poteza.",
+    "NAME": "Prosvetljenje",
+    "UPGRADE_DESCRIPTION": "Smanji cenu svih karata u ruci na jedan do kraja borbe."
+  },
+  "Entrench": {
+    "DESCRIPTION": "Udvostruči svoju odbranu.",
+    "NAME": "Utvrđenje",
+    "UPGRADE_DESCRIPTION": "Udvostruči svoju odbranu."
+  },
+  "Envenom": {
+    "DESCRIPTION": "Svaki put kada napadom zadaš neodbranjenu štetu, nanesi NL jedan otrov.",
+    "NAME": "Trovanje"
+  },
+  "Eruption": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Razbesni se.",
+    "NAME": "Iskaljivanje"
+  },
+  "Escape Plan": {
+    "DESCRIPTION": "Vuci jednu kartu. NL Ako izvučeš umeće, zadobi !B! odbrane.",
+    "NAME": "Taktika"
+  },
+  "Establishment": {
+    "DESCRIPTION": "Svaki put kad zadržiš kartu, smanji njenu cenu za !M! tokom ove borbe.",
+    "NAME": "Pečat duha",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Svaki put kad zadržiš kartu, smanji njenu cenu za !M! tokom ove borbe."
+  },
+  "Evaluate": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Ubaci *Uvid u gomilu za vučenje.",
+    "NAME": "Procena",
+    "UPGRADE_DESCRIPTION": "Zadobi !B! odbrane. NL Ubaci *Uvid+ u gomilu za vučenje."
+  },
+  "Eviscerate": {
+    "DESCRIPTION": "Košta [G] manje za svaku odbačenu kartu u ovom potezu. Zadaj !D! štete tri puta.",
+    "NAME": "Proburazi"
+  },
+  "Evolve": {
+    "DESCRIPTION": "Svaki put kada izvučeš stanje, vuci !M! kartu.",
+    "NAME": "Evolucija",
+    "UPGRADE_DESCRIPTION": "Svaki put kada izvučeš stanje, vuci !M! karte."
+  },
+  "Exhume": {
+    "DESCRIPTION": "Vrati kartu iz gomile za iscrpljene u ruku. NL Iscrpi.",
+    "NAME": "Ekshumiraj"
+  },
+  "Experienced": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Expertise": {
+    "DESCRIPTION": "Vuci karte sve NL dok ih u ruci ne budeš imao !M!.",
+    "NAME": "Stručnost"
+  },
+  "Expunger": {
+    "DESCRIPTION": "Zadaj !D! štete X puta.",
+    "EXTENDED_DESCRIPTION": [
+      "Zadaj !D! štete !M! put.",
+      "Zadaj !D! štete !M! puta."
+    ],
+    "NAME": "Anatema",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "FTL": {
+    "DESCRIPTION": "Zadaj !D! štete. Ako si odigrao manje od !M! karte ovaj potez, vuci jednu kartu.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Karata odigrano: ",
+      "",
+      ""
+    ],
+    "NAME": "Posegni"
+  },
+  "FameAndFortune": {
+    "DESCRIPTION": "Zadobi !M! zlata.",
+    "NAME": "Slava i bogatstvo"
+  },
+  "Fasting": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Fasting2": {
+    "DESCRIPTION": "Povećaj svoju snagu za !M! i okretnost za !M!. NL Zadobi [W] manje na početku svakog poteza.",
+    "NAME": "Post"
+  },
+  "FearNoEvil": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako neprijatelj namerava da napadne, smiri se.",
+    "NAME": "Ne boj se zla"
+  },
+  "Feed": {
+    "DESCRIPTION": "Zadaj !D! štete. Ako je smrtonosna, povećaj svoje maks. ž. p. za !M!. Iscrpi.",
+    "NAME": "Pojedi"
+  },
+  "Feel No Pain": {
+    "DESCRIPTION": "Svaki put kada NL iscrpiš kartu, NL zadobi !M! odbrane.",
+    "NAME": "Bezstradalni"
+  },
+  "Fiend Fire": {
+    "DESCRIPTION": "Iscrpi svoju ruku. NL Zadaj !D! štete za svaku iscrpljenu kartu. Iscrpi.",
+    "NAME": "Demonski oganj"
+  },
+  "Finesse": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Vuci jednu kartu.",
+    "NAME": "Trik"
+  },
+  "Finisher": {
+    "DESCRIPTION": "Zadaj !D! štete za svaki odigrani napad u ovom potezu.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Napada odigrano: ",
+      "",
+      ""
+    ],
+    "NAME": "Dokrajči"
+  },
+  "Fire Breathing": {
+    "DESCRIPTION": "Svaki put kada izvučeš stanje ili kletvu, zadaj !M! štete SVIM neprijateljima.",
+    "NAME": "Bljuvanje vatre"
+  },
+  "Fission": {
+    "DESCRIPTION": "Ukloni sve svoje sfere. Zadobi [B] i vuci !M! kartu za svaku uklonjenu sferu. Iscrpi.",
+    "NAME": "Fisija",
+    "UPGRADE_DESCRIPTION": "Aktiviraj sve svoje sfere. Zadobi [B] i vuci !M! kartu za svaku aktiviranu sferu. Iscrpi."
+  },
+  "Flame Barrier": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Svaki put kad te neko napadne u ovom krugu, zadaj mu !M! štete.",
+    "NAME": "Plamena barijera"
+  },
+  "FlameMastery": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Flare": {
+    "DESCRIPTION": "",
+    "NAME": "e"
+  },
+  "Flash of Steel": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Vuci jednu kartu.",
+    "NAME": "Odblesak oštrice"
+  },
+  "Flechettes": {
+    "DESCRIPTION": "Zadaj !D! štete za svako umeće u ruci.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Imaš ",
+      " umeće.",
+      " umeća."
+    ],
+    "NAME": "Strelice"
+  },
+  "Flex": {
+    "DESCRIPTION": "Povećaj svoju NL snagu za !M!. NL Smanji je za !M! na NL kraju ovog poteza.",
+    "NAME": "Napregnuće"
+  },
+  "Flick": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Flicker": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Flow": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "FlowState": {
+    "DESCRIPTION": "",
+    "NAME": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "FlurryOfBlows": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Svaki put kada promeniš stav, vrati ovu kartu iz gomile za odbacivanje u ruku.",
+    "NAME": "Tempo"
+  },
+  "Flux Capacitor": {
+    "DESCRIPTION": "Zameni sve prizvane sfere plazmom. NL Iscrpi.",
+    "NAME": "Fluksni kondenzator"
+  },
+  "Flying Knee": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Sledeći potez NL zadobi [G].",
+    "NAME": "Kolenom u skoku"
+  },
+  "FlyingSleeves": {
+    "DESCRIPTION": "Zadrži. NL Zadaj dvaput po !D! štete.",
+    "NAME": "Skriveno oružje"
+  },
+  "FollowUp": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je prethodna odigrana karta u ovoj borbi bila napad, zadobi [W].",
+    "NAME": "Repete"
+  },
+  "Footwork": {
+    "DESCRIPTION": "Povećaj svoju NL okretnost za !M!.",
+    "NAME": "Rad nogu"
+  },
+  "Force Field": {
+    "DESCRIPTION": "Košta [B] manje za NL svaku moć NL odigranu u borbi. NL Zadobi !B! odbrane.",
+    "NAME": "Energetsko polje"
+  },
+  "ForeignInfluence": {
+    "DESCRIPTION": "Dodaj jedan od tri napada bilo koje boje u ruku. NL Iscrpi.",
+    "NAME": "Tuđinsko dejstvo",
+    "UPGRADE_DESCRIPTION": "Dodaj jedan od tri napada bilo koje boje u ruku. NL Besplatan je ovaj potez. NL Iscrpi."
+  },
+  "Forethought": {
+    "DESCRIPTION": "Stavi kartu iz ruke na dno gomile za vučenje. NL Besplatna je dok se ne odigra.",
+    "NAME": "Predumišljaj",
+    "UPGRADE_DESCRIPTION": "Stavi bilo koji broj karata iz ruke na dno gomile za vučenje. NL Besplatne su dok se ne odigraju."
+  },
+  "FuryAura": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Fusion": {
+    "DESCRIPTION": "Prizovi !M! plazmu.",
+    "NAME": "Fuzija"
+  },
+  "Gash": {
+    "DESCRIPTION": "Zadaj štete: !D!. NL Povećaj štetu SVIH Useka za !M! tokom trenutne borbe.",
+    "NAME": "Usek"
+  },
+  "Genetic Algorithm": {
+    "DESCRIPTION": "Zadobi odbrane: !B!. Povećaj odbranu ove karte za !M! do kraja pohoda. Iscrpi.",
+    "NAME": "Algoritam"
+  },
+  "Ghostly": {
+    "DESCRIPTION": "Prolazna. NL Zadobi jednu nedodirljivost. NL Iscrpi.",
+    "NAME": "Duh",
+    "UPGRADE_DESCRIPTION": "Zadobi jednu nedodirljivost. NL Iscrpi."
+  },
+  "Ghostly Armor": {
+    "DESCRIPTION": "Prolazna. NL Zadobi !B! odbrane.",
+    "NAME": "Avetinjski oklop"
+  },
+  "Glacier": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Prizovi !M! mraza.",
+    "NAME": "Glečer",
+    "UPGRADE_DESCRIPTION": "Zadobi !B! odbrane. NL Prizovi !M! mraza."
+  },
+  "Glass Knife": {
+    "DESCRIPTION": "Zadaj !D! štete dvaput. Smanji štetu ove karte za dva tokom trenutne borbe.",
+    "NAME": "Stakleni nož"
+  },
+  "Go for the Eyes": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako neprijatelj namerava da napadne, nanesi slabost: !M!.",
+    "NAME": "Po očima"
+  },
+  "Good Instincts": {
+    "DESCRIPTION": "Zadobi !B! odbrane.",
+    "NAME": "Šesto čulo"
+  },
+  "Grand Finale": {
+    "DESCRIPTION": "Možeš odigrati samo ako na gom. za odbac. nema karata. Zadaj !D! štete SVIM neprijateljima.",
+    "NAME": "Veliko finale",
+    "UPGRADE_DESCRIPTION": "Gomila za odbacivanje NL mora biti #rprazna."
+  },
+  "Halt": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Ako si besan, zadobi !M! dodatne odbrane.",
+    "NAME": "Dosta"
+  },
+  "HandOfGreed": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je smrtonosna, zadobi !M! zlata.",
+    "NAME": "Zlatni dodir"
+  },
+  "Havoc": {
+    "DESCRIPTION": "Odigraj kartu sa vrha gomile za vučenje. NL Iscrpi je.",
+    "NAME": "Pustoš"
+  },
+  "Headbutt": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Stavi kartu iz gomile za odbacivanje na gomilu za vučenje.",
+    "NAME": "Nabodi"
+  },
+  "Heatsinks": {
+    "DESCRIPTION": "Svaki put kada odigraš moć, vuci !M! kartu.",
+    "NAME": "Hladnjaci",
+    "UPGRADE_DESCRIPTION": "Svaki put kada odigraš moć, vuci !M! karte."
+  },
+  "Heavy Blade": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Snaga utiče na ovu kartu puta !M!.",
+    "NAME": "Gusto sečivo",
+    "UPGRADE_DESCRIPTION": "Zadaj !D! štete. NL Snaga utiče na ovu kartu puta !M!."
+  },
+  "Heel Hook": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je neprijatelj oslabljen, zadobi [G] i vuci jednu kartu.",
+    "NAME": "Zahvat"
+  },
+  "Hello World": {
+    "DESCRIPTION": "Na početku svog poteza, dodaj nasumičnu običnu kartu u ruku.",
+    "NAME": "Program",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Na početku svog poteza, dodaj nasumičnu običnu kartu u ruku."
+  },
+  "Hemokinesis": {
+    "DESCRIPTION": "Izgubi !M! ž. p. NL Zadaj !D! štete.",
+    "NAME": "Hemokineza"
+  },
+  "Hide": {
+    "DESCRIPTION": "Ne možeš da izgubiš ž. p. do početka sledećeg poteza. NL Iscrpi.",
+    "NAME": "Pritaja"
+  },
+  "Hologram": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Stavi kartu iz gomile za odbacivanje u ruku. NL Iscrpi.",
+    "NAME": "Hologram",
+    "UPGRADE_DESCRIPTION": "Zadobi !B! odbrane. NL Stavi kartu iz gomile za odbacivanje u ruku."
+  },
+  "Hyperbeam": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima. NL Izgubi !M! potentnosti.",
+    "NAME": "Hiperzrak"
+  },
+  "Immolate": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima. Dodaj *Opekotinu na gomilu za odbacivanje.",
+    "NAME": "Sažeži"
+  },
+  "Impatience": {
+    "DESCRIPTION": "Ako nemaš napade u ruci, vuci !M! karte.",
+    "NAME": "Nestrpljenje"
+  },
+  "Impervious": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Iscrpi.",
+    "NAME": "Neprobojiv"
+  },
+  "Indignation": {
+    "DESCRIPTION": "Ako si besan, nanesi !M! ranjivosti SVIM neprijateljima, u suprotnom se razbesni.",
+    "NAME": "Ogorčenost"
+  },
+  "Infernal Blade": {
+    "DESCRIPTION": "Dodaj nasumičan NL napad u ruku. NL Besplatan je ovaj potez. NL Iscrpi.",
+    "NAME": "Vraško sečivo"
+  },
+  "Infinite Blades": {
+    "DESCRIPTION": "Na početku poteza, dodaj *Nož u ruku.",
+    "NAME": "Bezbroj oštrica",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Na početku poteza, dodaj *Nož u ruku."
+  },
+  "Inflame": {
+    "DESCRIPTION": "Povećaj svoju NL snagu za !M!.",
+    "NAME": "Rasplamsavanje"
+  },
+  "Injury": {
+    "DESCRIPTION": "Neodigriva.",
+    "NAME": "Povreda"
+  },
+  "InnerPeace": {
+    "DESCRIPTION": "Ako si smiren, vuci !M! karte, u suprotnom se smiri.",
+    "NAME": "Unutrašnji mir"
+  },
+  "Insight": {
+    "DESCRIPTION": "Zadrži. NL Vuci !M! karte. NL Iscrpi.",
+    "NAME": "Uvid",
+    "UPGRADE_DESCRIPTION": "Zadrži. NL Vuci !M! karte. NL Iscrpi."
+  },
+  "Intimidate": {
+    "DESCRIPTION": "Nanesi SVIM neprijateljima NL slabost: !M!. NL Iscrpi.",
+    "NAME": "Zastraši"
+  },
+  "Iron Wave": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Zadaj !D! štete.",
+    "NAME": "Gvožđurija"
+  },
+  "J.A.X.": {
+    "DESCRIPTION": "Izgubi tri ž. p. NL Povećaj svoju NL snagu za !M!.",
+    "NAME": "Dž.E.K.S."
+  },
+  "Jack Of All Trades": {
+    "DESCRIPTION": "Dodaj !M! nasumičnu bezbojnu kartu u ruku. NL Iscrpi.",
+    "NAME": "Džek",
+    "UPGRADE_DESCRIPTION": "Dodaj !M! nasumične bezbojne karte u ruku. NL Iscrpi."
+  },
+  "Judgement": {
+    "DESCRIPTION": "Ako neprijatelj ima !M! ili manje ž. p., postavi njegove ž. p. na nula.",
+    "EXTENDED_DESCRIPTION": [
+      "OSUĐEN"
+    ],
+    "NAME": "Sud"
+  },
+  "Juggernaut": {
+    "DESCRIPTION": "Svaki put kada zadobiješ odbranu, zadaj !M! štete nasumičnom neprijatelju.",
+    "NAME": "Sivonja"
+  },
+  "JustLucky": {
+    "DESCRIPTION": "Proreci karata: !M!. NL Zadobi !B! odbrane. NL Zadaj !D! štete.",
+    "NAME": "Taličnost"
+  },
+  "Leap": {
+    "DESCRIPTION": "Zadobi !B! odbrane.",
+    "NAME": "Skok"
+  },
+  "Leg Sweep": {
+    "DESCRIPTION": "Nanesi !M! slabosti. NL Zadobi !B! odbrane.",
+    "NAME": "Obori"
+  },
+  "LessonLearned": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je smrtonosna, poboljšaj nasumičnu kartu u svom špilu. NL Iscrpi.",
+    "NAME": "Praksis"
+  },
+  "LetFateDecide": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "LikeWater": {
+    "DESCRIPTION": "Na kraju svog poteza, ako si smiren, zadobi !M! odbrane.",
+    "NAME": "Mirne vode"
+  },
+  "Limit Break": {
+    "DESCRIPTION": "Udvostruči svoju snagu. NL Iscrpi.",
+    "NAME": "Bezgraničan",
+    "UPGRADE_DESCRIPTION": "Udvostruči svoju snagu."
+  },
+  "LiveForever": {
+    "DESCRIPTION": "Zadobi !M! NL *optočenog *oklopa.",
+    "NAME": "Večni život"
+  },
+  "Lockon": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi !M! izloženosti.",
+    "NAME": "Nanišani"
+  },
+  "Loop": {
+    "DESCRIPTION": "Na početku svog poteza, iskoristi pasivnu sposobnost svoje najdešnje sfere.",
+    "NAME": "Petlja",
+    "UPGRADE_DESCRIPTION": "Na početku svog poteza, iskoristi pasivnu sposobnost svoje najdešnje sfere !M! puta."
+  },
+  "Machine Learning": {
+    "DESCRIPTION": "Vuci !M! dodatnu kartu na početku svog poteza.",
+    "NAME": "Tajni mehanizmi",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Vuci !M! dodatnu kartu na početku svog poteza."
+  },
+  "Madness": {
+    "DESCRIPTION": "Načini nasumičnu kartu iz ruke besplatnom do kraja trenutne borbe. NL Iscrpi.",
+    "NAME": "Ludilo"
+  },
+  "Magnetism": {
+    "DESCRIPTION": "Na početku svog poteza, dodaj nasumičnu bezbojnu kartu u ruku.",
+    "NAME": "Magnetizam"
+  },
+  "Malaise": {
+    "DESCRIPTION": "Smanji snagu neprijatelja za X. Nanesi X slabosti. NL Iscrpi.",
+    "NAME": "Raslabi",
+    "UPGRADE_DESCRIPTION": "Smanji snagu neprijatelja za X+1. Nanesi X+1 slabosti. NL Iscrpi."
+  },
+  "Master of Strategy": {
+    "DESCRIPTION": "Vuci !M! karte. NL Iscrpi.",
+    "NAME": "Majstor"
+  },
+  "MasterReality": {
+    "DESCRIPTION": "Svaki put kada stvoriš kartu tokom borbe, poboljšaj je.",
+    "NAME": "Metafizika"
+  },
+  "Masterful Stab": {
+    "DESCRIPTION": "Košta jednu dodatnu [G] za svaki put kada si izgubio ž. p. tokom trenutne borbe. Zadaj !D! štete.",
+    "NAME": "Majstorski ubod",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Mastery": {
+    "DESCRIPTION": ".",
+    "NAME": ""
+  },
+  "Mayhem": {
+    "DESCRIPTION": "Na početku svog poteza, odigraj kartu sa vrha gomile za vučenje.",
+    "NAME": "Rasulo"
+  },
+  "Meditate": {
+    "DESCRIPTION": "Stavi kartu iz gomile za odbacivanje u ruku i zadrži je. NL Smiri se. NL Završi potez.",
+    "NAME": "Meditacija",
+    "UPGRADE_DESCRIPTION": "Stavi dve karte iz gomile za odbacivanje u ruku i zadrži ih. NL Smiri se. NL Završi potez."
+  },
+  "Melter": {
+    "DESCRIPTION": "Otkloni svu odbranu sa neprijatelja. NL Zadaj !D! štete.",
+    "NAME": "Rastopi"
+  },
+  "MentalFortress": {
+    "DESCRIPTION": "Svaki put kada promeniš stav, zadobi !M! odbrane.",
+    "NAME": "Enigma"
+  },
+  "Metallicize": {
+    "DESCRIPTION": "Na kraju poteza, NL zadobi !M! odbrane.",
+    "NAME": "Očeličenje"
+  },
+  "Metamorphosis": {
+    "DESCRIPTION": "Promešaj !M! nasumična napada u gomilu za vučenje. Ovu borbu su besplatni. NL Iscrpi.",
+    "NAME": "Metamorfoza"
+  },
+  "Metaphysics": {
+    "DESCRIPTION": "",
+    "NAME": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Meteor Strike": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Prizovi !M! plazme.",
+    "NAME": "Meteor"
+  },
+  "Mind Blast": {
+    "DESCRIPTION": "Urođena. NL Zadaj štetu jednaku broju karatu u gomili za vučenje.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Ukupno: !D!."
+    ],
+    "NAME": "Umni talas",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Miracle": {
+    "DESCRIPTION": "Zadrži. NL Zadobi [W]. NL Iscrpi.",
+    "NAME": "Čudo",
+    "UPGRADE_DESCRIPTION": "Zadrži. NL Zadobi [W] [W]. NL Iscrpi."
+  },
+  "Multi-Cast": {
+    "DESCRIPTION": "Aktiviraj svoju najdešnju sferu NL X puta.",
+    "NAME": "Multiaktivacija",
+    "UPGRADE_DESCRIPTION": "Aktiviraj svoju najdešnju sferu NL X+1 puta."
+  },
+  "Necronomicurse": {
+    "DESCRIPTION": "Neodigriva. NL Od ove k​letve NL nema spasa.",
+    "NAME": "Nekronomikletva"
+  },
+  "Neutralize": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi slabosti: !M!.",
+    "NAME": "Neutrališi"
+  },
+  "Night Terror": {
+    "DESCRIPTION": "Izaberi kartu. NL Sledeći potez, dodaj !M! kopije te karte u ruku. Iscrpi.",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      " kartu mogu da NL odigram samo jednom po potezu."
+    ],
+    "NAME": "Noćna mora"
+  },
+  "Nirvana": {
+    "DESCRIPTION": "Kada proričeš, zadobi !M! odbrane.",
+    "NAME": "Blagostanje",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Normality": {
+    "DESCRIPTION": "Neodigriva. NL Dok je u ruci, ne možeš odigrati više od tri karte u jednom potezu.",
+    "EXTENDED_DESCRIPTION": [
+      "Mogu da odigram samo do NL #rtri karte ovaj potez.",
+      "Neodigriva. NL Ne možeš odigrati više od ",
+      " karte po potezu.",
+      " karte ovaj potez. NL Odigrao si ",
+      " kartu ovaj potez.",
+      " karte ovaj potez."
+    ],
+    "NAME": "Lanci"
+  },
+  "Noxious Fumes": {
+    "DESCRIPTION": "Na početku poteza, nanesi !M! otrova SVIM neprijateljima.",
+    "NAME": "Isparenja"
+  },
+  "Offering": {
+    "DESCRIPTION": "Izgubi šest ž. p. NL Zadobi [R] [R]. NL Vuci !M! karte. NL Iscrpi.",
+    "NAME": "Prinos",
+    "UPGRADE_DESCRIPTION": "Izgubi šest ž. p. NL Zadobi [R] [R]. NL Vuci !M! karata. NL Iscrpi."
+  },
+  "Omega": {
+    "DESCRIPTION": "Na kraju svog poteza, zadaj !M! štete SVIM neprijateljima.",
+    "NAME": "Omega"
+  },
+  "Omniscience": {
+    "DESCRIPTION": "Izaberi kartu iz gomile za vučenje. NL Odigraj odabranu kartu dvaput i iscrpi je. NL Iscrpi.",
+    "NAME": "Sveznanje",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Outmaneuver": {
+    "DESCRIPTION": "Sledeći potez NL zadobi [G] [G].",
+    "NAME": "Mat u najavi",
+    "UPGRADE_DESCRIPTION": "Sledeći potez NL zadobi [G] [G] [G]."
+  },
+  "Pain": {
+    "DESCRIPTION": "Neodigriva. NL Gubiš jedan ž. p. sa svakom odigranom kartom dok god je ova u ruci.",
+    "NAME": "Bol"
+  },
+  "PalmThatRestrains": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Panacea": {
+    "DESCRIPTION": "Zadobi NL zaštite: !M!. NL Iscrpi.",
+    "NAME": "Panacea"
+  },
+  "Panache": {
+    "DESCRIPTION": "Svaki put kada odigraš pet karata u potezu, zadaj !M! štete SVIM neprijateljima.",
+    "NAME": "Elan"
+  },
+  "PanicButton": {
+    "DESCRIPTION": "Zadobi !B! odbrane. Ne možeš da zadobiješ odbranu od karata sledeća !M! poteza. NL Iscrpi.",
+    "NAME": "Panika"
+  },
+  "Parasite": {
+    "DESCRIPTION": "Neodigriva. NL Kada preobraziš ili ukloniš ovu kartu iz špila, izgubi tri maks. ž. p.",
+    "NAME": "Parazit"
+  },
+  "PathToVictory": {
+    "DESCRIPTION": "Nanesi !M! NL *slabih *tačaka. NL SVI neprijatelji gube ž. p. jednake svojim *slabim *tačkama.",
+    "NAME": "Slabe tačke",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Peace": {
+    "DESCRIPTION": "Zadžri. NL Ovaj potez, smanji snagu SVIM neprijateljima za !M!. NL Iscrpi.",
+    "NAME": "Primirje"
+  },
+  "Perfected Strike": {
+    "DESCRIPTION": "Zadaj !D! štete, i još dodatne !M! za SVAKU tvoju kartu koja sadrži \"udarac\" u imenu.",
+    "NAME": "Usavršeni udarac",
+    "UPGRADE_DESCRIPTION": "Zadaj !D! štete, i još dodatne !M! za SVAKU tvoju kartu koja sadrži \"udarac\" u imenu."
+  },
+  "PerfectedForm": {
+    "DESCRIPTION": "",
+    "NAME": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Perseverance": {
+    "DESCRIPTION": "Zadrži. NL Zadobi !B! odbrane. NL Ako zadržiš, povećaj obranu ove karte za !M! do kraja borbe.",
+    "NAME": "Istrajnost"
+  },
+  "Phantasmal Killer": {
+    "DESCRIPTION": "Sledeći potez, tvoji napadi nanose dvostruku štetu.",
+    "NAME": "Fantom"
+  },
+  "PiercingWail": {
+    "DESCRIPTION": "Smanji snagu SVIH neprijatelja NL za !M! ovaj potez. NL Iscrpi.",
+    "NAME": "Krik"
+  },
+  "Poisoned Stab": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi !M! otrova.",
+    "NAME": "Otrovni ubod"
+  },
+  "Polymath": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Pommel Strike": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Vuci !M! kartu.",
+    "NAME": "Udarac balčakom",
+    "UPGRADE_DESCRIPTION": "Zadaj !D! štete. NL Vuci !M! karte."
+  },
+  "Power Through": {
+    "DESCRIPTION": "Dodaj dve *Rane u ruku. NL Zadobi !B! odbrane.",
+    "NAME": "Upri"
+  },
+  "Pray": {
+    "DESCRIPTION": "Zadobi 3 !M! molitve. NL Ubaci *Uvid u gomilu za vučenje.",
+    "NAME": "Molitva",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Predator": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Sledeći potez vuci NL dve karte više.",
+    "NAME": "Predator"
+  },
+  "Prediction": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Prepared": {
+    "DESCRIPTION": "Vuci !M! kartu. NL Odbaci !M! kartu.",
+    "NAME": "Spremnost",
+    "UPGRADE_DESCRIPTION": "Vuci !M! karte. NL Odbaci !M! karte."
+  },
+  "Pride": {
+    "DESCRIPTION": "Urođena. NL Na kraju svog poteza, stavi kopiju ove karte na vrh gomile za vučenje. Iscrpi.",
+    "NAME": "Ponos"
+  },
+  "Prostrate": {
+    "DESCRIPTION": "Zadobi !M! molitve. NL Zadobi !B! odbrane.",
+    "NAME": "Poklonjenje",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Protect": {
+    "DESCRIPTION": "Zadrži. NL Zadobi !B! odbrane.",
+    "NAME": "Zaštiti"
+  },
+  "Pummel": {
+    "DESCRIPTION": "Zadaj !D! štete !M! puta. NL Iscrpi.",
+    "NAME": "Premlati",
+    "UPGRADE_DESCRIPTION": "Zadaj !D! štete !M! puta. NL Iscrpi."
+  },
+  "Punishment": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Purity": {
+    "DESCRIPTION": "Iscrpi do !M! karte NL iz ruke. NL Iscrpi.",
+    "NAME": "Čednost"
+  },
+  "Quick Slash": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Vuci jednu kartu.",
+    "NAME": "Brzi posek"
+  },
+  "Rage": {
+    "DESCRIPTION": "Svaki put kada u ovom potezu odigraš napad, zadobi !M! odbrane.",
+    "NAME": "Žestina"
+  },
+  "Ragnarok": {
+    "DESCRIPTION": "Zadaj !D! štete nasumičnom neprijatelju !M! puta.",
+    "NAME": "Apokalipsa"
+  },
+  "Rainbow": {
+    "DESCRIPTION": "Prizovi jednu munju. NL Prizovi jedan mraz. NL Prizovi jednu tamu. NL Iscrpi.",
+    "NAME": "Duga",
+    "UPGRADE_DESCRIPTION": "Prizovi jednu munju. NL Prizovi jedan mraz. NL Prizovi jednu tamu."
+  },
+  "Rampage": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Povećaj štetu ove karte za !M! tokom trenutne borbe.",
+    "NAME": "Pomahnitalost"
+  },
+  "ReachHeaven": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ubaci *Silom u gomilu za vučenje.",
+    "NAME": "Dotakni nebesa",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Reaper": {
+    "DESCRIPTION": "Zadaj SVIM neprijateljima !D! štete. Zaleči se ž. p. jednako neodbranjenoj šteti. Iscrpi.",
+    "NAME": "Žetelac"
+  },
+  "Reboot": {
+    "DESCRIPTION": "Izmešaj SVE svoje karte u gomilu za vučenje. NL Vuci karata: !M!. NL Iscrpi.",
+    "NAME": "Reset"
+  },
+  "Rebound": {
+    "DESCRIPTION": "Zadaj !D! štete. Postavi sledeću odigranu kartu na vrh gomile za vučenje.",
+    "NAME": "Povratni udar"
+  },
+  "Reckless Charge": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Dodaj *Ošamućenost u gomilu za vučenje.",
+    "NAME": "Nesmotreni juriš"
+  },
+  "Recycle": {
+    "DESCRIPTION": "Iscrpi kartu. NL Zadobi [B] jednaku njenoj ceni.",
+    "NAME": "Reciklaža"
+  },
+  "Redo": {
+    "DESCRIPTION": "Aktiviraj svoju najdešnju sferu. NL Prizovi sferu istog tipa.",
+    "NAME": "Rekurzija"
+  },
+  "Reflex": {
+    "DESCRIPTION": "Neodigriva. NL Kada ovu kartu odbaciš iz ruke, vuci !M! karte.",
+    "EXTENDED_DESCRIPTION": [
+      "Ne mogu da odigram ovu kartu."
+    ],
+    "NAME": "Refleks",
+    "UPGRADE_DESCRIPTION": "Neodigriva. NL Kada ovu kartu odbaciš iz ruke, vuci !M! karte."
+  },
+  "Regret": {
+    "DESCRIPTION": "Neodigriva. NL Na kraju poteza, izgubi ž. p. jednako broju karata u ruci.",
+    "NAME": "Kajanje"
+  },
+  "Reinforced Body": {
+    "DESCRIPTION": "Zadobi !B! odbrane NL X puta.",
+    "NAME": "Ojačana šasija"
+  },
+  "Reprogram": {
+    "DESCRIPTION": "Povećaj: NL Potentnost za !M!. NL Snagu za !M!. NL Okretnost za !M!.",
+    "NAME": "Reprogramiraj",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "RetreatingHand": {
+    "DESCRIPTION": "",
+    "NAME": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Retribution": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Riddle With Holes": {
+    "DESCRIPTION": "Zadaj !D! štete pet puta.",
+    "NAME": "Izbuši"
+  },
+  "Rip and Tear": {
+    "DESCRIPTION": "Zadaj !D! štete nasumičnom neprijatelju dvaput.",
+    "NAME": "Izrendaj"
+  },
+  "RitualDagger": {
+    "DESCRIPTION": "Zadaj !D! štete. Ako je smrtonosna, povećaj štetu ove karte za !M! do kraja pohoda. Iscrpi.",
+    "NAME": "Obredni bodež"
+  },
+  "Rupture": {
+    "DESCRIPTION": "Svaki put kada izgubiš ž. p. putem NL karte, povećaj svoju snagu za jedan.",
+    "NAME": "Kidisanje"
+  },
+  "Sadistic Nature": {
+    "DESCRIPTION": "Svaki put kada neprijatelju naneseš negativan status, zadaj mu !M! štete.",
+    "NAME": "Rođeni sadista"
+  },
+  "Safety": {
+    "DESCRIPTION": "Zadrži. NL Zadobi !B! odbrane. NL Iscrpi.",
+    "NAME": "Obmana"
+  },
+  "Sanctity": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Ako je prethodna odigrana karta u ovoj borbi bila veština, vuci !M! karte.",
+    "NAME": "Pobožnost"
+  },
+  "SandsOfTime": {
+    "DESCRIPTION": "Zadrži. NL Zadaj !D! štete. NL Ako zadržiš, smanji joj cenu za jedan tokom ove borbe.",
+    "NAME": "Kas smrti"
+  },
+  "SashWhip": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako je prethodna odigrana karta u ovoj borbi bila napad, nanesi slabosti: !M!.",
+    "NAME": "Pojasom u glavu"
+  },
+  "Scrape": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Vuci !M! karte. NL Odbaci sve vučene karte koje nisu besplatne.",
+    "NAME": "Sastruži"
+  },
+  "Scrawl": {
+    "DESCRIPTION": "Vuci karte dok ne napuniš ruku. NL Iscrpi.",
+    "NAME": "Otkrivenje",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Searing Blow": {
+    "DESCRIPTION": "Zadaj štete: !D!. NL Može se poboljšati neograničeno puta.",
+    "NAME": "Sprži"
+  },
+  "Second Wind": {
+    "DESCRIPTION": "Iscrpi iz ruke sve karte koje nisu napadi. Zadobi !B! odbrane za svaku iscrpljenu kartu.",
+    "NAME": "Obnovljena snaga"
+  },
+  "Secret Technique": {
+    "DESCRIPTION": "Stavi umeće iz gomile za vučenje u ruku. NL Iscrpi.",
+    "EXTENDED_DESCRIPTION": [
+      "Nema umeća u NL gomili za vučenje."
+    ],
+    "NAME": "Tajna tehnika",
+    "UPGRADE_DESCRIPTION": "Stavi umeće iz gomile za vučenje u ruku."
+  },
+  "Secret Weapon": {
+    "DESCRIPTION": "Stavi napad iz gomile za vučenje u ruku. NL Iscrpi.",
+    "EXTENDED_DESCRIPTION": [
+      "Nemam napade u NL gomili za vučenje."
+    ],
+    "NAME": "Tajno oružje",
+    "UPGRADE_DESCRIPTION": "Stavi napad iz gomile za vučenje u ruku."
+  },
+  "Seeing Red": {
+    "DESCRIPTION": "Zadobi [R] [R]. NL Iscrpi.",
+    "NAME": "Inat"
+  },
+  "Seek": {
+    "DESCRIPTION": "Stavi !M! kartu iz gomile za vučenje NL u ruku. NL Iscrpi.",
+    "NAME": "Sken",
+    "UPGRADE_DESCRIPTION": "Stavi !M! karte iz gomile za vučenje NL u ruku. NL Iscrpi."
+  },
+  "Self Repair": {
+    "DESCRIPTION": "Na kraju borbe, NL zaleči !M! ž. p.",
+    "NAME": "Samoopravka"
+  },
+  "Sentinel": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Kada se ova NL karta iscrpi, NL zadobi [R] [R].",
+    "NAME": "Straža",
+    "UPGRADE_DESCRIPTION": "Zadobi !B! odbrane. NL Kada se ova NL karta iscrpi, NL zadobi [R] [R] [R]."
+  },
+  "Serenity": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Setup": {
+    "DESCRIPTION": "Stavi kartu iz ruke NL na vrh gomile NL za vučenje. NL Besplatna je dok NL se ne odigra.",
+    "NAME": "Zamka"
+  },
+  "Sever Soul": {
+    "DESCRIPTION": "Iscrpi iz ruke NL sve karte koje NL nisu napadi. NL Zadaj !D! štete.",
+    "NAME": "Raspoluti"
+  },
+  "Shame": {
+    "DESCRIPTION": "Neodigriva. NL Na kraju svog poteza, zadobi jednu krhkost.",
+    "NAME": "Sram"
+  },
+  "Shield": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Shiv": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Iscrpi.",
+    "NAME": "Nož"
+  },
+  "Shockwave": {
+    "DESCRIPTION": "Nanesi !M! slabosti i ranjivosti SVIM neprijateljima. NL Iscrpi.",
+    "NAME": "Potres"
+  },
+  "Shrug It Off": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Vuci jednu kartu.",
+    "NAME": "Odbi"
+  },
+  "SignatureMove": {
+    "DESCRIPTION": "Može da se odigra samo ako je jedini napad u ruci. NL Zadaj !D! štete.",
+    "NAME": "Krajnje sredstvo"
+  },
+  "Skewer": {
+    "DESCRIPTION": "Zadaj !D! štete X puta.",
+    "NAME": "Natakni"
+  },
+  "Skim": {
+    "DESCRIPTION": "Vuci !M! karte.",
+    "NAME": "Baza podataka"
+  },
+  "Slice": {
+    "DESCRIPTION": "Zadaj !D! štete.",
+    "NAME": "Iseci"
+  },
+  "Slimed": {
+    "DESCRIPTION": "Iscrpi.",
+    "NAME": "Uglibljen"
+  },
+  "Smite": {
+    "DESCRIPTION": "Zadrži. NL Zadaj !D! štete. NL Iscrpi.",
+    "NAME": "Uništenje"
+  },
+  "SoothingAura": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "SpiritShield": {
+    "DESCRIPTION": "Zadobi !M! odbrane za svaku kartu u ruci.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Zadobi obrane: !B!.)"
+    ],
+    "NAME": "Duhovni štit"
+  },
+  "Spot Weakness": {
+    "DESCRIPTION": "Ako neprijatelj namerava da napadne, povećaj svoju NL snagu za !M!.",
+    "NAME": "Otkri slabost"
+  },
+  "Stack": {
+    "DESCRIPTION": "Zadobi odbranu jednaku broju karata u gomili za odbacivanje",
+    "EXTENDED_DESCRIPTION": [
+      ", NL ukupno: !B!."
+    ],
+    "NAME": "Slojevi",
+    "UPGRADE_DESCRIPTION": "Zadobi odbranu jednaku broju karata u gomili za odbacivanje NL plus tri."
+  },
+  "Static Discharge": {
+    "DESCRIPTION": "Svaki put kada primiš neodbranjenu štetu NL od napada, NL prizovi !M! munju.",
+    "NAME": "Pražnjenje",
+    "UPGRADE_DESCRIPTION": "Svaki put kada primiš neodbranjenu štetu NL od napada, NL prizovi !M! munje."
+  },
+  "Steam": {
+    "DESCRIPTION": "Zadobi !B! odbrane. Smanji odbranu ove karte za dva tokom trenutne borbe.",
+    "NAME": "Para"
+  },
+  "Steam Power": {
+    "DESCRIPTION": "Vuci !M! karte. NL Dodaj *Opekotinu u gomilu za odbacivanje.",
+    "NAME": "Pun gas"
+  },
+  "StepAndStrike": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Storm": {
+    "DESCRIPTION": "Svaki put kada odigraš moć, prizovi NL jednu munju.",
+    "NAME": "Oluja",
+    "UPGRADE_DESCRIPTION": "Urođena. NL Svaki put kada odigraš moć, prizovi NL jednu munju."
+  },
+  "Storm of Steel": {
+    "DESCRIPTION": "Odbaci ruku. NL Za svaku odbačenu kartu, dodaj jedan *Nož u ruku.",
+    "NAME": "Tornado",
+    "UPGRADE_DESCRIPTION": "Odbaci ruku. NL Za svaku odbačenu kartu, dodaj jedan *Nož+ u ruku."
+  },
+  "Streamline": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Smanji cenu ove karte za !M! tokom trenutne borbe.",
+    "NAME": "Šabloni"
+  },
+  "Strike_B": {
+    "DESCRIPTION": "Zadaj !D! štete.",
+    "NAME": "Udarac"
+  },
+  "Strike_G": {
+    "DESCRIPTION": "Zadaj !D! štete.",
+    "NAME": "Udarac"
+  },
+  "Strike_P": {
+    "DESCRIPTION": "Zadaj !D! štete.",
+    "NAME": "Udarac"
+  },
+  "Strike_R": {
+    "DESCRIPTION": "Zadaj !D! štete.",
+    "NAME": "Udarac"
+  },
+  "Study": {
+    "DESCRIPTION": "Na kraju svog poteza, ubaci *Uvid u gomilu za vučenje.",
+    "NAME": "Egzegeza"
+  },
+  "SublimeSlice": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Sucker Punch": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi slabosti: !M!.",
+    "NAME": "Muni"
+  },
+  "Sunder": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Ako time ubiješ neprijatelja, NL zadobi [B] [B] [B].",
+    "NAME": "Rastavi"
+  },
+  "Survey": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Survivor": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Odbaci jednu kartu.",
+    "NAME": "Preživi"
+  },
+  "Sweeping Beam": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima. NL Vuci !M! kartu.",
+    "NAME": "Kružni zrak"
+  },
+  "Swift Strike": {
+    "DESCRIPTION": "Zadaj !D! štete.",
+    "NAME": "Hitar udar"
+  },
+  "Swipe": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Swivel": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Sledeći napad koji odigraš je besplatan.",
+    "NAME": "Finta"
+  },
+  "Sword Boomerang": {
+    "DESCRIPTION": "Zadaj !D! štete nasumičnom neprijatelju !M! puta.",
+    "NAME": "Mač-bumerang"
+  },
+  "Tactician": {
+    "DESCRIPTION": "Neodigriva. NL Kada odbaciš ovu kartu iz ruke, zadobi [G].",
+    "EXTENDED_DESCRIPTION": [
+      "Ne mogu da odigram ovu kartu."
+    ],
+    "NAME": "Strategija",
+    "UPGRADE_DESCRIPTION": "Neodigriva. NL Kada odbaciš ovu kartu iz ruke, NL zadobi [G] [G]."
+  },
+  "TalkToTheHand": {
+    "DESCRIPTION": "Zadaj !D! štete. Svaki put kada napadneš NL ovog neprijatelja, NL zadobi !M! odbrane. NL Iscrpi.",
+    "NAME": "Evo ruke"
+  },
+  "Tantrum": {
+    "DESCRIPTION": "Zadaj !D! štete NL !M! puta. NL Razbesni se. NL Ubaci ovu kartu u gomilu za vučenje.",
+    "NAME": "Besnilo"
+  },
+  "Tempest": {
+    "DESCRIPTION": "Prizovi X munja. NL Iscrpi.",
+    "NAME": "Uragan",
+    "UPGRADE_DESCRIPTION": "Prizovi X+1 munja. NL Iscrpi."
+  },
+  "Terror": {
+    "DESCRIPTION": "Nanesi 99 ranjivosti. NL Iscrpi.",
+    "NAME": "Užas"
+  },
+  "The Bomb": {
+    "DESCRIPTION": "Nakon tri poteza, zadaj !M! štete SVIM neprijateljima.",
+    "NAME": "Bomba"
+  },
+  "Thinking Ahead": {
+    "DESCRIPTION": "Vuci dve karte. NL Stavi kartu iz ruke na vrh gomile za vučenje. NL Iscrpi.",
+    "NAME": "Korak ispred",
+    "UPGRADE_DESCRIPTION": "Vuci dve karte. NL Stavi kartu iz ruke na vrh gomile za vučenje."
+  },
+  "ThirdEye": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Proreci karata: !M!.",
+    "NAME": "Treće oko"
+  },
+  "ThroughViolence": {
+    "DESCRIPTION": "Zadrži. NL Zadaj !D! štete. NL Iscrpi.",
+    "NAME": "Silom"
+  },
+  "Thunder Strike": {
+    "DESCRIPTION": "Zadaj !D! štete nasumičnom neprijatelju za svaku prizvanu munju u borbi.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Prizvano: !M!."
+    ],
+    "NAME": "Gromovi"
+  },
+  "Thunderclap": {
+    "DESCRIPTION": "Zadaj !D! štete i nanesi jednu ranjivost SVIM neprijateljima.",
+    "NAME": "Tresak"
+  },
+  "Thwack": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Tools of the Trade": {
+    "DESCRIPTION": "Na početku poteza, vuci jednu kartu i odbaci jednu kartu.",
+    "NAME": "Alatke"
+  },
+  "Torrent": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Transcendence": {
+    "DESCRIPTION": "Poboljšaj sve karte u ruci koje zadržavaš.",
+    "NAME": "Uzdizanje"
+  },
+  "Transmutation": {
+    "DESCRIPTION": "Dodaj X nasumičnih bezbojnih karata u ruku. Ovaj potez su besplatne. NL Iscrpi.",
+    "NAME": "Preobraženje",
+    "UPGRADE_DESCRIPTION": "Dodaj X nasumičnih poboljšanih bezbojnih karata u ruku. Ovaj potez su besplatne. NL Iscrpi."
+  },
+  "Trip": {
+    "DESCRIPTION": "Nanesi !M! ranjivosti.",
+    "NAME": "Sapleti",
+    "UPGRADE_DESCRIPTION": "Nanesi !M! ranjivosti SVIM neprijateljima."
+  },
+  "True Grit": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Iscrpi nasumičnu kartu.",
+    "NAME": "Odlučnost",
+    "UPGRADE_DESCRIPTION": "Zadobi !B! odbrane. NL Iscrpi kartu iz ruke."
+  },
+  "Truth": {
+    "DESCRIPTION": "Zadrži. NL Zadaj !D! štete. NL Vuci !M! kartu. NL Iscrpi.",
+    "NAME": "Istina",
+    "UPGRADE_DESCRIPTION": "Zadrži. NL Zadaj !D! štete. NL Vuci !M! karte. NL Iscrpi."
+  },
+  "Turbo": {
+    "DESCRIPTION": "Zadobi [B] [B]. NL Dodaj *Vakuum u gomilu za odbacivanje.",
+    "NAME": "TURBO",
+    "UPGRADE_DESCRIPTION": "Zadobi [B] [B] [B]. NL Dodaj *Vakuum u gomilu za odbacivanje."
+  },
+  "Twin Strike": {
+    "DESCRIPTION": "Zadaj !D! štete dvaput.",
+    "NAME": "Dvostruki udarac"
+  },
+  "Underhanded Strike": {
+    "DESCRIPTION": "Zadaj !D! štete. Ako si odbacio kartu u ovom potezu, zadobi [G] [G].",
+    "EXTENDED_DESCRIPTION": [
+      "Ne mogu da odigram ovu kartu."
+    ],
+    "NAME": "Lukavi udarac"
+  },
+  "Undo": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Zadrži svoju ruku ovaj potez.",
+    "NAME": "Ravnoteža"
+  },
+  "Unload": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Odbaci iz ruke sve karte koje nisu napadi.",
+    "NAME": "Iskasapi"
+  },
+  "Unraveling": {
+    "DESCRIPTION": "Odigraj sve svoje karte sa leva na desno. Mete se biraju nasumično. NL Iscrpi.",
+    "NAME": "Unraveling ???"
+  },
+  "Uppercut": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Nanesi slabosti i ranjivosti: !M!.",
+    "NAME": "Aperkat"
+  },
+  "Vault": {
+    "DESCRIPTION": "Odigraj dodatni potez nakon ovog. NL Završi potez. NL Iscrpi.",
+    "NAME": "Preskoči"
+  },
+  "Vengeance": {
+    "DESCRIPTION": "Na početku sledećeg poteza, razbesni se i vuci !M! karte.",
+    "NAME": "Ključanje"
+  },
+  "Venomology": {
+    "DESCRIPTION": "Zadobi nasumični napitak. NL Iscrpi.",
+    "NAME": "Alhemija"
+  },
+  "Vigilance": {
+    "DESCRIPTION": "Zadobi !B! odbrane. NL Smiri se.",
+    "NAME": "Budnost",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Violence": {
+    "DESCRIPTION": "Stavi !M! nasumična napada iz gomile za vučenje u ruku. NL Iscrpi.",
+    "NAME": "Nasilje"
+  },
+  "Void": {
+    "DESCRIPTION": "Neodigriva. NL Prolazna. NL Po vučenju ove karte, gubiš jednu energiju.",
+    "NAME": "Vakuum"
+  },
+  "Wallop": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Zadobi odbrane jednako nanesenoj neodbranjenoj šteti.",
+    "NAME": "Žvajzni"
+  },
+  "Warcry": {
+    "DESCRIPTION": "Vuci !M! kartu. NL Stavi jednu kartu iz ruke na vrh gomile za vučenje. NL Iscrpi.",
+    "NAME": "Poklič",
+    "UPGRADE_DESCRIPTION": "Vuci !M! karte. NL Stavi jednu kartu iz ruke na vrh gomile za vučenje. NL Iscrpi."
+  },
+  "WardAura": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "WaveOfTheHand": {
+    "DESCRIPTION": "Svaki put kad se braniš ovaj potez, nanesi SVIM neprijateljima NL slabost: !M!.",
+    "NAME": "Gest ljubavi"
+  },
+  "WaveOfTheHand2": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Weave": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Svaki put kad proričeš, vrati ovu kartu sa gomile za odbacivanje u ruku.",
+    "NAME": "Bajanje"
+  },
+  "Well Laid Plans": {
+    "DESCRIPTION": "Na kraju poteza, NL zadrži do !M! karte.",
+    "NAME": "Valjani planovi",
+    "UPGRADE_DESCRIPTION": "Na kraju poteza, NL zadrži do !M! karte."
+  },
+  "WheelKick": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Vuci !M! karte.",
+    "NAME": "Nogom u glavu",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Whirlwind": {
+    "DESCRIPTION": "Zadaj !D! štete SVIM neprijateljima X puta.",
+    "NAME": "Kovitlac"
+  },
+  "White Noise": {
+    "DESCRIPTION": "Dodaj nasumičnu NL moć u ruku. NL Ovaj potez je besplatna. NL Iscrpi.",
+    "NAME": "Beli šum"
+  },
+  "Wild Strike": {
+    "DESCRIPTION": "Zadaj !D! štete. NL Dodaj *ranu u gomilu za vučenje.",
+    "NAME": "Divljački udarac"
+  },
+  "WindmillStrike": {
+    "DESCRIPTION": "Zadrži. NL Zadaj !D! štete. NL Ako zadržiš, povećaj štetu ove karte za !M! tokom ove borbe.",
+    "NAME": "Samelji"
+  },
+  "Windup": {
+    "DESCRIPTION": "",
+    "NAME": ""
+  },
+  "Wireheading": {
+    "DESCRIPTION": "Na početku svog poteza, proreci !M! karte.",
+    "NAME": "Prorok",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Wisdom": {
+    "DESCRIPTION": "Zadrži. NL Vuci !M! karte. NL Iscrpi.",
+    "NAME": "Mudrost"
+  },
+  "Wish": {
+    "DESCRIPTION": "Izaberi jedno: NL Zadobi !B! optočenog oklopa, !M! zlata, ili povećaj svoju snagu za !D!. Iscrpi.",
+    "NAME": "Želja",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "Worship": {
+    "DESCRIPTION": "Zadobi !M! molitvi.",
+    "NAME": "Bogosluženje",
+    "UPGRADE_DESCRIPTION": "Zadrži. NL Zadobi !M! molitvi."
+  },
+  "Wound": {
+    "DESCRIPTION": "Neodigriva.",
+    "NAME": "Rana"
+  },
+  "Wraith Form v2": {
+    "DESCRIPTION": "Zadobi !M! nedodirljivosti. NL Izgubi jednu okretnost na kraju svakog svog poteza.",
+    "NAME": "Utvara"
+  },
+  "Wrath": {
+    "DESCRIPTION": "Zadaj i primaj dvostruko više štete od napada.",
+    "NAME": "Bes"
+  },
+  "WreathOfFlame": {
+    "DESCRIPTION": "Tvoj sledeći napad zadaje !M! više štete.",
+    "NAME": "Plameni venac"
+  },
+  "Writhe": {
+    "DESCRIPTION": "Neodigriva. NL Urođena.",
+    "NAME": "Grčevi"
+  },
+  "Zap": {
+    "DESCRIPTION": "Prizovi !M! munju.",
+    "NAME": "Šok"
+  }
+}

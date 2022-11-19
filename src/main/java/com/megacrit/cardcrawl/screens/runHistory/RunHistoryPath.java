@@ -1,19 +1,16 @@
 /*     */ package com.megacrit.cardcrawl.screens.runHistory;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.GameCursor;
-/*     */ import com.megacrit.cardcrawl.screens.stats.BattleStats;
-/*     */ import com.megacrit.cardcrawl.screens.stats.BossRelicChoiceStats;
-/*     */ import com.megacrit.cardcrawl.screens.stats.CampfireChoice;
-/*     */ import com.megacrit.cardcrawl.screens.stats.CardChoiceStats;
-/*     */ import com.megacrit.cardcrawl.screens.stats.EventStats;
-/*     */ import com.megacrit.cardcrawl.screens.stats.ObtainStats;
-/*     */ import com.megacrit.cardcrawl.screens.stats.RunData;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.HashMap;
-/*     */ import java.util.LinkedList;
-/*     */ import java.util.List;
+/*     */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.GameCursor;
+import com.megacrit.cardcrawl.screens.stats.*;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 /*     */ 
 /*     */ 
 /*     */ 

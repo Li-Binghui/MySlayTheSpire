@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.ui.campfire;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*    */ import com.megacrit.cardcrawl.vfx.campfire.CampfireTokeEffect;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.vfx.campfire.CampfireTokeEffect;
 /*    */ 
 /*    */ public class TokeOption extends AbstractCampfireOption {
 /* 10 */   private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString("Toke Option");

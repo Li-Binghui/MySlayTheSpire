@@ -1,14 +1,6 @@
 package com.megacrit.cardcrawl.integrations.steam;
 
-import com.codedisaster.steamworks.SteamAPI;
-import com.codedisaster.steamworks.SteamApps;
-import com.codedisaster.steamworks.SteamException;
-import com.codedisaster.steamworks.SteamFriends;
-import com.codedisaster.steamworks.SteamID;
-import com.codedisaster.steamworks.SteamLeaderboardHandle;
-import com.codedisaster.steamworks.SteamRemoteStorage;
-import com.codedisaster.steamworks.SteamUser;
-import com.codedisaster.steamworks.SteamUserStats;
+import com.codedisaster.steamworks.*;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
@@ -17,14 +9,15 @@ import com.megacrit.cardcrawl.integrations.DistributorFactory;
 import com.megacrit.cardcrawl.integrations.PublisherIntegration;
 import com.megacrit.cardcrawl.screens.leaderboards.FilterButton;
 import com.megacrit.cardcrawl.screens.stats.AchievementGrid;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/integrations/steam/SteamIntegration.class */
 public class SteamIntegration implements PublisherIntegration {

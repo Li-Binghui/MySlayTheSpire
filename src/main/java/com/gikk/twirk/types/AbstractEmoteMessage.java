@@ -1,6 +1,7 @@
 package com.gikk.twirk.types;
 
 import com.gikk.twirk.types.emote.Emote;
+
 import java.util.List;
 
 public interface AbstractEmoteMessage extends AbstractType {

@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.rooms;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.core.GameCursor;
-/*    */ import com.megacrit.cardcrawl.cutscenes.Cutscene;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.GameCursor;
+import com.megacrit.cardcrawl.cutscenes.Cutscene;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 /*    */ 
 /*    */ public class TrueVictoryRoom
 /*    */   extends AbstractRoom {

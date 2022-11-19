@@ -1,34 +1,31 @@
 /*     */ package com.megacrit.cardcrawl.daily;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.BadWordChecker;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.SeedHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.integrations.DistributorFactory;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import com.megacrit.cardcrawl.screens.leaderboards.LeaderboardEntry;
-/*     */ import com.megacrit.cardcrawl.screens.mainMenu.MainMenuScreen;
-/*     */ import com.megacrit.cardcrawl.screens.mainMenu.MenuCancelButton;
-/*     */ import com.megacrit.cardcrawl.ui.buttons.ConfirmButton;
-/*     */ import java.text.DateFormat;
-/*     */ import java.text.SimpleDateFormat;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.TimeZone;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.integrations.DistributorFactory;
+import com.megacrit.cardcrawl.random.Random;
+import com.megacrit.cardcrawl.screens.leaderboards.LeaderboardEntry;
+import com.megacrit.cardcrawl.screens.mainMenu.MainMenuScreen;
+import com.megacrit.cardcrawl.screens.mainMenu.MenuCancelButton;
+import com.megacrit.cardcrawl.ui.buttons.ConfirmButton;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.TimeZone;
 /*     */ 
 /*     */ 
 /*     */ 

@@ -1,48 +1,39 @@
 /*     */ package com.megacrit.cardcrawl.characters;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.Texture;
-/*     */ import com.badlogic.gdx.graphics.g2d.BitmapFont;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.esotericsoftware.spine.AnimationState;
-/*     */ import com.esotericsoftware.spine.AnimationStateData;
-/*     */ import com.esotericsoftware.spine.Bone;
-/*     */ import com.esotericsoftware.spine.Skeleton;
-/*     */ import com.esotericsoftware.spine.SkeletonData;
-/*     */ import com.esotericsoftware.spine.SkeletonJson;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.cards.purple.Eruption;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.EnergyManager;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.events.beyond.SpireHeart;
-/*     */ import com.megacrit.cardcrawl.events.city.Vampires;
-/*     */ import com.megacrit.cardcrawl.helpers.CardLibrary;
-/*     */ import com.megacrit.cardcrawl.helpers.FontHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.Prefs;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*     */ import com.megacrit.cardcrawl.localization.CharacterStrings;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveAndContinue;
-/*     */ import com.megacrit.cardcrawl.screens.CharSelectInfo;
-/*     */ import com.megacrit.cardcrawl.screens.charSelect.CharacterOption;
-/*     */ import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
-/*     */ import com.megacrit.cardcrawl.screens.stats.CharStat;
-/*     */ import com.megacrit.cardcrawl.screens.stats.StatsScreen;
-/*     */ import com.megacrit.cardcrawl.ui.panels.energyorb.EnergyOrbInterface;
-/*     */ import com.megacrit.cardcrawl.ui.panels.energyorb.EnergyOrbPurple;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.*;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.purple.Eruption;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.EnergyManager;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.events.beyond.SpireHeart;
+import com.megacrit.cardcrawl.events.city.Vampires;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.localization.CharacterStrings;
+import com.megacrit.cardcrawl.saveAndContinue.SaveAndContinue;
+import com.megacrit.cardcrawl.screens.CharSelectInfo;
+import com.megacrit.cardcrawl.screens.charSelect.CharacterOption;
+import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
+import com.megacrit.cardcrawl.screens.stats.CharStat;
+import com.megacrit.cardcrawl.screens.stats.StatsScreen;
+import com.megacrit.cardcrawl.ui.panels.energyorb.EnergyOrbInterface;
+import com.megacrit.cardcrawl.ui.panels.energyorb.EnergyOrbPurple;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

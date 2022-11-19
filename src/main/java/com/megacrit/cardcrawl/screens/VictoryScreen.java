@@ -1,42 +1,40 @@
 /*     */ package com.megacrit.cardcrawl.screens;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.Interpolation;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.MathHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
-/*     */ import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.metrics.Metrics;
-/*     */ import com.megacrit.cardcrawl.monsters.MonsterGroup;
-/*     */ import com.megacrit.cardcrawl.rooms.CampfireUI;
-/*     */ import com.megacrit.cardcrawl.rooms.RestRoom;
-/*     */ import com.megacrit.cardcrawl.saveAndContinue.SaveAndContinue;
-/*     */ import com.megacrit.cardcrawl.screens.stats.StatsScreen;
-/*     */ import com.megacrit.cardcrawl.ui.buttons.DynamicBanner;
-/*     */ import com.megacrit.cardcrawl.ui.buttons.ReturnToMenuButton;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.AscensionLevelUpTextEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.AscensionUnlockedTextEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.BetaCardArtUnlockedTextEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.DefectVictoryEyesEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.DefectVictoryNumberEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.IroncladVictoryFlameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.SilentVictoryStarEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.SlowFireParticleEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.scene.WatcherVictoryEffect;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Iterator;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Interpolation;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.metrics.Metrics;
+import com.megacrit.cardcrawl.monsters.MonsterGroup;
+import com.megacrit.cardcrawl.rooms.CampfireUI;
+import com.megacrit.cardcrawl.rooms.RestRoom;
+import com.megacrit.cardcrawl.saveAndContinue.SaveAndContinue;
+import com.megacrit.cardcrawl.screens.stats.StatsScreen;
+import com.megacrit.cardcrawl.ui.buttons.DynamicBanner;
+import com.megacrit.cardcrawl.ui.buttons.ReturnToMenuButton;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.AscensionLevelUpTextEffect;
+import com.megacrit.cardcrawl.vfx.AscensionUnlockedTextEffect;
+import com.megacrit.cardcrawl.vfx.BetaCardArtUnlockedTextEffect;
+import com.megacrit.cardcrawl.vfx.scene.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 /*     */ 
 /*     */ 
 /*     */ 

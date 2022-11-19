@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.powers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.PowerStrings;
-/*    */ import com.megacrit.cardcrawl.orbs.AbstractOrb;
+/*    */
+
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.orbs.AbstractOrb;
 /*    */ 
 /*    */ public class LoopPower extends AbstractPower {
 /* 10 */   private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings("Loop"); public static final String POWER_ID = "Loop";

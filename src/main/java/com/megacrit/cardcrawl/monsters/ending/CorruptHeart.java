@@ -1,39 +1,30 @@
 /*     */ package com.megacrit.cardcrawl.monsters.ending;
-/*     */ import com.badlogic.gdx.graphics.Color;
-/*     */ import com.esotericsoftware.spine.AnimationState;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.VFXAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.RollMoveAction;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.cards.status.*;
 /*     */
-/*     */
-/*     */
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.HeartAnimListener;
-/*     */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.powers.ArtifactPower;
-/*     */ import com.megacrit.cardcrawl.powers.BeatOfDeathPower;
-/*     */ import com.megacrit.cardcrawl.powers.FrailPower;
-/*     */ import com.megacrit.cardcrawl.powers.InvinciblePower;
-/*     */ import com.megacrit.cardcrawl.powers.PainfulStabsPower;
-/*     */ import com.megacrit.cardcrawl.powers.StrengthPower;
-/*     */ import com.megacrit.cardcrawl.powers.VulnerablePower;
-/*     */ import com.megacrit.cardcrawl.powers.WeakPower;
-/*     */ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.BloodShotEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.HeartBuffEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.HeartMegaDebuffEffect;
+
+import com.badlogic.gdx.graphics.Color;
+import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
+import com.megacrit.cardcrawl.actions.common.RollMoveAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.status.*;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.HeartAnimListener;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.*;
+import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
+import com.megacrit.cardcrawl.vfx.combat.BloodShotEffect;
+import com.megacrit.cardcrawl.vfx.combat.HeartBuffEffect;
+import com.megacrit.cardcrawl.vfx.combat.HeartMegaDebuffEffect;
 import com.megacrit.cardcrawl.vfx.combat.ViceCrushEffect;
 /*     */ 
 /*     */ public class CorruptHeart extends AbstractMonster {

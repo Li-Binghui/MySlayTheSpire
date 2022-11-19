@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.unlock;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
+/*    */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 /*    */ 
 /*    */ public class AbstractUnlock
 /*    */   implements Comparable<AbstractUnlock> {

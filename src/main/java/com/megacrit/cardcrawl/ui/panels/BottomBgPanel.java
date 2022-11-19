@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.ui.panels;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.math.MathUtils;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.core.Settings;
 /*    */ 
 /*    */ public class BottomBgPanel
 /*    */ {

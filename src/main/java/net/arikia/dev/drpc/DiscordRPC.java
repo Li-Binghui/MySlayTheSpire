@@ -1,12 +1,11 @@
 /*     */ package net.arikia.dev.drpc;
 /*     */ 
-/*     */ import com.sun.jna.Library;
-/*     */ import com.sun.jna.Native;
-/*     */ import java.io.File;
-/*     */ import java.io.FileOutputStream;
-/*     */ import java.io.IOException;
-/*     */ import java.io.InputStream;
-/*     */ import java.io.OutputStream;
+/*     */
+
+import com.sun.jna.Library;
+import com.sun.jna.Native;
+
+import java.io.*;
 /*     */ 
 /*     */ 
 /*     */ 

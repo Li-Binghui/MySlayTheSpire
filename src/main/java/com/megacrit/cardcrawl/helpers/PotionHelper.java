@@ -1,56 +1,17 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.metrics.BotDataUploader;
-/*     */ import com.megacrit.cardcrawl.potions.AbstractPotion;
-/*     */ import com.megacrit.cardcrawl.potions.Ambrosia;
-/*     */ import com.megacrit.cardcrawl.potions.AncientPotion;
-/*     */ import com.megacrit.cardcrawl.potions.AttackPotion;
-/*     */ import com.megacrit.cardcrawl.potions.BlessingOfTheForge;
-/*     */ import com.megacrit.cardcrawl.potions.BlockPotion;
-/*     */ import com.megacrit.cardcrawl.potions.BloodPotion;
-/*     */ import com.megacrit.cardcrawl.potions.BottledMiracle;
-/*     */ import com.megacrit.cardcrawl.potions.ColorlessPotion;
-/*     */ import com.megacrit.cardcrawl.potions.CultistPotion;
-/*     */ import com.megacrit.cardcrawl.potions.CunningPotion;
-/*     */ import com.megacrit.cardcrawl.potions.DexterityPotion;
-/*     */ import com.megacrit.cardcrawl.potions.DistilledChaosPotion;
-/*     */ import com.megacrit.cardcrawl.potions.DuplicationPotion;
-/*     */ import com.megacrit.cardcrawl.potions.Elixir;
-/*     */ import com.megacrit.cardcrawl.potions.EnergyPotion;
-/*     */ import com.megacrit.cardcrawl.potions.EntropicBrew;
-/*     */ import com.megacrit.cardcrawl.potions.EssenceOfDarkness;
-/*     */ import com.megacrit.cardcrawl.potions.EssenceOfSteel;
-/*     */ import com.megacrit.cardcrawl.potions.ExplosivePotion;
-/*     */ import com.megacrit.cardcrawl.potions.FairyPotion;
-/*     */ import com.megacrit.cardcrawl.potions.FearPotion;
-/*     */ import com.megacrit.cardcrawl.potions.FirePotion;
-/*     */ import com.megacrit.cardcrawl.potions.FocusPotion;
-/*     */ import com.megacrit.cardcrawl.potions.FruitJuice;
-/*     */ import com.megacrit.cardcrawl.potions.GamblersBrew;
-/*     */ import com.megacrit.cardcrawl.potions.GhostInAJar;
-/*     */ import com.megacrit.cardcrawl.potions.HeartOfIron;
-/*     */ import com.megacrit.cardcrawl.potions.LiquidBronze;
-/*     */ import com.megacrit.cardcrawl.potions.LiquidMemories;
-/*     */ import com.megacrit.cardcrawl.potions.PoisonPotion;
-/*     */ import com.megacrit.cardcrawl.potions.PotionOfCapacity;
-/*     */ import com.megacrit.cardcrawl.potions.PowerPotion;
-/*     */ import com.megacrit.cardcrawl.potions.RegenPotion;
-/*     */ import com.megacrit.cardcrawl.potions.SkillPotion;
-/*     */ import com.megacrit.cardcrawl.potions.SmokeBomb;
-/*     */ import com.megacrit.cardcrawl.potions.SneckoOil;
-/*     */ import com.megacrit.cardcrawl.potions.SpeedPotion;
-/*     */ import com.megacrit.cardcrawl.potions.StancePotion;
-/*     */ import com.megacrit.cardcrawl.potions.SteroidPotion;
-/*     */ import com.megacrit.cardcrawl.potions.StrengthPotion;
-/*     */ import com.megacrit.cardcrawl.potions.SwiftPotion;
-/*     */ import com.megacrit.cardcrawl.potions.WeakenPotion;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.HashSet;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.metrics.BotDataUploader;
+import com.megacrit.cardcrawl.potions.*;
+import com.megacrit.cardcrawl.random.Random;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.HashSet;
 /*     */ 
 /*     */ 
 /*     */ 

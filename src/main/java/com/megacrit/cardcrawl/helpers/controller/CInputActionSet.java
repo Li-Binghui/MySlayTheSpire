@@ -1,7 +1,9 @@
 /*     */ package com.megacrit.cardcrawl.helpers.controller;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.helpers.Prefs;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
+/*     */
+
+import com.megacrit.cardcrawl.helpers.Prefs;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
 /*     */ 
 /*     */ public class CInputActionSet {
 /*   7 */   public static Prefs prefs = SaveHelper.getPrefs("STSInputSettings_Controller");

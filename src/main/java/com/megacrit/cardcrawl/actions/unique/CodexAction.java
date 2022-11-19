@@ -1,12 +1,15 @@
 /*    */ package com.megacrit.cardcrawl.actions.unique;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.screens.CardRewardScreen;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToDrawPileEffect;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.screens.CardRewardScreen;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToDrawPileEffect;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ public class CodexAction
 /*    */   extends AbstractGameAction {

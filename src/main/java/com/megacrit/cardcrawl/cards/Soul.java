@@ -1,20 +1,22 @@
 /*     */ package com.megacrit.cardcrawl.cards;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.badlogic.gdx.math.CatmullRomSpline;
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.badlogic.gdx.math.Vector;
-/*     */ import com.badlogic.gdx.math.Vector2;
-/*     */ import com.badlogic.gdx.utils.Pool;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*     */ import com.megacrit.cardcrawl.rooms.AbstractRoom;
-/*     */ import com.megacrit.cardcrawl.vfx.CardTrailEffect;
-/*     */ import com.megacrit.cardcrawl.vfx.combat.EmpowerEffect;
-/*     */ import java.util.ArrayList;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.CatmullRomSpline;
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.utils.Pool;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.vfx.CardTrailEffect;
+import com.megacrit.cardcrawl.vfx.combat.EmpowerEffect;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ public class Soul
 /*     */ {

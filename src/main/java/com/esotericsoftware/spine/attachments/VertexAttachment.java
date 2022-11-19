@@ -1,9 +1,11 @@
 /*     */ package com.esotericsoftware.spine.attachments;
 /*     */ 
-/*     */ import com.badlogic.gdx.utils.FloatArray;
-/*     */ import com.esotericsoftware.spine.Bone;
-/*     */ import com.esotericsoftware.spine.Skeleton;
-/*     */ import com.esotericsoftware.spine.Slot;
+/*     */
+
+import com.badlogic.gdx.utils.FloatArray;
+import com.esotericsoftware.spine.Bone;
+import com.esotericsoftware.spine.Skeleton;
+import com.esotericsoftware.spine.Slot;
 /*     */ 
 /*     */ 
 /*     */ 

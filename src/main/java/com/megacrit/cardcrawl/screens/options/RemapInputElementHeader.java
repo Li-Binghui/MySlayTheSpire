@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.screens.options;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.Hitbox;
+/*    */
+
+import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.Hitbox;
 /*    */ 
 /*    */ public class RemapInputElementHeader
 /*    */   extends RemapInputElement {

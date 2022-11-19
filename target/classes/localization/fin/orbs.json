@@ -1,0 +1,39 @@
+{
+  "Dark": {
+    "NAME": "Pimeys",
+    "DESCRIPTION": [
+      "#yPassiivinen: Lisää tämän Kuulan vauriota #b",
+      " verran vuoron lopussa. NL #yManaa: Tee #b",
+      " vauriota viholliselle, jolla on alhaisin OP."
+    ]
+  },
+  "Empty": {
+    "NAME": "Kuulapaikka",
+    "DESCRIPTION": [
+      "Kuulat voidaan kanavoida näihin paikkoihin."
+    ]
+  },
+  "Frost": {
+    "NAME": "Pakkas",
+    "DESCRIPTION": [
+      "#yPassiivinen: Vuoron lopussa lisää #b",
+      " #ySuojaa. NL #yManaa: Lisää #b",
+      " #ySuojaa."
+    ]
+  },
+  "Lightning": {
+    "NAME": "Salama",
+    "DESCRIPTION": [
+      "#yPassiivinen: Vuoron lopussa tee #b",
+      " vauriota satunnaiselle viholliselle. NL #yManaa: tee #b",
+      " vauriota satunnaiselle viholliselle."
+    ]
+  },
+  "Plasma": {
+    "NAME": "Plasma",
+    "DESCRIPTION": [
+      "#yPassiivinen: Saa vuorosi alussa [B] . NL #yManaa: Saa #b",
+      " [B] . NL #yFokus ei vaikuta Plasmaan."
+    ]
+  }
+}

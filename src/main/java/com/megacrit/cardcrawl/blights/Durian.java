@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.blights;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.BlightStrings;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.BlightStrings;
 /*    */ 
 /*    */ public class Durian extends AbstractBlight {
 /*    */   public static final String ID = "BlightedDurian";

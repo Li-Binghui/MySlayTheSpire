@@ -1,18 +1,21 @@
 /*     */ package com.gikk.twirk;
 /*     */ 
-/*     */ import com.gikk.twirk.types.clearChat.ClearChatBuilder;
-/*     */ import com.gikk.twirk.types.hostTarget.HostTargetBuilder;
-/*     */ import com.gikk.twirk.types.mode.ModeBuilder;
-/*     */ import com.gikk.twirk.types.notice.NoticeBuilder;
-/*     */ import com.gikk.twirk.types.reconnect.ReconnectBuilder;
-/*     */ import com.gikk.twirk.types.roomstate.RoomstateBuilder;
-/*     */ import com.gikk.twirk.types.twitchMessage.TwitchMessageBuilder;
-/*     */ import com.gikk.twirk.types.usernotice.UsernoticeBuilder;
-/*     */ import com.gikk.twirk.types.users.TwitchUserBuilder;
-/*     */ import com.gikk.twirk.types.users.UserstateBuilder;
-/*     */ import java.io.IOException;
-/*     */ import java.net.Socket;
-/*     */ import javax.net.ssl.SSLSocketFactory;
+/*     */
+
+import com.gikk.twirk.types.clearChat.ClearChatBuilder;
+import com.gikk.twirk.types.hostTarget.HostTargetBuilder;
+import com.gikk.twirk.types.mode.ModeBuilder;
+import com.gikk.twirk.types.notice.NoticeBuilder;
+import com.gikk.twirk.types.reconnect.ReconnectBuilder;
+import com.gikk.twirk.types.roomstate.RoomstateBuilder;
+import com.gikk.twirk.types.twitchMessage.TwitchMessageBuilder;
+import com.gikk.twirk.types.usernotice.UsernoticeBuilder;
+import com.gikk.twirk.types.users.TwitchUserBuilder;
+import com.gikk.twirk.types.users.UserstateBuilder;
+
+import javax.net.ssl.SSLSocketFactory;
+import java.io.IOException;
+import java.net.Socket;
 /*     */ 
 /*     */ 
 /*     */ 

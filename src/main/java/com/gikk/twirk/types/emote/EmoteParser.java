@@ -1,7 +1,9 @@
 /*    */ package com.gikk.twirk.types.emote;
 /*    */ 
-/*    */ import java.util.LinkedList;
-/*    */ import java.util.List;
+/*    */
+
+import java.util.LinkedList;
+import java.util.List;
 /*    */ 
 /*    */ 
 /*    */ 

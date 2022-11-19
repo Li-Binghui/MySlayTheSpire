@@ -1,25 +1,15 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.blights.AbstractBlight;
-/*     */ import com.megacrit.cardcrawl.blights.Accursed;
-/*     */ import com.megacrit.cardcrawl.blights.AncientAugmentation;
-/*     */ import com.megacrit.cardcrawl.blights.Durian;
-/*     */ import com.megacrit.cardcrawl.blights.GrotesqueTrophy;
-/*     */ import com.megacrit.cardcrawl.blights.Hauntings;
-/*     */ import com.megacrit.cardcrawl.blights.MimicInfestation;
-/*     */ import com.megacrit.cardcrawl.blights.Muzzle;
-/*     */ import com.megacrit.cardcrawl.blights.Scatterbrain;
-/*     */ import com.megacrit.cardcrawl.blights.Shield;
-/*     */ import com.megacrit.cardcrawl.blights.Spear;
-/*     */ import com.megacrit.cardcrawl.blights.TimeMaze;
-/*     */ import com.megacrit.cardcrawl.blights.TwistingMind;
-/*     */ import com.megacrit.cardcrawl.blights.VoidEssence;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.metrics.BotDataUploader;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import java.util.ArrayList;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.megacrit.cardcrawl.blights.*;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.metrics.BotDataUploader;
+import com.megacrit.cardcrawl.random.Random;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

@@ -1,39 +1,33 @@
 /*     */ package com.gikk.twirk;
 /*     */ 
-/*     */ import com.gikk.twirk.events.TwirkListener;
-/*     */ import com.gikk.twirk.types.clearChat.ClearChat;
-/*     */ import com.gikk.twirk.types.clearChat.ClearChatBuilder;
-/*     */ import com.gikk.twirk.types.hostTarget.HostTarget;
-/*     */ import com.gikk.twirk.types.hostTarget.HostTargetBuilder;
-/*     */ import com.gikk.twirk.types.mode.Mode;
-/*     */ import com.gikk.twirk.types.mode.ModeBuilder;
-/*     */ import com.gikk.twirk.types.notice.Notice;
-/*     */ import com.gikk.twirk.types.notice.NoticeBuilder;
-/*     */ import com.gikk.twirk.types.reconnect.ReconnectBuilder;
-/*     */ import com.gikk.twirk.types.roomstate.Roomstate;
-/*     */ import com.gikk.twirk.types.roomstate.RoomstateBuilder;
-/*     */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
-/*     */ import com.gikk.twirk.types.twitchMessage.TwitchMessageBuilder;
-/*     */ import com.gikk.twirk.types.usernotice.Usernotice;
-/*     */ import com.gikk.twirk.types.usernotice.UsernoticeBuilder;
-/*     */ import com.gikk.twirk.types.users.TwitchUser;
-/*     */ import com.gikk.twirk.types.users.TwitchUserBuilder;
-/*     */ import com.gikk.twirk.types.users.Userstate;
-/*     */ import com.gikk.twirk.types.users.UserstateBuilder;
-/*     */ import java.io.BufferedReader;
-/*     */ import java.io.BufferedWriter;
-/*     */ import java.io.IOException;
-/*     */ import java.io.InputStreamReader;
-/*     */ import java.io.OutputStreamWriter;
-/*     */ import java.net.Socket;
-/*     */ import java.nio.charset.StandardCharsets;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Arrays;
-/*     */ import java.util.Collections;
-/*     */ import java.util.HashSet;
-/*     */ import java.util.List;
-/*     */ import java.util.Set;
-/*     */ import java.util.concurrent.ConcurrentHashMap;
+/*     */
+
+import com.gikk.twirk.events.TwirkListener;
+import com.gikk.twirk.types.clearChat.ClearChat;
+import com.gikk.twirk.types.clearChat.ClearChatBuilder;
+import com.gikk.twirk.types.hostTarget.HostTarget;
+import com.gikk.twirk.types.hostTarget.HostTargetBuilder;
+import com.gikk.twirk.types.mode.Mode;
+import com.gikk.twirk.types.mode.ModeBuilder;
+import com.gikk.twirk.types.notice.Notice;
+import com.gikk.twirk.types.notice.NoticeBuilder;
+import com.gikk.twirk.types.reconnect.ReconnectBuilder;
+import com.gikk.twirk.types.roomstate.Roomstate;
+import com.gikk.twirk.types.roomstate.RoomstateBuilder;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+import com.gikk.twirk.types.twitchMessage.TwitchMessageBuilder;
+import com.gikk.twirk.types.usernotice.Usernotice;
+import com.gikk.twirk.types.usernotice.UsernoticeBuilder;
+import com.gikk.twirk.types.users.TwitchUser;
+import com.gikk.twirk.types.users.TwitchUserBuilder;
+import com.gikk.twirk.types.users.Userstate;
+import com.gikk.twirk.types.users.UserstateBuilder;
+
+import java.io.*;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 /*     */ 
 /*     */ 
 /*     */ 

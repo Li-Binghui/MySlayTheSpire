@@ -1,7 +1,9 @@
 /*     */ package com.codedisaster.steamworks;
 /*     */ 
-/*     */ import java.util.Collection;
-/*     */ import java.util.EnumSet;
+/*     */
+
+import java.util.Collection;
+import java.util.EnumSet;
 /*     */ 
 /*     */ public class SteamUGC
 /*     */   extends SteamInterface

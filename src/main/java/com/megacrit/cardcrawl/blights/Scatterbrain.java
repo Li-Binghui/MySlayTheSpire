@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.blights;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.PowerTip;
-/*    */ import com.megacrit.cardcrawl.localization.BlightStrings;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.PowerTip;
+import com.megacrit.cardcrawl.localization.BlightStrings;
 /*    */ 
 /*    */ public class Scatterbrain extends AbstractBlight {
 /*    */   public static final String ID = "Scatterbrain";

@@ -1,8 +1,10 @@
 /*    */ package com.gikk.twirk;
 /*    */ 
-/*    */ import com.gikk.twirk.events.TwirkListener;
-/*    */ import com.gikk.twirk.types.mode.Mode;
-/*    */ import com.gikk.twirk.types.users.Userstate;
+/*    */
+
+import com.gikk.twirk.events.TwirkListener;
+import com.gikk.twirk.types.mode.Mode;
+import com.gikk.twirk.types.users.Userstate;
 /*    */ 
 /*    */ 
 /*    */ 

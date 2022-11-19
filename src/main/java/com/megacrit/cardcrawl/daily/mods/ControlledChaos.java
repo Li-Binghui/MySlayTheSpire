@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.daily.mods;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.MakeTempCardAtBottomOfDeckAction;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.RunModStrings;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardAtBottomOfDeckAction;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.RunModStrings;
 /*    */ 
 /*    */ public class ControlledChaos extends AbstractDailyMod {
 /* 10 */   private static final RunModStrings modStrings = CardCrawlGame.languagePack.getRunModString("ControlledChaos"); public static final String ID = "ControlledChaos";

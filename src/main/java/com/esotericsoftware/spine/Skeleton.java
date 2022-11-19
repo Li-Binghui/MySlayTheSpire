@@ -4,11 +4,11 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ObjectMap;
-import com.esotericsoftware.spine.Skin;
 import com.esotericsoftware.spine.attachments.Attachment;
 import com.esotericsoftware.spine.attachments.MeshAttachment;
 import com.esotericsoftware.spine.attachments.PathAttachment;
 import com.esotericsoftware.spine.attachments.RegionAttachment;
+
 import java.util.Iterator;
 
 /* loaded from: desktop-1.0.jar:com/esotericsoftware/spine/Skeleton.class */

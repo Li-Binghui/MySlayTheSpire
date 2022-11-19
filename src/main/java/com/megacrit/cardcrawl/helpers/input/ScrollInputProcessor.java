@@ -1,10 +1,12 @@
 /*    */ package com.megacrit.cardcrawl.helpers.input;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.InputProcessor;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import org.apache.logging.log4j.LogManager;
-/*    */ import org.apache.logging.log4j.Logger;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.InputProcessor;
+import com.megacrit.cardcrawl.core.Settings;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 /*    */ 
 /*    */ public class ScrollInputProcessor
 /*    */   implements InputProcessor

@@ -1,21 +1,21 @@
 /*     */ package com.megacrit.cardcrawl.helpers.controller;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
+/*     */
+
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.controllers.Controller;
 import com.badlogic.gdx.controllers.ControllerListener;
 import com.badlogic.gdx.controllers.Controllers;
-
-/*     */ import com.badlogic.gdx.utils.Array;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*     */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*     */ import java.util.ArrayList;
+import com.badlogic.gdx.utils.Array;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
-
-
+import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.Display;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

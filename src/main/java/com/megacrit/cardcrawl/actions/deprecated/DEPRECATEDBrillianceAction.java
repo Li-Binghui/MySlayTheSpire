@@ -1,11 +1,14 @@
 /*    */ package com.megacrit.cardcrawl.actions.deprecated;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.TransformCardInHandAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*    */ import com.megacrit.cardcrawl.cards.tempCards.Miracle;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.TransformCardInHandAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.tempCards.Miracle;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ 
 /*    */ public class DEPRECATEDBrillianceAction

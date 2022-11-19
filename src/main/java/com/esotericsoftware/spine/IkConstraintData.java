@@ -31,7 +31,6 @@
 package com.esotericsoftware.spine;
 
 import com.badlogic.gdx.utils.Array;
-import com.esotericsoftware.spine.BoneData;
 
 /** Stores the setup pose for an }.
  * <p>

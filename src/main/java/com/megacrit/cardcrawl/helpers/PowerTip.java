@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.helpers;
 /*    */ 
-/*    */ import com.badlogic.gdx.graphics.Texture;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+/*    */
+
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 /*    */ 
 /*    */ public class PowerTip {
 /*    */   public Texture img;

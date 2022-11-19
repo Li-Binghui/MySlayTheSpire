@@ -1,11 +1,13 @@
 /*     */ package com.megacrit.cardcrawl.events.city;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractImageEvent;
-/*     */ import com.megacrit.cardcrawl.helpers.ScreenShake;
-/*     */ import com.megacrit.cardcrawl.localization.EventStrings;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractImageEvent;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.localization.EventStrings;
 /*     */ 
 /*     */ public class TheJoust
 /*     */   extends AbstractImageEvent

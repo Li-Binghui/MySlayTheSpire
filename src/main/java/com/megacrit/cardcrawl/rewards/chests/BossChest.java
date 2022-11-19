@@ -1,16 +1,19 @@
 /*    */ package com.megacrit.cardcrawl.rewards.chests;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.blights.AbstractBlight;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.BlightHelper;
-/*    */ import com.megacrit.cardcrawl.helpers.Hitbox;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*    */ import java.util.ArrayList;
+/*    */
+
+import com.megacrit.cardcrawl.blights.AbstractBlight;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.BlightHelper;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+
+import java.util.ArrayList;
 /*    */ 
 /*    */ 
 /*    */ public class BossChest

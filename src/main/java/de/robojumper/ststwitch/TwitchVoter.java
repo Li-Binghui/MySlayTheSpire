@@ -1,14 +1,17 @@
 /*     */ package de.robojumper.ststwitch;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.random.Random;
-/*     */ import java.util.HashSet;
-/*     */ import java.util.LinkedList;
-/*     */ import java.util.List;
-/*     */ import java.util.Set;
-/*     */ import java.util.function.Consumer;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.random.Random;
+
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+import java.util.function.Consumer;
 /*     */ 
 /*     */ 
 /*     */ 

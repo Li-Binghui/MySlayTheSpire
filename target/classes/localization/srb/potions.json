@@ -1,0 +1,320 @@
+{
+  "Ambrosia": {
+    "DESCRIPTIONS": [
+      "#yOboži se."
+    ],
+    "NAME": "Ambrozija"
+  },
+  "Ancient Potion": {
+    "DESCRIPTIONS": [
+      "Zadobi #yzaštitu: #b",
+      "."
+    ],
+    "NAME": "Drevni napitak"
+  },
+  "AttackPotion": {
+    "DESCRIPTIONS": [
+      "Dodaj u ruku #bjedan od #btri nasumična napada. #bBesplatan je ovaj potez.",
+      "Izaberi #bjedan od #btri nasumična #ynapada i dodaj #bdve kopije u ruku. #bBesplatne su ovaj potez."
+    ],
+    "NAME": "Napitak napada"
+  },
+  "BlessingOfTheForge": {
+    "DESCRIPTIONS": [
+      "Poboljšaj sve karte u ruci do kraja borbe."
+    ],
+    "NAME": "Blagoslov kovačnice"
+  },
+  "Block Potion": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #yodbrane."
+    ],
+    "NAME": "Napitak odbrane"
+  },
+  "BloodPotion": {
+    "DESCRIPTIONS": [
+      "Zaleči #b",
+      "% svojih maks. z. p."
+    ],
+    "NAME": "Napitak krvi"
+  },
+  "BottledMiracle": {
+    "DESCRIPTIONS": [
+      "Dodaj #b",
+      " #yČuda u ruku."
+    ],
+    "NAME": "Čudo u tegli"
+  },
+  "ColorlessPotion": {
+    "DESCRIPTIONS": [
+      "Odaberi #bjednu od #btri nasumične #ybezbojne karte i dodaj je u ruku. #bBesplatna je ovaj potez.",
+      "Odaberi #bjednu od #btri nasumične #ybezbojne karte i dodaj #bdve kopije u ruku. #bBesplatne su ovaj potez."
+    ],
+    "NAME": "Bezbojni napitak"
+  },
+  "CultistPotion": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #yobred."
+    ],
+    "NAME": "Obredni napitak"
+  },
+  "CunningPotion": {
+    "DESCRIPTIONS": [
+      "Dodaj #b",
+      " #yBodeža+ u ruku."
+    ],
+    "NAME": "Napitak lukavstva"
+  },
+  "Dexterity Potion": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #yokretnosti."
+    ],
+    "NAME": "Napitak okretnosti"
+  },
+  "DistilledChaos": {
+    "DESCRIPTIONS": [
+      "Odigraj #b",
+      " karte sa vrha gomile za vučenje."
+    ],
+    "NAME": "Destilovani haos"
+  },
+  "DuplicationPotion": {
+    "DESCRIPTIONS": [
+      "Ovaj potez, tvoja sledeća karta će biti odigrana dvaput.",
+      "Ovaj potez, tvoje sledeće #bdve karte će biti odigrane dvaput."
+    ],
+    "NAME": "Dvostruki napitak"
+  },
+  "Elixir": {
+    "DESCRIPTIONS": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "NAME": "Eliksir"
+  },
+  "ElixirPotion": {
+    "DESCRIPTIONS": [
+      "#yIscrpi bilo koji broj karata iz ruke."
+    ],
+    "NAME": "Eliksir"
+  },
+  "Energy Potion": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " energije."
+    ],
+    "NAME": "Energetski napitak"
+  },
+  "EntropicBrew": {
+    "DESCRIPTIONS": [
+      "Ispuni pojas za napitke nasumičnim napicima."
+    ],
+    "NAME": "Entropijska smeša"
+  },
+  "EssenceOfDarkness": {
+    "DESCRIPTIONS": [
+      "#yPrizovi #b",
+      " #ytamu za svako sferno polje."
+    ],
+    "NAME": "Suština tame"
+  },
+  "EssenceOfSteel": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #yoptočenog #yoklopa."
+    ],
+    "NAME": "Esencije čelika"
+  },
+  "Explosive Potion": {
+    "DESCRIPTIONS": [
+      "Zadaj #b",
+      " štete SVIM neprijateljima."
+    ],
+    "NAME": "Eksplozivni napitak"
+  },
+  "FairyPotion": {
+    "DESCRIPTIONS": [
+      "Umesto da umreš, zaleči #b",
+      "% svojih maks. ž. p. i odbaci ovaj napitak."
+    ],
+    "NAME": "Vila u tegli"
+  },
+  "FearPotion": {
+    "DESCRIPTIONS": [
+      "Nanesi #b",
+      " #yranjivosti."
+    ],
+    "NAME": "Napitak straha"
+  },
+  "Fire Potion": {
+    "DESCRIPTIONS": [
+      "Zadaj #b",
+      " štete."
+    ],
+    "NAME": "Vatreni napitak"
+  },
+  "FocusPotion": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #ypotentnosti."
+    ],
+    "NAME": "Napitak potentnosti"
+  },
+  "Fruit Juice": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " maks. z.p."
+    ],
+    "NAME": "Đus"
+  },
+  "GamblersBrew": {
+    "DESCRIPTIONS": [
+      "Odbaci bilo koji broj karata, potom vuci isto toliko."
+    ],
+    "NAME": "Kartaški koktel"
+  },
+  "GhostInAJar": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #ynedodirljivost."
+    ],
+    "NAME": "Duh u tegli"
+  },
+  "Health Potion": {
+    "DESCRIPTIONS": [
+      "",
+      ""
+    ],
+    "NAME": "Eliksir života"
+  },
+  "HeartOfIron": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #yočeličenja."
+    ],
+    "NAME": "Železno srce"
+  },
+  "LiquidBronze": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #ybodljikavosti."
+    ],
+    "NAME": "Tečna bronza"
+  },
+  "LiquidMemories": {
+    "DESCRIPTIONS": [
+      "Odaberi kartu iz gomile za odbacivanje i vrati je u ruku. #bBesplatna je ovaj potez.",
+      "Odaberi #b",
+      " karte iz gomile za odbacivanje i vrati ih u ruku. #bBesplatne su ovaj potez."
+    ],
+    "NAME": "Tečna sećanja"
+  },
+  "Poison Potion": {
+    "DESCRIPTIONS": [
+      "Nanesi #b",
+      " #yotrova."
+    ],
+    "NAME": "Otrovni napitak"
+  },
+  "Potion Slot": {
+    "DESCRIPTIONS": [
+      "Tokom borbe se napicima #gpoboljšaj ili #rometi neprijatelje.",
+      "Mesto za napitak"
+    ],
+    "NAME": "Mesto za napitak"
+  },
+  "PotionOfCapacity": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " sferna polja."
+    ],
+    "NAME": "Napitak kapaciteta"
+  },
+  "PowerPotion": {
+    "DESCRIPTIONS": [
+      "Dodaj u ruku #bjednu od #btri nasumične moći. #bBesplatna je ovaj potez.",
+      "Izaberi #bjednu od #btri nasumične #ymoći i dodaj #bdve kopije u ruku. #bBesplatne su ovaj potez."
+    ],
+    "NAME": "Napitak moći"
+  },
+  "Regen Potion": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #ylečenja.",
+      ""
+    ],
+    "NAME": "Lekoviti napitak"
+  },
+  "SkillPotion": {
+    "DESCRIPTIONS": [
+      "Dodaj u ruku #bjednu od #btri nasumične veštine. #bBesplatna je ovaj potez.",
+      "Izaberi #bjednu od #btri nasumične #yveštine i dodaj #bdve kopije u ruku. #bBesplatne su ovaj potez."
+    ],
+    "NAME": "Napitak umeća"
+  },
+  "SmokeBomb": {
+    "DESCRIPTIONS": [
+      "Pobegni iz ne-voždovske borbe. Ne dobijaš nikakve nagrade.",
+      "Opkolili su me!"
+    ],
+    "NAME": "Dimna bomba"
+  },
+  "SneckoOil": {
+    "DESCRIPTIONS": [
+      "Vuci #b",
+      " karata. Potrošnja energije svih karata u ruci postaje nasumična.",
+      ""
+    ],
+    "NAME": "Zmijkovo ulje"
+  },
+  "SpeedPotion": {
+    "DESCRIPTIONS": [
+      "Povećaj svoju #yokretnost za #b",
+      ". Smanji je za #b",
+      " na kraju poteza."
+    ],
+    "NAME": "Napitak brzine"
+  },
+  "StancePotion": {
+    "DESCRIPTIONS": [
+      "#ySmiri se ili #yrazbesni."
+    ],
+    "NAME": "Manastirski napitak"
+  },
+  "SteroidPotion": {
+    "DESCRIPTIONS": [
+      "Povećaj svoju #ysnagu za #b",
+      ". Smanji je za #b",
+      " na kraju poteza."
+    ],
+    "NAME": "Steroidska mućka"
+  },
+  "Strength Potion": {
+    "DESCRIPTIONS": [
+      "Zadobi #b",
+      " #ysnage."
+    ],
+    "NAME": "Napitak snage"
+  },
+  "Swift Potion": {
+    "DESCRIPTIONS": [
+      "",
+      "Vuci #b",
+      " karte."
+    ],
+    "NAME": "Napitak hitrosti"
+  },
+  "Weak Potion": {
+    "DESCRIPTIONS": [
+      "Nanesi #b",
+      " #yslabosti."
+    ],
+    "NAME": "Napitak slabosti"
+  }
+}

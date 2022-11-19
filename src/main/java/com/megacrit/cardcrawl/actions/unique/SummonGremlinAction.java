@@ -11,19 +11,16 @@ import com.megacrit.cardcrawl.helpers.ModHelper;
 import com.megacrit.cardcrawl.helpers.MonsterHelper;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.monsters.city.GremlinLeader;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinFat;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinThief;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinTsundere;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinWarrior;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinWizard;
+import com.megacrit.cardcrawl.monsters.exordium.*;
 import com.megacrit.cardcrawl.powers.MinionPower;
 import com.megacrit.cardcrawl.powers.SlowPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
-import java.util.ArrayList;
-import java.util.Iterator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/actions/unique/SummonGremlinAction.class */
 public class SummonGremlinAction extends AbstractGameAction {

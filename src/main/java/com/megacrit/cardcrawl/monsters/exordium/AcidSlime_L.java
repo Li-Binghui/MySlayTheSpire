@@ -1,37 +1,33 @@
 /*     */ package com.megacrit.cardcrawl.monsters.exordium;
 /*     */ 
-/*     */ import com.badlogic.gdx.math.MathUtils;
-/*     */ import com.esotericsoftware.spine.AnimationState;
-/*     */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.AnimateShakeAction;
-/*     */ import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.DamageAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.MakeTempCardInDiscardAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.RollMoveAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.SetMoveAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.SpawnMonsterAction;
-/*     */ import com.megacrit.cardcrawl.actions.common.SuicideAction;
-/*     */ import com.megacrit.cardcrawl.actions.unique.CanLoseAction;
-/*     */ import com.megacrit.cardcrawl.actions.unique.CannotLoseAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.HideHealthBarAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.SFXAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
-/*     */ import com.megacrit.cardcrawl.actions.utility.WaitAction;
-/*     */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*     */ import com.megacrit.cardcrawl.cards.DamageInfo;
-/*     */ import com.megacrit.cardcrawl.cards.status.Slimed;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.helpers.SlimeAnimListener;
-/*     */ import com.megacrit.cardcrawl.localization.MonsterStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.powers.AbstractPower;
-/*     */ import com.megacrit.cardcrawl.powers.PoisonPower;
-/*     */ import com.megacrit.cardcrawl.powers.SplitPower;
-/*     */ import com.megacrit.cardcrawl.powers.WeakPower;
-/*     */ import com.megacrit.cardcrawl.unlock.UnlockTracker;
+/*     */
+
+import com.badlogic.gdx.math.MathUtils;
+import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.AnimateShakeAction;
+import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
+import com.megacrit.cardcrawl.actions.common.*;
+import com.megacrit.cardcrawl.actions.unique.CanLoseAction;
+import com.megacrit.cardcrawl.actions.unique.CannotLoseAction;
+import com.megacrit.cardcrawl.actions.utility.HideHealthBarAction;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
+import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.status.Slimed;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.SlimeAnimListener;
+import com.megacrit.cardcrawl.localization.MonsterStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.PoisonPower;
+import com.megacrit.cardcrawl.powers.SplitPower;
+import com.megacrit.cardcrawl.powers.WeakPower;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
 /*     */ 
 /*     */ public class AcidSlime_L
 /*     */   extends AbstractMonster {

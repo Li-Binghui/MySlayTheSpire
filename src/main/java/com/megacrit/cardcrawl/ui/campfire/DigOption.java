@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.ui.campfire;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*    */ import com.megacrit.cardcrawl.vfx.campfire.CampfireDigEffect;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.vfx.campfire.CampfireDigEffect;
 /*    */ 
 /*    */ public class DigOption
 /*    */   extends AbstractCampfireOption {

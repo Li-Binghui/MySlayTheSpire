@@ -1,8 +1,10 @@
 /*     */ package com.gikk.twirk.types;
 /*     */ 
-/*     */ import com.gikk.twirk.enums.USER_TYPE;
-/*     */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
-/*     */ import com.gikk.twirk.types.users.Userstate;
+/*     */
+
+import com.gikk.twirk.enums.USER_TYPE;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+import com.gikk.twirk.types.users.Userstate;
 /*     */ 
 /*     */ 
 /*     */ 

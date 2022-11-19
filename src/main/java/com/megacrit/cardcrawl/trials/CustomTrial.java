@@ -1,8 +1,11 @@
 /*     */ package com.megacrit.cardcrawl.trials;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.List;
+/*     */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+
+import java.util.ArrayList;
+import java.util.List;
 /*     */ 
 /*     */ 
 /*     */ 

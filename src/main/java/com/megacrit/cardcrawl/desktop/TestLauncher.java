@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.desktop;
 /*    */ 
-/*    */ import com.badlogic.gdx.ApplicationListener;
-/*    */ import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
-/*    */ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-/*    */ import com.megacrit.cardcrawl.core.TestGame;
+/*    */
+
+import com.badlogic.gdx.ApplicationListener;
+import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
+import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.megacrit.cardcrawl.core.TestGame;
 /*    */ 
 /*    */ public class TestLauncher {
 /*    */   public static void main(String[] arg) {

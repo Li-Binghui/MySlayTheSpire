@@ -1,7 +1,9 @@
 /*    */ package com.gikk.twirk.types.roomstate;
 /*    */ 
-/*    */ import com.gikk.twirk.types.TagMap;
-/*    */ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
+/*    */
+
+import com.gikk.twirk.types.TagMap;
+import com.gikk.twirk.types.twitchMessage.TwitchMessage;
 /*    */ 
 /*    */ 
 /*    */ class DefaultRoomstateBuilder

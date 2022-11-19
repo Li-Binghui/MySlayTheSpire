@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.relics;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
-/*    */ import com.megacrit.cardcrawl.stances.AbstractStance;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
+import com.megacrit.cardcrawl.stances.AbstractStance;
 /*    */ 
 /*    */ public class VioletLotus extends AbstractRelic {
 /*    */   public static final String ID = "VioletLotus";

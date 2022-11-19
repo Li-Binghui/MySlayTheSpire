@@ -1,14 +1,17 @@
 /*     */ package com.megacrit.cardcrawl.screens.mainMenu;
 /*     */ 
-/*     */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*     */ import com.megacrit.cardcrawl.integrations.DistributorFactory;
-/*     */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*     */ import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
-/*     */ import com.megacrit.cardcrawl.screens.stats.StatsScreen;
-/*     */ import java.util.ArrayList;
+/*     */
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.integrations.DistributorFactory;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.screens.charSelect.CharacterSelectScreen;
+import com.megacrit.cardcrawl.screens.stats.StatsScreen;
+
+import java.util.ArrayList;
 /*     */ 
 /*     */ 
 /*     */ 

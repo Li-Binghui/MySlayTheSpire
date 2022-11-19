@@ -1,9 +1,11 @@
 /*    */ package com.megacrit.cardcrawl.actions.deprecated;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
 /*    */ 
 /*    */ public class DEPRECATEDBlockSelectedAmountAction
 /*    */   extends AbstractGameAction {

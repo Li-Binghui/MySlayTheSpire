@@ -1,18 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.characters;
 /*    */ 
-/*    */ import com.badlogic.gdx.Gdx;
-/*    */ import com.badlogic.gdx.graphics.Color;
-/*    */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*    */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*    */ import com.esotericsoftware.spine.AnimationState;
-/*    */ import com.esotericsoftware.spine.AnimationStateData;
-/*    */ import com.esotericsoftware.spine.Skeleton;
-/*    */ import com.esotericsoftware.spine.SkeletonData;
-/*    */ import com.esotericsoftware.spine.SkeletonJson;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.helpers.HeartAnimListener;
+/*    */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.esotericsoftware.spine.*;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.HeartAnimListener;
 /*    */ 
 /*    */ public class AnimatedNpc
 /*    */ {

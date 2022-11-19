@@ -1,10 +1,13 @@
 /*    */ package com.megacrit.cardcrawl.trials;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.CardGroup;
-/*    */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*    */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.List;
+/*    */
+
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+
+import java.util.ArrayList;
+import java.util.List;
 /*    */ 
 /*    */ 
 /*    */ public class AbstractTrial

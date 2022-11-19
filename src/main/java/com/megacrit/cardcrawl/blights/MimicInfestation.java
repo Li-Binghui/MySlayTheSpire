@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.blights;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.localization.BlightStrings;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.BlightStrings;
 /*    */ 
 /*    */ public class MimicInfestation extends AbstractBlight {
 /*    */   public static final String ID = "MimicInfestation";

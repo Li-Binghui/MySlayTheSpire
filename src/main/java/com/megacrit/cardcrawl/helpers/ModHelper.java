@@ -1,45 +1,12 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Allstar;
-/*     */ import com.megacrit.cardcrawl.daily.mods.BigGameHunter;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Binary;
-/*     */ import com.megacrit.cardcrawl.daily.mods.BlueCards;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Brewmaster;
-/*     */ import com.megacrit.cardcrawl.daily.mods.CertainFuture;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Chimera;
-/*     */ import com.megacrit.cardcrawl.daily.mods.ColorlessCards;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Colossus;
-/*     */ import com.megacrit.cardcrawl.daily.mods.ControlledChaos;
-/*     */ import com.megacrit.cardcrawl.daily.mods.CursedRun;
-/*     */ import com.megacrit.cardcrawl.daily.mods.DeadlyEvents;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Diverse;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Draft;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Flight;
-/*     */ import com.megacrit.cardcrawl.daily.mods.GreenCards;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Heirloom;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Hoarder;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Insanity;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Lethality;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Midas;
-/*     */ import com.megacrit.cardcrawl.daily.mods.NightTerrors;
-/*     */ import com.megacrit.cardcrawl.daily.mods.PurpleCards;
-/*     */ import com.megacrit.cardcrawl.daily.mods.RedCards;
-/*     */ import com.megacrit.cardcrawl.daily.mods.SealedDeck;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Shiny;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Specialized;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Terminal;
-/*     */ import com.megacrit.cardcrawl.daily.mods.TimeDilation;
-/*     */ import com.megacrit.cardcrawl.daily.mods.Vintage;
-/*     */ import com.megacrit.cardcrawl.metrics.BotDataUploader;
-/*     */ import java.util.ArrayList;
-/*     */ import java.util.Collections;
-/*     */ import java.util.HashMap;
-/*     */ import java.util.Iterator;
-/*     */ import java.util.List;
-/*     */ import java.util.Map;
-/*     */ import java.util.Random;
+/*     */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.daily.mods.*;
+import com.megacrit.cardcrawl.metrics.BotDataUploader;
+
+import java.util.*;
 /*     */ 
 /*     */ 
 /*     */ 

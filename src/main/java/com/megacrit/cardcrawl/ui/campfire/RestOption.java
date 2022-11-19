@@ -1,14 +1,16 @@
 /*    */ package com.megacrit.cardcrawl.ui.campfire;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*    */ import com.megacrit.cardcrawl.core.Settings;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.helpers.ImageMaster;
-/*    */ import com.megacrit.cardcrawl.helpers.ModHelper;
-/*    */ import com.megacrit.cardcrawl.localization.LocalizedStrings;
-/*    */ import com.megacrit.cardcrawl.localization.UIStrings;
-/*    */ import com.megacrit.cardcrawl.vfx.campfire.CampfireSleepEffect;
-/*    */ import com.megacrit.cardcrawl.vfx.campfire.CampfireSleepScreenCoverEffect;
+/*    */
+
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.localization.LocalizedStrings;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.vfx.campfire.CampfireSleepEffect;
+import com.megacrit.cardcrawl.vfx.campfire.CampfireSleepScreenCoverEffect;
 /*    */ 
 /*    */ 
 /*    */ public class RestOption

@@ -1,7 +1,9 @@
 /*     */ package com.megacrit.cardcrawl.helpers.input;
 /*     */ 
-/*     */ import com.megacrit.cardcrawl.helpers.Prefs;
-/*     */ import com.megacrit.cardcrawl.helpers.SaveHelper;
+/*     */
+
+import com.megacrit.cardcrawl.helpers.Prefs;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
 /*     */ 
 /*     */ 
 /*     */ public class InputActionSet

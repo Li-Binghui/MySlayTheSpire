@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.actions.common;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.cards.AbstractCard;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 /*    */ 
 /*    */ public class SetDontTriggerAction extends AbstractGameAction {
 /*    */   private AbstractCard card;

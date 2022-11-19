@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.helpers;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.GainPennyEffect;
+/*    */
+
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.GainPennyEffect;
 /*    */ 
 /*    */ public class EffectHelper {
 /*    */   public static void gainGold(AbstractCreature target, float srcX, float srcY, int amount) {

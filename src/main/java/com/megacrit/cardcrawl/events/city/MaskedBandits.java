@@ -1,18 +1,20 @@
 /*     */ package com.megacrit.cardcrawl.events.city;
-/*     */ import com.megacrit.cardcrawl.characters.AbstractPlayer;
-/*     */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
-/*     */ import com.megacrit.cardcrawl.core.Settings;
-/*     */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*     */ import com.megacrit.cardcrawl.events.AbstractEvent;
-/*     */ import com.megacrit.cardcrawl.events.RoomEventDialog;
-/*     */ import com.megacrit.cardcrawl.helpers.MonsterHelper;
+/*     */
+
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.AbstractEvent;
+import com.megacrit.cardcrawl.events.RoomEventDialog;
+import com.megacrit.cardcrawl.helpers.MonsterHelper;
 import com.megacrit.cardcrawl.localization.EventStrings;
-/*     */ import com.megacrit.cardcrawl.monsters.AbstractMonster;
-/*     */ import com.megacrit.cardcrawl.relics.AbstractRelic;
-/*     */ import com.megacrit.cardcrawl.relics.Circlet;
-/*     */ import com.megacrit.cardcrawl.relics.RedMask;
-/*     */ import com.megacrit.cardcrawl.vfx.GainPennyEffect;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.Circlet;
+import com.megacrit.cardcrawl.relics.RedMask;
+import com.megacrit.cardcrawl.vfx.GainPennyEffect;
 /*     */ 
 /*     */ public class MaskedBandits extends AbstractEvent {
 /*  17 */   private static final EventStrings eventStrings = CardCrawlGame.languagePack.getEventString("Masked Bandits"); public static final String ID = "Masked Bandits";

@@ -1,0 +1,232 @@
+{
+  "Discard Tip": {
+    "TEXT": [
+      "Jos nostopinosi on tyhjä, poistopinosi sekoitetaan uudeksi nostopinoksi. NL NL Klikkaa nähdäksesi poistopinosi kortit.",
+      "Jos nostopinosi on tyhjä, poistopinosi sekoitetaan uudeksi nostopinoksi. NL NL Näe poistopinosi kortit."
+    ],
+    "LABEL": [
+      "Poistopino"
+    ]
+  },
+  "Draw Tip": {
+    "TEXT": [
+      "Jokaisen vuoron alussa NL #b",
+      " korttia nostetaan täältä. NL NL Klikkaa nähdäksesi nostopinosi kortit (sekoitettuna).",
+      " korttia nostetaan täältä. NL NL Klikkaa nähdäksesi nostopinosi kortit.",
+      " korttia nostetaan täältä. NL NL Katso nostopinosi kortit (sekoitettuna).",
+      " korttia nostetaan täältä. NL NL Katso nostopinosi kortit."
+    ],
+    "LABEL": [
+      "Nostopino"
+    ]
+  },
+  "End Turn Tip": {
+    "TEXT": [
+      "Tämän napin painaminen lopettaa vuorosi. NL NL Loput kätesi kortit laitetaan pois, viholliset saavat oman vuoronsa, nostat ",
+      " korttia ja sitten on jälleen oma vuorosi."
+    ],
+    "LABEL": [
+      "Lopeta vuoro"
+    ]
+  },
+  "Energy Panel Tip": {
+    "TEXT": [
+      "Tämänhetkinen energiamääräsi. Tarvitset energiaa pelataksesi kortteja."
+    ],
+    "LABEL": [
+      "Energia"
+    ]
+  },
+  "Energy Tip": {
+    "TEXT": [
+      "Kortit vaativat energiaa! NL Tämä pallo vasemmassa alareunassa kertoo paljonko energiaa on jäljellä vuorollasi."
+    ],
+    "LABEL": [
+      "Energiakulu"
+    ]
+  },
+  "Exhaust Tip": {
+    "TEXT": [
+      "Klikkaa nähdäksesi tässä taistelussa Kulutetut kortit.",
+      "Katso taistelussa Kulutetut kortit."
+    ],
+    "LABEL": [
+      "Kulutetut kortit"
+    ]
+  },
+  "FTUE Tips": {
+    "TEXT": [],
+    "LABEL": [
+      "Vinkki: ",
+      "Selvä"
+    ]
+  },
+  "Main Tutorial": {
+    "TEXT": [
+      "Voita vihollisesi pelaamalla kortteja kädestäsi! NL NL Korttien pelaaminen vaatii #yEnergiaa. NL Kun se loppuu, lopeta vuorosi. NL NL Seuraavan vuorosi alussa nostat uuden käden ja #yEnergiasi palautuu.",
+      "Pelaa puolustuskortteja lisätäksesi #ySuojaa vihollisten aikoessa hyökätä. NL NL #ySuoja vähentää saamaasi vauriota mutta NL #rkuluu #rpois seuraavan vuorosi alussa.",
+      "Voit vuorosi aikana nähdä vihollisten #yAikomukset heidän päänsä yllä. NL NL Mikäli vihollinen aikoo hyökätä kimppuusi, pelaa kortteja joista saa #ySuojaa!"
+    ],
+    "LABEL": [
+      "Seuraava",
+      "Olen valmis!",
+      "Tutoriaali",
+      "(Sivu ",
+      " / 3)"
+    ]
+  },
+  "Options Tip": {
+    "TEXT": [
+      "Pelissä kertynyt data ja virhelokit lähetetään Mega Crit -kehittäjälle pelin tasapainottamiseksi. NL NL Henkilökohtaisia tunnistetietoja EI kerätä.",
+      "Slay the Spire toimii nopeimmin kokoruudulla ajettuna. Suositellaan macOS-käyttöjärjestelmässä, jotta telakka ja menupalkki menevät piiloon. NL HUOM: PC:llä kokoruudulla pelattaessa palaaminen Slay the Spireen alt-tab -komennolla ei välttämättä toimi.",
+      "Koska Slay the Spire ei ole kovin vaativa peli, suosittelemme rajatonta kokoruudun pelitilaa nopeampaan alt-tab -vaihtoon. Toimii parhaiten PC:llä.",
+      "Huom: Mikäli VSync on päällä, nopein kuvanopeus ei voi olla suurempi kuin näytön virkistystaajuus.",
+      "Tämän ruudun ohjaintuki on keskeneräinen.",
+      "Vaihtaa mitä monitoria käytetään kun ollaan kokonäytössä."
+    ],
+    "LABEL": [
+      "Metriikka",
+      "Kokoruutu",
+      "Reunaton kokoruutu",
+      "Nopein kuvanopeus",
+      "Kokoruutumonitori"
+    ]
+  },
+  "Player Tips": {
+    "TEXT": [
+      "Tämä kortti antaa käytettäessä sinulle Taidon. NL Voimat ovat passiivisia kykyjä jotka säilyvät voimassa taistelun ajan.",
+      "Kortit vaativat energiaa! NL Tämä pallo vasemmassa alareunassa kertoo paljonko energiaa on jäljellä vuorollasi.",
+      "#rKäteni #rovat #rtäynnä!",
+      "#rMaksimi Kuulakapasiteetti saavutettu.",
+      "Minulla ei vapaata paikkaa Kuulalle."
+    ],
+    "LABEL": [
+      "Taitokortit",
+      "Energiakulu"
+    ]
+  },
+  "Potion Panel Tip": {
+    "TEXT": [
+      "Heitä tämä juoma vihollista kohti.",
+      "Juo tämä juoma.",
+      "Poistaa tämän juoman. NL #r(ei #rvoi #rperua)"
+    ],
+    "LABEL": [
+      "Heitä",
+      "Juo",
+      "Laita pois"
+    ]
+  },
+  "Potion Tip": {
+    "TEXT": [
+      "Juo tai heitä juomia taistelun aikana! NL Taikajuomat pysyvät mukanasi huoneesta toiseen."
+    ],
+    "LABEL": [
+      "Taikajuomat"
+    ]
+  },
+  "Random Tips": {
+    "TEXT": [
+      "Keskustele muiden pelaajien kanssa uusien ja tehokkaiden strategioiden löytämiseksi.",
+      "Ennen jokaista pomovastusta on lepopaikka.",
+      "Käytä kultasi kaupoissa! (Vinkin sponsoroinut: Kauppias)",
+      "Pidä tauko aina silloin tällöin.",
+      "Prosenttipohjaiset laskutoimitukset pyöristetään aina alaspäin lopussa.",
+      "Voit vilkaista nosto- ja poistopinojesi sisältöä taistelun aikana.",
+      "Ei ole rajoitettu, kuinka paljon reliikkejä kannat mukanasi.",
+      "Arkut sisältävät aina reliikin.",
+      "Jokaisessa ottamassasi reitissä tulee aina olemaan vähintään 1 aarrehuone.",
+      "Eliittiviholliset pudottavat aina reliikin.",
+      "Et tule koskaan näkemään kahta samaa reliikkiä samalla pelikerralla.",
+      "Harvinaisilla korteilla on sininen kehys ja banneri.",
+      "Erittäin harvinaisilla korteilla on kultainen kehys ja banneri.",
+      "Kortin harvinaisuus näkyy suoraan kortista.",
+      "Ei ole aina viisasta lisäillä kortteja pakkaasi.",
+      "Taistelun aikana kulutettuja kortteja ei poisteta pakastasi.",
+      "Sinulla voi olla korkeintaan 10 korttia kädessäsi.",
+      "Statuskortit poistetaan taistelun jälkeen.",
+      "Kirouksia ei voi parannella. Miksi haluaisitkaan?",
+      "Saatat kohdata parannettuja kortteja ensimmäisen näytöksen jälkeen.",
+      "Tuntemattomat huoneet saattavat sisältää aarteita, hirviöitä, kauppoja tai tapahtumia.",
+      "Kauppias ei ota vastaan palautuksia. Mikä saituri.",
+      "Kortinpoistopalvelun hinta nousee aina, kun käytät sitä.",
+      "Kortinpoistopalvelua voi käyttää vain kerran jokaisessa kaupassa.",
+      "Vauriota liemistä, reliikeistä ja taidoista ei lueta hyökkäysvaurioksi.",
+      "Voimat, jotka tuottavat satunnaisia kortteja taistelun aikana, eivät koskaan paranna sinua."
+    ],
+    "LABEL": [
+      "Voit laittaa juomia pois tehdäksesi tilaa uusille."
+    ]
+  },
+  "PC Tips": {
+    "TEXT": [
+      "Voit oikeanpuoleisella klikkauksella nähdä lisätietoja korttipalkintoruudulla.",
+      "Kursorin pitäminen esineiden yllä saattaa paljastaa hyödyllistä tietoa.",
+      "Oikeanpuoleinen hiirennappi vapauttaa pitelemäsi kortin.",
+      "Leiju vihollisen yllä nähdäksesi niiden nimen ja tiedon voimista.",
+      "Käytä hiirirullaa tai klikkaa ja raahaa ruutua vierittämiseen.",
+      "Jos voit tarkastella esinettä, kursorisi muuttuu suurennuslasiksi.",
+      "Käytä hiirirullaa tai klikkaa ja raahaa karttoja, korttiluetteloa ja muita."
+    ],
+    "LABEL": []
+  },
+  "Relic Tip": {
+    "TEXT": [
+      "Ympäri Tornia löytyvät reliikit antavat ainutlaatuisia bonuksia ja pysyvät mukanasi koko pelikerran. NL Niitä voi löytää voittamalla vahvoja vihollisia tai arkuista.",
+      "Tämä reliikki on vielä näkemättä.",
+      "Tämän reliikin voima on ehtynyt."
+    ],
+    "LABEL": [
+      "Reliikit",
+      "Tuntematon",
+      "Tätä reliikkiä ei ole vielä avattu.",
+      "Lukittu"
+    ]
+  },
+  "Rewards Tip": {
+    "TEXT": [
+      "Älä unohda palkintojasi! NL Klikkaa niitä poimiaksesi ne.",
+      "Älä unohda palkintojasi!"
+    ],
+    "LABEL": [
+      "Palkinnot"
+    ]
+  },
+  "Shop Tip": {
+    "TEXT": [
+      "Poistaa kortin pakastasi. Tämän palvelun hinta nousee #b",
+      " kullalla tämän pelikerran ajaksi."
+    ],
+    "LABEL": [
+      "Kortinpoistopalvelu"
+    ]
+  },
+  "Shuffle Tip": {
+    "TEXT": [
+      "NL Jos nostopakassasi ei ole enää kortteja, poistopinosi sekoitetaan nostopinoosi."
+    ],
+    "LABEL": [
+      "Ei enää kortteja?"
+    ]
+  },
+  "Top Panel Tips": {
+    "TEXT": [
+      "Avaa pelin valikon. NL NL Muuta näyttö-, ääni- ja peliasetuksiasi täällä.",
+      "Katso kaikki pakkasi kortit.",
+      "Katso tämän luolaston karttaa.",
+      "Jos OP:t ehtyvät, kuolet.",
+      "Näyttää miten paljon kultaa kannat. Kulta on Tornissa käytettävä rahayksikkö.",
+      "",
+      "",
+      "Tähän pelikertaan kulunut aika."
+    ],
+    "LABEL": [
+      "Asetukset",
+      "Pakka",
+      "Kartta",
+      "Osumapisteet (OP)",
+      "Rahapussukka",
+      "Pelikello"
+    ]
+  }
+}

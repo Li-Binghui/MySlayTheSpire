@@ -1,19 +1,16 @@
 /*     */ package com.megacrit.cardcrawl.helpers;
 /*     */ 
-/*     */ import com.badlogic.gdx.Gdx;
-/*     */ import java.io.IOException;
-/*     */ import java.nio.charset.StandardCharsets;
-/*     */ import java.nio.file.CopyOption;
-/*     */ import java.nio.file.FileSystems;
-/*     */ import java.nio.file.Files;
-/*     */ import java.nio.file.OpenOption;
-/*     */ import java.nio.file.Path;
-/*     */ import java.nio.file.StandardCopyOption;
-/*     */ import java.nio.file.StandardOpenOption;
-/*     */ import java.nio.file.attribute.FileAttribute;
-/*     */ import java.util.Arrays;
-/*     */ import org.apache.logging.log4j.LogManager;
-/*     */ import org.apache.logging.log4j.Logger;
+/*     */
+
+import com.badlogic.gdx.Gdx;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.*;
+import java.nio.file.attribute.FileAttribute;
+import java.util.Arrays;
 /*     */ 
 /*     */ 
 /*     */ 

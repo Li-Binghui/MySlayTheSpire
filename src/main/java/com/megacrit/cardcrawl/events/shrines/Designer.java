@@ -12,11 +12,8 @@ import com.megacrit.cardcrawl.vfx.UpgradeShineEffect;
 import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardBrieflyEffect;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
+
+import java.util.*;
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/events/shrines/Designer.class */
 public class Designer extends AbstractImageEvent {

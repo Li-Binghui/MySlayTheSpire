@@ -1,27 +1,25 @@
 /*      */ package com.megacrit.cardcrawl.helpers;
 /*      */ 
-/*      */ import com.badlogic.gdx.Gdx;
-/*      */ import com.badlogic.gdx.files.FileHandle;
-/*      */ import com.badlogic.gdx.graphics.Color;
-/*      */ import com.badlogic.gdx.graphics.Texture;
-/*      */ import com.badlogic.gdx.graphics.g2d.Batch;
-/*      */ import com.badlogic.gdx.graphics.g2d.BitmapFont;
-/*      */ import com.badlogic.gdx.graphics.g2d.GlyphLayout;
-/*      */ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-/*      */ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-/*      */ import com.badlogic.gdx.graphics.g2d.TextureRegion;
-/*      */ import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
+/*      */
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.*;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.math.MathUtils;
-/*      */ import com.badlogic.gdx.math.Matrix4;
-/*      */ import com.badlogic.gdx.math.Vector2;
-/*      */ import com.megacrit.cardcrawl.cards.AbstractCard;
-/*      */ import com.megacrit.cardcrawl.core.Settings;
-/*      */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*      */ import com.megacrit.cardcrawl.helpers.input.InputHelper;
-/*      */ import com.megacrit.cardcrawl.localization.LocalizedStrings;
-/*      */ import java.util.HashMap;
-/*      */ import org.apache.logging.log4j.LogManager;
-/*      */ import org.apache.logging.log4j.Logger;
+import com.badlogic.gdx.math.Matrix4;
+import com.badlogic.gdx.math.Vector2;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.localization.LocalizedStrings;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.HashMap;
 /*      */ 
 /*      */ 
 /*      */ 

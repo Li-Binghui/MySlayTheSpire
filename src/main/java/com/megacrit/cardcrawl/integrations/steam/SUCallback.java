@@ -1,10 +1,6 @@
 package com.megacrit.cardcrawl.integrations.steam;
 
-import com.codedisaster.steamworks.SteamAuth;
-import com.codedisaster.steamworks.SteamAuthTicket;
-import com.codedisaster.steamworks.SteamID;
-import com.codedisaster.steamworks.SteamResult;
-import com.codedisaster.steamworks.SteamUserCallback;
+import com.codedisaster.steamworks.*;
 
 public class SUCallback implements SteamUserCallback {
   public void onAuthSessionTicket(SteamAuthTicket authTicket, SteamResult result) {}

@@ -1,7 +1,9 @@
 /*    */ package com.megacrit.cardcrawl.actions.common;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.actions.AbstractGameAction;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
+/*    */
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 /*    */ 
 /*    */ public class RemoveAllBlockAction extends AbstractGameAction {
 /*    */   private static final float DUR = 0.25F;

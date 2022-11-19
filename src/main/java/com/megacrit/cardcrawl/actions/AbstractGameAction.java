@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.actions;
-/*    */ import com.badlogic.gdx.Gdx;
+/*    */
+
+import com.badlogic.gdx.Gdx;
 import com.megacrit.cardcrawl.cards.DamageInfo;
-/*    */ import com.megacrit.cardcrawl.core.AbstractCreature;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 /*    */ 
 /*    */ public abstract class AbstractGameAction {

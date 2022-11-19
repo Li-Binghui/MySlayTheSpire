@@ -9,12 +9,11 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.DisplayConfig;
 import com.megacrit.cardcrawl.core.ExceptionHandler;
 import com.megacrit.cardcrawl.core.SystemStats;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.nio.charset.Charset;
 import java.util.Locale;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 
 public class DesktopLauncher {

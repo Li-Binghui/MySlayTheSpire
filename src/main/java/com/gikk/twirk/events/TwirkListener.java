@@ -9,6 +9,7 @@ import com.gikk.twirk.types.twitchMessage.TwitchMessage;
 import com.gikk.twirk.types.usernotice.Usernotice;
 import com.gikk.twirk.types.users.TwitchUser;
 import com.gikk.twirk.types.users.Userstate;
+
 import java.util.Collection;
 
 public interface TwirkListener {

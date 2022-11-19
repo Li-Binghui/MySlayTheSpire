@@ -1,8 +1,10 @@
 /*    */ package com.megacrit.cardcrawl.actions;
 /*    */ 
-/*    */ import com.megacrit.cardcrawl.cards.CardQueueItem;
-/*    */ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-/*    */ import com.megacrit.cardcrawl.vfx.cardManip.ExhaustCardEffect;
+/*    */
+
+import com.megacrit.cardcrawl.cards.CardQueueItem;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.cardManip.ExhaustCardEffect;
 /*    */ 
 /*    */ public class ClearCardQueueAction
 /*    */   extends AbstractGameAction {
