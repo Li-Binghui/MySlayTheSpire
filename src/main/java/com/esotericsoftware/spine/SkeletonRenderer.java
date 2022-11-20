@@ -1,98 +1,89 @@
-/*    */ package com.esotericsoftware.spine;
-/*    */ 
-/*    */
+/******************************************************************************
+ * Spine Runtimes Software License v2.5
+ *
+ * Copyright (c) 2013-2016, Esoteric Software
+ * All rights reserved.
+ *
+ * You are granted a perpetual, non-exclusive, non-sublicensable, and
+ * non-transferable license to use, install, execute, and perform the Spine
+ * Runtimes software and derivative works solely for personal or internal
+ * use. Without the written permission of Esoteric Software (see Section 2 of
+ * the Spine Software License Agreement), you may not (a) modify, translate,
+ * adapt, or develop new applications using the Spine Runtimes or otherwise
+ * create derivative works or improvements of the Spine Runtimes or (b) remove,
+ * delete, alter, or obscure any trademarks or any copyright, trademark, patent,
+ * or other intellectual property or proprietary rights notices on or in the
+ * Software, including any copy thereof. Redistributions in binary or source
+ * form must include this license and terms.
+ *
+ * THIS SOFTWARE IS PROVIDED BY ESOTERIC SOFTWARE "AS IS" AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+ * EVENT SHALL ESOTERIC SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, BUSINESS INTERRUPTION, OR LOSS OF
+ * USE, DATA, OR PROFITS) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+ * IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ *****************************************************************************/
+
+package com.esotericsoftware.spine;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.utils.Array;
 import com.esotericsoftware.spine.attachments.Attachment;
 import com.esotericsoftware.spine.attachments.RegionAttachment;
 import com.esotericsoftware.spine.attachments.SkeletonAttachment;
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ public class SkeletonRenderer<T extends Batch>
-/*    */ {
-/*    */   boolean premultipliedAlpha;
-/*    */   
-/*    */   public void draw(T batch, Skeleton skeleton) {
-/* 45 */     boolean premultipliedAlpha = this.premultipliedAlpha;
-/*    */     
-/* 47 */     Array<Slot> drawOrder = skeleton.drawOrder;
-/* 48 */     for (int i = 0, n = drawOrder.size; i < n; i++) {
-/* 49 */       Slot slot = (Slot)drawOrder.get(i);
-/* 50 */       Attachment attachment = slot.attachment;
-/* 51 */       if (attachment instanceof RegionAttachment) {
-/* 52 */         RegionAttachment regionAttachment = (RegionAttachment)attachment;
-/* 53 */         float[] vertices = regionAttachment.updateWorldVertices(slot, premultipliedAlpha);
-/* 54 */         BlendMode blendMode = slot.data.getBlendMode();
-/* 55 */         batch.setBlendFunction(blendMode.getSource(premultipliedAlpha), blendMode.getDest());
-/* 56 */         batch.draw(regionAttachment.getRegion().getTexture(), vertices, 0, 20);
-/*    */       } else {
-/* 58 */         if (attachment instanceof com.esotericsoftware.spine.attachments.MeshAttachment) {
-/* 59 */           throw new RuntimeException("SkeletonMeshRenderer is required to render meshes.");
-/*    */         }
-/* 61 */         if (attachment instanceof SkeletonAttachment) {
-/* 62 */           Skeleton attachmentSkeleton = ((SkeletonAttachment)attachment).getSkeleton();
-/* 63 */           if (attachmentSkeleton != null) {
-/* 64 */             Bone bone = slot.getBone();
-/* 65 */             Bone rootBone = attachmentSkeleton.getRootBone();
-/* 66 */             float oldScaleX = rootBone.getScaleX();
-/* 67 */             float oldScaleY = rootBone.getScaleY();
-/* 68 */             float oldRotation = rootBone.getRotation();
-/* 69 */             attachmentSkeleton.setPosition(skeleton.getX() + bone.getWorldX(), skeleton.getY() + bone.getWorldY());
-/*    */ 
-/*    */ 
-/*    */             
-/* 73 */             rootBone.setRotation(oldRotation + bone.getWorldRotationX());
-/* 74 */             attachmentSkeleton.updateWorldTransform();
-/*    */             
-/* 76 */             draw(batch, attachmentSkeleton);
-/*    */             
-/* 78 */             attachmentSkeleton.setX(0.0F);
-/* 79 */             attachmentSkeleton.setY(0.0F);
-/* 80 */             rootBone.setScaleX(oldScaleX);
-/* 81 */             rootBone.setScaleY(oldScaleY);
-/* 82 */             rootBone.setRotation(oldRotation);
-/*    */           } 
-/*    */         } 
-/*    */       } 
-/*    */     } 
-/*    */   } public void setPremultipliedAlpha(boolean premultipliedAlpha) {
-/* 88 */     this.premultipliedAlpha = premultipliedAlpha;
-/*    */   }
-/*    */ }
+import com.esotericsoftware.spine.attachments.MeshAttachment;
 
+public class SkeletonRenderer<T extends Batch> {
+    boolean premultipliedAlpha;
 
-/* Location:              E:\代码\SlayTheSpire\desktop-1.0.jar!\com\esotericsoftware\spine\SkeletonRenderer.class
- * Java compiler version: 7 (51.0)
- * JD-Core Version:       1.1.3
- */
+    public void draw (T batch, Skeleton skeleton) {
+        boolean premultipliedAlpha = this.premultipliedAlpha;
+
+        Array<Slot> drawOrder = skeleton.drawOrder;
+        for (int i = 0, n = drawOrder.size; i < n; i++) {
+            Slot slot = drawOrder.get(i);
+            Attachment attachment = slot.attachment;
+            if (attachment instanceof RegionAttachment) {
+                RegionAttachment regionAttachment = (RegionAttachment)attachment;
+                float[] vertices = regionAttachment.updateWorldVertices(slot, premultipliedAlpha);
+                BlendMode blendMode = slot.data.getBlendMode();
+                batch.setBlendFunction(blendMode.getSource(premultipliedAlpha), blendMode.getDest());
+                batch.draw(regionAttachment.getRegion().getTexture(), vertices, 0, 20);
+
+            } else if (attachment instanceof MeshAttachment) {
+                throw new RuntimeException("SkeletonMeshRenderer is required to render meshes.");
+
+            } else if (attachment instanceof SkeletonAttachment) {
+                Skeleton attachmentSkeleton = ((SkeletonAttachment)attachment).getSkeleton();
+                if (attachmentSkeleton == null) continue;
+                Bone bone = slot.getBone();
+                Bone rootBone = attachmentSkeleton.getRootBone();
+                float oldScaleX = rootBone.getScaleX();
+                float oldScaleY = rootBone.getScaleY();
+                float oldRotation = rootBone.getRotation();
+                attachmentSkeleton.setPosition(bone.getWorldX(), bone.getWorldY());
+                // rootBone.setScaleX(1 + bone.getWorldScaleX() - oldScaleX);
+                // rootBone.setScaleY(1 + bone.getWorldScaleY() - oldScaleY);
+                // Set shear.
+                rootBone.setRotation(oldRotation + bone.getWorldRotationX());
+                attachmentSkeleton.updateWorldTransform();
+
+                draw(batch, attachmentSkeleton);
+
+                attachmentSkeleton.setX(0);
+                attachmentSkeleton.setY(0);
+                rootBone.setScaleX(oldScaleX);
+                rootBone.setScaleY(oldScaleY);
+                rootBone.setRotation(oldRotation);
+            }
+        }
+    }
+
+    public void setPremultipliedAlpha (boolean premultipliedAlpha) {
+        this.premultipliedAlpha = premultipliedAlpha;
+    }
+}

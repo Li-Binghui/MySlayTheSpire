@@ -1857,6 +1857,7 @@ public abstract class AbstractPlayer extends AbstractCreature {
         }
     }
 
+
     public void renderPlayerImage(SpriteBatch sb) {
         if (this.atlas != null) {
             this.state.update(Gdx.graphics.getDeltaTime());
@@ -1875,6 +1876,7 @@ public abstract class AbstractPlayer extends AbstractCreature {
         sb.setColor(Color.WHITE);
         sb.draw(this.img, (this.drawX - ((this.img.getWidth() * Settings.scale) / 2.0f)) + this.animX, this.drawY, this.img.getWidth() * Settings.scale, this.img.getHeight() * Settings.scale, 0, 0, this.img.getWidth(), this.img.getHeight(), this.flipHorizontal, this.flipVertical);
     }
+
 
     public void renderPlayerBattleUi(SpriteBatch sb) {
         if ((this.hb.hovered || this.healthHb.hovered) && !AbstractDungeon.isScreenUp) {

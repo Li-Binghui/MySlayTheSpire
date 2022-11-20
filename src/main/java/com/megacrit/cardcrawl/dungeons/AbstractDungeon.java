@@ -1365,7 +1365,6 @@ public abstract class AbstractDungeon {
         Iterator<String> it2 = relicsToRemoveOnStart.iterator();
         //移除不需要的遗物
         while (it2.hasNext()) {
-            //todo 这里陷入死循环，待修改
             String remove = it2.next();
             Iterator<String> s = commonRelicPool.iterator();
             while (true) {
