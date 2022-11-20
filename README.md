@@ -29,7 +29,7 @@ java的目录下，实际上该游戏的源码只有com\megacrit\cardcrawl文件
 2. idea->文件->设置->构建、执行、部署->构建工具->maven 设置maven的仓库位置、版本、setting.xml
 3. idea->文件->设置->构建、执行、部署->构建工具->编译器->设置编译器版本为1.8或17
 4. idea->文件->项目结构->设置相应的jdk版本，如果idea识别不出.java文件可以在模块中标识源代码与资源
-5. idea中Ctrl+N搜索DesktopLauncher类,启动游戏。
+5. idea中Ctrl+N搜索DesktopLauncher类,编译后启动游戏。
 
 #### 缺陷 & bug
 现在能进入游戏首页，但进入游戏加载地图时会报错 2022.11.20
