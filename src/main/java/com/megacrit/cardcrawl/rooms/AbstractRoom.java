@@ -33,6 +33,7 @@ import com.megacrit.cardcrawl.events.AbstractEvent;
 import com.megacrit.cardcrawl.events.AbstractImageEvent;
 import com.megacrit.cardcrawl.events.RoomEventDialog;
 import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.ModHelper;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.DevInputActionSet;
@@ -119,11 +120,13 @@ public abstract class AbstractRoom implements Disposable {
     public abstract void onPlayerEntry();
 
     public final Texture getMapImg() {
-        return this.mapImg;
+        //todo 直接加载图片 event
+        return ImageMaster.loadImage("images/ui/map/event.png");
     }
 
     public final Texture getMapImgOutline() {
-        return this.mapImgOutline;
+        //todo 直接加载图片 eventOutline
+        return ImageMaster.loadImage("images/ui/map/eventOutline.png");
     }
 
     public final void setMapImg(Texture img, Texture imgOutline) {
