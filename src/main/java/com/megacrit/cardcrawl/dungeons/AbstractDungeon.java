@@ -87,7 +87,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.*;
 
-/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/dungeons/AbstractDungeon.class */
 public abstract class AbstractDungeon {
     public static String name;
     public static String levelNum;
@@ -1325,8 +1324,6 @@ public abstract class AbstractDungeon {
         }
         logger.info("CURSE CARDS: " + curseCardPool.size());
     }
-
-    /* JADX INFO: Access modifiers changed from: protected */
     public void initializeRelicList() {
         commonRelicPool.clear();
         uncommonRelicPool.clear();
@@ -1366,7 +1363,9 @@ public abstract class AbstractDungeon {
             relicsToRemoveOnStart.add(PandorasBox.ID);
         }
         Iterator<String> it2 = relicsToRemoveOnStart.iterator();
+        //移除不需要的遗物
         while (it2.hasNext()) {
+            //todo 这里陷入死循环，待修改
             String remove = it2.next();
             Iterator<String> s = commonRelicPool.iterator();
             while (true) {
@@ -1380,6 +1379,7 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
+            logger.info("commonRelic校验完毕");
             Iterator<String> s2 = uncommonRelicPool.iterator();
             while (true) {
                 if (!s2.hasNext()) {
@@ -1392,6 +1392,7 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
+            logger.info("uncommonRelic校验完毕");
             Iterator<String> s3 = rareRelicPool.iterator();
             while (true) {
                 if (!s3.hasNext()) {
@@ -1404,6 +1405,7 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
+            logger.info("rareRelic校验完毕");
             Iterator<String> s4 = bossRelicPool.iterator();
             while (true) {
                 if (!s4.hasNext()) {
@@ -1416,17 +1418,20 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
+            logger.info("bossRelicPool校验完毕");
             Iterator<String> s5 = shopRelicPool.iterator();
             while (true) {
-                if (s5.hasNext()) {
-                    String derp5 = s5.next();
-                    if (derp5.equals(remove)) {
-                        s5.remove();
-                        logger.info(derp5 + " removed.");
-                        break;
-                    }
+                if (!s5.hasNext()) {
+                    break;
+                }
+                String derp5 = s5.next();
+                if (derp5.equals(remove)) {
+                    s5.remove();
+                    logger.info(derp5 + " removed.");
+                    break;
                 }
             }
+            logger.info("shopRelicPool校验完毕");
         }
         if (Settings.isDebug) {
             logger.info("Relic (Common):");

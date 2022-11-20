@@ -36,7 +36,6 @@ import java.util.Scanner;
 /*  33 */     this.width = width;
 /*  34 */     this.height = height;
 /*  35 */     this.fps_limit = fps_limit;
-              //todo 默认全屏
               //isFullscreen=true;
 /*  36 */     this.isFullscreen = isFullscreen;
 /*  37 */     this.wfs = wfs;
@@ -136,7 +135,6 @@ import java.util.Scanner;
 /*     */   
 /*     */   private static void createNewConfig() {
 /* 133 */     logger.info("Creating new config with default values...");
-              //todo 修改默认尺寸
 /* 134 */     writeDisplayConfigFile(1280, 720, 60, false, false, true);
 //              writeDisplayConfigFile(1600, 1200, 60, false, false, true);
 /*     */   }
