@@ -1,32 +1,25 @@
-/*    */ package com.megacrit.cardcrawl.actions.animations;
-/*    */ 
-/*    */
+package com.megacrit.cardcrawl.actions.animations;
+
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.Settings;
-/*    */ 
-/*    */ public class AnimateFastAttackAction extends AbstractGameAction {
-/*    */   private boolean called = false;
-/*    */   
-/*    */   public AnimateFastAttackAction(AbstractCreature owner) {
-/* 11 */     setValues(null, owner, 0);
-/* 12 */     this.duration = Settings.ACTION_DUR_FAST;
-/* 13 */     this.actionType = ActionType.WAIT;
-/*    */   }
-/*    */ 
-/*    */   
-/*    */   public void update() {
-/* 18 */     if (!this.called) {
-/* 19 */       this.source.useFastAttackAnimation();
-/* 20 */       this.called = true;
-/*    */     } 
-/* 22 */     tickDuration();
-/*    */   }
-/*    */ }
+
+public class AnimateFastAttackAction extends AbstractGameAction {
+    private boolean called = false;
+
+    public AnimateFastAttackAction(AbstractCreature owner) {
+        setValues(null, owner, 0);
+        this.duration = Settings.ACTION_DUR_FAST;
+        this.actionType = ActionType.WAIT;
+    }
 
 
-/* Location:              E:\代码\SlayTheSpire\desktop-1.0.jar!\com\megacrit\cardcrawl\actions\animations\AnimateFastAttackAction.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
+    public void update() {
+        if (!this.called) {
+            this.source.useFastAttackAnimation();
+            this.called = true;
+        }
+        tickDuration();
+    }
+}

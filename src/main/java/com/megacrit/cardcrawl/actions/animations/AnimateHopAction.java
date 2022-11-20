@@ -1,32 +1,25 @@
-/*    */ package com.megacrit.cardcrawl.actions.animations;
-/*    */ 
-/*    */
+package com.megacrit.cardcrawl.actions.animations;
+
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.Settings;
-/*    */ 
-/*    */ public class AnimateHopAction extends AbstractGameAction {
-/*    */   private boolean called = false;
-/*    */   
-/*    */   public AnimateHopAction(AbstractCreature owner) {
-/* 11 */     setValues(null, owner, 0);
-/* 12 */     this.duration = Settings.ACTION_DUR_FAST;
-/* 13 */     this.actionType = ActionType.WAIT;
-/*    */   }
-/*    */ 
-/*    */   
-/*    */   public void update() {
-/* 18 */     if (!this.called) {
-/* 19 */       this.source.useHopAnimation();
-/* 20 */       this.called = true;
-/*    */     } 
-/* 22 */     tickDuration();
-/*    */   }
-/*    */ }
+
+public class AnimateHopAction extends AbstractGameAction {
+    private boolean called = false;
+
+    public AnimateHopAction(AbstractCreature owner) {
+        setValues(null, owner, 0);
+        this.duration = Settings.ACTION_DUR_FAST;
+        this.actionType = ActionType.WAIT;
+    }
 
 
-/* Location:              E:\代码\SlayTheSpire\desktop-1.0.jar!\com\megacrit\cardcrawl\actions\animations\AnimateHopAction.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
+    public void update() {
+        if (!this.called) {
+            this.source.useHopAnimation();
+            this.called = true;
+        }
+        tickDuration();
+    }
+}

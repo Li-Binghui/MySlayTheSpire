@@ -17,6 +17,11 @@
       </properties>
 
   <dependencies>
+          <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+            </dependency>
            <dependency>
                <groupId>com.badlogicgames.gdx</groupId>
                <artifactId>gdx-jnigen</artifactId>
