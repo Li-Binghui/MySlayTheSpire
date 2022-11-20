@@ -533,6 +533,7 @@ public abstract class AbstractDungeon {
 
     /* JADX INFO: Access modifiers changed from: protected */
     public static void generateMap() {
+        //生成关卡的地图
         long startTime = System.currentTimeMillis();
         ArrayList<AbstractRoom> roomList = new ArrayList<>();
         map = MapGenerator.generateDungeon(15, 7, 6, mapRng);
@@ -558,6 +559,7 @@ public abstract class AbstractDungeon {
         }
         map = RoomTypeAssigner.distributeRoomsAcrossMap(mapRng, map, roomList);
         logger.info("Generated the following dungeon map:");
+        //todo 打印地图总是不对
         logger.info(MapGenerator.toString(map, true));
         logger.info("Game Seed: " + Settings.seed);
         logger.info("Map generation time: " + (System.currentTimeMillis() - startTime) + "ms");
@@ -1917,6 +1919,7 @@ public abstract class AbstractDungeon {
                 if ((nextRoom.room instanceof MonsterRoom) || (nextRoom.room instanceof MonsterRoomElite)) {
                     nextRoom.room.combatEvent = true;
                 }
+                //todo 不知为何没有调用
                 nextRoom.room.setMapSymbol("?");
                 nextRoom.room.setMapImg(ImageMaster.MAP_NODE_EVENT, ImageMaster.MAP_NODE_EVENT_OUTLINE);
             }
@@ -2288,6 +2291,7 @@ public abstract class AbstractDungeon {
         topPanel.update();
         dynamicBanner.update();
         updateFading();
+
         currMapNode.room.updateObjects();
         if (isScreenUp) {
             topGradientColor.a = MathHelper.fadeLerpSnap(topGradientColor.a, 0.25f);

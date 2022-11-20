@@ -175,8 +175,6 @@ public class Exordium
             case "Looter":
                 retVal.add("Exordium Thugs");
                 break;
-
-
             case "Blue Slaver":
                 retVal.add("Red Slaver");
                 retVal.add("Exordium Thugs");

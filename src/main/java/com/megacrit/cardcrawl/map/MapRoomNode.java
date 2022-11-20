@@ -187,8 +187,8 @@ public class MapRoomNode {
             return "*";
         }
         //todo MapSymbol修改
-        return "*";
-       // return this.room.getMapSymbol();
+        //return "*";
+        return this.room.getMapSymbol();
     }
 
     public String toString() {

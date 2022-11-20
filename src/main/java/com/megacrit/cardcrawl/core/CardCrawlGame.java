@@ -3,7 +3,11 @@ package com.megacrit.cardcrawl.core;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
-import com.badlogic.gdx.graphics.*;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.FPSLogger;
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Pixmap;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.PolygonSpriteBatch;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Interpolation;
@@ -21,8 +25,32 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.characters.CharacterManager;
 import com.megacrit.cardcrawl.daily.TimeHelper;
-import com.megacrit.cardcrawl.dungeons.*;
-import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.dungeons.Exordium;
+import com.megacrit.cardcrawl.dungeons.TheBeyond;
+import com.megacrit.cardcrawl.dungeons.TheCity;
+import com.megacrit.cardcrawl.dungeons.TheEnding;
+import com.megacrit.cardcrawl.helpers.AsyncSaver;
+import com.megacrit.cardcrawl.helpers.BlightHelper;
+import com.megacrit.cardcrawl.helpers.CardHelper;
+import com.megacrit.cardcrawl.helpers.CardLibrary;
+import com.megacrit.cardcrawl.helpers.DrawMaster;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.GameDictionary;
+import com.megacrit.cardcrawl.helpers.GameTips;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.helpers.MonsterHelper;
+import com.megacrit.cardcrawl.helpers.PotionHelper;
+import com.megacrit.cardcrawl.helpers.Prefs;
+import com.megacrit.cardcrawl.helpers.RelicLibrary;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
+import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.helpers.SeedHelper;
+import com.megacrit.cardcrawl.helpers.ShaderHelper;
+import com.megacrit.cardcrawl.helpers.TipHelper;
+import com.megacrit.cardcrawl.helpers.TipTracker;
+import com.megacrit.cardcrawl.helpers.TrialHelper;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.controller.CInputHelper;
 import com.megacrit.cardcrawl.helpers.input.DevInputActionSet;
@@ -64,15 +92,14 @@ import com.megacrit.cardcrawl.ui.buttons.CancelButton;
 import com.megacrit.cardcrawl.ui.panels.SeedPanel;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import de.robojumper.ststwitch.TwitchConfig;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/core/CardCrawlGame.class */
+
 public class CardCrawlGame implements ApplicationListener {
     private OrthographicCamera camera;
     public static FitViewport viewport;
@@ -105,8 +132,8 @@ public class CardCrawlGame implements ApplicationListener {
     public static PublisherIntegration publisherIntegration;
     public static SteelSeries steelSeries;
     public static LocalizedStrings languagePack;
-    public static String VERSION_NUM = "[V2.3] (03-07-2022)";
-    public static String TRUE_VERSION_NUM = "2022-03-07";
+    public static String VERSION_NUM = "[V2.3.2] (10-04-2022)";
+    public static String TRUE_VERSION_NUM = "2022-10-04";
     public static boolean isPopupOpen = false;
     public static ScreenShake screenShake = new ScreenShake();
     public static GameMode mode = GameMode.CHAR_SELECT;
@@ -176,13 +203,10 @@ public class CardCrawlGame implements ApplicationListener {
         try {
             TwitchConfig.createConfig();
             BuildSettings buildSettings = new BuildSettings(Gdx.files.internal(BuildSettings.defaultFilename).reader());
-            //日志输出发型平台、是否加载MOD，是否是测试版
             logger.info("DistributorPlatform=" + buildSettings.getDistributor());
             logger.info("isModded=" + Settings.isModded);
             logger.info("isBeta=" + Settings.isBeta);
-            //根据发型商的不同为 publisherIntegration变量生成对象(工厂模式)
             publisherIntegration = DistributorFactory.getEnabledDistributor(buildSettings.getDistributor());
-            //读取各种游戏配置文件
             saveMigration();
             saveSlotPref = SaveHelper.getPrefs("STSSaveSlots");
             saveSlot = saveSlotPref.getInteger("DEFAULT_SLOT", 0);

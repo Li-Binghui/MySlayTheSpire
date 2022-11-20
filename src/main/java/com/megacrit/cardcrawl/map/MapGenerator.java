@@ -1,419 +1,319 @@
-/*     */ package com.megacrit.cardcrawl.map;
-/*     */ 
-/*     */
+package com.megacrit.cardcrawl.map;
 
+import com.megacrit.cardcrawl.daily.mods.CertainFuture;
 import com.megacrit.cardcrawl.helpers.ModHelper;
 import com.megacrit.cardcrawl.random.Random;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Collections;
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ public class MapGenerator
-/*     */ {
-/*  14 */   private static final Logger logger = LogManager.getLogger(MapGenerator.class.getName());
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   public static ArrayList<ArrayList<MapRoomNode>> generateDungeon(int height, int width, int pathDensity, Random rng) {
-/*  38 */     ArrayList<ArrayList<MapRoomNode>> map = createNodes(height, width);
-/*  39 */     if (ModHelper.isModEnabled("Uncertain Future")) {
-/*  40 */       map = createPaths(map, 1, rng);
-/*     */     } else {
-/*  42 */       map = createPaths(map, pathDensity, rng);
-/*     */     } 
-/*  44 */     map = filterRedundantEdgesFromRow(map);
-/*  45 */     return map;
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private static ArrayList<ArrayList<MapRoomNode>> filterRedundantEdgesFromRow(ArrayList<ArrayList<MapRoomNode>> map) {
-/*  56 */     ArrayList<MapEdge> existingEdges = new ArrayList<>();
-/*  57 */     ArrayList<MapEdge> deleteList = new ArrayList<>();
-/*     */     
-/*  59 */     for (MapRoomNode node : map.get(0)) {
-/*  60 */       if (node.hasEdges()) {
-/*  61 */         for (MapEdge edge : node.getEdges()) {
-/*     */           
-/*  63 */           for (MapEdge prevEdge : existingEdges) {
-/*  64 */             if (edge.dstX == prevEdge.dstX && edge.dstY == prevEdge.dstY)
-/*     */             {
-/*  66 */               deleteList.add(edge);
-/*     */             }
-/*     */           } 
-/*  69 */           existingEdges.add(edge);
-/*     */         } 
-/*     */         
-/*  72 */         for (MapEdge edge : deleteList) {
-/*  73 */           node.delEdge(edge);
-/*     */         }
-/*  75 */         deleteList.clear();
-/*     */       } 
-/*     */     } 
-/*  78 */     return map;
-/*     */   }
-/*     */ 
-/*     */   
-/*     */   private static ArrayList<ArrayList<MapRoomNode>> createNodes(int height, int width) {
-/*  83 */     ArrayList<ArrayList<MapRoomNode>> nodes = new ArrayList<>();
-/*  84 */     for (int y = 0; y < height; y++) {
-/*  85 */       ArrayList<MapRoomNode> row = new ArrayList<>();
-/*  86 */       for (int x = 0; x < width; x++) {
-/*  87 */         row.add(new MapRoomNode(x, y));
-/*     */       }
-/*  89 */       nodes.add(row);
-/*     */     } 
-/*  91 */     return nodes;
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private static ArrayList<ArrayList<MapRoomNode>> createPaths(ArrayList<ArrayList<MapRoomNode>> nodes, int pathDensity, Random rng) {
-/*  99 */     int first_row = 0;
-/* 100 */     int row_size = ((ArrayList)nodes.get(first_row)).size() - 1;
-/*     */     
-/* 102 */     int firstStartingNode = -1;
-/*     */     
-/* 104 */     for (int i = 0; i < pathDensity; i++) {
-/* 105 */       int startingNode = randRange(rng, 0, row_size);
-/*     */       
-/* 107 */       if (i == 0) {
-/* 108 */         firstStartingNode = startingNode;
-/*     */       }
-/*     */       
-/* 111 */       while (startingNode == firstStartingNode && i == 1) {
-/* 112 */         startingNode = randRange(rng, 0, row_size);
-/*     */       }
-/*     */       
-/* 115 */       _createPaths(nodes, new MapEdge(startingNode, -1, startingNode, 0), rng);
-/*     */     } 
-/* 117 */     return nodes;
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private static MapEdge getMaxEdge(ArrayList<MapEdge> edges) {
-/* 128 */     Collections.sort(edges, new EdgeComparator());
-/* 129 */     assert !edges.isEmpty() : "Somehow the edges are empty. This shouldn't happen.";
-/* 130 */     return edges.get(edges.size() - 1);
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private static MapEdge getMinEdge(ArrayList<MapEdge> edges) {
-/* 141 */     Collections.sort(edges, new EdgeComparator());
-/* 142 */     assert !edges.isEmpty() : "Somehow the edges are empty. This shouldn't happen.";
-/* 143 */     return edges.get(0);
-/*     */   }
-/*     */   
-/*     */   private static MapRoomNode getNodeWithMaxX(ArrayList<MapRoomNode> nodes) {
-/* 147 */     assert !nodes.isEmpty() : "The nodes are empty, this shouldn't happen.";
-/* 148 */     MapRoomNode max = nodes.get(0);
-/* 149 */     for (MapRoomNode node : nodes) {
-/* 150 */       if (node.x > max.x) {
-/* 151 */         max = node;
-/*     */       }
-/*     */     } 
-/* 154 */     return max;
-/*     */   }
-/*     */   
-/*     */   private static MapRoomNode getNodeWithMinX(ArrayList<MapRoomNode> nodes) {
-/* 158 */     assert !nodes.isEmpty() : "The nodes are empty, this shouldn't happen.";
-/* 159 */     MapRoomNode min = nodes.get(0);
-/* 160 */     for (MapRoomNode node : nodes) {
-/* 161 */       if (node.x < min.x) {
-/* 162 */         min = node;
-/*     */       }
-/*     */     } 
-/* 165 */     return min;
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private static MapRoomNode getCommonAncestor(MapRoomNode node1, MapRoomNode node2, int max_depth) {
-/*     */     MapRoomNode l_node, r_node;
-/* 174 */     assert node1.y == node2.y;
-/* 175 */     assert node1 != node2;
-/*     */ 
-/*     */     
-/* 178 */     if (node1.x < node2.y) {
-/* 179 */       l_node = node1;
-/* 180 */       r_node = node2;
-/*     */     } else {
-/* 182 */       l_node = node2;
-/* 183 */       r_node = node1;
-/*     */     } 
-/* 185 */     int current_y = node1.y;
-/* 186 */     while (current_y >= 0 && current_y >= node1.y - max_depth) {
-/* 187 */       if (l_node.getParents().isEmpty() || r_node.getParents().isEmpty()) {
-/* 188 */         return null;
-/*     */       }
-/* 190 */       l_node = getNodeWithMaxX(l_node.getParents());
-/* 191 */       r_node = getNodeWithMinX(r_node.getParents());
-/* 192 */       if (l_node == r_node) {
-/* 193 */         return l_node;
-/*     */       }
-/* 195 */       current_y--;
-/*     */     } 
-/* 197 */     return null;
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private static ArrayList<ArrayList<MapRoomNode>> _createPaths(ArrayList<ArrayList<MapRoomNode>> nodes, MapEdge edge, Random rng) {
-/*     */     int min, max;
-/* 205 */     MapRoomNode currentNode = getNode(edge.dstX, edge.dstY, nodes);
-/* 206 */     if (edge.dstY + 1 >= nodes.size()) {
-/*     */       
-/* 208 */       MapEdge mapEdge = new MapEdge(edge.dstX, edge.dstY, currentNode.offsetX, currentNode.offsetY, 3, edge.dstY + 2, 0.0F, 0.0F, true);
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */       
-/* 218 */       currentNode.addEdge(mapEdge);
-/* 219 */       Collections.sort(currentNode.getEdges(), new EdgeComparator());
-/* 220 */       return nodes;
-/*     */     } 
-/* 222 */     int row_width = ((ArrayList)nodes.get(edge.dstY)).size();
-/* 223 */     int row_end_node = row_width - 1;
-/*     */ 
-/*     */ 
-/*     */     
-/* 227 */     if (edge.dstX == 0) {
-/* 228 */       min = 0;
-/* 229 */       max = 1;
-/* 230 */     } else if (edge.dstX == row_end_node) {
-/* 231 */       min = -1;
-/* 232 */       max = 0;
-/*     */     } else {
-/* 234 */       min = -1;
-/* 235 */       max = 1;
-/*     */     } 
-/*     */ 
-/*     */ 
-/*     */     
-/* 240 */     int newEdgeX = edge.dstX + randRange(rng, min, max);
-/* 241 */     int newEdgeY = edge.dstY + 1;
-/*     */     
-/* 243 */     MapRoomNode targetNodeCandidate = getNode(newEdgeX, newEdgeY, nodes);
-/*     */ 
-/*     */     
-/* 246 */     int min_ancestor_gap = 3;
-/* 247 */     int max_ancestor_gap = 5;
-/* 248 */     ArrayList<MapRoomNode> parents = targetNodeCandidate.getParents();
-/* 249 */     if (!parents.isEmpty()) {
-/* 250 */       for (MapRoomNode parent : parents) {
-/* 251 */         if (parent != currentNode) {
-/* 252 */           MapRoomNode ancestor = getCommonAncestor(parent, currentNode, max_ancestor_gap);
-/* 253 */           if (ancestor != null) {
-/* 254 */             int ancestor_gap = newEdgeY - ancestor.y;
-/* 255 */             if (ancestor_gap < min_ancestor_gap) {
-/* 256 */               if (targetNodeCandidate.x > currentNode.x) {
-/*     */                 
-/* 258 */                 newEdgeX = edge.dstX + randRange(rng, -1, 0);
-/* 259 */                 if (newEdgeX < 0) {
-/* 260 */                   newEdgeX = edge.dstX;
-/*     */                 }
-/* 262 */               } else if (targetNodeCandidate.x == currentNode.x) {
-/*     */                 
-/* 264 */                 newEdgeX = edge.dstX + randRange(rng, -1, 1);
-/* 265 */                 if (newEdgeX > row_end_node) {
-/* 266 */                   newEdgeX = edge.dstX - 1;
-/* 267 */                 } else if (newEdgeX < 0) {
-/* 268 */                   newEdgeX = edge.dstX + 1;
-/*     */                 } 
-/*     */               } else {
-/*     */                 
-/* 272 */                 newEdgeX = edge.dstX + randRange(rng, 0, 1);
-/* 273 */                 if (newEdgeX > row_end_node) {
-/* 274 */                   newEdgeX = edge.dstX;
-/*     */                 }
-/*     */               } 
-/* 277 */               targetNodeCandidate = getNode(newEdgeX, newEdgeY, nodes); continue;
-/* 278 */             }  if (ancestor_gap >= max_ancestor_gap);
-/*     */           } 
-/*     */         } 
-/*     */       } 
-/*     */     }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */     
-/* 288 */     if (edge.dstX != 0) {
-/*     */ 
-/*     */ 
-/*     */       
-/* 292 */       MapRoomNode left_node = ((ArrayList<MapRoomNode>)nodes.get(edge.dstY)).get(edge.dstX - 1);
-/*     */ 
-/*     */       
-/* 295 */       if (left_node.hasEdges()) {
-/* 296 */         MapEdge right_edge_of_left_node = getMaxEdge(left_node.getEdges());
-/* 297 */         if (right_edge_of_left_node.dstX > newEdgeX) {
-/* 298 */           newEdgeX = right_edge_of_left_node.dstX;
-/*     */         }
-/*     */       } 
-/*     */     } 
-/*     */     
-/* 303 */     if (edge.dstX < row_end_node) {
-/*     */ 
-/*     */       
-/* 306 */       MapRoomNode right_node = ((ArrayList<MapRoomNode>)nodes.get(edge.dstY)).get(edge.dstX + 1);
-/*     */ 
-/*     */       
-/* 309 */       if (right_node.hasEdges()) {
-/* 310 */         MapEdge left_edge_of_right_node = getMinEdge(right_node.getEdges());
-/* 311 */         if (left_edge_of_right_node.dstX < newEdgeX) {
-/* 312 */           newEdgeX = left_edge_of_right_node.dstX;
-/*     */         }
-/*     */       } 
-/*     */     } 
-/*     */ 
-/*     */     
-/* 318 */     targetNodeCandidate = getNode(newEdgeX, newEdgeY, nodes);
-/*     */     
-/* 320 */     MapEdge newEdge = new MapEdge(edge.dstX, edge.dstY, currentNode.offsetX, currentNode.offsetY, newEdgeX, newEdgeY, targetNodeCandidate.offsetX, targetNodeCandidate.offsetY, false);
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */     
-/* 331 */     currentNode.addEdge(newEdge);
-/* 332 */     Collections.sort(currentNode.getEdges(), new EdgeComparator());
-/*     */     
-/* 334 */     targetNodeCandidate.addParent(currentNode);
-/* 335 */     return _createPaths(nodes, newEdge, rng);
-/*     */   }
-/*     */   
-/*     */   private static MapRoomNode getNode(int x, int y, ArrayList<ArrayList<MapRoomNode>> nodes) {
-/* 339 */     return ((ArrayList<MapRoomNode>)nodes.get(y)).get(x);
-/*     */   }
-/*     */   
-/*     */   private static String paddingGenerator(int length) {
-/* 343 */     StringBuilder str = new StringBuilder();
-/* 344 */     for (int i = 0; i < length; i++) {
-/* 345 */       str.append(" ");
-/*     */     }
-/* 347 */     return str.toString();
-/*     */   }
-/*     */   
-/*     */   public static String toString(ArrayList<ArrayList<MapRoomNode>> nodes) {
-/* 351 */     return toString(nodes, Boolean.valueOf(false));
-/*     */   }
-/*     */   
-/*     */   public static String toString(ArrayList<ArrayList<MapRoomNode>> nodes, Boolean showRoomSymbols) {
-/* 355 */     StringBuilder str = new StringBuilder();
-/* 356 */     int row_num = nodes.size() - 1;
-/* 357 */     int left_padding_size = 5;
-/* 358 */     while (row_num >= 0) {
-/* 359 */       str.append("\n ").append(paddingGenerator(left_padding_size));
-/*     */       
-/* 361 */       for (MapRoomNode node : nodes.get(row_num)) {
-/*     */         
-/* 363 */         String right = " ", mid = right, left = mid;
-/* 364 */         for (MapEdge edge : node.getEdges()) {
-/* 365 */           if (edge.dstX < node.x)
-/* 366 */             left = "\\"; 
-/* 367 */           if (edge.dstX == node.x)
-/* 368 */             mid = "|"; 
-/* 369 */           if (edge.dstX > node.x)
-/* 370 */             right = "/"; 
-/*     */         } 
-/* 372 */         str.append(left).append(mid).append(right);
-/*     */       } 
-/* 374 */       str.append("\n").append(row_num).append(" ");
-/*     */       
-/* 376 */       str.append(paddingGenerator(left_padding_size - String.valueOf(row_num).length()));
-/* 377 */       for (MapRoomNode node : nodes.get(row_num)) {
-/* 378 */         String node_symbol = " ";
-/* 379 */         if (row_num == nodes.size() - 1) {
-/* 380 */           for (MapRoomNode lower_node : nodes.get(row_num - 1)) {
-/* 381 */             for (MapEdge edge : lower_node.getEdges()) {
-/* 382 */               if (edge.dstX == node.x)
-/* 383 */                 node_symbol = node.getRoomSymbol(showRoomSymbols); 
-/*     */             } 
-/*     */           } 
-/* 386 */         } else if (node.hasEdges()) {
-/* 387 */           node_symbol = node.getRoomSymbol(showRoomSymbols);
-/*     */         } 
-/* 389 */         str.append(" ").append(node_symbol).append(" ");
-/*     */       } 
-/* 391 */       row_num--;
-/*     */     } 
-/* 393 */     return str.toString();
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private static int randRange(Random rng, int min, int max) {
-/* 404 */     if (rng == null) {
-/* 405 */       logger.info("RNG WAS NULL, REPORT IMMEDIATELY");
-/* 406 */       rng = new Random(Long.valueOf(1L));
-/*     */     } 
-/* 408 */     return rng.random(max - min) + min;
-/*     */   }
-/*     */ }
+/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/map/MapGenerator.class */
+public class MapGenerator {
+    private static final Logger logger;
+    static final /* synthetic */ boolean $assertionsDisabled;
 
+    static {
+        $assertionsDisabled = !MapGenerator.class.desiredAssertionStatus();
+        logger = LogManager.getLogger(MapGenerator.class.getName());
+    }
 
-/* Location:              E:\代码\SlayTheSpire\desktop-1.0.jar!\com\megacrit\cardcrawl\map\MapGenerator.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
+    public static ArrayList<ArrayList<MapRoomNode>> generateDungeon(int height, int width, int pathDensity, Random rng) {
+        ArrayList<ArrayList<MapRoomNode>> map;
+        ArrayList<ArrayList<MapRoomNode>> map2 = createNodes(height, width);
+        if (ModHelper.isModEnabled(CertainFuture.ID)) {
+            map = createPaths(map2, 1, rng);
+        } else {
+            map = createPaths(map2, pathDensity, rng);
+        }
+        return filterRedundantEdgesFromRow(map);
+    }
+
+    private static ArrayList<ArrayList<MapRoomNode>> filterRedundantEdgesFromRow(ArrayList<ArrayList<MapRoomNode>> map) {
+        ArrayList<MapEdge> existingEdges = new ArrayList<>();
+        ArrayList<MapEdge> deleteList = new ArrayList<>();
+        Iterator<MapRoomNode> it = map.get(0).iterator();
+        while (it.hasNext()) {
+            MapRoomNode node = it.next();
+            if (node.hasEdges()) {
+                Iterator<MapEdge> it2 = node.getEdges().iterator();
+                while (it2.hasNext()) {
+                    MapEdge edge = it2.next();
+                    Iterator<MapEdge> it3 = existingEdges.iterator();
+                    while (it3.hasNext()) {
+                        MapEdge prevEdge = it3.next();
+                        if (edge.dstX == prevEdge.dstX && edge.dstY == prevEdge.dstY) {
+                            deleteList.add(edge);
+                        }
+                    }
+                    existingEdges.add(edge);
+                }
+                Iterator<MapEdge> it4 = deleteList.iterator();
+                while (it4.hasNext()) {
+                    node.delEdge(it4.next());
+                }
+                deleteList.clear();
+            }
+        }
+        return map;
+    }
+
+    private static ArrayList<ArrayList<MapRoomNode>> createNodes(int height, int width) {
+        ArrayList<ArrayList<MapRoomNode>> nodes = new ArrayList<>();
+        for (int y = 0; y < height; y++) {
+            ArrayList<MapRoomNode> row = new ArrayList<>();
+            for (int x = 0; x < width; x++) {
+                row.add(new MapRoomNode(x, y));
+            }
+            nodes.add(row);
+        }
+        return nodes;
+    }
+
+    private static ArrayList<ArrayList<MapRoomNode>> createPaths(ArrayList<ArrayList<MapRoomNode>> nodes, int pathDensity, Random rng) {
+        int row_size = nodes.get(0).size() - 1;
+        int firstStartingNode = -1;
+        for (int i = 0; i < pathDensity; i++) {
+            int startingNode = randRange(rng, 0, row_size);
+            if (i == 0) {
+                firstStartingNode = startingNode;
+            }
+            while (startingNode == firstStartingNode && i == 1) {
+                startingNode = randRange(rng, 0, row_size);
+            }
+            _createPaths(nodes, new MapEdge(startingNode, -1, startingNode, 0), rng);
+        }
+        return nodes;
+    }
+
+    private static MapEdge getMaxEdge(ArrayList<MapEdge> edges) {
+        Collections.sort(edges, new EdgeComparator());
+        if ($assertionsDisabled || !edges.isEmpty()) {
+            return edges.get(edges.size() - 1);
+        }
+        throw new AssertionError("Somehow the edges are empty. This shouldn't happen.");
+    }
+
+    private static MapEdge getMinEdge(ArrayList<MapEdge> edges) {
+        Collections.sort(edges, new EdgeComparator());
+        if ($assertionsDisabled || !edges.isEmpty()) {
+            return edges.get(0);
+        }
+        throw new AssertionError("Somehow the edges are empty. This shouldn't happen.");
+    }
+
+    private static MapRoomNode getNodeWithMaxX(ArrayList<MapRoomNode> nodes) {
+        if ($assertionsDisabled || !nodes.isEmpty()) {
+            MapRoomNode max = nodes.get(0);
+            Iterator<MapRoomNode> it = nodes.iterator();
+            while (it.hasNext()) {
+                MapRoomNode node = it.next();
+                if (node.x > max.x) {
+                    max = node;
+                }
+            }
+            return max;
+        }
+        throw new AssertionError("The nodes are empty, this shouldn't happen.");
+    }
+
+    private static MapRoomNode getNodeWithMinX(ArrayList<MapRoomNode> nodes) {
+        if ($assertionsDisabled || !nodes.isEmpty()) {
+            MapRoomNode min = nodes.get(0);
+            Iterator<MapRoomNode> it = nodes.iterator();
+            while (it.hasNext()) {
+                MapRoomNode node = it.next();
+                if (node.x < min.x) {
+                    min = node;
+                }
+            }
+            return min;
+        }
+        throw new AssertionError("The nodes are empty, this shouldn't happen.");
+    }
+
+    private static MapRoomNode getCommonAncestor(MapRoomNode node1, MapRoomNode node2, int max_depth) {
+        MapRoomNode r_node;
+        MapRoomNode l_node;
+        if (!$assertionsDisabled && node1.y != node2.y) {
+            throw new AssertionError();
+        } else if ($assertionsDisabled || node1 != node2) {
+            if (node1.x < node2.y) {
+                l_node = node1;
+                r_node = node2;
+            } else {
+                l_node = node2;
+                r_node = node1;
+            }
+            for (int current_y = node1.y; current_y >= 0 && current_y >= node1.y - max_depth && !l_node.getParents().isEmpty() && !r_node.getParents().isEmpty(); current_y--) {
+                l_node = getNodeWithMaxX(l_node.getParents());
+                r_node = getNodeWithMinX(r_node.getParents());
+                if (l_node == r_node) {
+                    return l_node;
+                }
+            }
+            return null;
+        } else {
+            throw new AssertionError();
+        }
+    }
+
+    private static ArrayList<ArrayList<MapRoomNode>> _createPaths(ArrayList<ArrayList<MapRoomNode>> nodes, MapEdge edge, Random rng) {
+        int max;
+        int min;
+        MapRoomNode ancestor;
+        MapRoomNode currentNode = getNode(edge.dstX, edge.dstY, nodes);
+        if (edge.dstY + 1 >= nodes.size()) {
+            currentNode.addEdge(new MapEdge(edge.dstX, edge.dstY, currentNode.offsetX, currentNode.offsetY, 3, edge.dstY + 2, 0.0f, 0.0f, true));
+            Collections.sort(currentNode.getEdges(), new EdgeComparator());
+            return nodes;
+        }
+        int row_width = nodes.get(edge.dstY).size();
+        int row_end_node = row_width - 1;
+        if (edge.dstX == 0) {
+            min = 0;
+            max = 1;
+        } else if (edge.dstX == row_end_node) {
+            min = -1;
+            max = 0;
+        } else {
+            min = -1;
+            max = 1;
+        }
+        int newEdgeX = edge.dstX + randRange(rng, min, max);
+        int newEdgeY = edge.dstY + 1;
+        MapRoomNode targetNodeCandidate = getNode(newEdgeX, newEdgeY, nodes);
+        ArrayList<MapRoomNode> parents = targetNodeCandidate.getParents();
+        if (!parents.isEmpty()) {
+            Iterator<MapRoomNode> it = parents.iterator();
+            while (it.hasNext()) {
+                MapRoomNode parent = it.next();
+                if (!(parent == currentNode || (ancestor = getCommonAncestor(parent, currentNode, 5)) == null)) {
+                    int ancestor_gap = newEdgeY - ancestor.y;
+                    if (ancestor_gap < 3) {
+                        if (targetNodeCandidate.x > currentNode.x) {
+                            newEdgeX = edge.dstX + randRange(rng, -1, 0);
+                            if (newEdgeX < 0) {
+                                newEdgeX = edge.dstX;
+                            }
+                        } else if (targetNodeCandidate.x == currentNode.x) {
+                            newEdgeX = edge.dstX + randRange(rng, -1, 1);
+                            if (newEdgeX > row_end_node) {
+                                newEdgeX = edge.dstX - 1;
+                            } else if (newEdgeX < 0) {
+                                newEdgeX = edge.dstX + 1;
+                            }
+                        } else {
+                            newEdgeX = edge.dstX + randRange(rng, 0, 1);
+                            if (newEdgeX > row_end_node) {
+                                newEdgeX = edge.dstX;
+                            }
+                        }
+                        targetNodeCandidate = getNode(newEdgeX, newEdgeY, nodes);
+                    } else if (ancestor_gap >= 5) {
+                    }
+                }
+            }
+        }
+        if (edge.dstX != 0) {
+            MapRoomNode left_node = nodes.get(edge.dstY).get(edge.dstX - 1);
+            if (left_node.hasEdges()) {
+                MapEdge right_edge_of_left_node = getMaxEdge(left_node.getEdges());
+                if (right_edge_of_left_node.dstX > newEdgeX) {
+                    newEdgeX = right_edge_of_left_node.dstX;
+                }
+            }
+        }
+        if (edge.dstX < row_end_node) {
+            MapRoomNode right_node = nodes.get(edge.dstY).get(edge.dstX + 1);
+            if (right_node.hasEdges()) {
+                MapEdge left_edge_of_right_node = getMinEdge(right_node.getEdges());
+                if (left_edge_of_right_node.dstX < newEdgeX) {
+                    newEdgeX = left_edge_of_right_node.dstX;
+                }
+            }
+        }
+        MapRoomNode targetNodeCandidate2 = getNode(newEdgeX, newEdgeY, nodes);
+        MapEdge newEdge = new MapEdge(edge.dstX, edge.dstY, currentNode.offsetX, currentNode.offsetY, newEdgeX, newEdgeY, targetNodeCandidate2.offsetX, targetNodeCandidate2.offsetY, false);
+        currentNode.addEdge(newEdge);
+        Collections.sort(currentNode.getEdges(), new EdgeComparator());
+        targetNodeCandidate2.addParent(currentNode);
+        return _createPaths(nodes, newEdge, rng);
+    }
+
+    private static MapRoomNode getNode(int x, int y, ArrayList<ArrayList<MapRoomNode>> nodes) {
+        return nodes.get(y).get(x);
+    }
+
+    private static String paddingGenerator(int length) {
+        StringBuilder str = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            str.append(" ");
+        }
+        return str.toString();
+    }
+
+    public static String toString(ArrayList<ArrayList<MapRoomNode>> nodes) {
+        return toString(nodes, false);
+    }
+
+    public static String toString(ArrayList<ArrayList<MapRoomNode>> nodes, Boolean showRoomSymbols) {
+        StringBuilder str = new StringBuilder();
+        for (int row_num = nodes.size() - 1; row_num >= 0; row_num--) {
+            str.append("\n ").append(paddingGenerator(5));
+            Iterator<MapRoomNode> it = nodes.get(row_num).iterator();
+            while (it.hasNext()) {
+                MapRoomNode node = it.next();
+                String right = " ";
+                String mid = " ";
+                String left = " ";
+                Iterator<MapEdge> it2 = node.getEdges().iterator();
+                while (it2.hasNext()) {
+                    MapEdge edge = it2.next();
+                    if (edge.dstX < node.x) {
+                        left = "\\";
+                    }
+                    if (edge.dstX == node.x) {
+                        mid = "|";
+                    }
+                    if (edge.dstX > node.x) {
+                        right = "/";
+                    }
+                }
+                str.append(left).append(mid).append(right);
+            }
+            str.append("\n").append(row_num).append(" ");
+            str.append(paddingGenerator(5 - String.valueOf(row_num).length()));
+            Iterator<MapRoomNode> it3 = nodes.get(row_num).iterator();
+            while (it3.hasNext()) {
+                MapRoomNode node2 = it3.next();
+                String node_symbol = " ";
+                if (row_num == nodes.size() - 1) {
+                    Iterator<MapRoomNode> it4 = nodes.get(row_num - 1).iterator();
+                    while (it4.hasNext()) {
+                        MapRoomNode lower_node = it4.next();
+                        Iterator<MapEdge> it5 = lower_node.getEdges().iterator();
+                        while (it5.hasNext()) {
+                            if (it5.next().dstX == node2.x) {
+                                node_symbol = node2.getRoomSymbol(showRoomSymbols);
+                            }
+                        }
+                    }
+                } else if (node2.hasEdges()) {
+                    node_symbol = node2.getRoomSymbol(showRoomSymbols);
+                }
+                str.append(" ").append(node_symbol).append(" ");
+            }
+        }
+        return str.toString();
+    }
+
+    private static int randRange(Random rng, int min, int max) {
+        if (rng == null) {
+            logger.info("RNG WAS NULL, REPORT IMMEDIATELY");
+            rng = new Random(1L);
+        }
+        return rng.random(max - min) + min;
+    }
+}
