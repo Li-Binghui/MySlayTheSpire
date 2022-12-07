@@ -23,7 +23,18 @@ import com.megacrit.cardcrawl.core.ExceptionHandler;
 import com.megacrit.cardcrawl.core.OverlayMenu;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.credits.CreditsScreen;
-import com.megacrit.cardcrawl.daily.mods.*;
+import com.megacrit.cardcrawl.daily.mods.BigGameHunter;
+import com.megacrit.cardcrawl.daily.mods.Binary;
+import com.megacrit.cardcrawl.daily.mods.CertainFuture;
+import com.megacrit.cardcrawl.daily.mods.ColorlessCards;
+import com.megacrit.cardcrawl.daily.mods.DeadlyEvents;
+import com.megacrit.cardcrawl.daily.mods.Diverse;
+import com.megacrit.cardcrawl.daily.mods.Draft;
+import com.megacrit.cardcrawl.daily.mods.Hoarder;
+import com.megacrit.cardcrawl.daily.mods.Insanity;
+import com.megacrit.cardcrawl.daily.mods.SealedDeck;
+import com.megacrit.cardcrawl.daily.mods.Shiny;
+import com.megacrit.cardcrawl.daily.mods.Terminal;
 import com.megacrit.cardcrawl.events.AbstractEvent;
 import com.megacrit.cardcrawl.events.AbstractImageEvent;
 import com.megacrit.cardcrawl.events.beyond.MoaiHead;
@@ -35,12 +46,37 @@ import com.megacrit.cardcrawl.events.city.TheJoust;
 import com.megacrit.cardcrawl.events.exordium.Cleric;
 import com.megacrit.cardcrawl.events.exordium.DeadAdventurer;
 import com.megacrit.cardcrawl.events.exordium.Mushrooms;
-import com.megacrit.cardcrawl.events.shrines.*;
-import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.events.shrines.AccursedBlacksmith;
+import com.megacrit.cardcrawl.events.shrines.Bonfire;
+import com.megacrit.cardcrawl.events.shrines.Designer;
+import com.megacrit.cardcrawl.events.shrines.Duplicator;
+import com.megacrit.cardcrawl.events.shrines.FaceTrader;
+import com.megacrit.cardcrawl.events.shrines.FountainOfCurseRemoval;
+import com.megacrit.cardcrawl.events.shrines.Lab;
+import com.megacrit.cardcrawl.events.shrines.Nloth;
+import com.megacrit.cardcrawl.events.shrines.NoteForYourself;
+import com.megacrit.cardcrawl.events.shrines.WeMeetAgain;
+import com.megacrit.cardcrawl.events.shrines.WomanInBlue;
+import com.megacrit.cardcrawl.helpers.BlightHelper;
+import com.megacrit.cardcrawl.helpers.CardHelper;
+import com.megacrit.cardcrawl.helpers.CardLibrary;
+import com.megacrit.cardcrawl.helpers.EventHelper;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.helpers.MonsterHelper;
+import com.megacrit.cardcrawl.helpers.PotionHelper;
+import com.megacrit.cardcrawl.helpers.RelicLibrary;
+import com.megacrit.cardcrawl.helpers.SaveHelper;
+import com.megacrit.cardcrawl.helpers.TipTracker;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.localization.UIStrings;
-import com.megacrit.cardcrawl.map.*;
+import com.megacrit.cardcrawl.map.DungeonMap;
+import com.megacrit.cardcrawl.map.MapEdge;
+import com.megacrit.cardcrawl.map.MapGenerator;
+import com.megacrit.cardcrawl.map.MapRoomNode;
+import com.megacrit.cardcrawl.map.RoomTypeAssigner;
 import com.megacrit.cardcrawl.metrics.Metrics;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.monsters.MonsterGroup;
@@ -52,16 +88,48 @@ import com.megacrit.cardcrawl.potions.AbstractPotion;
 import com.megacrit.cardcrawl.potions.FruitJuice;
 import com.megacrit.cardcrawl.powers.FocusPower;
 import com.megacrit.cardcrawl.random.Random;
-import com.megacrit.cardcrawl.relics.*;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.BottledFlame;
+import com.megacrit.cardcrawl.relics.BottledLightning;
+import com.megacrit.cardcrawl.relics.BottledTornado;
+import com.megacrit.cardcrawl.relics.Circlet;
+import com.megacrit.cardcrawl.relics.Girya;
+import com.megacrit.cardcrawl.relics.JuzuBracelet;
+import com.megacrit.cardcrawl.relics.PandorasBox;
+import com.megacrit.cardcrawl.relics.PeacePipe;
+import com.megacrit.cardcrawl.relics.PrismaticShard;
+import com.megacrit.cardcrawl.relics.RedCirclet;
+import com.megacrit.cardcrawl.relics.Shovel;
+import com.megacrit.cardcrawl.relics.SmilingMask;
+import com.megacrit.cardcrawl.relics.Whetstone;
+import com.megacrit.cardcrawl.relics.WingBoots;
 import com.megacrit.cardcrawl.rewards.chests.AbstractChest;
 import com.megacrit.cardcrawl.rewards.chests.LargeChest;
 import com.megacrit.cardcrawl.rewards.chests.MediumChest;
 import com.megacrit.cardcrawl.rewards.chests.SmallChest;
-import com.megacrit.cardcrawl.rooms.*;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.rooms.EmptyRoom;
+import com.megacrit.cardcrawl.rooms.EventRoom;
+import com.megacrit.cardcrawl.rooms.MonsterRoom;
+import com.megacrit.cardcrawl.rooms.MonsterRoomBoss;
+import com.megacrit.cardcrawl.rooms.MonsterRoomElite;
+import com.megacrit.cardcrawl.rooms.RestRoom;
+import com.megacrit.cardcrawl.rooms.ShopRoom;
+import com.megacrit.cardcrawl.rooms.TreasureRoom;
+import com.megacrit.cardcrawl.rooms.TreasureRoomBoss;
+import com.megacrit.cardcrawl.rooms.VictoryRoom;
 import com.megacrit.cardcrawl.saveAndContinue.SaveAndContinue;
 import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
 import com.megacrit.cardcrawl.scenes.AbstractScene;
-import com.megacrit.cardcrawl.screens.*;
+import com.megacrit.cardcrawl.screens.CardRewardScreen;
+import com.megacrit.cardcrawl.screens.CombatRewardScreen;
+import com.megacrit.cardcrawl.screens.DeathScreen;
+import com.megacrit.cardcrawl.screens.DiscardPileViewScreen;
+import com.megacrit.cardcrawl.screens.DrawPileViewScreen;
+import com.megacrit.cardcrawl.screens.DungeonMapScreen;
+import com.megacrit.cardcrawl.screens.ExhaustPileViewScreen;
+import com.megacrit.cardcrawl.screens.MasterDeckViewScreen;
+import com.megacrit.cardcrawl.screens.VictoryScreen;
 import com.megacrit.cardcrawl.screens.options.InputSettingsScreen;
 import com.megacrit.cardcrawl.screens.options.SettingsScreen;
 import com.megacrit.cardcrawl.screens.select.BossRelicSelectScreen;
@@ -82,11 +150,15 @@ import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.ObtainKeyEffect;
 import com.megacrit.cardcrawl.vfx.PlayerTurnEffect;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Objects;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.*;
-
+/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/dungeons/AbstractDungeon.class */
 public abstract class AbstractDungeon {
     public static String name;
     public static String levelNum;
@@ -533,7 +605,6 @@ public abstract class AbstractDungeon {
 
     /* JADX INFO: Access modifiers changed from: protected */
     public static void generateMap() {
-        //生成关卡的地图
         long startTime = System.currentTimeMillis();
         ArrayList<AbstractRoom> roomList = new ArrayList<>();
         map = MapGenerator.generateDungeon(15, 7, 6, mapRng);
@@ -555,15 +626,10 @@ public abstract class AbstractDungeon {
         //logger.info(MapGenerator.toString(map, true));
         //将第一层设置成小怪
         RoomTypeAssigner.assignRowAsRoomType(map.get(0), MonsterRoom.class);
-        //logger.info(MapGenerator.toString(map, true));
         if (!Settings.isEndless || !player.hasBlight(MimicInfestation.ID)) {
-            //如果不是无穷模式 ||没有枯萎标识 将第八层设为宝箱房
             RoomTypeAssigner.assignRowAsRoomType(map.get(8), TreasureRoom.class);
-            //logger.info(MapGenerator.toString(map, true));
         } else {
-            //将第八层设为精英怪
             RoomTypeAssigner.assignRowAsRoomType(map.get(8), MonsterRoomElite.class);
-            //logger.info(MapGenerator.toString(map, true));
         }
         map = RoomTypeAssigner.distributeRoomsAcrossMap(mapRng, map, roomList);
         logger.info("Generated the following dungeon map:");
@@ -1334,6 +1400,8 @@ public abstract class AbstractDungeon {
         }
         logger.info("CURSE CARDS: " + curseCardPool.size());
     }
+
+    /* JADX INFO: Access modifiers changed from: protected */
     public void initializeRelicList() {
         commonRelicPool.clear();
         uncommonRelicPool.clear();
@@ -1373,7 +1441,6 @@ public abstract class AbstractDungeon {
             relicsToRemoveOnStart.add(PandorasBox.ID);
         }
         Iterator<String> it2 = relicsToRemoveOnStart.iterator();
-        //移除不需要的遗物
         while (it2.hasNext()) {
             String remove = it2.next();
             Iterator<String> s = commonRelicPool.iterator();
@@ -1388,7 +1455,6 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
-            logger.info("commonRelic校验完毕");
             Iterator<String> s2 = uncommonRelicPool.iterator();
             while (true) {
                 if (!s2.hasNext()) {
@@ -1401,7 +1467,6 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
-            logger.info("uncommonRelic校验完毕");
             Iterator<String> s3 = rareRelicPool.iterator();
             while (true) {
                 if (!s3.hasNext()) {
@@ -1414,7 +1479,6 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
-            logger.info("rareRelic校验完毕");
             Iterator<String> s4 = bossRelicPool.iterator();
             while (true) {
                 if (!s4.hasNext()) {
@@ -1427,7 +1491,6 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
-            logger.info("bossRelicPool校验完毕");
             Iterator<String> s5 = shopRelicPool.iterator();
             while (true) {
                 if (!s5.hasNext()) {
@@ -1440,7 +1503,6 @@ public abstract class AbstractDungeon {
                     break;
                 }
             }
-            logger.info("shopRelicPool校验完毕");
         }
         if (Settings.isDebug) {
             logger.info("Relic (Common):");
@@ -1681,58 +1743,81 @@ public abstract class AbstractDungeon {
         }
     }
 
-    public static com.megacrit.cardcrawl.cards.AbstractCard getCardFromPool(com.megacrit.cardcrawl.cards.AbstractCard.CardRarity r4, com.megacrit.cardcrawl.cards.AbstractCard.CardType r5, boolean r6) {
-        /*
-            Method dump skipped, instructions count: 269
-            To view this dump change 'Code comments level' option to 'DEBUG'
-        */
-        throw new UnsupportedOperationException("Method not decompiled: com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.cards.AbstractCard$CardRarity, com.megacrit.cardcrawl.cards.AbstractCard$CardType, boolean):com.megacrit.cardcrawl.cards.AbstractCard");
+    public static AbstractCard getCardFromPool(AbstractCard.CardRarity rarity, AbstractCard.CardType type, boolean useRng) {
+        AbstractCard retVal;
+        switch (rarity) {
+            case RARE:
+                retVal = rareCardPool.getRandomCard(type, useRng);
+                if (retVal != null) {
+                    return retVal;
+                }
+                logger.info("ERROR: Could not find Rare card of type: " + type.name());
+            case UNCOMMON:
+                retVal = uncommonCardPool.getRandomCard(type, useRng);
+                if (retVal != null) {
+                    return retVal;
+                }
+
+
+                if (type == AbstractCard.CardType.POWER) {
+                    return getCardFromPool(AbstractCard.CardRarity.RARE, type, useRng);
+                }
+
+                logger.info("ERROR: Could not find Uncommon card of type: " + type.name());
+            case BASIC:
+                break;
+            case SPECIAL:
+                break;
+            case COMMON:
+                retVal = commonCardPool.getRandomCard(type, useRng);
+                if (retVal != null) {
+                    return retVal;
+                }
+
+
+                if (type == AbstractCard.CardType.POWER) {
+                    return getCardFromPool(AbstractCard.CardRarity.UNCOMMON, type, useRng);
+                }
+
+                logger.info("ERROR: Could not find Common card of type: " + type.name());
+            case null:
+                retVal = curseCardPool.getRandomCard(type, useRng);
+                if (retVal != null) {
+                    return retVal;
+                }
+
+                logger.info("ERROR: Could not find Curse card of type: " + type.name());
+                break;
+            case CURSE:
+                break;
+        }
+        logger.info("ERROR: Default in getCardFromPool");
+        return null;
     }
 
-    /* JADX WARN: Removed duplicated region for block: B:10:0x0040  */
-    /*
-        Code decompiled incorrectly, please refer to instructions dump.
-        To view partially-correct code enable 'Show inconsistent code' option in preferences
-    */
-    public static com.megacrit.cardcrawl.cards.AbstractCard getColorlessCardFromPool(com.megacrit.cardcrawl.cards.AbstractCard.CardRarity r4) {
-        /*
-            int[] r0 = com.megacrit.cardcrawl.dungeons.AbstractDungeon.AnonymousClass1.$SwitchMap$com$megacrit$cardcrawl$cards$AbstractCard$CardRarity
-            r1 = r4
-            int r1 = r1.ordinal()
-            r0 = r0[r1]
-            switch(r0) {
-                case 3: goto L33;
-                case 4: goto L24;
-                default: goto L42;
-            }
-        L24:
-            com.megacrit.cardcrawl.cards.CardGroup r0 = com.megacrit.cardcrawl.dungeons.AbstractDungeon.colorlessCardPool
-            r1 = 1
-            r2 = r4
-            com.megacrit.cardcrawl.cards.AbstractCard r0 = r0.getRandomCard(r1, r2)
-            r5 = r0
-            r0 = r5
-            if (r0 == 0) goto L33
-            r0 = r5
-            return r0
-        L33:
-            com.megacrit.cardcrawl.cards.CardGroup r0 = com.megacrit.cardcrawl.dungeons.AbstractDungeon.colorlessCardPool
-            r1 = 1
-            r2 = r4
-            com.megacrit.cardcrawl.cards.AbstractCard r0 = r0.getRandomCard(r1, r2)
-            r5 = r0
-            r0 = r5
-            if (r0 == 0) goto L42
-            r0 = r5
-            return r0
-        L42:
-            org.apache.logging.log4j.Logger r0 = com.megacrit.cardcrawl.dungeons.AbstractDungeon.logger
-            java.lang.String r1 = "ERROR: getColorlessCardFromPool"
-            r0.info(r1)
-            r0 = 0
-            return r0
-        */
-        throw new UnsupportedOperationException("Method not decompiled: com.megacrit.cardcrawl.dungeons.AbstractDungeon.getColorlessCardFromPool(com.megacrit.cardcrawl.cards.AbstractCard$CardRarity):com.megacrit.cardcrawl.cards.AbstractCard");
+
+    public static AbstractCard getColorlessCardFromPool(AbstractCard.CardRarity rarity) {
+        AbstractCard retVal;
+        switch (rarity) {
+            case COMMON:
+                retVal = colorlessCardPool.getRandomCard(true, rarity);
+                if (retVal != null) {
+                    return retVal;
+                }
+            case SPECIAL:
+                retVal = colorlessCardPool.getRandomCard(true, rarity);
+                if (retVal != null)
+                    return retVal;
+                break;
+            default:
+                retVal = colorlessCardPool.getRandomCard(true, rarity);
+                if (retVal != null)
+                    return retVal;
+                break;
+
+        }
+        logger.info("ERROR: getColorlessCardFromPool");
+        return null;
     }
 
     public static AbstractCard.CardRarity rollRarity(Random rng) {
@@ -1917,7 +2002,6 @@ public abstract class AbstractDungeon {
                 if ((nextRoom.room instanceof MonsterRoom) || (nextRoom.room instanceof MonsterRoomElite)) {
                     nextRoom.room.combatEvent = true;
                 }
-                //todo 不知为何没有调用
                 nextRoom.room.setMapSymbol("?");
                 nextRoom.room.setMapImg(ImageMaster.MAP_NODE_EVENT, ImageMaster.MAP_NODE_EVENT_OUTLINE);
             }
@@ -2289,7 +2373,6 @@ public abstract class AbstractDungeon {
         topPanel.update();
         dynamicBanner.update();
         updateFading();
-
         currMapNode.room.updateObjects();
         if (isScreenUp) {
             topGradientColor.a = MathHelper.fadeLerpSnap(topGradientColor.a, 0.25f);

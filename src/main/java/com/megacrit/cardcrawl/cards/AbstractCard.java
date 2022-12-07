@@ -286,7 +286,6 @@ public abstract class AbstractCard implements Comparable<AbstractCard> {
         CURSE
     }
 
-    /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/cards/AbstractCard$CardRarity.class */
     public enum CardRarity {
         BASIC,
         SPECIAL,
@@ -296,7 +295,6 @@ public abstract class AbstractCard implements Comparable<AbstractCard> {
         CURSE
     }
 
-    /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/cards/AbstractCard$CardTags.class */
     public enum CardTags {
         HEALING,
         STRIKE,

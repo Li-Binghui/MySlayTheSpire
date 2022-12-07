@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Objects;
 
-/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/shop/Merchant.class */
 public class Merchant implements Disposable {
     public AnimatedNpc anim;
     public Hitbox hb;
