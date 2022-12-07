@@ -1,80 +1,57 @@
-/*    */ package com.megacrit.cardcrawl.rooms;
-/*    */ 
-/*    */
+package com.megacrit.cardcrawl.rooms;
 
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.daily.mods.Vintage;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.ModHelper;
 import com.megacrit.cardcrawl.monsters.MonsterGroup;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.screens.DiscardPileViewScreen;
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ public class MonsterRoom
-/*    */   extends AbstractRoom
-/*    */ {
-/* 25 */   public DiscardPileViewScreen discardPileViewScreen = new DiscardPileViewScreen();
-/*    */   
-/*    */   public static final float COMBAT_WAIT_TIME = 0.1F;
-/*    */   
-/*    */   public void dropReward() {
-/* 30 */     if (ModHelper.isModEnabled("Vintage") && 
-/* 31 */       !(AbstractDungeon.getCurrRoom() instanceof MonsterRoomElite) && 
-/* 32 */       !(AbstractDungeon.getCurrRoom() instanceof MonsterRoomBoss)) {
-/*    */ 
-/*    */       
-/* 35 */       AbstractRelic.RelicTier tier = returnRandomRelicTier();
-/* 36 */       addRelicToRewards(tier);
-/*    */     } 
-/*    */   }
-/*    */ 
-/*    */   
-/*    */   private AbstractRelic.RelicTier returnRandomRelicTier() {
-/* 42 */     int roll = AbstractDungeon.relicRng.random(0, 99);
-/*    */ 
-/*    */     
-/* 45 */     if (roll < 50) {
-/* 46 */       return AbstractRelic.RelicTier.COMMON;
-/*    */     }
-/* 48 */     if (roll > 85) {
-/* 49 */       return AbstractRelic.RelicTier.RARE;
-/*    */     }
-/*    */ 
-/*    */     
-/* 53 */     return AbstractRelic.RelicTier.UNCOMMON;
-/*    */   }
-/*    */ 
-/*    */   
-/*    */   public void onPlayerEntry() {
-/* 58 */     playBGM(null);
-/* 59 */     if (this.monsters == null) {
-/* 60 */       this.monsters = CardCrawlGame.dungeon.getMonsterForRoomCreation();
-/* 61 */       this.monsters.init();
-/*    */     } 
-/* 63 */     waitTimer = 0.1F;
-/*    */   }
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */   
-/*    */   public void setMonster(MonsterGroup m) {
-/* 70 */     this.monsters = m;
-/*    */   }
-/*    */ }
 
+/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/rooms/MonsterRoom.class */
+public class MonsterRoom extends AbstractRoom {
+    public DiscardPileViewScreen discardPileViewScreen = new DiscardPileViewScreen();
+    public static final float COMBAT_WAIT_TIME = 0.1f;
 
-/* Location:              E:\代码\SlayTheSpire\desktop-1.0.jar!\com\megacrit\cardcrawl\rooms\MonsterRoom.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
+    public MonsterRoom() {
+        this.phase = AbstractRoom.RoomPhase.COMBAT;
+        this.mapSymbol = "M";
+        this.mapImg = ImageMaster.MAP_NODE_ENEMY;
+        this.mapImgOutline = ImageMaster.MAP_NODE_ENEMY_OUTLINE;
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void dropReward() {
+        if (ModHelper.isModEnabled(Vintage.ID) && !(AbstractDungeon.getCurrRoom() instanceof MonsterRoomElite) && !(AbstractDungeon.getCurrRoom() instanceof MonsterRoomBoss)) {
+            AbstractRelic.RelicTier tier = returnRandomRelicTier();
+            addRelicToRewards(tier);
+        }
+    }
+
+    private AbstractRelic.RelicTier returnRandomRelicTier() {
+        int roll = AbstractDungeon.relicRng.random(0, 99);
+        if (roll < 50) {
+            return AbstractRelic.RelicTier.COMMON;
+        }
+        if (roll > 85) {
+            return AbstractRelic.RelicTier.RARE;
+        }
+        return AbstractRelic.RelicTier.UNCOMMON;
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void onPlayerEntry() {
+        playBGM(null);
+        if (this.monsters == null) {
+            this.monsters = CardCrawlGame.dungeon.getMonsterForRoomCreation();
+            this.monsters.init();
+        }
+        waitTimer = 0.1f;
+    }
+
+    public void setMonster(MonsterGroup m) {
+        this.monsters = m;
+    }
+}

@@ -184,6 +184,7 @@ public class MapRoomNode {
 
     public String getRoomSymbol(Boolean showSpecificRoomSymbol) {
         if (this.room == null || !showSpecificRoomSymbol.booleanValue()) {
+            //传一个boolean值 true：
             return "*";
         }
         //todo MapSymbol修改

@@ -64,7 +64,7 @@ import java.util.Iterator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/rooms/AbstractRoom.class */
+
 public abstract class AbstractRoom implements Disposable {
     public RoomPhase phase;
     public MonsterGroup monsters;
@@ -120,14 +120,13 @@ public abstract class AbstractRoom implements Disposable {
     public abstract void onPlayerEntry();
 
     public final Texture getMapImg() {
-        //todo 直接加载图片 event
-        return ImageMaster.loadImage("images/ui/map/event.png");
+        return this.mapImg;
     }
 
     public final Texture getMapImgOutline() {
-        //todo 直接加载图片 eventOutline
-        return ImageMaster.loadImage("images/ui/map/eventOutline.png");
+        return this.mapImgOutline;
     }
+
 
     public final void setMapImg(Texture img, Texture imgOutline) {
         this.mapImg = img;

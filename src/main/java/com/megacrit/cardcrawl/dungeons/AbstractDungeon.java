@@ -550,12 +550,20 @@ public abstract class AbstractDungeon {
             }
         }
         generateRoomTypes(roomList, count);
+        //将最后一层 14层设成篝火
         RoomTypeAssigner.assignRowAsRoomType(map.get(map.size() - 1), RestRoom.class);
+        logger.info(MapGenerator.toString(map, true));
+        //将第一层设置成小怪
         RoomTypeAssigner.assignRowAsRoomType(map.get(0), MonsterRoom.class);
+        logger.info(MapGenerator.toString(map, true));
         if (!Settings.isEndless || !player.hasBlight(MimicInfestation.ID)) {
+            //如果不是无穷模式 ||没有枯萎标识 将第八层设为宝箱房
             RoomTypeAssigner.assignRowAsRoomType(map.get(8), TreasureRoom.class);
+            logger.info(MapGenerator.toString(map, true));
         } else {
+            //将第八层设为精英怪
             RoomTypeAssigner.assignRowAsRoomType(map.get(8), MonsterRoomElite.class);
+            logger.info(MapGenerator.toString(map, true));
         }
         map = RoomTypeAssigner.distributeRoomsAcrossMap(mapRng, map, roomList);
         logger.info("Generated the following dungeon map:");

@@ -158,6 +158,10 @@ public class RoomTypeAssigner {
         if (roomList.size() > nodeCount) {
             logger.info("WARNING: the roomList is larger than the number of connected nodes. Not all desired roomTypes will be used.");
         }
+        /*
+            Collections.shuffle:通过使用指定的随机性对列表元素进行随机重新排序来工作
+            将房间随机化
+         */
         Collections.shuffle(roomList, rng.random);
         assignRoomsToNodes(map, roomList);
         logger.info("#### Unassigned Rooms:");

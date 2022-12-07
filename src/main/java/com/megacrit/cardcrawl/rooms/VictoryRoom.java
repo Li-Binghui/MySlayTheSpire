@@ -1,68 +1,61 @@
-/*    */ package com.megacrit.cardcrawl.rooms;
-/*    */
+package com.megacrit.cardcrawl.rooms;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.events.AbstractEvent;
 import com.megacrit.cardcrawl.events.beyond.SpireHeart;
-/*    */ 
-/*    */ public class VictoryRoom extends AbstractRoom {
-/*    */   public EventType eType;
-/*    */   
-/*    */   public enum EventType {
-/* 11 */     HEART, NONE;
-/*    */   }
-/*    */   
-/*    */   public VictoryRoom(EventType type) {
-/* 15 */     this.phase = RoomPhase.EVENT;
-/* 16 */     this.eType = type;
-/*    */   }
-/*    */ 
-/*    */   
-/*    */   public void onPlayerEntry() {
-/* 21 */     AbstractDungeon.overlayMenu.proceedButton.hide();
-/*    */     
-/* 23 */     switch (this.eType) {
-/*    */       case HEART:
-/* 25 */         this.event = (AbstractEvent)new SpireHeart();
-/* 26 */         this.event.onEnterRoom();
-/*    */         break;
-/*    */     } 
-/*    */   }
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */   
-/*    */   public void update() {
-/* 38 */     super.update();
-/* 39 */     if (!AbstractDungeon.isScreenUp) {
-/* 40 */       this.event.update();
-/*    */     }
-/*    */   }
-/*    */ 
-/*    */ 
-/*    */   
-/*    */   public void render(SpriteBatch sb) {
-/* 47 */     if (this.event != null) {
-/* 48 */       this.event.renderRoomEventPanel(sb);
-/* 49 */       this.event.render(sb);
-/*    */     } 
-/* 51 */     super.render(sb);
-/*    */   }
-/*    */ 
-/*    */   
-/*    */   public void renderAboveTopPanel(SpriteBatch sb) {
-/* 56 */     super.renderAboveTopPanel(sb);
-/* 57 */     if (this.event != null)
-/* 58 */       this.event.renderAboveTopPanel(sb); 
-/*    */   }
-/*    */ }
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 
+/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/rooms/VictoryRoom.class */
+public class VictoryRoom extends AbstractRoom {
+    public EventType eType;
 
-/* Location:              E:\代码\SlayTheSpire\desktop-1.0.jar!\com\megacrit\cardcrawl\rooms\VictoryRoom.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
+    /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/rooms/VictoryRoom$EventType.class */
+    public enum EventType {
+        HEART,
+        NONE
+    }
+
+    public VictoryRoom(EventType type) {
+        this.phase = AbstractRoom.RoomPhase.EVENT;
+        this.eType = type;
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void onPlayerEntry() {
+        AbstractDungeon.overlayMenu.proceedButton.hide();
+        switch (this.eType) {
+            case HEART:
+                this.event = new SpireHeart();
+                this.event.onEnterRoom();
+                return;
+            case NONE:
+            default:
+                return;
+        }
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void update() {
+        super.update();
+        if (!AbstractDungeon.isScreenUp) {
+            this.event.update();
+        }
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void render(SpriteBatch sb) {
+        if (this.event != null) {
+            this.event.renderRoomEventPanel(sb);
+            this.event.render(sb);
+        }
+        super.render(sb);
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void renderAboveTopPanel(SpriteBatch sb) {
+        super.renderAboveTopPanel(sb);
+        if (this.event != null) {
+            this.event.renderAboveTopPanel(sb);
+        }
+    }
+}
