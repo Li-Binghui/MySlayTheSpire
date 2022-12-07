@@ -552,18 +552,18 @@ public abstract class AbstractDungeon {
         generateRoomTypes(roomList, count);
         //将最后一层 14层设成篝火
         RoomTypeAssigner.assignRowAsRoomType(map.get(map.size() - 1), RestRoom.class);
-        logger.info(MapGenerator.toString(map, true));
+        //logger.info(MapGenerator.toString(map, true));
         //将第一层设置成小怪
         RoomTypeAssigner.assignRowAsRoomType(map.get(0), MonsterRoom.class);
-        logger.info(MapGenerator.toString(map, true));
+        //logger.info(MapGenerator.toString(map, true));
         if (!Settings.isEndless || !player.hasBlight(MimicInfestation.ID)) {
             //如果不是无穷模式 ||没有枯萎标识 将第八层设为宝箱房
             RoomTypeAssigner.assignRowAsRoomType(map.get(8), TreasureRoom.class);
-            logger.info(MapGenerator.toString(map, true));
+            //logger.info(MapGenerator.toString(map, true));
         } else {
             //将第八层设为精英怪
             RoomTypeAssigner.assignRowAsRoomType(map.get(8), MonsterRoomElite.class);
-            logger.info(MapGenerator.toString(map, true));
+            //logger.info(MapGenerator.toString(map, true));
         }
         map = RoomTypeAssigner.distributeRoomsAcrossMap(mapRng, map, roomList);
         logger.info("Generated the following dungeon map:");
@@ -1681,16 +1681,6 @@ public abstract class AbstractDungeon {
         }
     }
 
-    /* JADX WARN: Removed duplicated region for block: B:11:0x0063  */
-    /* JADX WARN: Removed duplicated region for block: B:13:0x0065  */
-    /* JADX WARN: Removed duplicated region for block: B:20:0x00a1  */
-    /* JADX WARN: Removed duplicated region for block: B:22:0x00a3  */
-    /* JADX WARN: Removed duplicated region for block: B:29:0x00df  */
-    /* JADX WARN: Removed duplicated region for block: B:31:0x00e1  */
-    /*
-        Code decompiled incorrectly, please refer to instructions dump.
-        To view partially-correct code enable 'Show inconsistent code' option in preferences
-    */
     public static com.megacrit.cardcrawl.cards.AbstractCard getCardFromPool(com.megacrit.cardcrawl.cards.AbstractCard.CardRarity r4, com.megacrit.cardcrawl.cards.AbstractCard.CardType r5, boolean r6) {
         /*
             Method dump skipped, instructions count: 269

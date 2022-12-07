@@ -12,6 +12,7 @@ import com.gikk.twirk.types.TwitchTags;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ExhaustSpecificCardAction;
 import com.megacrit.cardcrawl.blights.AbstractBlight;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.curses.Pride;
 import com.megacrit.cardcrawl.cards.status.Slimed;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -19,7 +20,14 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.OverlayMenu;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.CardHelper;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.GameDataStringBuilder;
+import com.megacrit.cardcrawl.helpers.GameDictionary;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.helpers.TipHelper;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.localization.LocalizedStrings;
 import com.megacrit.cardcrawl.localization.UIStrings;
@@ -39,11 +47,16 @@ import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.cardManip.CardFlashVfx;
 import com.megacrit.cardcrawl.vfx.cardManip.CardGlowBorder;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.io.Serializable;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.UUID;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 /* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/cards/AbstractCard.class */
@@ -868,11 +881,12 @@ public abstract class AbstractCard implements Comparable<AbstractCard> {
 
     /* JADX INFO: Access modifiers changed from: protected */
     public void upgradeName() {
-        /*  860 */     this.timesUpgraded++;
-        /*  861 */     this.upgraded = true;
-        /*  862 */     this.name += "+";
-        /*  863 */     initializeTitle();
+       this.timesUpgraded++;
+       this.upgraded = true;
+       this.name += "+";
+       initializeTitle();
     }
+
 
     /* JADX INFO: Access modifiers changed from: protected */
     public void upgradeBaseCost(int newBaseCost) {
@@ -1293,15 +1307,14 @@ public abstract class AbstractCard implements Comparable<AbstractCard> {
     }
 
     public void renderUpgradePreview(SpriteBatch sb) {
-        /* 1275 */     this.upgraded = true;
-        /* 1276 */     this.name = this.originalName + "+";
-        /* 1277 */     initializeTitle();
-        /* 1278 */     renderCard(sb, this.hovered, false);
-        /* 1279 */     this.name = this.originalName;
-        /* 1280 */     initializeTitle();
-        /* 1281 */     this.upgraded = false;
-        /* 1282 */     resetAttributes();
-
+        this.upgraded = true;
+        this.name = this.originalName + "+";
+        initializeTitle();
+        renderCard(sb, this.hovered, false);
+        this.name = this.originalName;
+        initializeTitle();
+        this.upgraded = false;
+        resetAttributes();
     }
 
     public void renderWithSelections(SpriteBatch sb) {
@@ -2861,14 +2874,14 @@ public abstract class AbstractCard implements Comparable<AbstractCard> {
     }
 
     public String getMetricID() {
-        /* 3630 */     String id = this.cardID;
-        /* 3631 */     if (this.upgraded) {
-            /* 3632 */       id = id + "+";
-            /* 3633 */       if (this.timesUpgraded > 0) {
-                /* 3634 */         id = id + this.timesUpgraded;
-                /*      */       }
-            /*      */     }
-        /* 3637 */     return id;
+        String id = this.cardID;
+        if (this.upgraded) {
+            id = id + "+";
+            if (this.timesUpgraded > 0) {
+                id = id + this.timesUpgraded;
+            }
+        }
+        return id;
     }
 
     public void triggerOnGlowCheck() {
