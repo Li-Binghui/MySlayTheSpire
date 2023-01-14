@@ -1780,7 +1780,7 @@ public abstract class AbstractDungeon {
                 }
 
                 logger.info("ERROR: Could not find Common card of type: " + type.name());
-            case null:
+            case CURSE:
                 retVal = curseCardPool.getRandomCard(type, useRng);
                 if (retVal != null) {
                     return retVal;
@@ -1788,8 +1788,8 @@ public abstract class AbstractDungeon {
 
                 logger.info("ERROR: Could not find Curse card of type: " + type.name());
                 break;
-            case CURSE:
-                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + rarity);
         }
         logger.info("ERROR: Default in getCardFromPool");
         return null;
