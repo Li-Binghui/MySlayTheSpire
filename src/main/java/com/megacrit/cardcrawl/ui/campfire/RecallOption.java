@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.vfx.campfire.CampfireRecallEffect;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 /*    */ 
 /*    */ public class RecallOption
 /*    */   extends AbstractCampfireOption {
@@ -14,7 +15,11 @@ import com.megacrit.cardcrawl.vfx.campfire.CampfireRecallEffect;
 /*    */ 
 /*    */ 
 /*    */ 
-/*    */ 
+            public RecallOption() {
+                this.label = TEXT[0];
+                this.description = TEXT[1];
+                this.img = ImageMaster.CAMPFIRE_RECALL_BUTTON;
+            }
 /*    */ 
 /*    */ 
 /*    */ 

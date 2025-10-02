@@ -19,7 +19,9 @@ import java.util.Iterator;
 /* 16 */   private static final float DURATION = Settings.ACTION_DUR_XFAST;
 /*    */ 
 /*    */ 
-/*    */ 
+            public DiscardAtEndOfTurnAction() {
+                this.duration = DURATION;
+            }
 /*    */ 
 /*    */ 
 /*    */   
