@@ -38,11 +38,12 @@ public class TinyCard {
     public static final float TEXT_LEADING_SPACE = scaled(60.0f);
     public int col = -1;
     public int row = -1;
-    public Hitbox hb = new Hitbox(approximateWidth(), ImageMaster.TINY_CARD_ATTACK.getHeight());
+    public Hitbox hb;
 
     public TinyCard(AbstractCard card, int count) {
         this.card = card;
         this.count = count;
+        this.hb = new Hitbox(approximateWidth(), ImageMaster.TINY_CARD_ATTACK.getHeight());
     }
 
     public float approximateWidth() {
