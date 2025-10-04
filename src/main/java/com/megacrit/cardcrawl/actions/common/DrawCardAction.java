@@ -115,7 +115,7 @@ import java.util.ArrayList;
 /*     */     
 /* 113 */     if (!this.shuffleCheck) {
 /* 114 */       if (this.amount + AbstractDungeon.player.hand.size() > 10) {
-/* 115 */         int handSizeAndDraw = 10 - this.amount + AbstractDungeon.player.hand.size();
+/* 115 */         int handSizeAndDraw = 10 - (this.amount + AbstractDungeon.player.hand.size());
 /* 116 */         this.amount += handSizeAndDraw;
 /* 117 */         AbstractDungeon.player.createHandIsFullDialog();
 /*     */       } 
