@@ -1,154 +1,119 @@
-/*     */ package com.megacrit.cardcrawl.rooms;
-/*     */ 
-/*     */
+package com.megacrit.cardcrawl.rooms;
 
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.unique.IncreaseMaxHpAction;
+import com.megacrit.cardcrawl.blights.MimicInfestation;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.daily.mods.BigGameHunter;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.ModHelper;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.MetallicizePower;
 import com.megacrit.cardcrawl.powers.RegenerateMonsterPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.BlackStar;
 import com.megacrit.cardcrawl.rewards.RewardItem;
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ public class MonsterRoomElite
-/*     */   extends MonsterRoom
-/*     */ {
-/*     */   public void applyEmeraldEliteBuff() {
-/*  36 */     if (Settings.isFinalActAvailable && (AbstractDungeon.getCurrMapNode()).hasEmeraldKey) {
-/*  37 */       switch (AbstractDungeon.mapRng.random(0, 3)) {
-/*     */         case 0:
-/*  39 */           for (AbstractMonster m : this.monsters.monsters) {
-/*  40 */             AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new ApplyPowerAction((AbstractCreature)m, (AbstractCreature)m, (AbstractPower)new StrengthPower((AbstractCreature)m, AbstractDungeon.actNum + 1), AbstractDungeon.actNum + 1));
-/*     */           }
-/*     */           break;
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */         
-/*     */         case 1:
-/*  50 */           for (AbstractMonster m : this.monsters.monsters) {
-/*  51 */             AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new IncreaseMaxHpAction(m, 0.25F, true));
-/*     */           }
-/*     */           break;
-/*     */         case 2:
-/*  55 */           for (AbstractMonster m : this.monsters.monsters) {
-/*  56 */             AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new ApplyPowerAction((AbstractCreature)m, (AbstractCreature)m, (AbstractPower)new MetallicizePower((AbstractCreature)m, AbstractDungeon.actNum * 2 + 2), AbstractDungeon.actNum * 2 + 2));
-/*     */           }
-/*     */           break;
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */         
-/*     */         case 3:
-/*  65 */           for (AbstractMonster m : this.monsters.monsters) {
-/*  66 */             AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new ApplyPowerAction((AbstractCreature)m, (AbstractCreature)m, (AbstractPower)new RegenerateMonsterPower(m, 1 + AbstractDungeon.actNum * 2), 1 + AbstractDungeon.actNum * 2));
-/*     */           }
-/*     */           break;
-/*     */       } 
-/*     */     }
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   public void onPlayerEntry() {
-/*  82 */     playBGM(null);
-/*  83 */     if (this.monsters == null) {
-/*  84 */       this.monsters = CardCrawlGame.dungeon.getEliteMonsterForRoomCreation();
-/*  85 */       this.monsters.init();
-/*     */     } 
-/*     */     
-/*  88 */     waitTimer = 0.1F;
-/*     */   }
-/*     */ 
-/*     */   
-/*     */   public void dropReward() {
-/*  93 */     AbstractRelic.RelicTier tier = returnRandomRelicTier();
-/*  94 */     if (Settings.isEndless && AbstractDungeon.player.hasBlight("MimicInfestation")) {
-/*     */       
-/*  96 */       AbstractDungeon.player.getBlight("MimicInfestation").flash();
-/*     */     } else {
-/*  98 */       addRelicToRewards(tier);
-/*  99 */       if (AbstractDungeon.player.hasRelic("Black Star")) {
-/* 100 */         addNoncampRelicToRewards(returnRandomRelicTier());
-/*     */       }
-/*     */       
-/* 103 */       addEmeraldKey();
-/*     */     } 
-/*     */   }
-/*     */   
-/*     */   private void addEmeraldKey() {
-/* 108 */     if (Settings.isFinalActAvailable && !Settings.hasEmeraldKey && !this.rewards.isEmpty() && 
-/* 109 */       (AbstractDungeon.getCurrMapNode()).hasEmeraldKey) {
-/* 110 */       this.rewards.add(new RewardItem(this.rewards.get(this.rewards.size() - 1), RewardItem.RewardType.EMERALD_KEY));
-/*     */     }
-/*     */   }
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */ 
-/*     */   
-/*     */   private AbstractRelic.RelicTier returnRandomRelicTier() {
-/* 120 */     int roll = AbstractDungeon.relicRng.random(0, 99);
-/*     */     
-/* 122 */     if (ModHelper.isModEnabled("Elite Swarm")) {
-/* 123 */       roll += 10;
-/*     */     }
-/*     */ 
-/*     */     
-/* 127 */     if (roll < 50) {
-/* 128 */       return AbstractRelic.RelicTier.COMMON;
-/*     */     }
-/* 130 */     if (roll > 82) {
-/* 131 */       return AbstractRelic.RelicTier.RARE;
-/*     */     }
-/*     */ 
-/*     */     
-/* 135 */     return AbstractRelic.RelicTier.UNCOMMON;
-/*     */   }
-/*     */ 
-/*     */   
-/*     */   public AbstractCard.CardRarity getCardRarity(int roll) {
-/* 140 */     if (ModHelper.isModEnabled("Elite Swarm")) {
-/* 141 */       return AbstractCard.CardRarity.RARE;
-/*     */     }
-/*     */     
-/* 144 */     return super.getCardRarity(roll);
-/*     */   }
-/*     */ }
+import java.util.Iterator;
 
+/* loaded from: desktop-1.0.jar:com/megacrit/cardcrawl/rooms/MonsterRoomElite.class */
+public class MonsterRoomElite extends MonsterRoom {
+    public MonsterRoomElite() {
+        this.mapSymbol = "E";
+        this.mapImg = ImageMaster.MAP_NODE_ELITE;
+        this.mapImgOutline = ImageMaster.MAP_NODE_ELITE_OUTLINE;
+        this.eliteTrigger = true;
+        this.baseRareCardChance = 10;
+        this.baseUncommonCardChance = 40;
+    }
 
-/* Location:              E:\代码\SlayTheSpire\desktop-1.0.jar!\com\megacrit\cardcrawl\rooms\MonsterRoomElite.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void applyEmeraldEliteBuff() {
+        if (Settings.isFinalActAvailable && AbstractDungeon.getCurrMapNode().hasEmeraldKey) {
+            switch (AbstractDungeon.mapRng.random(0, 3)) {
+                case 0:
+                    Iterator<AbstractMonster> it = this.monsters.monsters.iterator();
+                    while (it.hasNext()) {
+                        AbstractMonster m = it.next();
+                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, m, new StrengthPower(m, AbstractDungeon.actNum + 1), AbstractDungeon.actNum + 1));
+                    }
+                    break;
+                case 1:
+                    Iterator<AbstractMonster> it2 = this.monsters.monsters.iterator();
+                    while (it2.hasNext()) {
+                        AbstractDungeon.actionManager.addToBottom(new IncreaseMaxHpAction(it2.next(), 0.25f, true));
+                    }
+                    break;
+                case 2:
+                    Iterator<AbstractMonster> it3 = this.monsters.monsters.iterator();
+                    while (it3.hasNext()) {
+                        AbstractMonster m2 = it3.next();
+                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m2, m2, new MetallicizePower(m2, (AbstractDungeon.actNum * 2) + 2), (AbstractDungeon.actNum * 2) + 2));
+                    }
+                    break;
+                case 3:
+                    Iterator<AbstractMonster> it4 = this.monsters.monsters.iterator();
+                    while (it4.hasNext()) {
+                        AbstractMonster m3 = it4.next();
+                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m3, m3, new RegenerateMonsterPower(m3, 1 + (AbstractDungeon.actNum * 2)), 1 + (AbstractDungeon.actNum * 2)));
+                    }
+                    break;
+            }
+        }
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.MonsterRoom, com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void onPlayerEntry() {
+        playBGM(null);
+        if (this.monsters == null) {
+            this.monsters = CardCrawlGame.dungeon.getEliteMonsterForRoomCreation();
+            this.monsters.init();
+        }
+        waitTimer = 0.1f;
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.MonsterRoom, com.megacrit.cardcrawl.rooms.AbstractRoom
+    public void dropReward() {
+        AbstractRelic.RelicTier tier = returnRandomRelicTier();
+        if (Settings.isEndless && AbstractDungeon.player.hasBlight(MimicInfestation.ID)) {
+            AbstractDungeon.player.getBlight(MimicInfestation.ID).flash();
+            return;
+        }
+        addRelicToRewards(tier);
+        if (AbstractDungeon.player.hasRelic(BlackStar.ID)) {
+            addNoncampRelicToRewards(returnRandomRelicTier());
+        }
+        addEmeraldKey();
+    }
+
+    private void addEmeraldKey() {
+        if (Settings.isFinalActAvailable && !Settings.hasEmeraldKey && !this.rewards.isEmpty() && AbstractDungeon.getCurrMapNode().hasEmeraldKey) {
+            this.rewards.add(new RewardItem(this.rewards.get(this.rewards.size() - 1), RewardItem.RewardType.EMERALD_KEY));
+        }
+    }
+
+    private AbstractRelic.RelicTier returnRandomRelicTier() {
+        int roll = AbstractDungeon.relicRng.random(0, 99);
+        if (ModHelper.isModEnabled(BigGameHunter.ID)) {
+            roll += 10;
+        }
+        if (roll < 50) {
+            return AbstractRelic.RelicTier.COMMON;
+        }
+        if (roll > 82) {
+            return AbstractRelic.RelicTier.RARE;
+        }
+        return AbstractRelic.RelicTier.UNCOMMON;
+    }
+
+    @Override // com.megacrit.cardcrawl.rooms.AbstractRoom
+    public AbstractCard.CardRarity getCardRarity(int roll) {
+        if (ModHelper.isModEnabled(BigGameHunter.ID)) {
+            return AbstractCard.CardRarity.RARE;
+        }
+        return super.getCardRarity(roll);
+    }
+}
