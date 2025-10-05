@@ -47,7 +47,7 @@ import java.util.List;
 /*     */   }
 /*     */   protected void buttonEffect(int buttonPressed) {
 /*     */     JAX jAX;
-/*     */     Circlet circlet = null;
+/*     */     AbstractRelic circlet = null;
 /*  48 */     switch (this.screenNum) {
 /*     */       case 0:
 /*  50 */         switch (buttonPressed) {
@@ -70,8 +70,8 @@ import java.util.List;
 /*  67 */             this.imageEventText.updateBodyText(DESCRIPTIONS[3]);
 /*     */             
 /*  69 */             if (!AbstractDungeon.player.hasRelic("MutagenicStrength")) {
-/*  70 */               MutagenicStrength mutagenicStrength = new MutagenicStrength();
-/*  71 */               AbstractDungeon.getCurrRoom().spawnRelicAndObtain(this.drawX, this.drawY, (AbstractRelic)mutagenicStrength);
+/*  70 */               circlet = new MutagenicStrength();
+/*  71 */               AbstractDungeon.getCurrRoom().spawnRelicAndObtain(this.drawX, this.drawY, (AbstractRelic)circlet);
 /*     */             } else {
 /*  73 */               circlet = new Circlet();
 /*  74 */               AbstractDungeon.getCurrRoom().spawnRelicAndObtain(this.drawX, this.drawY, (AbstractRelic)circlet);
