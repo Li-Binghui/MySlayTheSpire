@@ -331,7 +331,7 @@ public class NeowReward {
     }
 
     public ArrayList<AbstractCard> getColorlessRewardCards(boolean rareOnly) {
-        AbstractCard card;
+//        AbstractCard card;
         ArrayList<AbstractCard> retVal = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
             AbstractCard.CardRarity rarity = rollRarity();
@@ -340,14 +340,11 @@ public class NeowReward {
             } else if (rarity == AbstractCard.CardRarity.COMMON) {
                 rarity = AbstractCard.CardRarity.UNCOMMON;
             }
-            AbstractCard colorlessCardFromPool = AbstractDungeon.getColorlessCardFromPool(rarity);
-            while (true) {
-                card = colorlessCardFromPool;
-                if (retVal.contains(card)) {
-                    colorlessCardFromPool = AbstractDungeon.getColorlessCardFromPool(rarity);
-                }
-                retVal.add(card);
+            AbstractCard card = AbstractDungeon.getColorlessCardFromPool(rarity);
+            while (retVal.contains(card)) {
+                card = AbstractDungeon.getColorlessCardFromPool(rarity);
             }
+            retVal.add(card);
 
         }
         ArrayList<AbstractCard> retVal2 = new ArrayList<>();
