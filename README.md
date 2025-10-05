@@ -60,6 +60,7 @@ java的目录下，实际上该游戏的源码只有com\megacrit\cardcrawl文件
 19. 敌方的未知意图不显示
 20. neow处无色金三选一卡死
 21. DrugDealer处选择突变器崩溃
+22. 弯曲铁钳不生效
 
 修复的事件文字描述：
 1. Addict
