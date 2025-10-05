@@ -23,6 +23,7 @@ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 /*    */   private float targetScale;
 /*    */   
 /*    */   public UnknownParticleEffect(float x, float y) {
+             this.duration = 1.5f;
 /* 24 */     if (renderNum == 0) {
 /* 25 */       this.targetScale = Settings.scale * 0.8F;
 /* 26 */       this.rotation = 24.0F;
