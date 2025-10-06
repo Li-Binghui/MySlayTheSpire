@@ -35,10 +35,9 @@ java的目录下，实际上该游戏的源码只有com\megacrit\cardcrawl文件
 1. 某些分辨率/比例下光标可移动范围存在 bug
 2. 若干 ui 动画显示问题（人物骨骼模型、动画缺失、毒对应血量的显示）
 3. 部分事件中的文字数值描述有缺失
-4. 地精转盘事件第一界面图像缺失
 
 
-已解决bug:
+已修复bug:
 1. 进入篝火报错
 2. 战斗中结束回合异常
 3. 进入第二幕时崩溃
@@ -66,6 +65,7 @@ java的目录下，实际上该游戏的源码只有com\megacrit\cardcrawl文件
 1. Addict
 2. Big Fish
 3. Golden Wing
+4. Beggar
 
 #### 说明
 author: 谢文 & lbh
